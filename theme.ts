@@ -21,13 +21,6 @@ export const GlobalStyle = createGlobalStyle`
       }
     }
   }
-
-  .fab {
-    font-family: "Font Awesome 5 Brands";
-    width: 12px;
-    height: 12px;
-    color: #000;
-  }
 `
 
 export default theme
