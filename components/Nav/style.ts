@@ -3,17 +3,17 @@ import styled from "styled-components";
 export const SHeaderWrapper = styled.div`
   width: 100vw;
   height: 75px;
-  position: relative;
+  position: fixed;
+  top: 0;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;
+  background: #fff;
+  z-index: 9999;
 `
 
 export const SHeader = styled.div`
   background: #fff;
-  position: fixed;
-  top: 0;
-  z-index: 9999;
   padding: 10px 15px;
   box-sizing: border-box;
   display: flex;
@@ -50,7 +50,7 @@ export const SNav = styled.ul`
 export const SNavItem = styled.li`
   font-weight: 600;
   line-height: 19px;
-  font-size: 14px;
+  font-size: 16px;
   a {
     text-decoration: none;
     border-radius: 3px;

@@ -23,7 +23,7 @@ export const STextWrapper = styled.div`
   font-size: 14px;
   font-weight: 300;
   color: #3c4858;
-  width: 550px;
+  width: min(550px, 100vw);
   div {
     &:not(:last-child) {
       margin-bottom: 20px;

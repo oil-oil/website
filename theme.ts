@@ -1,9 +1,8 @@
-import styled, { createGlobalStyle, DefaultTheme } from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { createGlobalStyle, DefaultTheme } from "styled-components";
 
 const theme: DefaultTheme = {
   color: {
-    primary: "#fe2601",
+    primary: "#fe0000",
   },
 };
 
