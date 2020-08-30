@@ -1,4 +1,5 @@
 import React from "react";
+import { NextSeo } from "next-seo";
 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -8,6 +9,7 @@ import { SBlock1, SSection, SBlock2, SButton } from "./style";
 const Home: React.FC = () => {
   return (
     <>
+      <NextSeo title="首页" />
       <Nav />
       <SBlock1>
         <span>驱动企业数字化转型</span>
@@ -38,9 +40,14 @@ const Home: React.FC = () => {
             <span className="desc">
               微秒级延时，单核心 2 万 QPS，性能超出同类产品 10 倍
             </span>
-            <a href="https://www.apiseven.com/api-%e7%bd%91%e5%85%b3-apache-apisix-%e5%92%8c-kong-%e7%9a%84%e9%80%89%e5%9e%8b%e5%af%b9%e6%af%94/">
-              <SButton>性能对比测试</SButton>
-            </a>
+            <SButton>
+              <a
+                href="https://www.apiseven.com/api-%e7%bd%91%e5%85%b3-apache-apisix-%e5%92%8c-kong-%e7%9a%84%e9%80%89%e5%9e%8b%e5%af%b9%e6%af%94/"
+                target="_blank"
+              >
+                性能对比测试
+              </a>
+            </SButton>
           </div>
           <div className="feature-item">
             <span className="title">开源驱动</span>
@@ -51,9 +58,14 @@ const Home: React.FC = () => {
             <span className="desc">
               活跃的开源社区，快速的产品迭代，不锁定用户
             </span>
-            <a href="https://www.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/">
-              <SButton>这些公司都在使用</SButton>
-            </a>
+            <SButton>
+              <a
+                href="https://www.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/"
+                target="_blank"
+              >
+                这些公司都在使用
+              </a>
+            </SButton>
           </div>
           <div className="feature-item">
             <span className="title">热加载</span>
@@ -64,9 +76,14 @@ const Home: React.FC = () => {
             <span className="desc">
               函数与插件热加载机制，更适合 Serverless 与 IoT
             </span>
-            <a href="https://www.apiseven.com/apache-apisix-vs-api7/">
-              <SButton>了解更多功能</SButton>
-            </a>
+            <SButton>
+              <a
+                href="https://www.apiseven.com/apache-apisix-vs-api7/"
+                target="_blank"
+              >
+                了解更多功能
+              </a>
+            </SButton>
           </div>
         </div>
       </SSection>
@@ -134,9 +151,11 @@ const Home: React.FC = () => {
       </SSection>
       <SBlock2>
         <span>想知道 API7 能为您做些什么吗？</span>
-        <a href="https://www.apiseven.com/form-api7-trial" target="_blank">
-          <SButton>免费试用</SButton>
-        </a>
+        <SButton>
+          <a href="https://www.apiseven.com/form-api7-trial" target="_blank">
+            免费试用
+          </a>
+        </SButton>
       </SBlock2>
       <Footer />
     </>

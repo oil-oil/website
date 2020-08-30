@@ -15,9 +15,6 @@ export const GlobalStyle = createGlobalStyle`
     &:link {
       color: #555;
       text-decoration: none;
-      &:hover {
-        color: ${props => props.theme.color.primary};
-      }
     }
   }
 `

@@ -27,6 +27,9 @@ export const SButton = styled.button`
   border: none;
   color: #fff;
   font-size: 18px;
+  a:link, a:visited {
+    color: #fff;
+  }
 `
 
 export const SSection = styled.div`
