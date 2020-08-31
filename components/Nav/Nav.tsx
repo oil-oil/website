@@ -21,7 +21,7 @@ const Nav: React.FC<Props> = () => {
     },
     {
       title: "用户案例",
-      href: "/showcases",
+      href: "https://www.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/",
     },
     {
       title: "GitHub",
