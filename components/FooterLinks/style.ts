@@ -5,13 +5,13 @@ export const SWrapper = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 65px auto 0;
   padding: 0 25px;
+  margin-top: 10px;
   .section {
     color: #3c4858;
   }
   .title {
-    font-size: 44px;
+    font-size: 22px;
     font-weight: 500;
   }
   ul {
@@ -22,10 +22,10 @@ export const SWrapper = styled.div`
         color: ${props => props.theme.color.primary};
       }
       span {
-        font-size: 36px;
+        font-size: 14px;
         font-weight: 300;
         color: inherit;
-        line-height: 60px;
+        line-height: 26px;
       }
     }
   }
@@ -34,6 +34,7 @@ export const SWrapper = styled.div`
     width: 1170px;
     grid-template-columns: repeat(4, 1fr);
     padding: 0;
+    margin: 65px auto 0;
     .title {
       font-size: 18px;
     }

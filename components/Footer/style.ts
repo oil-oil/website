@@ -8,7 +8,6 @@ export const SWrapper = styled.footer`
 `
 
 export const SContainer = styled.div`
-  padding: 25px 0;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -22,13 +21,13 @@ export const SContainer = styled.div`
 `
 
 export const STextWrapper = styled.div`
-  font-size: 22px;
+  font-size: 14px;
   font-weight: 300;
   color: #3c4858;
   width: 100%;
   div {
     &:not(:last-child) {
-      margin-bottom: 20px;
+      margin-bottom: 12px;
     }
 
     a {
@@ -43,7 +42,7 @@ export const STextWrapper = styled.div`
 `
 
 export const SIconList = styled.ul`
-  margin: 35px 0 0;
+  margin: 12px 0;
   padding: 0;
   text-align: center;
 
@@ -53,8 +52,8 @@ export const SIconList = styled.ul`
 `
 
 export const SIcon = styled.a`
-  margin-right: 44px;
-  font-size: 44px;
+  margin-right: 22px;
+  font-size: 22px;
 
   @media (min-width: 1200px) {
     margin-right: 24px;

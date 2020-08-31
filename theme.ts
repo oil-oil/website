@@ -20,6 +20,21 @@ export const GlobalStyle = createGlobalStyle`
       }
     }
   }
+
+  .navbar {
+    background-color: #fff;
+    @media (min-width: 1200px) {
+      justify-content: space-around;
+    }
+  }
+
+  .navbar-collapse {
+    flex-grow: unset;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #555;
+  }
 `
 
 export default theme
