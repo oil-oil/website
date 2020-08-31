@@ -78,21 +78,17 @@ export const SSection = styled.div`
   }
 
   .showcases {
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 80px);
     grid-row-gap: 80px;
     margin-top: 60px;
     div {
-      width: 100%;
-      height: 80px;
       display: flex;
       justify-content: center;
       img {
-        width: auto;
         max-width: 100%;
-        height: 100%;
+        object-fit: contain;
       }
     }
   }
