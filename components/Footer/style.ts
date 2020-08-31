@@ -22,7 +22,7 @@ export const SContainer = styled.div`
 `
 
 export const STextWrapper = styled.div`
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 300;
   color: #3c4858;
   width: 100%;

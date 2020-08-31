@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
         <STextWrapper>
           <div>
             版权所有 © 2020 深圳支流科技有限公司 保留一切权利。
-            粤ICP备19060840号-1
+            <a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备19060840号-1</a>
           </div>
           <div>
             Apache, Apache APISIX 和相关的开源项目名称都是
