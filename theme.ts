@@ -15,6 +15,9 @@ export const GlobalStyle = createGlobalStyle`
     &:link {
       color: #555;
       text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 `

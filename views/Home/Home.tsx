@@ -3,6 +3,7 @@ import { NextSeo } from "next-seo";
 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import FooterLinks from '@/components/FooterLinks'
 
 import { SBlock1, SSection, SBlock2, SButton } from "./style";
 
@@ -157,6 +158,7 @@ const Home: React.FC = () => {
           </a>
         </SButton>
       </SBlock2>
+      <FooterLinks />
       <Footer />
     </>
   );

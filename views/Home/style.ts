@@ -29,6 +29,9 @@ export const SButton = styled.button`
   font-size: 18px;
   a:link, a:visited {
     color: #fff;
+    &:hover {
+      text-decoration: none;
+    }
   }
 `
 
@@ -101,7 +104,7 @@ export const SBlock2 = styled.div`
   background-size: cover;
   color: #fff;
   font-size: 37px;
-  padding: 50px 0 50px 120px;
+  padding: 70px 0 70px 120px;
   display: flex;
   align-items: center;
 `
