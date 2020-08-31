@@ -136,6 +136,7 @@ export const SSection = styled.div`
 
     .feature-list {
       grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
     }
 
     .feature-item {
@@ -145,7 +146,7 @@ export const SSection = styled.div`
       .desc {
         margin-top: -10px;
         margin-bottom: 15px;
-        font-size: 15px;
+        font-size: 18px;
       }
       &:not(:last-child) {
         margin-bottom: 0;
@@ -156,7 +157,7 @@ export const SSection = styled.div`
       margin-top: 60px;
       grid-template-columns: repeat(5, 1fr);
       grid-template-rows: repeat(2, 80px);
-      grid-gap: 120px;
+      grid-row-gap: 120px;
     }
   }
 `
