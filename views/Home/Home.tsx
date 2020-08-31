@@ -19,6 +19,7 @@ const Home: React.FC = () => {
           管理并可视化 API
           和微服务等企业关键业务流量，通过大数据和人工智能（AI）加速企业业务决策
         </span>
+        <div className="mask"></div>
       </SBlock1>
       <SSection>
         <span className="title">下一代云原生 API 管理平台</span>

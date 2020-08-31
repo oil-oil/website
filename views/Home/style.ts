@@ -12,12 +12,24 @@ export const SBlock1 = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-bottom: 40px;
+  position: relative;
   span {
     padding: 0 25px;
     font-size: 18px;
+    z-index: 1;
     &:nth-child(1) {
       font-size: 34px;
     }
+  }
+
+  .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
   }
 
   @media (min-width: 1200px) {
