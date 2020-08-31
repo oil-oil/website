@@ -5,6 +5,9 @@ export const SWrapper = styled.footer`
   justify-content: center;
   box-sizing: border-box;
   padding: 0 25px;
+  @media (min-width: 1200px) {
+    padding: 25px;
+  }
 `
 
 export const SContainer = styled.div`
