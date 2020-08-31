@@ -104,7 +104,14 @@ export const SBlock2 = styled.div`
   background-size: cover;
   color: #fff;
   font-size: 37px;
-  padding: 70px 0 70px 120px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 180px;
+  div {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+  }
 `

@@ -3,7 +3,7 @@ import { NextSeo } from "next-seo";
 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import FooterLinks from '@/components/FooterLinks'
+import FooterLinks from "@/components/FooterLinks";
 
 import { SBlock1, SSection, SBlock2, SButton } from "./style";
 
@@ -151,12 +151,14 @@ const Home: React.FC = () => {
         </div>
       </SSection>
       <SBlock2>
-        <span>想知道 API7 能为您做些什么吗？</span>
-        <SButton>
-          <a href="https://www.apiseven.com/form-api7-trial" target="_blank">
-            免费试用
-          </a>
-        </SButton>
+        <div>
+          <span>想知道 API7 能为您做些什么吗？</span>
+          <SButton>
+            <a href="https://www.apiseven.com/form-api7-trial" target="_blank">
+              免费试用
+            </a>
+          </SButton>
+        </div>
       </SBlock2>
       <FooterLinks />
       <Footer />
