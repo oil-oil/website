@@ -73,7 +73,7 @@ const NavComponent: React.FC<Props> = () => {
                 >
                   {item.items.map((subitem) => (
                     <NavDropdown.Item href={subitem.href} key={subitem.title}>
-                      {subitem.title}1
+                      {subitem.title}
                     </NavDropdown.Item>
                   ))}
                 </NavDropdown>

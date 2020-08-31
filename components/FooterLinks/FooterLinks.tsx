@@ -40,7 +40,7 @@ const FooterLinks: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a>
               <span>博客</span>
             </a>
           </li>
