@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
         <SIconList>
           {icons.map((item) => (
             <SIcon key={item.title} href={item.href} target="_blank">
-              <FontAwesomeIcon icon={item.icon} color={item.color} size="lg" />
+              <FontAwesomeIcon icon={item.icon} color={item.color} />
             </SIcon>
           ))}
         </SIconList>
