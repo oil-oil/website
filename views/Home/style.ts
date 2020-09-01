@@ -1,9 +1,10 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const SBlock1 = styled.div`
   width: 100vw;
   height: 100vh;
-  background: url(https://static.apiseven.com/2020/05/1588827227-skyscrapers-looking-up-scaled.jpg) no-repeat;
+  background: url(https://static.apiseven.com/2020/05/1588827227-skyscrapers-looking-up-scaled.jpg)
+    no-repeat;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -40,16 +41,17 @@ export const SBlock1 = styled.div`
       }
     }
   }
-`
+`;
 
 export const SButton = styled.button`
-  background-color: ${props => props.theme.color.primary};
+  background-color: ${(props) => props.theme.color.primary};
   padding: 6px 12px;
   border-radius: 5px;
   border: none;
   color: #fff;
   font-size: 14px;
-  a:link, a:visited {
+  a:link,
+  a:visited {
     color: #fff;
     &:hover {
       text-decoration: none;
@@ -59,7 +61,7 @@ export const SButton = styled.button`
   @media (min-width: 1200px) {
     font-size: 18px;
   }
-`
+`;
 
 export const SSection = styled.div`
   margin-bottom: 20px;
@@ -172,7 +174,7 @@ export const SSection = styled.div`
       grid-row-gap: 120px;
     }
   }
-`
+`;
 
 export const SBlock2 = styled.div`
   background-image: url(https://static.apiseven.com/2020/05/admin-ajax.jpeg);
@@ -198,4 +200,69 @@ export const SBlock2 = styled.div`
       width: 1170px;
     }
   }
-`
+`;
+export const SPluginChart = styled.div`
+  margin-top: 15px;
+  .left {
+    .gif {
+      width: 100vw;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .right {
+    padding: 0 10px;
+    .video-button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: row-reverse;
+    .left {
+      -webkit-box-flex: 1;
+      flex: 1;
+      .gif {
+        img {
+          max-width: 100%;
+        }
+        width: 850px;
+        display: block;
+      }
+    }
+    .right {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      position: relative;
+      .video-button {
+        width: 100%;
+        text-align: left;
+      }
+      .desc {
+        margin: 0 auto;
+        text-align: left;
+        width: 400px;
+        p:first-child {
+          font-size: 25px;
+          margin-top: 150px;
+          text-align: left;
+          margin-bottom: 33px;
+          font-weight: 700;
+          font-family: GlowSansSC-ExtendedHeavy;
+          line-height: 35px;
+        }
+        p {
+          ont-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 26px;
+          letter-spacing: 1.25px;
+          font-family: PingFang SC;
+        }
+      }
+    }
+  }
+`;

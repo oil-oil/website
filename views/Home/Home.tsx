@@ -5,7 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FooterLinks from "@/components/FooterLinks";
 
-import { SBlock1, SSection, SBlock2, SButton } from "./style";
+import { SBlock1, SSection, SBlock2, SButton, SPluginChart } from "./style";
 
 const Home: React.FC = () => {
   return (
@@ -21,6 +21,37 @@ const Home: React.FC = () => {
         </span>
         <div className="mask"></div>
       </SBlock1>
+      <SSection>
+        <span className="title">独创低代码 API 网关，零成本上手</span>
+        <SPluginChart>
+        <div className='right'>
+          <div className="desc">
+            <p>
+              企业需求千差万别，不用二次开发的 API 网关才是根本的解决之道
+            </p>
+            <p>
+              从开发工程师，到运维、测试、安全工程师，甚至产品经理，都可以让
+              Apache APISIX 的 40 多个插件协同合作，创造属于自己的接入层
+            </p>
+          </div>
+          <div className="video-button">
+          <SButton>
+              <a
+                href="https://static.apiseven.com/2020/07/pluginChart.mp4"
+                target="_blank"
+              >
+                完整视频
+              </a>
+            </SButton>
+          </div>
+          </div>
+          <div className='left'>
+          <div className="gif">
+            <img src="/pluginChart.gif" alt=""/>
+          </div>
+          </div>
+        </SPluginChart>
+      </SSection>
       <SSection>
         <span className="title">下一代云原生 API 管理平台</span>
         <span className="desc">
