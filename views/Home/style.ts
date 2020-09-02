@@ -201,67 +201,74 @@ export const SBlock2 = styled.div`
     }
   }
 `;
+
 export const SPluginChart = styled.div`
-  margin-top: 15px;
-  .left {
-    .gif {
-      width: 100vw;
-      img {
-        width: 100%;
-      }
+ margin-top: 15px;
+.left {
+  .gif {
+    width: 100vw;
+    img {
+      width: 100%;
     }
   }
-  .right {
-    padding: 0 10px;
+}
+
+.right {
+  padding: 0 10px;
+  .desc {
+    p:first-child {
+      font-weight: 700;
+    }
     .video-button {
       width: 100%;
       text-align: center;
     }
   }
-  @media (min-width: 1200px) {
-    display: flex;
-    flex-direction: row-reverse;
-    .left {
-      -webkit-box-flex: 1;
-      flex: 1;
-      .gif {
-        img {
-          max-width: 100%;
-        }
-        width: 850px;
-        display: block;
+}
+
+@media (min-width: 1200px) {
+  display: flex;
+  flex-direction: row;
+  .left {
+    -webkit-box-flex: 1;
+    flex: 1;
+    .gif {
+      img {
+        max-width: 100%;
       }
+      width: 850px;
+      display: block;
     }
-    .right {
-      -webkit-box-flex: 1;
-      -ms-flex: 1;
-      flex: 1;
-      position: relative;
-      .video-button {
-        width: 100%;
+  }
+  .right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+    .video-button {
+      width: 100%;
+      text-align: left;
+    }
+    .desc {
+      margin: 0 auto;
+      text-align: left;
+      width: 400px;
+      p:first-child {
+        font-size: 25px;
+        margin-top: 120px;
         text-align: left;
+        margin-bottom: 33px;
+        font-weight: 700;
+        font-family: GlowSansSC-ExtendedHeavy;
+        line-height: 35px;
       }
-      .desc {
-        margin: 0 auto;
-        text-align: left;
-        width: 400px;
-        p:first-child {
-          font-size: 25px;
-          margin-top: 150px;
-          text-align: left;
-          margin-bottom: 33px;
-          font-weight: 700;
-          font-family: GlowSansSC-ExtendedHeavy;
-          line-height: 35px;
-        }
-        p {
-          ont-style: normal;
-          font-weight: 400;
-          font-size: 18px;
-          line-height: 26px;
-          letter-spacing: 1.25px;
-          font-family: PingFang SC;
-        }
+      p {
+        ont-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 1.25px;
+        font-family: PingFang SC;
       }
     }
   }

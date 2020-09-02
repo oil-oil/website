@@ -1,20 +1,20 @@
 import React from "react";
-import { NextSeo } from "next-seo";
+import {NextSeo} from "next-seo";
 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FooterLinks from "@/components/FooterLinks";
 
-import { SBlock1, SSection, SBlock2, SButton, SPluginChart } from "./style";
+import {SBlock1, SSection, SBlock2, SButton, SPluginChart} from "./style";
 
 const Home: React.FC = () => {
   return (
     <>
-      <NextSeo title="首页" />
-      <Nav />
+      <NextSeo title="首页"/>
+      <Nav/>
       <SBlock1>
         <span>驱动企业数字化转型</span>
-        <br />
+        <br/>
         <span>
           管理并可视化 API
           和微服务等企业关键业务流量，通过大数据和人工智能（AI）加速企业业务决策
@@ -24,31 +24,35 @@ const Home: React.FC = () => {
       <SSection>
         <span className="title">独创低代码 API 网关，零成本上手</span>
         <SPluginChart>
-        <div className='right'>
-          <div className="desc">
-            <p>
-              企业需求千差万别，不用二次开发的 API 网关才是根本的解决之道
-            </p>
-            <p>
-              从开发工程师，到运维、测试、安全工程师，甚至产品经理，都可以让
-              Apache APISIX 的 40 多个插件协同合作，创造属于自己的接入层
-            </p>
-          </div>
-          <div className="video-button">
-          <SButton>
-              <a
-                href="https://static.apiseven.com/2020/07/pluginChart.mp4"
-                target="_blank"
-              >
-                完整视频
-              </a>
-            </SButton>
-          </div>
-          </div>
           <div className='left'>
-          <div className="gif">
-            <img src="/pluginChart.gif" alt=""/>
+            <div className="gif">
+              <img src="https://static.apiseven.com/2020/07/low-code-api-gateway-example.gif"
+                   alt="low-code-api-gateway-example"/>
+            </div>
           </div>
+          <div className='right'>
+            <div className="desc">
+              <p>
+                简单的拖拽，流量由我控制
+              </p>
+              <p>
+                企业需求千差万别，不用二次开发的 API 网关才是根本的解决之道
+              </p>
+              <p>
+                从开发工程师，到运维、测试、安全工程师，甚至产品经理，都可以让
+                Apache APISIX 的 40 多个插件协同合作，创造属于自己的接入层
+              </p>
+            </div>
+            <div className="video-button">
+              <SButton>
+                <a
+                  href="https://static.apiseven.com/2020/07/low-code-api-gateway-example.mp4"
+                  target="_blank"
+                >
+                  完整视频
+                </a>
+              </SButton>
+            </div>
           </div>
         </SPluginChart>
       </SSection>
@@ -130,7 +134,7 @@ const Home: React.FC = () => {
             />
           </div>
           <div>
-            <img src="https://static.apiseven.com/2020/05/NASA.png" alt="" />
+            <img src="https://static.apiseven.com/2020/05/NASA.png" alt=""/>
           </div>
           <div>
             <img
@@ -192,8 +196,8 @@ const Home: React.FC = () => {
           </SButton>
         </div>
       </SBlock2>
-      <FooterLinks />
-      <Footer />
+      <FooterLinks/>
+      <Footer/>
     </>
   );
 };
