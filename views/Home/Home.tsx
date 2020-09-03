@@ -17,7 +17,7 @@ type Props = {
 const Home: NextPage<Props, any> = ({ t }) => {
   return (
     <>
-      <NextSeo title="首页" />
+      <NextSeo title={t("common:homepage")} />
       <Nav />
       <SBlock1>
         <span>{t("home-block1-title")}</span>
@@ -196,4 +196,4 @@ Home.getInitialProps = async () => ({
   namespacesRequired: ["common", "home"],
 });
 
-export default withTranslation("home")(Home);
+export default withTranslation('home')(Home);

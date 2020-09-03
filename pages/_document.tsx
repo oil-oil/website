@@ -1,5 +1,6 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+import { lngFromReq } from "next-i18next/dist/commonjs/utils";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -14,8 +15,11 @@ export default class MyDocument extends Document {
         });
 
       const initialProps = await Document.getInitialProps(ctx);
+
+      const lng = lngFromReq(ctx.req);
       return {
         ...initialProps,
+        lng,
         styles: (
           <>
             {initialProps.styles}
@@ -29,10 +33,14 @@ export default class MyDocument extends Document {
   }
 
   render() {
+    const { lng = "zh-CN" } = this.props as any;
     return (
-      <html lang="zh-CN">
+      <html lang={lng}>
         <Head>
-          <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+          <link
+            href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />

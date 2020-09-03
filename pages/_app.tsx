@@ -1,19 +1,20 @@
-import App from 'next/app'
+import App from "next/app";
 import type { AppProps, AppContext } from "next/app";
 import { ThemeProvider } from "styled-components";
 import { DefaultSeo } from "next-seo";
 import Head from "next/head";
+import { TFunction } from "next-i18next";
 
 import theme, { GlobalStyle } from "../theme";
-import { appWithTranslation } from "../i18n";
+import { appWithTranslation, withTranslation } from "../i18n";
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
+const MyApp = ({ Component, pageProps, t }: AppProps & { t: TFunction }) => {
   return (
     <ThemeProvider theme={theme}>
       <DefaultSeo
-        title="深圳支流科技有限公司"
-        titleTemplate="%s - 深圳支流科技有限公司"
-        description="深圳支流科技有限公司"
+        title={t("company-name")}
+        titleTemplate={`%s - ${t("company-name")}`}
+        description={t("company-name")}
       />
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -29,4 +30,4 @@ MyApp.getInitialProps = async (appContext: AppContext) => {
   return { ...appProps };
 };
 
-export default appWithTranslation(MyApp);
+export default appWithTranslation(withTranslation("common")(MyApp as any));
