@@ -42,7 +42,7 @@ const FooterLinks: NextPage<Props, any> = ({ t }) => {
         <span className="title">{t("footer-text14")}</span>
         <ul>
           <li>
-            <a href="https://www.apiseven.com/category/%E7%94%A8%E6%88%B7%E6%A1%88%E4%BE%8B/">
+            <a href="http://www3.apiseven.com/category/%E7%94%A8%E6%88%B7%E6%A1%88%E4%BE%8B/">
               <span>{t("footer-text15")}</span>
             </a>
           </li>

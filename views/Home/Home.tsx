@@ -73,7 +73,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
             <span className="desc">{t("home-block5-feature1-desc")}</span>
             <SButton>
               <a
-                href="https://www.apiseven.com/api-%e7%bd%91%e5%85%b3-apache-apisix-%e5%92%8c-kong-%e7%9a%84%e9%80%89%e5%9e%8b%e5%af%b9%e6%af%94/"
+                href="http://www3.apiseven.com/api-%e7%bd%91%e5%85%b3-apache-apisix-%e5%92%8c-kong-%e7%9a%84%e9%80%89%e5%9e%8b%e5%af%b9%e6%af%94/"
                 target="_blank"
               >
                 {t("home-block5-feature1-button")}
@@ -89,7 +89,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
             <span className="desc">{t("home-block5-feature2-desc")}</span>
             <SButton>
               <a
-                href="https://www.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/"
+                href="http://www3.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/"
                 target="_blank"
               >
                 {t("home-block5-feature2-button")}
@@ -105,7 +105,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
             <span className="desc">{t("home-block5-feature3-desc")}</span>
             <SButton>
               <a
-                href="https://www.apiseven.com/apache-apisix-vs-api7/"
+                href="http://www3.apiseven.com/apache-apisix-vs-api7/"
                 target="_blank"
               >
                 {t("home-block5-feature3-button")}
@@ -180,7 +180,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
         <div>
           <span>{t("home-block4-title")}</span>
           <SButton>
-            <a href="https://www.apiseven.com/form-api7-trial" target="_blank">
+            <a href="http://www3.apiseven.com/form-api7-trial" target="_blank">
               {t("home-block4-button")}
             </a>
           </SButton>

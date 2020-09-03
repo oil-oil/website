@@ -28,31 +28,31 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
         },
         {
           title: "Apache APISIX vs API7",
-          href: "https://www.apiseven.com/apache-apisix-vs-api7/",
+          href: "http://www3.apiseven.com/apache-apisix-vs-api7/",
         },
       ],
     },
     {
       title: t("showcases"),
       href:
-        "https://www.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/",
+        "http://www3.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/",
     },
     {
       title: t("commercial-products-and-support"),
       items: [
         {
           title: t("business-support"),
-          href: "https://www.apiseven.com/support-for-business/",
+          href: "http://www3.apiseven.com/support-for-business/",
         },
         {
           title: t("trial"),
-          href: "https://www.apiseven.com/form-api7-trial/",
+          href: "http://www3.apiseven.com/form-api7-trial/",
         },
       ],
     },
     {
       title: t("job"),
-      href: "https://www.apiseven.com/careers/",
+      href: "http://www3.apiseven.com/careers/",
     },
   ];
 
