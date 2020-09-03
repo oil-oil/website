@@ -30,12 +30,8 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <html lang="zh-CN">
         <Head>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
           <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
         </Head>
         <body>
