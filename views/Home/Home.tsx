@@ -52,7 +52,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
             <div className="video-button">
               <SButton>
                 <a
-                  href={`https://static.apiseven.com/2020/07/low-code-api-gateway-example-${language}.mp4`}
+                  href={`https://static.apiseven.com/low-code-api-gateway-example-${language}.mp4`}
                   target="_blank"
                 >
                   {t("home-text5")}
