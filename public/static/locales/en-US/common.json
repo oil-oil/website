@@ -1,3 +1,10 @@
 {
-  "company-name": "Shenzhen Zhiliu Technology Co."
+  "company-name": "Shenzhen Zhiliu Technology Co.",
+  "homepage": "Home",
+  "open-source": "Projects",
+  "showcases": "Showcases",
+  "commercial-products-and-support": "Support",
+  "business-support": "Business Support",
+  "trial": "Try API7",
+  "job": "Hire"
 }

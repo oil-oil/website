@@ -1,17 +1,22 @@
 import React from "react";
-
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { NextPage } from "next";
 
-type Props = {};
+import { withTranslation } from "../../i18n";
+import { TFunction } from "next-i18next";
 
-const NavComponent: React.FC<Props> = () => {
+type Props = {
+  t: TFunction;
+};
+
+const NavComponent: NextPage<Props, any> = ({ t }) => {
   const navs = [
     {
-      title: "首页",
+      title: t("homepage"),
       href: "/",
     },
     {
-      title: "开源项目",
+      title: t("open-source"),
       items: [
         {
           title: "Apache APISIX",
@@ -28,25 +33,25 @@ const NavComponent: React.FC<Props> = () => {
       ],
     },
     {
-      title: "用户案例",
+      title: t("showcases"),
       href:
         "https://www.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/",
     },
     {
-      title: "商业产品和支持",
+      title: t("commercial-products-and-support"),
       items: [
         {
-          title: "商业支持",
+          title: t("business-support"),
           href: "https://www.apiseven.com/support-for-business/",
         },
         {
-          title: "API7 试用申请",
+          title: t("trial"),
           href: "https://www.apiseven.com/form-api7-trial/",
         },
       ],
     },
     {
-      title: "诚聘英才",
+      title: t("job"),
       href: "https://www.apiseven.com/careers/",
     },
   ];
@@ -92,4 +97,8 @@ const NavComponent: React.FC<Props> = () => {
   );
 };
 
-export default NavComponent;
+NavComponent.getInitialProps = async () => ({
+  namespacesRequired: ["common"],
+});
+
+export default withTranslation("common")(NavComponent);

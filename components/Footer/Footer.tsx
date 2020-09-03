@@ -1,6 +1,4 @@
 import React from "react";
-
-import { SWrapper, SContainer, STextWrapper, SIconList, SIcon } from "./style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -8,8 +6,17 @@ import {
   faGithub,
   faWeixin,
 } from "@fortawesome/free-brands-svg-icons";
+import { NextPage } from "next";
+import { TFunction } from "next-i18next";
 
-const Footer: React.FC = () => {
+import { withTranslation } from "../../i18n";
+import { SWrapper, SContainer, STextWrapper, SIconList, SIcon } from "./style";
+
+type Props = {
+  t: TFunction;
+};
+
+const Footer: NextPage<Props, any> = ({ t }) => {
   const icons = [
     {
       title: "Twitter",
@@ -39,24 +46,27 @@ const Footer: React.FC = () => {
   return (
     <SWrapper>
       <SContainer>
+        {t("")}
         <STextWrapper>
           <div>
-            版权所有 © 2020 深圳支流科技有限公司 保留一切权利。
-            <a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备19060840号-1</a>
+            {t("footer-text1")}
+            <a href="http://www.beian.miit.gov.cn/" target="_blank">
+              {t("footer-text2")}
+            </a>
           </div>
           <div>
-            Apache, Apache APISIX 和相关的开源项目名称都是
+            {t("footer-text3")}
             <a href="http://www.apache.org/" target="_blank">
-              Apache 软件基金会
+              {t("footer-text4")}
             </a>
-            的授权商标，{" "}
+            {t("footer-text7")}
             <a
               href="http://www.apache.org/index.html#projects-list"
               target="_blank"
             >
-              点击此处
+              {t("footer-text5")}
             </a>
-            获取完整的 Apache 授权商标列表。
+            {t("footer-text6")}
           </div>
         </STextWrapper>
 
@@ -72,4 +82,8 @@ const Footer: React.FC = () => {
   );
 };
 
-export default Footer;
+Footer.getInitialProps = async () => ({
+  namespacesRequired: ["footer"],
+});
+
+export default withTranslation("footer")(Footer);

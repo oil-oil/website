@@ -1,70 +1,77 @@
 import React from "react";
+import { NextPage } from "next";
+import { TFunction } from "next-i18next";
 
 import { SWrapper } from "./style";
+import { withTranslation } from "../../i18n";
 
-const FooterLinks: React.FC = () => {
+type Props = {
+  t: TFunction;
+};
+
+const FooterLinks: NextPage<Props, any> = ({ t }) => {
   return (
     <SWrapper>
       <div className="section">
-        <span className="title">产品</span>
+        <span className="title">{t("footer-text11")}</span>
         <ul>
           <li>
-            <span>API 网关</span>
+            <span>{t("footer-text8")}</span>
           </li>
           <li>
-            <span>k8s ingress controller</span>
+            <span>{t("footer-text9")}</span>
           </li>
           <li>
-            <span>服务网格</span>
+            <span>{t("footer-text10")}</span>
           </li>
         </ul>
       </div>
 
       <div className="section">
-        <span className="title">合作伙伴</span>
+        <span className="title">{t("footer-text12")}</span>
         <ul>
           <li>
             <a href="mailto:wenming@api7.ai">
-              <span>申请成为合作伙伴</span>
+              <span>{t("footer-text13")}</span>
             </a>
           </li>
         </ul>
       </div>
 
       <div className="section">
-        <span className="title">资源</span>
+        <span className="title">{t("footer-text14")}</span>
         <ul>
           <li>
             <a href="https://www.apiseven.com/category/%E7%94%A8%E6%88%B7%E6%A1%88%E4%BE%8B/">
-              <span>案例</span>
+              <span>{t("footer-text15")}</span>
             </a>
           </li>
           <li>
             <a>
-              <span>博客</span>
+              <span>{t("footer-text16")}</span>
             </a>
           </li>
           <li>
             <a href="https://space.bilibili.com/551921247">
-              <span>视频</span>
+              <span>{t("footer-text17")}</span>
             </a>
           </li>
           <li>
             <a href="https://apisix.dev/">
-              <span>论坛</span>
+              <span>{t("footer-text18")}</span>
             </a>
           </li>
         </ul>
       </div>
 
       <div className="section">
-        <span className="title">联系我们</span>
+        <span className="title">{t("footer-text19")}</span>
         <ul>
           <li>
-            <span>深圳支流科技有限公司</span>
+            <span>{t("footer-text21")}</span>
           </li>
           <li>
-            <span>深圳软件产业基地</span>
+            <span>{t("footer-text20")}</span>
           </li>
           <li>
             <a href="mailto:wenming@api7.ai">
@@ -77,4 +84,8 @@ const FooterLinks: React.FC = () => {
   );
 };
 
-export default FooterLinks;
+FooterLinks.getInitialProps = async () => ({
+  namespacesRequired: ["footer"],
+});
+
+export default withTranslation("footer")(FooterLinks);

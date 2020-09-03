@@ -1,3 +1,10 @@
 {
-  "company-name": "深圳支流科技有限公司"
+  "company-name": "深圳支流科技有限公司",
+  "homepage": "首页",
+  "open-source": "开源项目",
+  "showcases": "用户案例",
+  "commercial-products-and-support": "商业产品和支持",
+  "business-support": "商业支持",
+  "trial": "API7 试用申请",
+  "job": "诚聘英才"
 }

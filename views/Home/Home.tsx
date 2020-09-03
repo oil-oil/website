@@ -22,14 +22,11 @@ const Home: NextPage<Props, any> = ({ t }) => {
       <SBlock1>
         <span>{t("home-block1-title")}</span>
         <br />
-        <span>
-          管理并可视化 API
-          和微服务等企业关键业务流量，通过大数据和人工智能（AI）加速企业业务决策
-        </span>
+        <span>{t("home-block1-desc")}</span>
         <div className="mask"></div>
       </SBlock1>
       <SSection>
-        <span className="title">独创低代码 API 网关，零成本上手</span>
+        <span className="title">{t("home-block2-title")}</span>
         <SPluginChart>
           <div className="left">
             <div className="gif">
@@ -41,12 +38,9 @@ const Home: NextPage<Props, any> = ({ t }) => {
           </div>
           <div className="right">
             <div className="desc">
-              <p>简单的拖拽，流量由我控制</p>
-              <p>企业需求千差万别，不用二次开发的 API 网关才是根本的解决之道</p>
-              <p>
-                从开发工程师，到运维、测试、安全工程师，甚至产品经理，都可以让
-                Apache APISIX 的 40 多个插件协同合作，创造属于自己的接入层
-              </p>
+              <p>{t("home-block2-title2")}</p>
+              <p>{t("home-block2-desc1")}</p>
+              <p>{t("home-block2-desc2")}</p>
             </div>
             <div className="video-button">
               <SButton>
@@ -54,7 +48,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
                   href="https://static.apiseven.com/2020/07/low-code-api-gateway-example.mp4"
                   target="_blank"
                 >
-                  完整视频
+                  {t("home-block2-btn1")}
                 </a>
               </SButton>
             </div>
@@ -62,11 +56,8 @@ const Home: NextPage<Props, any> = ({ t }) => {
         </SPluginChart>
       </SSection>
       <SSection>
-        <span className="title">下一代云原生 API 管理平台</span>
-        <span className="desc">
-          支持混合云、多数据中心、Kubernetes
-          等部署方式，帮助您快速、安全地处理业务数据，并进行动态扩展
-        </span>
+        <span className="title">{t("home-block5-title")}</span>
+        <span className="desc">{t("home-block5-desc")}</span>
         <img
           className="block-2-img"
           src="https://static.apiseven.com/2020/05/1594881772-Canvas-1.png"
@@ -74,63 +65,57 @@ const Home: NextPage<Props, any> = ({ t }) => {
         />
         <div className="feature-list">
           <div className="feature-item">
-            <span className="title">极致性能</span>
+            <span className="title">{t("home-block5-feature1-title")}</span>
             <img
               src="https://static.apiseven.com/2020/05/mouse-globe.png"
               alt=""
             />
-            <span className="desc">
-              微秒级延时，单核心 2 万 QPS，性能超出同类产品 10 倍
-            </span>
+            <span className="desc">{t("home-block5-feature1-desc")}</span>
             <SButton>
               <a
                 href="https://www.apiseven.com/api-%e7%bd%91%e5%85%b3-apache-apisix-%e5%92%8c-kong-%e7%9a%84%e9%80%89%e5%9e%8b%e5%af%b9%e6%af%94/"
                 target="_blank"
               >
-                性能对比测试
+                {t("home-block5-feature1-button")}
               </a>
             </SButton>
           </div>
           <div className="feature-item">
-            <span className="title">开源驱动</span>
+            <span className="title">{t("home-block5-feature2-title")}</span>
             <img
               src="https://static.apiseven.com/2020/05/laptop-cloud.png"
               alt=""
             />
-            <span className="desc">
-              活跃的开源社区，快速的产品迭代，不锁定用户
-            </span>
+            <span className="desc">{t("home-block5-feature2-desc")}</span>
             <SButton>
               <a
                 href="https://www.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/"
                 target="_blank"
               >
-                这些公司都在使用
+                {t("home-block5-feature2-button")}
               </a>
             </SButton>
           </div>
           <div className="feature-item">
-            <span className="title">热加载</span>
+            <span className="title">{t("home-block5-feature3-title")}</span>
             <img
               src="https://static.apiseven.com/2020/05/plug-cloud.png"
               alt=""
             />
-            <span className="desc">
-              函数与插件热加载机制，更适合 Serverless 与 IoT
-            </span>
+            <span className="desc">{t("home-block5-feature3-desc")}</span>
             <SButton>
               <a
                 href="https://www.apiseven.com/apache-apisix-vs-api7/"
                 target="_blank"
               >
-                了解更多功能
+                {t("home-block5-feature3-button")}
               </a>
             </SButton>
           </div>
         </div>
       </SSection>
       <SSection>
-        <span className="title">为全球领先企业所信任</span>
+        <span className="title">{t("home-block3-title")}</span>
         <div className="showcases">
           <div>
             <img
@@ -193,10 +178,10 @@ const Home: NextPage<Props, any> = ({ t }) => {
       </SSection>
       <SBlock2>
         <div>
-          <span>想知道 API7 能为您做些什么吗？</span>
+          <span>{t("home-block4-title")}</span>
           <SButton>
             <a href="https://www.apiseven.com/form-api7-trial" target="_blank">
-              免费试用
+              {t("home-block4-button")}
             </a>
           </SButton>
         </div>
