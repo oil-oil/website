@@ -26,7 +26,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
         <div className="mask"></div>
       </SBlock1>
       <SSection>
-        <span className="title">{t("home-block2-title")}</span>
+        <span className="title">{t("home-text1")}</span>
         <SPluginChart>
           <div className="left">
             <div className="gif">
@@ -38,9 +38,9 @@ const Home: NextPage<Props, any> = ({ t }) => {
           </div>
           <div className="right">
             <div className="desc">
-              <p>{t("home-block2-title2")}</p>
-              <p>{t("home-block2-desc1")}</p>
-              <p>{t("home-block2-desc2")}</p>
+              <p>{t("home-text2")}</p>
+              <p>{t("home-text3")}</p>
+              <p>{t("home-text4")}</p>
             </div>
             <div className="video-button">
               <SButton>
@@ -48,7 +48,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
                   href="https://static.apiseven.com/2020/07/low-code-api-gateway-example.mp4"
                   target="_blank"
                 >
-                  {t("home-block2-btn1")}
+                  {t("home-text5")}
                 </a>
               </SButton>
             </div>
@@ -196,4 +196,4 @@ Home.getInitialProps = async () => ({
   namespacesRequired: ["common", "home"],
 });
 
-export default withTranslation('home')(Home);
+export default withTranslation("home")(Home);
