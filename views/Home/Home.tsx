@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NextSeo } from "next-seo";
 import { TFunction } from "next-i18next";
+import { I18nContext } from "react-i18next";
 import { NextPage } from "next";
 
 import Nav from "@/components/Nav";
@@ -15,6 +16,12 @@ type Props = {
 };
 
 const Home: NextPage<Props, any> = ({ t }) => {
+  const {
+    i18n: { language },
+  } = useContext(I18nContext);
+
+  console.log(language);
+
   return (
     <>
       <NextSeo title={t("common:homepage")} />
@@ -31,7 +38,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
           <div className="left">
             <div className="gif">
               <img
-                src="https://static.apiseven.com/2020/07/low-code-api-gateway-example.gif"
+                src={`https://static.apiseven.com/low-code-api-gateway-example-${language}.gif`}
                 alt="low-code-api-gateway-example"
               />
             </div>
@@ -45,7 +52,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
             <div className="video-button">
               <SButton>
                 <a
-                  href="https://static.apiseven.com/2020/07/low-code-api-gateway-example.mp4"
+                  href={`https://static.apiseven.com/2020/07/low-code-api-gateway-example-${language}.mp4`}
                   target="_blank"
                 >
                   {t("home-text5")}
