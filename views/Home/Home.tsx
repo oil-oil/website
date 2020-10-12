@@ -20,8 +20,6 @@ const Home: NextPage<Props, any> = ({ t }) => {
     i18n: { language },
   } = useContext(I18nContext);
 
-  console.log(language);
-
   return (
     <>
       <NextSeo title={t("common:homepage")} />
