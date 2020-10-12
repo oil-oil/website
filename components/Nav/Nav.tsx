@@ -52,7 +52,7 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
     },
     {
       title: t("job"),
-      href: "http://www3.apiseven.com/careers/",
+      href: "/career",
     },
   ];
 
