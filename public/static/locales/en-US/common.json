@@ -6,5 +6,8 @@
   "commercial-products-and-support": "Support",
   "business-support": "Business Support",
   "trial": "Try API7",
-  "job": "Join us"
+  "job": "Join us",
+  "createdAt": "Created At",
+  "updatedAt": "Update At",
+  "notFound": "Couldn't found this resource"
 }
