@@ -52,7 +52,6 @@ export const SSection1 = styled.div`
     color: #000;
     font-family: "Montserrat",sans-serif;
     font-weight: 200;
-    text-transform: uppercase;
     line-height: 1.2em;
     font-size: 50px;
     padding: 0;

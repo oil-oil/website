@@ -1,1 +1,15 @@
-{}
+{
+    "career-block1-title": "Apache APISIX",
+    "career-block1-desc": "the Top Level Project from Apache Software Foundation",
+    "career-text1": "View more",
+    "career-card-name": "Engineer",
+    "career-card-title1": "Technical Support Engineer (base in Shanghai)",
+    "career-card-desc1": "Provide after-sales technical support for API gateway products and solutions such as Apache APISIX, APISEVEN, etc. to resolve user issues and ensure stable operation of the system.",
+    "career-text2": "View details",
+    "career-card-title2": "Senior Nginx Development Engineer",
+    "career-card-desc2": "Responsible for the underlying Nginx optimization for Apache APISIX.",
+    "career-card-title3": "Senior R&D Engineer",
+    "career-card-desc3": "Development of the next-generation API management and analysis platform based on Apache APISIX.",
+    "career-card-title4": "Go Development Engineer",
+    "career-card-desc4": "Responsible for the design and architecture of the Apache APISIX control plane."
+}

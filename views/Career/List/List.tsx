@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NextPage } from "next";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
+import { TFunction } from "next-i18next";
 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FooterLinks from "@/components/FooterLinks";
+import { withTranslation } from "../../../i18n";
 import {
   SSection1,
   SSection2,
@@ -20,12 +22,14 @@ import {
   SContainer,
 } from "./style";
 
-type Props = {};
+type Props = {
+  t: TFunction;
+};
 
-const CareerList: NextPage<Props, any> = () => {
+const CareerList: NextPage<Props, any> = ({ t }) => {
   return (
     <>
-      <NextSeo title="诚聘英才" />
+      <NextSeo title={t("common:job")} />
       <div className="wrapper default">
         <Nav />
         <div className="elementor-section-wrap">
@@ -34,14 +38,14 @@ const CareerList: NextPage<Props, any> = () => {
             <div className="container">
               <div className="row">
                 <h2 className="heading-title">
-                  恭喜 Apache APISIX 毕业，
-                  <br /> 成为 Apache 软件基金会顶级项目！
+                  {t("career-block1-title")}
+                  <br /> {t("career-block1-desc")}
                 </h2>
                 <div className="button-wrapper">
                   <a href="#courses" className="elementor-button" role="button">
                     {" "}
                     <span className="elementor-button-content-wrapper">
-                      查看职位（支持远程）
+                      {t("career-text1")}
                     </span>
                   </a>
                 </div>
@@ -56,43 +60,41 @@ const CareerList: NextPage<Props, any> = () => {
               <div className="elementor-container">
                 <div className="elementor-row">
                   <SCard>
-                    <SType>工程师</SType>
+                    <SType>{t("career-card-name")}</SType>
                     <SContainer>
                       <SContent1>
-                        <SName>技术支持工程师（上海）</SName>
+                        <SName>{t("career-card-title1")}</SName>
                         <SDescription>
-                          为 Apache APISIX、APISEVEN 等 API
-                          网关产品和解决方案，提供售后技术支持工作，解决用户问题，保证系统稳定运行。
+                          {t("career-card-desc1")}
                         </SDescription>
                       </SContent1>
                       <SContent2>
-                        <SName>技术支持工程师（上海）</SName>
+                        <SName>{t("career-card-title1")}</SName>
                         <SDescription>
-                          为 Apache APISIX、APISEVEN 等 API
-                          网关产品和解决方案，提供售后技术支持工作，解决用户问题，保证系统稳定运行。
+                          {t("career-card-desc1")}
                         </SDescription>
                         <Link href="http://www3.apiseven.com/%e6%8a%80%e6%9c%af%e6%94%af%e6%8c%81%e5%b7%a5%e7%a8%8b%e5%b8%88/">
-                          <SButton>立即投递</SButton>
+                          <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
                     </SContainer>
                   </SCard>
                   <SCard>
-                    <SType>工程师</SType>
+                    <SType>{t("career-card-name")}</SType>
                     <SContainer>
                       <SContent1>
-                        <SName>高级 NGINX 开发工程师</SName>
+                        <SName>{t("career-card-title2")}</SName>
                         <SDescription>
-                          负责针对 Apache APISIX 的 Nginx 底层优化。
+                          {t("career-card-desc2")}
                         </SDescription>
                       </SContent1>
                       <SContent2>
-                        <SName>高级 NGINX 开发工程师</SName>
+                        <SName>{t("career-card-title2")}</SName>
                         <SDescription>
-                          负责针对 Apache APISIX 的 Nginx 底层优化。
+                          {t("career-card-desc2")}
                         </SDescription>
                         <Link href="http://www3.apiseven.com/%e9%ab%98%e7%ba%a7-nginx-%e5%bc%80%e5%8f%91%e5%b7%a5%e7%a8%8b%e5%b8%88/">
-                          <SButton>立即投递</SButton>
+                          <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
                     </SContainer>
@@ -104,41 +106,41 @@ const CareerList: NextPage<Props, any> = () => {
               <div className="elementor-container">
                 <div className="elementor-row">
                   <SCard>
-                    <SType>工程师</SType>
+                    <SType>{t("career-card-name")}</SType>
                     <SContainer>
                       <SContent1>
-                        <SName>高级研发工程师</SName>
+                        <SName>{t("career-card-title3")}</SName>
                         <SDescription>
-                          研发基于 Apache APISIX 的下一代 API 管理和分析平台。
+                          {t("career-card-desc3")}
                         </SDescription>
                       </SContent1>
                       <SContent2>
-                        <SName>高级研发工程师</SName>
+                        <SName>{t("career-card-title3")}</SName>
                         <SDescription>
-                          研发基于 Apache APISIX 的下一代 API 管理和分析平台。
+                          {t("career-card-desc3")}
                         </SDescription>
                         <Link href="http://www3.apiseven.com/%e9%ab%98%e7%ba%a7%e7%a0%94%e5%8f%91%e5%b7%a5%e7%a8%8b%e5%b8%88/">
-                          <SButton>立即投递</SButton>
+                          <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
                     </SContainer>
                   </SCard>
                   <SCard>
-                    <SType>工程师</SType>
+                    <SType>{t("career-card-name")}</SType>
                     <SContainer>
                       <SContent1>
-                        <SName>GO 开发工程师</SName>
+                        <SName>{t("career-card-title4")}</SName>
                         <SDescription>
-                          负责 Apache APISIX 控制平面的设计和架构。
+                          {t("career-card-desc4")}
                         </SDescription>
                       </SContent1>
                       <SContent2>
-                        <SName>GO 开发工程师</SName>
+                        <SName>{t("career-card-title4")}</SName>
                         <SDescription>
-                          负责 Apache APISIX 控制平面的设计和架构。
+                          {t("career-card-desc4")}
                         </SDescription>
                         <Link href="https://www3.apiseven.com/go-%e5%bc%80%e5%8f%91%e5%b7%a5%e7%a8%8b%e5%b8%88/">
-                          <SButton>立即投递</SButton>
+                          <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
                     </SContainer>
@@ -155,8 +157,8 @@ const CareerList: NextPage<Props, any> = () => {
   );
 };
 
-CareerList.getInitialProps = async () => {
-  return {};
-};
+CareerList.getInitialProps = async () => ({
+  namespacesRequired: ["common", "career"],
+});
 
-export default CareerList;
+export default withTranslation("career")(CareerList);
