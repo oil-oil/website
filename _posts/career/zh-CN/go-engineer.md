@@ -1,5 +1,4 @@
 ---
-slug: go-engineer
 title: Go 研发工程师
 date: 2020-10-17 15:03:00
 ---

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { NextPage } from "next";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
@@ -64,16 +64,12 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
                     <SContainer>
                       <SContent1>
                         <SName>{t("career-card-title1")}</SName>
-                        <SDescription>
-                          {t("career-card-desc1")}
-                        </SDescription>
+                        <SDescription>{t("career-card-desc1")}</SDescription>
                       </SContent1>
                       <SContent2>
                         <SName>{t("career-card-title1")}</SName>
-                        <SDescription>
-                          {t("career-card-desc1")}
-                        </SDescription>
-                        <Link href="http://www3.apiseven.com/%e6%8a%80%e6%9c%af%e6%94%af%e6%8c%81%e5%b7%a5%e7%a8%8b%e5%b8%88/">
+                        <SDescription>{t("career-card-desc1")}</SDescription>
+                        <Link href="/post/career/technical-support-engineer">
                           <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
@@ -84,16 +80,12 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
                     <SContainer>
                       <SContent1>
                         <SName>{t("career-card-title2")}</SName>
-                        <SDescription>
-                          {t("career-card-desc2")}
-                        </SDescription>
+                        <SDescription>{t("career-card-desc2")}</SDescription>
                       </SContent1>
                       <SContent2>
                         <SName>{t("career-card-title2")}</SName>
-                        <SDescription>
-                          {t("career-card-desc2")}
-                        </SDescription>
-                        <Link href="http://www3.apiseven.com/%e9%ab%98%e7%ba%a7-nginx-%e5%bc%80%e5%8f%91%e5%b7%a5%e7%a8%8b%e5%b8%88/">
+                        <SDescription>{t("career-card-desc2")}</SDescription>
+                        <Link href="/post/career/senior-nginx-development-engineer">
                           <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
@@ -110,16 +102,12 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
                     <SContainer>
                       <SContent1>
                         <SName>{t("career-card-title3")}</SName>
-                        <SDescription>
-                          {t("career-card-desc3")}
-                        </SDescription>
+                        <SDescription>{t("career-card-desc3")}</SDescription>
                       </SContent1>
                       <SContent2>
                         <SName>{t("career-card-title3")}</SName>
-                        <SDescription>
-                          {t("career-card-desc3")}
-                        </SDescription>
-                        <Link href="http://www3.apiseven.com/%e9%ab%98%e7%ba%a7%e7%a0%94%e5%8f%91%e5%b7%a5%e7%a8%8b%e5%b8%88/">
+                        <SDescription>{t("career-card-desc3")}</SDescription>
+                        <Link href="/post/career/senior-development-engineer">
                           <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
@@ -130,16 +118,12 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
                     <SContainer>
                       <SContent1>
                         <SName>{t("career-card-title4")}</SName>
-                        <SDescription>
-                          {t("career-card-desc4")}
-                        </SDescription>
+                        <SDescription>{t("career-card-desc4")}</SDescription>
                       </SContent1>
                       <SContent2>
                         <SName>{t("career-card-title4")}</SName>
-                        <SDescription>
-                          {t("career-card-desc4")}
-                        </SDescription>
-                        <Link href="https://www3.apiseven.com/go-%e5%bc%80%e5%8f%91%e5%b7%a5%e7%a8%8b%e5%b8%88/">
+                        <SDescription>{t("career-card-desc4")}</SDescription>
+                        <Link href="/post/career/go-engineer">
                           <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>

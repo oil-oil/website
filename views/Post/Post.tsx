@@ -72,7 +72,7 @@ Page.getInitialProps = async (context) => {
   const { slug, category } = context.query;
 
   // 2. 获取语言（中文兜底）
-  const { lng = "zh-CN" } = context.req as any;
+  const { lng = "zh-CN" } = context.req as any || {};
 
   // 3. markdown to json
   try {
