@@ -128,6 +128,20 @@ export const SSection = styled.div`
     }
   }
 
+  .cert-list {
+    display: flex;
+    flex-direction: column;
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 15px 0;
+    }
+    img {
+      max-height: 130px;
+    }
+  }
+
   @media (min-width: 1200px) {
     width: 1140px;
     padding: 0;
@@ -173,6 +187,25 @@ export const SSection = styled.div`
       grid-template-rows: repeat(2, 80px);
       grid-row-gap: 120px;
     }
+
+    .cert-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 60px;
+      width: 100%;
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      span {
+        margin-top: 10px;
+      }
+      img {
+        height: 100px;
+      }
+    }
   }
 `;
 
@@ -191,6 +224,10 @@ export const SBlock2 = styled.div`
   div {
     display: flex;
     align-items: center;
+  }
+
+  button {
+    margin-left: 10px;
   }
 
   @media (min-width: 1200px) {
@@ -263,7 +300,7 @@ export const SPluginChart = styled.div`
         line-height: 35px;
       }
       p {
-        ont-style: normal;
+        font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 26px;
@@ -272,4 +309,4 @@ export const SPluginChart = styled.div`
       }
     }
   }
-`;
+}`;

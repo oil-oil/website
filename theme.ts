@@ -12,12 +12,19 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   a {
+    color: #555;
     &:link {
       color: #555;
       text-decoration: none;
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+
+  article {
+    img {
+      width: 100%;
     }
   }
 

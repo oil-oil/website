@@ -20,6 +20,33 @@ const Home: NextPage<Props, any> = ({ t }) => {
     i18n: { language },
   } = useContext(I18nContext);
 
+  const certs =
+    language === "en-US"
+      ? [
+          {
+            name: t("home-text10"),
+            src: "https://static.apiseven.com/logo-linux-silver-member.png",
+            href: "https://www.linuxfoundation.org/",
+          },
+          {
+            name: t("home-text11"),
+            src: "https://static.apiseven.com/logo-tars-foundation.png",
+            href: "https://tarscloud.org/",
+          },
+        ]
+      : [
+          {
+            name: t("home-text8"),
+            src: "https://static.apiseven.com/logo-huawei-compatible.png",
+            href: "/post/cert/huawei-stack-8.0",
+          },
+          {
+            name: t("home-text9"),
+            src: "https://static.apiseven.com/logo-huawei-compatible.png",
+            href: "/post/cert/huawei-kunpeng",
+          },
+        ];
+
   return (
     <>
       <NextSeo title={t("common:homepage")} />
@@ -179,6 +206,20 @@ const Home: NextPage<Props, any> = ({ t }) => {
               alt=""
             />
           </div>
+        </div>
+      </SSection>
+      <SSection>
+        <span className="title">{t("home-text6")}</span>
+        {language === "zh-CN" && (
+          <span className="desc">{t("home-text7")}</span>
+        )}
+        <div className="cert-list">
+          {certs.map(({ name, src, href }) => (
+            <a href={href} target="_blank" key={name}>
+              <img src={src} alt={name} />
+              <span>{name}</span>
+            </a>
+          ))}
         </div>
       </SSection>
       <SBlock2>
