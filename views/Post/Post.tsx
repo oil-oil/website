@@ -10,6 +10,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FooterLinks from "@/components/FooterLinks";
 import { withTranslation } from "../../i18n";
+import { SSection1, SSection2, SBackground, SBox1, SBox2, SInner, SArticle } from "./style";
 
 type Props = {
   t: TFunction;
@@ -34,29 +35,35 @@ const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
       <NextSeo title={data.title || t("common:job")} />
       <div>
         <Nav />
-        <div
-          style={{
-            maxWidth: 1170,
-            margin: "0 auto",
-          }}
-        >
+        <div>
           {content === undefined && (
-            <h2 style={{ margin: "20px 0" }}>{t("common:notFound")}</h2>
+            <h2 >{t("common:notFound")}</h2>
           )}
           {content !== undefined && (
             <div>
-              <h1 style={{ margin: "20px 0" }}>{data.title}</h1>
-              <span style={{ margin: "20px 0", display: "block" }}>
-                {t("common:updatedAt")}&nbsp;
-                {new Date(data.date).toLocaleDateString()}
-              </span>
-              <article>
-                <ReactMarkdown
-                  escapeHtml={true}
-                  source={content}
-                  renderers={{ code: CodeBlock }}
-                />
-              </article>
+              <SSection1>
+                <SBackground></SBackground>
+                <SBox1>
+                  <SInner>
+                    <h1>{data.title}</h1>
+                    <span>
+                      {t("common:updatedAt")}&nbsp;
+                      {new Date(data.date).toLocaleDateString()}
+                    </span>
+                  </SInner>
+                </SBox1>
+              </SSection1>
+              <SSection2>
+                <SBox2>
+                  <SArticle>
+                    <ReactMarkdown
+                      escapeHtml={true}
+                      source={content}
+                      renderers={{ code: CodeBlock }}
+                    />
+                  </SArticle>
+                </SBox2>
+              </SSection2>
             </div>
           )}
         </div>
