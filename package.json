@@ -15,7 +15,7 @@
     "@fortawesome/react-fontawesome": "0.1.11",
     "bootstrap": "4.5.3",
     "gray-matter": "4.0.2",
-    "next": "9.5.5",
+    "next": "10.0.0",
     "next-i18next": "6.0.3",
     "next-seo": "4.14.0",
     "react": "17.0.0",
