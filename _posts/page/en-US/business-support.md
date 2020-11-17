@@ -16,14 +16,14 @@ The following table is the specific content:
 |                                          |                       |                  |                                      |
 | :--------------------------------------- | :-------------------: | :--------------: | :----------------------------------: |
 |                                          |     Basic Edition     | Standard Edition |           Premium version            |
-| Recommended mode                         | Non-critical business |   Key business   | Key business</br>Close communication |
+| Recommended mode                         | Non-critical business |   Key business   | Key business<br>Close communication |
 | Troubleshooting                          |           ✓           |        ✓         |                  ✓                   |
 | Security patch                           |           ✓           |        ✓         |                  ✓                   |
 | new version update                       |           ✓           |        ✓         |                  ✓                   |
 | Performance tuning                       |                       |        ✓         |                  ✓                   |
 | Architecture review                      |                       |                  |                  ✓                   |
 | Code review                              |                       |                  |                  ✓                   |
-| Support method                           |   Email</br>WeChat    | Email</br>WeChat |      Email</br>WeChat</br>Phone      |
+| Support method                           |   Email<br>WeChat    | Email<br>WeChat |      Email<br>WeChat<br>Phone      |
 | Support time                             |        24 X 7         |      24 X 7      |                24 X 7                |
 | Corresponding time SLA                   |         8 hrs         |     60 mins      |               30 mins                |
 | Technical Support Contact                |           1           |        2         |                  2                   |
