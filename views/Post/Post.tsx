@@ -10,7 +10,15 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FooterLinks from "@/components/FooterLinks";
 import { withTranslation } from "../../i18n";
-import { SSection1, SSection2, SBackground, SBox1, SBox2, SInner, SArticle } from "./style";
+import {
+  SSection1,
+  SSection2,
+  SBackground,
+  SBox1,
+  SBox2,
+  SInner,
+  SArticle,
+} from "./style";
 
 type Props = {
   t: TFunction;
@@ -36,9 +44,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
       <div>
         <Nav />
         <div>
-          {content === undefined && (
-            <h2 >{t("common:notFound")}</h2>
-          )}
+          {content === undefined && <h2>{t("common:notFound")}</h2>}
           {content !== undefined && (
             <div>
               <SSection1>
@@ -75,15 +81,22 @@ const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
 };
 
 Page.getInitialProps = async (context) => {
-  // 1. 获取 Slug
-  const { slug, category } = context.query;
+  // https://nextjs.org/docs/routing/dynamic-routes#catch-all-routes
+  const { slug = [] } = context.query;
 
-  // 2. 获取语言（中文兜底）
-  const { lng = "zh-CN" } = context.req as any || {};
+  const { lng = "zh-CN" } = (context.req as any) || {};
 
-  // 3. markdown to json
   try {
-    const fileData = await import(`../../_posts/${category}/${lng}/${slug}.md`);
+    let fileData = null
+
+    if (slug.length === 1) {
+      fileData = await import(`../../_posts/page/${lng}/${slug[0]}.md`);
+    }
+
+    if (slug.length === 2) {
+      fileData = await import(`../../_posts/${slug[0]}/${lng}/${slug[1]}.md`);
+    }
+
     const { data, content } = matter(fileData.default);
     return {
       namespacesRequired: ["common"],
