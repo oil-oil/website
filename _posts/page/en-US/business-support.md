@@ -3,13 +3,11 @@ title: "Business Support"
 date: 2020-11-13 14:54:00
 ---
 
-# Business Support
-
-### Support range
+## Support range
 
 Provide original commercial support for companies that use Apache APISIX in the development phase and production environment.
 
-### Service Content
+## Service Content
 
 Service support includes architecture review, code review, troubleshooting, diagnosis, suggestions, upgrades and security patches to ensure the normal operation of Apache APISIX.  
 If you have modified the core of Apache APISIX, or have custom plug-ins, it is recommended to purchase the advanced version so that we can understand these changes and locate and resolve faults faster.  
@@ -33,7 +31,7 @@ The following table is the specific content:
 | Inspection                               |                       |                  |                  ✓                   |
 | Free additional development support time |         1 hrs         |      2 hrs       |                4 hrs                 |
 
-### Toll
+## Toll
 
 The subscription fee is charged quarterly.  
 [Contact us for a quote](http://www3.apiseven.com/support-for-business-form/)

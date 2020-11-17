@@ -3,8 +3,6 @@ title: "Apache APISIX vs API7"
 date: 2020-11-13 14:54:00
 ---
 
-# Apache APISIX vs API7
-
 |                                                           **Apache APISIX**                                                           |                        **API7 Commercial Products**                         |
 | :-----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
 |                                              Tier 4 and 7 Reverse Proxy, Load Balancing                                               |              **Includes All Apache APISIX Features and Adds**               |
