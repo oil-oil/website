@@ -16,5 +16,5 @@ date: 2020-11-12 18:18:00
 |                                                支持 ARM64                                                |                             SSL 证书管理                             |
 |                                   支持 key-auth, JWT, basic-auth，IdP                                    |                              企业级安全                              |
 |                                                 故障注入                                                 |                             更多付费插件                             |
-| 更多功能可参考：[点击查看](https://github.com/apache/apisix/blob/master/README_CN.md#%E5%8A%9F%E8%83%BD) | [基于 SLA 的商业支持](https://www.apiseven.com/post/business-support) |
+| 更多功能可参考：[点击查看](https://github.com/apache/apisix/blob/master/README_CN.md#%E5%8A%9F%E8%83%BD) | [基于 SLA 的商业支持](https://www.apiseven.combusiness-support) |
 |                               [现在下载](https://github.com/apache/apisix)                               |           [申请演示](https://apiseven.mikecrm.com/pvdVjd5)           |

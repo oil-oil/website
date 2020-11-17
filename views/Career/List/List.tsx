@@ -69,7 +69,7 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
                       <SContent2>
                         <SName>{t("career-card-title1")}</SName>
                         <SDescription>{t("career-card-desc1")}</SDescription>
-                        <Link href="/post/career/technical-support-engineer">
+                        <Link href="career/technical-support-engineer">
                           <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
@@ -85,7 +85,7 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
                       <SContent2>
                         <SName>{t("career-card-title2")}</SName>
                         <SDescription>{t("career-card-desc2")}</SDescription>
-                        <Link href="/post/career/senior-nginx-development-engineer">
+                        <Link href="career/senior-nginx-development-engineer">
                           <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
@@ -107,7 +107,7 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
                       <SContent2>
                         <SName>{t("career-card-title3")}</SName>
                         <SDescription>{t("career-card-desc3")}</SDescription>
-                        <Link href="/post/career/senior-development-engineer">
+                        <Link href="career/senior-development-engineer">
                           <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>
@@ -123,7 +123,7 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
                       <SContent2>
                         <SName>{t("career-card-title4")}</SName>
                         <SDescription>{t("career-card-desc4")}</SDescription>
-                        <Link href="/post/career/go-engineer">
+                        <Link href="career/go-engineer">
                           <SButton>{t("career-text2")}</SButton>
                         </Link>
                       </SContent2>

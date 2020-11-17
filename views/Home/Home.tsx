@@ -38,12 +38,12 @@ const Home: NextPage<Props, any> = ({ t }) => {
           {
             name: t("home-text8"),
             src: "https://static.apiseven.com/logo-huawei-compatible.png",
-            href: "/post/cert/huawei-stack-8.0",
+            href: "cert/huawei-stack-8.0",
           },
           {
             name: t("home-text9"),
             src: "https://static.apiseven.com/logo-huawei-compatible.png",
-            href: "/post/cert/huawei-kunpeng",
+            href: "cert/huawei-kunpeng",
           },
         ];
 
@@ -137,7 +137,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
             <span className="desc">{t("home-block5-feature3-desc")}</span>
             <SButton>
               <a
-                href="https://www.apiseven.com/post/apisix-vs-api7"
+                href="https://www.apiseven.comapisix-vs-api7"
                 target="_blank"
               >
                 {t("home-block5-feature3-button")}
@@ -226,7 +226,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
         <div>
           <span>{t("home-block4-title")}</span>
           <SButton>
-            <a href="https://www.apiseven.com/post/form-api7-trial" target="_blank">
+            <a href="https://www.apiseven.comform-api7-trial" target="_blank">
               {t("home-block4-button")}
             </a>
           </SButton>
