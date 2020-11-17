@@ -5,6 +5,7 @@ import { TFunction } from "next-i18next";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import gfm from "remark-gfm";
 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -57,8 +58,9 @@ const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
                 <SBox2>
                   <SArticle>
                     <ReactMarkdown
-                      escapeHtml={true}
+                      escapeHtml={false}
                       source={content}
+                      plugins={[gfm]}
                       renderers={{ code: CodeBlock }}
                     />
                   </SArticle>
