@@ -137,7 +137,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
             <span className="desc">{t("home-block5-feature3-desc")}</span>
             <SButton>
               <a
-                href="https://www.apiseven.comapisix-vs-api7"
+                href="https://www.apiseven.com/apisix-vs-api7"
                 target="_blank"
               >
                 {t("home-block5-feature3-button")}
@@ -226,7 +226,7 @@ const Home: NextPage<Props, any> = ({ t }) => {
         <div>
           <span>{t("home-block4-title")}</span>
           <SButton>
-            <a href="https://www.apiseven.comform-api7-trial" target="_blank">
+            <a href="https://www.apiseven.com/form-api7-trial" target="_blank">
               {t("home-block4-button")}
             </a>
           </SButton>

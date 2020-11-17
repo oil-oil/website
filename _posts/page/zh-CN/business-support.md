@@ -31,4 +31,4 @@ date: 2020-11-12 18:18:00
 
 ## 收费  
 按照季度收取订阅费用。  
-[联系我们，获取报价](https://www.apiseven.comsupport-for-business-form/)
+[联系我们，获取报价](https://www.apiseven.com/support-for-business-form/)
