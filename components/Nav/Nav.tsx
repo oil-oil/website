@@ -28,7 +28,7 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
         },
         {
           title: "Apache APISIX vs API7",
-          href: "https://www.apiseven.com/apisix-vs-api7",
+          href: "/apisix-vs-api7",
         },
       ],
     },
@@ -42,18 +42,30 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
       items: [
         {
           title: t("business-support"),
-          href: "https://www.apiseven.com/business-support/",
+          href: "/business-support/",
         },
         {
           title: t("trial"),
-          href: "https://www.apiseven.com/form-api7-trial",
+          href: "/form-api7-trial",
         },
       ],
     },
     {
       title: t("job"),
       href: "/career",
-    },
+    }, {
+      title: t("text3"),
+      items: [
+        {
+          title: t("text1"),
+          href: "/zh",
+        },
+        {
+          title: t("text2"),
+          href: "/en",
+        },
+      ],
+    }
   ];
 
   return (
