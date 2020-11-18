@@ -23,7 +23,7 @@ date: 2020-11-12 18:18:00
 | 代码 review            |               |               |           ✓            |
 | 支持方式               | Email<br>微信 | Email<br>微信 | Email<br>微信<br>Phone |
 | 支持时间               |    24 X 7     |    24 X 7     |         24 X 7         |
-| 相应时间SLA            |     8 hrs     |    60 mins    |        30 mins         |
+| 响应时间 SLA            |     8 hrs     |    60 mins    |        30 mins         |
 | 技术支持联系人         |       1       |       2       |           2            |
 | 技术支持经理           |               |               |           ✓            |
 | 巡检                   |               |               |           ✓            |
