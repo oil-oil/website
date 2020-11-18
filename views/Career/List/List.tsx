@@ -25,127 +25,101 @@ type Props = {
   t: TFunction;
 };
 
-const CareerList: NextPage<Props, any> = ({ t }) => (
-  <>
-    <NextSeo title={t("common:job")} />
-    <div className="wrapper default">
-      <Nav />
-      <div className="elementor-section-wrap">
-        <SSection1>
-          <div className="background-overlay"></div>
-          <div className="container">
-            <div className="row">
-              <h2 className="heading-title">
-                {t("career-block1-title")}
-                <br /> {t("career-block1-desc")}
-              </h2>
-              <div className="button-wrapper">
-                <a href="#courses" className="elementor-button" role="button">
-                  {" "}
-                  <span className="elementor-button-content-wrapper">
-                    {t("career-text1")}
-                  </span>
-                </a>
+const CareerList: NextPage<Props, any> = ({ t }) => {
+  const list = [
+    {
+      title: t("career-card-title5"),
+      description: t("career-card-desc5"),
+      href: "/career/head-of-growth",
+      type: t("career-card-name2")
+    },
+    {
+      title: t("career-card-title1"),
+      description: t("career-card-desc1"),
+      href: "/career/technical-support-engineer",
+      type: t("career-card-name")
+    },
+    {
+      title: t("career-card-title2"),
+      description: t("career-card-desc2"),
+      href: "/career/senior-nginx-development-engineer",
+      type: t("career-card-name")
+    },
+    {
+      title: t("career-card-title3"),
+      description: t("career-card-desc3"),
+      href: "/career/senior-development-engineer",
+      type: t("career-card-name")
+    },
+    {
+      title: t("career-card-title4"),
+      description: t("career-card-desc4"),
+      href: "/career/go-engineer",
+      type: t("career-card-name")
+    },
+  ];
+
+  return (
+    <>
+      <NextSeo title={t("common:job")} />
+      <div className="wrapper default">
+        <Nav />
+        <div className="elementor-section-wrap">
+          <SSection1>
+            <div className="background-overlay"></div>
+            <div className="container">
+              <div className="row">
+                <h2 className="heading-title">
+                  {t("career-block1-title")}
+                  <br /> {t("career-block1-desc")}
+                </h2>
+                <div className="button-wrapper">
+                  <a href="#courses" className="elementor-button" role="button">
+                    {" "}
+                    <span className="elementor-button-content-wrapper">
+                      {t("career-text1")}
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        </SSection1>
-        <SSection2>
-          <div className="widget-wrap">
-            <div id="courses" className="menu-anchor"></div>
-          </div>
-          <SSection3>
-            <div className="elementor-container">
-              <div className="elementor-row">
-                <SCard>
-                  <SType>{t("career-card-name")}</SType>
-                  <SContainer>
-                    <SContent1>
-                      <SName>{t("career-card-title1")}</SName>
-                      <SDescription>{t("career-card-desc1")}</SDescription>
-                    </SContent1>
-                    <SContent2>
-                      <SName>{t("career-card-title1")}</SName>
-                      <SDescription>{t("career-card-desc1")}</SDescription>
-                      <a
-                        href="/career/technical-support-engineer"
-                        target="_blank"
-                      >
-                        <SButton>{t("career-text2")}</SButton>
-                      </a>
-                    </SContent2>
-                  </SContainer>
-                </SCard>
-                <SCard>
-                  <SType>{t("career-card-name")}</SType>
-                  <SContainer>
-                    <SContent1>
-                      <SName>{t("career-card-title2")}</SName>
-                      <SDescription>{t("career-card-desc2")}</SDescription>
-                    </SContent1>
-                    <SContent2>
-                      <SName>{t("career-card-title2")}</SName>
-                      <SDescription>{t("career-card-desc2")}</SDescription>
-                      <a
-                        href="/career/senior-nginx-development-engineer"
-                        target="_blank"
-                      >
-                        <SButton>{t("career-text2")}</SButton>
-                      </a>
-                    </SContent2>
-                  </SContainer>
-                </SCard>
-              </div>
+          </SSection1>
+          <SSection2>
+            <div className="widget-wrap">
+              <div id="courses" className="menu-anchor"></div>
             </div>
-          </SSection3>
-          <SSection3>
-            <div className="elementor-container">
-              <div className="elementor-row">
-                <SCard>
-                  <SType>{t("career-card-name")}</SType>
-                  <SContainer>
-                    <SContent1>
-                      <SName>{t("career-card-title3")}</SName>
-                      <SDescription>{t("career-card-desc3")}</SDescription>
-                    </SContent1>
-                    <SContent2>
-                      <SName>{t("career-card-title3")}</SName>
-                      <SDescription>{t("career-card-desc3")}</SDescription>
-                      <a
-                        href="/career/senior-development-engineer"
-                        target="_blank"
-                      >
-                        <SButton>{t("career-text2")}</SButton>
-                      </a>
-                    </SContent2>
-                  </SContainer>
-                </SCard>
-                <SCard>
-                  <SType>{t("career-card-name")}</SType>
-                  <SContainer>
-                    <SContent1>
-                      <SName>{t("career-card-title4")}</SName>
-                      <SDescription>{t("career-card-desc4")}</SDescription>
-                    </SContent1>
-                    <SContent2>
-                      <SName>{t("career-card-title4")}</SName>
-                      <SDescription>{t("career-card-desc4")}</SDescription>
-                      <a href="/career/go-engineer" target="_blank">
-                        <SButton>{t("career-text2")}</SButton>
-                      </a>
-                    </SContent2>
-                  </SContainer>
-                </SCard>
+            <SSection3>
+              <div className="elementor-container">
+                <div className="elementor-row">
+                  {list.map((item) => (
+                    <SCard key={item.href}>
+                      <SType>{item.type}</SType>
+                      <SContainer>
+                        <SContent1>
+                          <SName>{item.title}</SName>
+                          <SDescription>{item.description}</SDescription>
+                        </SContent1>
+                        <SContent2>
+                          <SName>{item.title}</SName>
+                          <SDescription>{item.description}</SDescription>
+                          <a href={item.href} target="_blank">
+                            <SButton>{t("career-text2")}</SButton>
+                          </a>
+                        </SContent2>
+                      </SContainer>
+                    </SCard>
+                  ))}
+                </div>
               </div>
-            </div>
-          </SSection3>
-        </SSection2>
-        <FooterLinks />
-        <Footer />
+            </SSection3>
+          </SSection2>
+          <FooterLinks />
+          <Footer />
+        </div>
       </div>
-    </div>
-  </>
-);
+    </>
+  );
+};
 
 CareerList.getInitialProps = async () => ({
   namespacesRequired: ["common", "career"],

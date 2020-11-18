@@ -131,7 +131,6 @@ export const SSection2 = styled.div`
 `;
 
 export const SSection3 = styled.div`
-  margin-top: 5%;
   margin-bottom: 0;
   width: 100%;
   position: relative;
@@ -169,6 +168,7 @@ export const SCard = styled.div`
   align-content: flex-start;
   padding: 0 25px 0 0 ;
   box-sizing: border-box;
+  margin-top: 5%;
 
   @media (max-width: 1024px) {
     width: 100%;
