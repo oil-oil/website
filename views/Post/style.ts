@@ -107,7 +107,7 @@ export const SSection2 = styled.div`
   transition-delay: 0s, 0s, 0s, 0s;
   margin-top: 0%;
   margin-bottom: 0%;
-  padding: 2% 0 0 5%;
+  padding: 2% 5% 0 5%;
   position: relative;
   background-color: transparent;
 
@@ -116,17 +116,17 @@ export const SSection2 = styled.div`
   }
 
   @media (max-width: 720px) {
-    padding: 2% 5% 0 0;
+    padding: 2% 0 0 0;
   }
 `;
 
 export const SBox2 = styled.div`
-  padding: 0 5% 0 10%;
+  padding: 0 10% 0 10%;
   max-width: 1400px;
   min-height: 591px;
 
   @media (max-width: 420px) {
-    padding: 0 0 0 5%;
+    padding: 0 5% 0 5%;
   }
 `;
 
@@ -181,6 +181,11 @@ export const SArticle = styled.article`
     margin-block-start: 1em;
     margin-block-end: 1em;
 
+    thead {
+      font-size: 19px;
+      font-weight: 600;
+    }
+
     tbody {
       box-sizing: border-box;
       display: table-row-group;
@@ -195,6 +200,13 @@ export const SArticle = styled.article`
 
         td {
           padding: 12px 8px;
+
+          a {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            text-decoration: none;
+            color: #FE0000;
+          }
         }
       }
     }
@@ -203,6 +215,10 @@ export const SArticle = styled.article`
   @media (max-width: 420px) {
     ol {
       padding-inline-start: 30px;
+    }
+
+    table tbody tr td {
+      padding: 6px 4px;
     }
   }
 `;
