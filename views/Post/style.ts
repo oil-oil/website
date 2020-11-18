@@ -121,7 +121,7 @@ export const SSection2 = styled.div`
 `;
 
 export const SBox2 = styled.div`
-  padding: 0 0 0 10%;
+  padding: 0 5% 0 10%;
   max-width: 1400px;
   min-height: 591px;
 
@@ -165,6 +165,38 @@ export const SArticle = styled.article`
     :hover {
       text-decoration: none;
       opacity: .75;
+    }
+  }
+
+  table {
+    width: 100%;
+    display: table;
+    margin: 0;
+    font-size: 16px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color: grey;
+    background-color: transparent !important;
+    border-bottom: 1px solid #f3f4f5;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+    tbody {
+      box-sizing: border-box;
+      display: table-row-group;
+      vertical-align: middle;
+      border-color: inherit;
+      
+      tr {
+        border-bottom: 1px solid #eee;
+        :nth-child(odd) {
+          background-color: #f3f4f5;
+        }
+
+        td {
+          padding: 12px 8px;
+        }
+      }
     }
   }
 
