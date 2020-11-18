@@ -257,7 +257,6 @@ export const SName = styled.h2`
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 400;
-  text-transform: uppercase;
   line-height: 1.4em;
   box-sizing: border-box;
 
