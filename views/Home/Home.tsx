@@ -38,13 +38,17 @@ const Home: NextPage<Props, any> = ({ t }) => {
           {
             name: t("home-text8"),
             src: "https://static.apiseven.com/logo-huawei-compatible.png",
-            href: "cert/huawei-stack-8.0",
+            href: "/zh/cert/huawei-stack-8.0",
           },
           {
             name: t("home-text9"),
             src: "https://static.apiseven.com/logo-huawei-compatible.png",
-            href: "cert/huawei-kunpeng",
-          },
+            href: "/zh/cert/huawei-kunpeng",
+          }, {
+            name: t("home-text12"),
+            src: "https://static.apiseven.com/%E5%8F%AF%E4%BF%A1%E4%BA%91.jpeg",
+            href: "/zh/cert/trusted-cloud"
+          }
         ];
 
   return (
