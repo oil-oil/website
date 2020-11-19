@@ -30,31 +30,31 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
     {
       title: t("career-card-title5"),
       description: t("career-card-desc5"),
-      href: "/career/head-of-growth",
+      href: "/careers/head-of-growth",
       type: t("career-card-name2")
     },
     {
       title: t("career-card-title1"),
       description: t("career-card-desc1"),
-      href: "/career/technical-support-engineer",
+      href: "/careers/technical-support-engineer",
       type: t("career-card-name")
     },
     {
       title: t("career-card-title2"),
       description: t("career-card-desc2"),
-      href: "/career/senior-nginx-development-engineer",
+      href: "/careers/senior-nginx-development-engineer",
       type: t("career-card-name")
     },
     {
       title: t("career-card-title3"),
       description: t("career-card-desc3"),
-      href: "/career/senior-development-engineer",
+      href: "/careers/senior-development-engineer",
       type: t("career-card-name")
     },
     {
       title: t("career-card-title4"),
       description: t("career-card-desc4"),
-      href: "/career/go-engineer",
+      href: "/careers/go-engineer",
       type: t("career-card-name")
     },
   ];

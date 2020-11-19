@@ -52,7 +52,7 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
     },
     {
       title: t("job"),
-      href: "/career",
+      href: "/careers",
     }, {
       title: t("text3"),
       items: [
