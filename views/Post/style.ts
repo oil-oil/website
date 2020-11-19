@@ -33,10 +33,18 @@ export const SBackground = styled.div`
 `;
 
 export const SBox1 = styled.div`
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
   min-height: 275px;
   display: -webkit-box;
   -webkit-box-align: center;
   align-items: center;
+
+  @media (min-width: 1200px) {
+    width: 1170px;
+    padding: 0;
+  }
 `;
 
 export const SInner = styled.div`
@@ -46,15 +54,6 @@ export const SInner = styled.div`
   position: relative;
   flex-wrap: wrap;
   align-content: flex-start; 
-  padding-left: 15%;
-
-  @media (max-width: 720px) {
-    padding: 0 10%;
-  }
-
-  @media (max-width: 420px) {
-    padding: 0 5%;
-  }
 
   h1 {
     width: 100%;
@@ -78,7 +77,7 @@ export const SInner = styled.div`
 
   @media (max-width: 1024px) {
     h1 {
-      font-size: 40px;
+      font-size: 46px;
     }
 
     span {
@@ -86,9 +85,9 @@ export const SInner = styled.div`
     }
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 560px) {
     h1 {
-      font-size: 30px;
+      font-size: 38px;
       line-height: 1.4em;
     }
 
@@ -105,30 +104,23 @@ export const SSection2 = styled.div`
   transition-duration: .3s, 0.3s, 0.3s, 0.3s;
   transition-timing-function: ease, ease, ease;
   transition-delay: 0s, 0s, 0s, 0s;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  padding: 2% 5% 0 5%;
+  width: 100%;
+  margin: 2% auto 5%;
+  padding: 0 25px;
   position: relative;
   background-color: transparent;
 
-  @media (max-width: 1024px) {
-    padding: 2% 5% 5% 5%;
+  @media (min-width: 1200px) {
+    width: 1170px;
+    padding: 0;
   }
 
-  @media (max-width: 720px) {
-    padding: 2% 0 0 0;
-  }
 `;
 
 export const SBox2 = styled.div`
-  padding: 0 10% 0 10%;
-  max-width: 1400px;
+  width: 100%;
   min-height: 591px;
   margin: 0 auto;
-
-  @media (max-width: 420px) {
-    padding: 0 5% 0 5%;
-  }
 `;
 
 export const SArticle = styled.article`
@@ -210,6 +202,16 @@ export const SArticle = styled.article`
           }
         }
       }
+    }
+  }
+
+  @media (max-width: 560px) {
+    h2 {
+      font-size: 26px;
+    }
+
+    table {
+      font-size: 14px;
     }
   }
 
