@@ -49,11 +49,11 @@ export const SInner = styled.div`
   padding-left: 15%;
 
   @media (max-width: 720px) {
-    padding-left: 10%;
+    padding: 0 10%;
   }
 
   @media (max-width: 420px) {
-    padding-left: 5%;
+    padding: 0 5%;
   }
 
   h1 {
@@ -86,7 +86,7 @@ export const SInner = styled.div`
     }
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 720px) {
     h1 {
       font-size: 30px;
       line-height: 1.4em;
@@ -124,6 +124,7 @@ export const SBox2 = styled.div`
   padding: 0 10% 0 10%;
   max-width: 1400px;
   min-height: 591px;
+  margin: 0 auto;
 
   @media (max-width: 420px) {
     padding: 0 5% 0 5%;
