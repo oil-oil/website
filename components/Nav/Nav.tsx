@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { NextPage } from "next";
 
@@ -10,64 +10,72 @@ type Props = {
 };
 
 const NavComponent: NextPage<Props, any> = ({ t }) => {
-  const navs = [
-    {
-      title: t("homepage"),
-      href: "/",
-    },
-    {
-      title: t("open-source"),
-      items: [
-        {
-          title: "Apache APISIX",
-          href: "https://github.com/apache/incubator-apisix",
-        },
-        {
-          title: "k8s ingress controller",
-          href: "https://github.com/api7/ingress-controller",
-        },
-        {
-          title: "Apache APISIX vs API7",
-          href: "/apisix-vs-api7",
-        },
-      ],
-    },
-    {
-      title: t("showcases"),
-      href:
-        "http://www3.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/",
-    },
-    {
-      title: t("commercial-products-and-support"),
-      items: [
-        {
-          title: t("business-support"),
-          href: "/business-support/",
-        },
-        {
-          title: t("trial"),
-          href: "/form-api7-trial",
-        },
-      ],
-    },
-    {
-      title: t("job"),
-      href: "/careers",
-    }, {
-      title: t("text3"),
-      items: [
-        {
-          title: t("text1"),
-          href: "/zh",
-        },
-        {
-          title: t("text2"),
-          href: "/en",
-        },
-      ],
-    }
-  ];
+  const [navs, setNavs] = useState([]);
 
+  useEffect(() => {
+    const url = location.pathname.replace("/en/", "/zh/");
+    const url2 = location.pathname.replace("/zh/", "/en/");
+    const navs = [
+      {
+        title: t("homepage"),
+        href: "/",
+      },
+      {
+        title: t("open-source"),
+        items: [
+          {
+            title: "Apache APISIX",
+            href: "https://github.com/apache/incubator-apisix",
+          },
+          {
+            title: "k8s ingress controller",
+            href: "https://github.com/api7/ingress-controller",
+          },
+          {
+            title: "Apache APISIX vs API7",
+            href: "/apisix-vs-api7",
+          },
+        ],
+      },
+      {
+        title: t("showcases"),
+        href:
+          "http://www3.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/",
+      },
+      {
+        title: t("commercial-products-and-support"),
+        items: [
+          {
+            title: t("business-support"),
+            href: "/business-support/",
+          },
+          {
+            title: t("trial"),
+            href: "/form-api7-trial",
+          },
+        ],
+      },
+      {
+        title: t("job"),
+        href: "/careers",
+      },
+      {
+        title: t("text3"),
+        items: [
+          {
+            title: t("text1"),
+            href: url,
+          },
+          {
+            title: t("text2"),
+            href: url2,
+          },
+        ],
+      }
+    ];
+    setNavs(navs);
+  }, []);
+  
   return (
     <Navbar bg="light" expand="lg" sticky="top">
       <Navbar.Brand href="/">
