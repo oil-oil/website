@@ -74,6 +74,9 @@ const FooterLinks: NextPage<Props, any> = ({ t }) => {
             <span>{t("footer-text20")}</span>
           </li>
           <li>
+            <span>{t("footer-text22")}</span>
+          </li>
+          <li>
             <a href="mailto:wenming@api7.ai">
               <span>wenming@api7.ai</span>
             </a>
