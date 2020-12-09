@@ -307,6 +307,7 @@ export const SButton = styled.button`
   fill: #fff;
   text-align: center;
   box-sizing: border-box;
+  outline: none !important;
 `;
 
 export const SContainer = styled.div`
