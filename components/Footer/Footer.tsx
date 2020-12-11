@@ -50,7 +50,7 @@ const Footer: NextPage<Props, any> = ({ t }) => {
         <STextWrapper>
           <div>
             {t("footer-text1")}
-            <a href="http://www.beian.miit.gov.cn/" target="_blank">
+            <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
               {t("footer-text2")}
             </a>
           </div>
