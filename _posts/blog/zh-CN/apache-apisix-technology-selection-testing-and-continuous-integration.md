@@ -5,11 +5,13 @@ date: 2020-12-11 17:16:00
 
 作者：温铭 
 
-<video controls src="https://opentalk-blog.b0.upaiyun.com/prod/2019-09-03/8fdf53c9c14924668a34be206140fa84.mp4" style="max-width: 700px"></video> 
+<div style="text-align: center">
+  <video controls src="https://opentalk-blog.b0.upaiyun.com/prod/2019-09-03/8fdf53c9c14924668a34be206140fa84.mp4" style="width: 100%"></video>
+</div>
 
 **讲师简介**
 
-开源微服务 API 网关 Apache APISIX PPMC，OpenResty 软件基金会发起人，前 360 开源委员会委员，《OpenResty 从入门到实战》专栏作者。创业之前在互联网安全公司工作了 10 年，主要从事服务端的开发和架构，负责开发过木马云查杀、反钓鱼系统和企业安全产品。 
+开源微服务 API 网关 Apache APISIX PMC，OpenResty 软件基金会发起人，前 360 开源委员会委员，《OpenResty 从入门到实战》专栏作者。创业之前在互联网安全公司工作了 10 年，主要从事服务端的开发和架构，负责开发过木马云查杀、反钓鱼系统和企业安全产品。 
  
 OpenResty 社区联合又拍云，举办 OpenResty × Open Talk 全国巡回沙龙·成都站，Apache APISIX PPMC 温铭在活动上做了《 API 网关的选型和持续集成 》的分享。
  
@@ -182,5 +184,3 @@ Luackeck 非常好用，可以用于 Lua 和 OpenResty，提供有几个参数�
 + Apache APISIX 的选型、测试和 CI 都是找“取巧”和自动化的方式，借助巧用外部力量的方式去做，没有造轮子；
 + Apache APISIX 的选型、测试和 CI 三者非常重要，比性能重要。虽然我们主打性能，但更值得大家琢磨的不只是代码，而是选型怎么测试和 CI 的，大家可以将其运用到业务中，即使不用 OpenResty 和 Apache APISIX，还是可以学习开源项目是怎么做的；
 + GitHub 和 SaaS 能提供的服务，绝对不会自己去造，克制住自己造轮子的冲动。
-
-
