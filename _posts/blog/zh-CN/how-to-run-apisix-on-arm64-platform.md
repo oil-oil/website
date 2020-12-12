@@ -92,4 +92,4 @@ APISIX 大概依赖近 20 个第三方库，都通过 Luarocks 的方式进行�
 
 如果 APISIX 依赖了 PostgreSQL 或者其他的关系型数据库，那么对 ARM 平台的支持就不会这么顺利了。
 
-如果你对 APISIX 有什么建议或者问题，都欢迎到 [github](https://github.com/iresty/apisix/issues) 来给我们提交 issue。
+如果你对 APISIX 有什么建议或者问题，都欢迎到 [github](https://github.com/apache/apisix/issues) 来给我们提交 issue。

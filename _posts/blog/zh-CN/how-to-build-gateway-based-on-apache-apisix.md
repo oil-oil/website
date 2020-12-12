@@ -76,4 +76,4 @@ APISIX 在线上已经跑了俩个月了，还未出现线上故障，窃喜。�
 
 现在网关每日流量已经过亿，还没有什么性能问题，流量如果能达到十亿级，后续还会再分享一下 Apache APISIX 和我的前行之路，欢迎大家关注。
 
-点击“[阅读原文](https://apisix.incubator.apache.org/zh/)”，进入 Apache APISIX 的项目主页。
+点击“[阅读原文](https://apisix.apache.org)”，进入 Apache APISIX 的项目主页。
