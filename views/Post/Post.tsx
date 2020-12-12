@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { NextPage } from "next";
 import { NextSeo } from "next-seo";
 import { TFunction } from "next-i18next";

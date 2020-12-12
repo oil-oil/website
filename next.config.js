@@ -11,6 +11,10 @@ module.exports = {
     localeSubpaths,
   },
   webpack: function (config) {
+    config.node = {
+      fs: 'empty'
+    }
+
     config.module.rules.push({
       test: /\.md$/,
       use: "raw-loader",
