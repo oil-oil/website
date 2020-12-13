@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 import FooterLinks from "@/components/FooterLinks";
 
 import { withTranslation } from "../../i18n";
-import { getPosts } from '../../helpers';
 import { SWrapper } from './style'
+import data from "../../data.json"
 
 type Props = {
   t: TFunction;
@@ -26,7 +26,7 @@ const PostList: NextPage<Props, any> = ({ t, type, list = [] }) => {
         <div>
           {list.map(item => (
             <div key={item.title}>
-              <a href={`${item.pathname}`}>
+              <a href={`${item.path}`}>
                 <h2>{item.title}</h2>
               </a>
               <span>{new Date(item.date).toLocaleDateString()}</span>
@@ -50,7 +50,7 @@ PostList.getInitialProps = async (context) => {
 
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = getPosts(type, lng)
+  const posts = data[type][lng]
 
   return {
     namespacesRequired: ["common"],
