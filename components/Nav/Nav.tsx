@@ -40,7 +40,7 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
       {
         title: t("showcases"),
         href:
-          "http://www3.apiseven.com/category/%e7%94%a8%e6%88%b7%e6%a1%88%e4%be%8b/",
+          "/usercases",
       },
       {
         title: t("commercial-products-and-support"),

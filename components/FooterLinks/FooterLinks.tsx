@@ -42,12 +42,12 @@ const FooterLinks: NextPage<Props, any> = ({ t }) => {
         <span className="title">{t("footer-text14")}</span>
         <ul>
           <li>
-            <a>
+            <a href="/usercases">
               <span>{t("footer-text15")}</span>
             </a>
           </li>
           <li>
-            <a>
+            <a href="/blog">
               <span>{t("footer-text16")}</span>
             </a>
           </li>
