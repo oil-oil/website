@@ -31,9 +31,8 @@ const PostList: NextPage<Props, any> = ({ t, type, list = [] }) => {
         </div>
         <div className="slogan">
           <p>
-            全球已经有数百家企业用户在使用 Apache APISIX 处理核心的业务流量，
-            <br />
-            包括金融、互联网、制造、零售、运营商等多个行业。
+            全球已经有数百家企业用户在使用 Apache APISIX
+            处理核心的业务流量，包括金融、互联网、制造、零售、运营商等多个行业。
           </p>
         </div>
         <div className="cards">

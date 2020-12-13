@@ -48,9 +48,13 @@ export const SWrapper = styled.div`
   }
 
   .slogan {
-    width: 75%;
+    max-width: 650px;
     padding: 0 25px;
     margin: 5% auto -5%;
+
+    @media (max-width: 700px) {
+      width: 70%;
+    }
 
     p {
       font-family: "Merriweather", sans-serif;
@@ -62,23 +66,24 @@ export const SWrapper = styled.div`
   }
 
   .cards {
-    padding: 0 25px;
     min-height: 250px;
+    padding: 0 50px;
     border: 1px solid transparent;
     display: flex;
     flex-flow: row wrap;
     box-sizing: border-box;
-    margin: 10% auto 12.5em;
+    margin: 10% auto 5%;
     text-align: center;
+    justify-content: space-between;
     background-color: #fff;
 
     @media (min-width: 1200px) {
       width: 1170px;
-      padding: 0 5%;
     }
 
     @media (max-width: 900px) {
       justify-content: center;
+      padding: 0 25px;
     }
   }
 
@@ -97,6 +102,7 @@ export const SWrapper = styled.div`
 
     @media (max-width: 700px) {
       padding: 0;
+      max-width: 650px;
     }
 
     img {
@@ -109,11 +115,7 @@ export const SWrapper = styled.div`
       padding: 15px;
       border-top: 1px solid #f5f7f8;
       background-color: #fff;
-      cursor: pointer;
-      :hover {
-        color: #ff2500;
-        text-decoration: none;
-      }
+      text-decoration: none;
     }
 
     h2 {
@@ -124,6 +126,11 @@ export const SWrapper = styled.div`
       padding: 0;
       text-align: left;
       color: #142848;
+
+      :hover {
+        color: #ff2500;
+        text-decoration: none;
+      }
     }
   }
 `;
