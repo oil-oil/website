@@ -3,4 +3,5 @@ type Post = {
   date: Date;
   content: string;
   path: string;
+  cover?: string;
 }

@@ -3,21 +3,25 @@
     "zh-CN": [
       {
         "title": "Apache APISIX 高性能实战2",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/blog/apache-apisix-high-performance-hands-on-2"
       },
       {
         "title": "Apache APISIX 技术选型、测试和持续集成",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/blog/apache-apisix-technology-selection-testing-and-continuous-integration"
       },
       {
         "title": "贝壳找房：如何基于 Apache APISIX 搭建网关",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/blog/how-to-build-gateway-based-on-apache-apisix"
       },
       {
         "title": "想把 APISIX 运行在 ARM64 平台上？只要三步",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/blog/how-to-run-apisix-on-arm64-platform"
       }
@@ -27,18 +31,25 @@
     "zh-CN": [
       {
         "title": "360：Apache APISIX 在基础运维平台项目中的实践",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/usercase/360"
-      },      {
+      },
+      {
         "title": "思必驰：为什么我们重新写了一个 k8s ingress controller？",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/usercase/aispeech"
-      },      {
+      },
+      {
         "title": "HelloTalk：基于 OpenResty 和 Apache APISIX 的全球化探索之路",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/usercase/hellotalk"
-      },      {
+      },
+      {
         "title": "腾讯云：为什么选择 Apache APISIX 来实现 k8s ingress controller?",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/usercase/tencent-cloud"
       }
