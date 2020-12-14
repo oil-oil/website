@@ -35,7 +35,7 @@ export const SWrapper = styled.div`
 
   .container {
     max-width: 1288px;
-    padding: 55px 12px;
+    padding: 55px 12px 0;
     margin: 0 auto;
 
     @media (min-width: 1300px) {
