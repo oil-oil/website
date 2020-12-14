@@ -13,14 +13,13 @@ import data from "../../data/news.json";
 
 type Props = {
   t: TFunction;
-  type: "news";
   list: Post[];
 };
 
-const News: NextPage<Props, any> = ({ t, type, list = [] }) => {
+const News: NextPage<Props, any> = ({ t, list = [] }) => {
   return (
     <SWrapper>
-      <NextSeo title={t(`common:${type}`)} />
+      <NextSeo title={t(`common:news`)} />
       <div>
         <Nav />
         <div className="cover">
@@ -36,35 +35,27 @@ const News: NextPage<Props, any> = ({ t, type, list = [] }) => {
               </div>
               <div className="textTitle">
                 <span>{item.date}</span>
-                <a href={`${item.path}`}>
+                <a href={item.url} target="_blank">
                   <h2>{item.title}</h2>
                 </a>
               </div>
             </div>
           ))}
         </div>
-        <Footer />
         <FooterLinks />
+        <Footer />
       </div>
     </SWrapper>
   );
 };
 
 News.getInitialProps = async (context) => {
-  const { pathname } = context;
-  let type = pathname.slice(1);
-
-  if (type === "news") {
-    type = "news";
-  }
-
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = data[type][lng];
+  const posts = data["news"][lng];
 
   return {
     namespacesRequired: ["common"],
-    type,
     list: posts,
   };
 };

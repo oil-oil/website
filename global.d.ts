@@ -5,4 +5,5 @@ type Post = {
   path: string;
   cover?: string;
   logo?: string;
+  url?: string;
 }

@@ -35,7 +35,7 @@ export const SWrapper = styled.div`
 
   .container {
     max-width: 1288px;
-    padding: 55px 12px;
+    padding: 55px 12px 0;
     margin: 0 auto;
 
     @media (min-width: 1300px) {
@@ -49,6 +49,9 @@ export const SWrapper = styled.div`
     border-bottom: 1px solid #cdcdcd;
     align-items: center;
     padding: 3rem 12px;
+    &:last-child {
+      border-bottom: none;
+    }
   }
 
   .logo {
@@ -78,6 +81,7 @@ export const SWrapper = styled.div`
       line-height: 1.7;
       font-size: 22px;
       color: #3351ff;
+      font-weight: normal;
 
       :hover {
         color: #202884;

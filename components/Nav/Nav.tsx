@@ -21,6 +21,10 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
         href: "/",
       },
       {
+        title: t("common:news"),
+        href: "/news",
+      },
+      {
         title: t("open-source"),
         items: [
           {

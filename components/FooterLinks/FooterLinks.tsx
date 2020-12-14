@@ -16,24 +16,17 @@ const FooterLinks: NextPage<Props, any> = ({ t }) => {
         <span className="title">{t("footer-text11")}</span>
         <ul>
           <li>
-            <span>{t("footer-text8")}</span>
+            <a href="https://github.com/apache/apisix">
+              <span>{t("footer-text8")}</span>
+            </a>
           </li>
           <li>
-            <span>{t("footer-text9")}</span>
+            <a href="https://github.com/apache/apisix-ingress-controller">
+              <span>{t("footer-text9")}</span>
+            </a>
           </li>
           <li>
             <span>{t("footer-text10")}</span>
-          </li>
-        </ul>
-      </div>
-
-      <div className="section">
-        <span className="title">{t("footer-text12")}</span>
-        <ul>
-          <li>
-            <a href="mailto:wenming@api7.ai">
-              <span>{t("footer-text13")}</span>
-            </a>
           </li>
         </ul>
       </div>
@@ -59,6 +52,30 @@ const FooterLinks: NextPage<Props, any> = ({ t }) => {
           <li>
             <a href="https://apisix.dev/">
               <span>{t("footer-text18")}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="section">
+        <span className="title">{t("footer-text23")}</span>
+        <ul>
+          <li>
+            <span>{t("common:about")}</span>
+          </li>
+          <li>
+            <a href="/careers">
+              <span>{t("common:job")}</span>
+            </a>
+          </li>
+          <li>
+            <a href="/news">
+              <span>{t("common:news")}</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:wenming@api7.ai">
+              <span>{t("footer-text13")}</span>
             </a>
           </li>
         </ul>
