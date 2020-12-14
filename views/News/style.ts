@@ -35,7 +35,7 @@ export const SWrapper = styled.div`
 
   .container {
     max-width: 1288px;
-    padding: 55px 12px 0;
+    padding: 55px 12px 28px;
     margin: 0 auto;
 
     @media (min-width: 1300px) {
@@ -94,17 +94,30 @@ export const SWrapper = styled.div`
   }
 
   @media (max-width: 460px) {
+    .container {
+      padding: 28px 12px;
+    }
+
     .listItem {
-      display: inline-table;
       padding: 15px 0;
     }
 
     img {
-      width: 100% !important;
+      width: 85px !important;
+    }
+
+    .logo {
+      padding: 0 8px;
     }
 
     .textTitle {
       margin-top: 10px;
+      padding-right: 8px;
+      
+      h2{
+        margin-top: 0;
+        font-size: 16px;
+      }
     }
   }
 `;
