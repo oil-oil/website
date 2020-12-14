@@ -24,6 +24,18 @@
         "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
         "path": "/zh/blog/how-to-run-apisix-on-arm64-platform"
+      },
+      {
+        "title": "基于 Apache APISIX 的全流量 API 网关",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "date": "2020-12-14 15:33:00",
+        "path": "/zh/blog/full-flow-api-gateway-based-on-apache-apisix"
+      },
+      {
+        "title": "How to implement plugin orchestration in API GatewayEdit proposal",
+        "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "date": "2020-12-14 16:10:00",
+        "path": "/zh/blog/how-to-implement-plugin-orchestration-in-api-gatewayedit-proposal"
       }
     ]
   },

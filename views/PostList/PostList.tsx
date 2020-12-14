@@ -39,7 +39,7 @@ const PostList: NextPage<Props, any> = ({ t, type, list = [] }) => {
           {list.map((item) => (
             <div className="card" key={item.title}>
               <img src={item.cover} alt="" />
-              <a href={`${item.path}`}>
+              <a href={item.path} target="_blank">
                 <h2>{item.title}</h2>
               </a>
             </div>

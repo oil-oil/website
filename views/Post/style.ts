@@ -63,7 +63,7 @@ export const SInner = styled.div`
     font-size: 60px;
     font-weight: 300;
     margin: 0;
-    line-height: 1;
+    line-height: 1.4;
   }
 
   span {
