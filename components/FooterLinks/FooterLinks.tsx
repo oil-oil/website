@@ -16,10 +16,14 @@ const FooterLinks: NextPage<Props, any> = ({ t }) => {
         <span className="title">{t("footer-text11")}</span>
         <ul>
           <li>
-            <span>{t("footer-text8")}</span>
+            <a href="https://github.com/apache/apisix">
+              <span>{t("footer-text8")}</span>
+            </a>
           </li>
           <li>
-            <span>{t("footer-text9")}</span>
+            <a href="https://github.com/apache/apisix-ingress-controller">
+              <span>{t("footer-text9")}</span>
+            </a>
           </li>
           <li>
             <span>{t("footer-text10")}</span>
