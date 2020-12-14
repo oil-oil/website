@@ -4,4 +4,5 @@ type Post = {
   content: string;
   path: string;
   cover?: string;
+  logo?: string;
 }
