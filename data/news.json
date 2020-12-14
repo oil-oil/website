@@ -3,61 +3,123 @@
     "zh-CN": [
       {
         "title": "APISIX 温铭：开源的本质是要拿开发者的杠杆｜人物志",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/csdn.png",
         "date": "2020-12-02",
         "url": "https://blog.csdn.net/csdnnews/article/details/110508201"
       },
       {
         "title": "API Security Gateway – Using APISIX in the EFPF Platform",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/european-factory-platform.webp",
         "date": "2020-10-29",
         "url": "https://www.efpf.org/post/api-security-gateway-using-apisix-in-the-efactory-platform"
       },
       {
         "title": "APISIX: An Open Source API Gateway for Microservices",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/the-new-stack.svg",
         "date": "2020-08-03",
         "url": "https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices/"
       },
       {
         "title": "Apache 顶级项目 APISIX VP 温铭：本土开源不能只靠建一个软件基金会丨开源创新30人",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/infoq.png",
         "date": "2020-07-20",
         "url": "https://www.infoq.cn/article/9tov5eAezjqcBIe3j753"
       },
       {
         "title": "APISIX 毕业成为 Apache 软件基金会顶级项目",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/infoq.png",
         "date": "2020-07-16",
         "url": "https://www.infoq.cn/article/CI9dj3A0iEHbm885eED5"
       },
       {
         "title": "APISIX 专访：9个月成 ASF 顶级项目，开源可以带来付费用户",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/oschina.jpg",
         "date": "2020-07-15",
         "url": "https://www.oschina.net/question/4489239_2317670"
       },
       {
         "title": "Apache APISIX 的快速孵化之旅",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/alc-beijing.png",
         "date": "2020-07-09",
         "url": "https://alc-beijing.github.io/alc-site/post/podcast/episode-3-the-story-of-apisix-fulltext/"
       },
       {
         "title": "温铭：运营开源社区、基础软件创业-拒绝自嗨、聚焦和快速发布",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/csdn.png",
         "date": "2020-02-21",
         "url": "https://blog.csdn.net/kaiyuanshe/article/details/104438331"
       },
       {
         "title": "SD Times Open-Source Project of the Week: Apache APISIX",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/sdtimes.png",
         "date": "2020-11-13",
         "url": "https://sdtimes.com/micro/sd-times-open-source-project-of-the-week-apache-apisix/"
       },
       {
         "title": "APISIX 进入 Apache 孵化器",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
+        "logo": "https://static.apiseven.com/logo/infoq.png",
+        "date": "2019-10-25",
+        "url": "https://www.infoq.cn/article/rxo9cfer7pwvd1h8wcmt"
+      }
+    ],
+    "en-US": [
+      {
+        "title": "APISIX Wen Ming: The essence of open source is to take the leverage of developers｜People Magazine",
+        "logo": "https://static.apiseven.com/logo/csdn.png",
+        "date": "2020-12-02",
+        "url": "https://blog.csdn.net/csdnnews/article/details/110508201"
+      },
+      {
+        "title": "API Security Gateway – Using APISIX in the EFPF Platform",
+        "logo": "https://static.apiseven.com/logo/european-factory-platform.webp",
+        "date": "2020-10-29",
+        "url": "https://www.efpf.org/post/api-security-gateway-using-apisix-in-the-efactory-platform"
+      },
+      {
+        "title": "APISIX: An Open Source API Gateway for Microservices",
+        "logo": "https://static.apiseven.com/logo/the-new-stack.svg",
+        "date": "2020-08-03",
+        "url": "https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices/"
+      },
+      {
+        "title": "Apache Top Level Project APISIX VP Wen Ming: Local open source can't just rely on building a software foundation丨Open Source Innovation 30",
+        "logo": "https://static.apiseven.com/logo/infoq.png",
+        "date": "2020-07-20",
+        "url": "https://www.infoq.cn/article/9tov5eAezjqcBIe3j753"
+      },
+      {
+        "title": "APISIX Graduates as Apache Software Foundation Top Level Project",
+        "logo": "https://static.apiseven.com/logo/infoq.png",
+        "date": "2020-07-16",
+        "url": "https://www.infoq.cn/article/CI9dj3A0iEHbm885eED5"
+      },
+      {
+        "title": "APISIX interview: 9 months into the ASF top level project, open source can bring paid users",
+        "logo": "https://static.apiseven.com/logo/oschina.jpg",
+        "date": "2020-07-15",
+        "url": "https://www.oschina.net/question/4489239_2317670"
+      },
+      {
+        "title": "Apache APISIX's Fast Incubation Journey",
+        "logo": "https://static.apiseven.com/logo/alc-beijing.png",
+        "date": "2020-07-09",
+        "url": "https://alc-beijing.github.io/alc-site/post/podcast/episode-3-the-story-of-apisix-fulltext/"
+      },
+      {
+        "title": "Wen Ming: Running an open source community, basic software startups - Rejecting self-importance, focus and fast releases",
+        "logo": "https://static.apiseven.com/logo/csdn.png",
+        "date": "2020-02-21",
+        "url": "https://blog.csdn.net/kaiyuanshe/article/details/104438331"
+      },
+      {
+        "title": "SD Times Open-Source Project of the Week: Apache APISIX",
+        "logo": "https://static.apiseven.com/logo/sdtimes.png",
+        "date": "2020-11-13",
+        "url": "https://sdtimes.com/micro/sd-times-open-source-project-of-the-week-apache-apisix/"
+      },
+      {
+        "title": "APISIX enters the Apache Incubator",
+        "logo": "https://static.apiseven.com/logo/infoq.png",
         "date": "2019-10-25",
         "url": "https://www.infoq.cn/article/rxo9cfer7pwvd1h8wcmt"
       }
