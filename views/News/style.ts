@@ -81,6 +81,7 @@ export const SWrapper = styled.div`
       line-height: 1.7;
       font-size: 22px;
       color: #3351ff;
+      font-weight: normal;
 
       :hover {
         color: #202884;
