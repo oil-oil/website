@@ -49,6 +49,9 @@ export const SWrapper = styled.div`
     border-bottom: 1px solid #cdcdcd;
     align-items: center;
     padding: 3rem 12px;
+    &:last-child {
+      border-bottom: none;
+    }
   }
 
   .logo {

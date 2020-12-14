@@ -35,7 +35,7 @@ const News: NextPage<Props, any> = ({ t, list = [] }) => {
               </div>
               <div className="textTitle">
                 <span>{item.date}</span>
-                <a href={`${item.path}`}>
+                <a href={item.url}>
                   <h2>{item.title}</h2>
                 </a>
               </div>
