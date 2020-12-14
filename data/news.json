@@ -60,18 +60,6 @@
         "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2019-10-25",
         "url": "https://www.infoq.cn/article/rxo9cfer7pwvd1h8wcmt"
-      },
-      {
-        "title": "视频资料：基于 Apache APISIX 的全流量 API 网关",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
-        "date": "2020-09-21",
-        "url": "https://www.bilibili.com/video/av627161961/"
-      },
-      {
-        "title": "视频资料：Apache APISIX, How to implement plugin orchestration in API GatewayEdit proposal",
-        "logo": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
-        "date": "2020-10-16",
-        "url": "https://sdtimes.com/micro/sd-times-open-source-project-of-the-week-apache-apisix/"
       }
     ]
   }
