@@ -24,7 +24,7 @@ const News: NextPage<Props, any> = ({ t, list = [] }) => {
         <Nav />
         <div className="cover">
           <div className="box">
-            <h1>新闻报道</h1>
+            <h1>{t(`common:news`)}</h1>
           </div>
         </div>
         <div className="container">
