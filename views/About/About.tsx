@@ -48,10 +48,10 @@ const About: NextPage<Props, any> = ({ t, list = [] }) => {
         <div className="container">
           <h2>{t("about-title2")}</h2>
           <VerticalTimeline>
-            {list.map((item) => (
+            {list.map((item, index) => (
               <VerticalTimelineElement
                 className="timeline"
-                key={item.title}
+                key={index}
                 contentStyle={{ background: "#fff", color: "black" }}
                 contentArrowStyle={{
                   borderRight: "7px solid #fff",
@@ -157,7 +157,7 @@ const About: NextPage<Props, any> = ({ t, list = [] }) => {
               </div>
               <div>
                 <a href="/form-api7-trial" target="_blank">
-                  <span>{t("about-contact-detail3")}</span>
+                  <span className="tip">{t("about-contact-detail3")}</span>
                 </a>
               </div>
             </div>

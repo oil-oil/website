@@ -249,6 +249,9 @@ export const SWrapper = styled.div`
       p {
         font-weight: 600;
         margin: 0;
+        &:nth-child(2) {
+          font-weight: 400;
+        }
       }
 
       a {
@@ -257,6 +260,10 @@ export const SWrapper = styled.div`
 
       span:hover {
         color: #FE0000;
+      }
+
+      .tip {
+        color: #fe0000;
       }
     }
 
