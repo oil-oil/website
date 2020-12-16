@@ -2,6 +2,12 @@
   "blog": {
     "zh-CN": [
       {
+        "title": "Envoy 与 Apache APISIX: filter 的另一种实现方式",
+        "cover": "https://static.apiseven.com/main.png",
+        "date": "2020-12-16 17:16:00",
+        "path": "/zh/blog/another-way-to-implement-envoy-filter"
+      },
+      {
         "title": "Apache APISIX 高性能实战2",
         "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
         "date": "2020-12-11 17:16:00",
@@ -39,6 +45,12 @@
       }
     ],
     "en-US": [
+      {
+        "title": "Envoy and Apache APISIX: Another way to implement Envoy filter",
+        "cover": "https://static.apiseven.com/main.png",
+        "date": "2020-12-16 17:16:00",
+        "path": "/en/blog/another-way-to-implement-envoy-filter"
+      },
       {
         "title": "Apache APISIX High Performance Hands-on 2",
         "cover": "https://static.apiseven.com/2020/05/6f70f414-04dc-4995-ba69-fbae7a8e821d-contact.jpg",
