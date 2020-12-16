@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { NextPage } from "next";
 import { NextSeo } from "next-seo";
+import Head from 'next/head'
 import { TFunction } from "next-i18next";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
@@ -59,6 +60,9 @@ const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
         title={data.title || t("common:job")}
         description={content.trim().substring(0, 140)}
       />
+      <Head>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fd9eee22eecfc00"></script>
+      </Head>
       <div>
         <Nav />
         <div>
