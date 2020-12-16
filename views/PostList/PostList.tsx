@@ -9,7 +9,8 @@ import FooterLinks from "@/components/FooterLinks";
 
 import { withTranslation } from "../../i18n";
 import { SWrapper } from "./style";
-import data from "../../data.json";
+import blogData from "../../data/blog.json"
+import usercaseData from "../../data/usercase.json"
 
 type Props = {
   t: TFunction;
@@ -61,7 +62,7 @@ PostList.getInitialProps = async (context) => {
 
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = data[type][lng];
+  const posts = type === "blog" ? blogData[lng] : usercaseData[lng];
 
   return {
     namespacesRequired: ["common", "about"],
