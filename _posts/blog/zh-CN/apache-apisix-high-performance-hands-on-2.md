@@ -77,7 +77,7 @@ Apache APISIX 支持了这样一个场景：HTTP(s) -> Apache APISIX -> gRPC ser
 
 ### **ngx.var 的加速**
 
-对获取 Nginx 变量的加速，最简单的就是用 iresty/lua-var-nginx-module 仓库，把它作为一个 lua module 编译到 OpenResty 项目里。当我们提取对应的 ngx.var 的时候，使用库里提供的方法来获取，可以让 Apache APISIX 整体有 5% 的性能提升，单纯某个变量性能对比，至少有 10 倍差别。当然也可以把这个模块编译成动态库，然后用动态方式加载，这样就不用重新编译 OpenResty。
+对获取 Nginx 变量的加速，最简单的就是用 [api7/lua-var-nginx-module](https://github.com/api7/lua-var-nginx-module) 仓库，把它作为一个 lua module 编译到 OpenResty 项目里。当我们提取对应的 ngx.var 的时候，使用库里提供的方法来获取，可以让 Apache APISIX 整体有 5% 的性能提升，单纯某个变量性能对比，至少有 10 倍差别。当然也可以把这个模块编译成动态库，然后用动态方式加载，这样就不用重新编译 OpenResty。
 
 Apache APISIX 网关会从 ngx.var 里获取大量变量信息，比如 host 地址等变量更是可能会被反复获取，每次都与 Nginx 交互效率会比较低。因此我们在 Apache APISIX/core 里加了一层 ctx 缓存，也就是第一次与 Nginx 交互获取变量，后面将直接使用缓存。
 

@@ -23,7 +23,7 @@ The operating system chosen is Ubuntu 18.04, which is a personal preference, but
 
 ## Installing APISIX dependencies
 
-The second step is to install the APISIX dependencies, mainly OpenResty and etcd, and there is detailed documentation to guide you through the installation.[Installation Tutorial](https://link.zhihu.com/?target=https%3A//github.com/iresty/apisix/blob/master/doc/install-dependencies.md).
+The second step is to install the APISIX dependencies, mainly OpenResty and etcd, and there is detailed documentation to guide you through the installation.[Installation Tutorial](https://github.com/apache/apisix/blob/master/doc/install-dependencies.md).
 
 However, it is important to note that neither OpenResty nor etcd are specifically provided in the Ubuntu repositories as ARM versions, so use the `apt-get` to install does not work.
 

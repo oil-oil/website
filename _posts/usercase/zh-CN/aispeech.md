@@ -7,7 +7,7 @@ date: 2020-05-07
 
 **前言**
 
-大家好，我是来自苏州思必驰的金卫，今天和大家聊聊 [Apache APISIX](https://github.com/apache/incubator-apisix) 与 k8s 集成代替原生 ingress 的话题。
+大家好，我是来自苏州思必驰的金卫，今天和大家聊聊 [Apache APISIX](https://github.com/apache/apisix) 与 k8s 集成代替原生 ingress 的话题。
 
 写这篇文章时，我们已经在生产环境上应用了 Apache APISIX，接管了部分业务的入口流量，同时正逐步把原生 ingress 中流量迁移过来，如下图所示：
 

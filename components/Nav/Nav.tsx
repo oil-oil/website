@@ -29,7 +29,7 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
         items: [
           {
             title: "Apache APISIX",
-            href: "https://github.com/apache/incubator-apisix",
+            href: "https://github.com/apache/apisix",
           },
           {
             title: "k8s ingress controller",

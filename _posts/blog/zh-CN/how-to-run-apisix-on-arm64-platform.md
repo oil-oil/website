@@ -23,7 +23,7 @@ APISIX 是一个云原生、高性能、可扩展的微服务 API 网关。它�
 
 ## 安装 APISIX 的依赖
 
-第二步是来安装 APISIX 的依赖，主要是 OpenResty 和 etcd，有详细的文档指引你来安装：[安装教程](https://link.zhihu.com/?target=https%3A//github.com/iresty/apisix/blob/master/doc/install-dependencies.md)。
+第二步是来安装 APISIX 的依赖，主要是 OpenResty 和 etcd，有详细的文档指引你来安装：[安装教程](https://github.com/apache/apisix/blob/master/doc/install-dependencies.md)。
 
 但这里需要注意的是，OpenResty 和 etcd 在 Ubuntu 的源中都没有专门提供 ARM 版本，所以直接使用 `apt-get` 来安装是行不通的。
 

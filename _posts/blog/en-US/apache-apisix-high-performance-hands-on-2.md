@@ -77,7 +77,7 @@ We had a rough idea that HTTP performance must not be as good as gRPC, but that 
 
 ### **Acceleration of ngx.var**
 
-The easiest way to speed up getting Nginx variables is to use the iresty/lua-var-nginx-module repository and compile it into the OpenResty project as a lua module. When we extract the corresponding ngx.var, using the methods provided in the library to get it, we can get a 5% overall performance improvement for Apache APISIX, and at least a 10x difference in performance for a single variable. Of course, you can also compile the module as a dynamic library and load it dynamically, so you don't have to recompile OpenResty.
+The easiest way to speed up getting Nginx variables is to use the [api7/lua-var-nginx-module](https://github.com/api7/lua-var-nginx-module) repository and compile it into the OpenResty project as a lua module. When we extract the corresponding ngx.var, using the methods provided in the library to get it, we can get a 5% overall performance improvement for Apache APISIX, and at least a 10x difference in performance for a single variable. Of course, you can also compile the module as a dynamic library and load it dynamically, so you don't have to recompile OpenResty.
 
 The Apache APISIX gateway fetches a lot of variable information from ngx.var, and variables such as the host address may be fetched repeatedly, making it inefficient to interact with Nginx each time. Therefore, we have added a layer of ctx cache to Apache APISIX/core, which means that the first time we interact with Nginx to get variables, we will use the cache directly.
 
