@@ -33,7 +33,7 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
           },
           {
             title: "k8s ingress controller",
-            href: "https://github.com/api7/ingress-controller",
+            href: "https://github.com/apache/apisix-ingress-controller",
           },
           {
             title: "Apache APISIX vs API7",

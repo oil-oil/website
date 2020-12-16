@@ -85,7 +85,7 @@ Nginx ingress controller 帮助我们维护了 Kubernetes 集群与 Nginx 的状
 
 想要实现 Apache APISIX ingress controller，需要解决两类基础问题，一是解决 kubernetes 集群与 Apache APISIX 状态的同步; 二是将 Apache APISIX 中的对象在 kubernetes 中定义出来 (CRD)。
 
-为了快速集成 Apache APISIX，发挥出 Apache APISIX 的优势，我们创建了 [Apache APISIX ingress controller](https://github.com/iresty/ingress-controller) 项目(欢迎大家参与)，该项目目前初步实现了第一类基础问题: 同步 Kubernetes pod 信息到 Apache APISIX 中的 upstream，同时实现主备，解决自身的高可用问题。
+为了快速集成 Apache APISIX，发挥出 Apache APISIX 的优势，我们创建了 [Apache APISIX ingress controller](https://github.com/apache/apisix-ingress-controller) 项目(欢迎大家参与)，该项目目前初步实现了第一类基础问题: 同步 Kubernetes pod 信息到 Apache APISIX 中的 upstream，同时实现主备，解决自身的高可用问题。
 
 由于 Kubernetes 采用 YAML 申明式定义集群状态，我们需要为 Apache APISIX 中的对象(route/service/upstream/plugin) 定义 CRD(Custom Resource Definitions), 以融入 kubernetes。
 
