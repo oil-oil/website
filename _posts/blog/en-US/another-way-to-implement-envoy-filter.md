@@ -50,13 +50,13 @@ It currently supports few languages, and using these languages ​​to extend i
 
 Based on the above analysis, we could see that Lua is very suitable for extending Envoy, and it is easy to learn, and the development efficiency is extremely high. Because it is embedded in Envoy, there is no additional network overhead, and the performance is good.
 
-Apache APISIX community proposes its own solution based on Lua, which is to provide a powerful and flexible basic library to implement all plugins of Apache APISIX and plugins that will be developed in the future to run on Envoy. Developers could also develop their own customized plugins based on this basic library.
+[Apache APISIX](https://github.com/apache/apisix) community proposes its own solution based on Lua, which is to provide a powerful and flexible basic library to implement all plugins of Apache APISIX and plugins that will be developed in the future to run on Envoy. Developers could also develop their own customized plugins based on this basic library.
 
 Apache APISIX is a dynamic, real-time, high-performance API gateway, based on the Nginx library and Lua. Apache APISIX provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, observability, and more.
 
 ### Example
 
-Please check the repo for specific code and how to run: https://github.com/api7/envoy-apisix
+Please check the repo for specific code and how to run: [https://github.com/api7/envoy-apisix](https://github.com/api7/envoy-apisix)
 
 The relevant configuration of Envoy is as follows:
 

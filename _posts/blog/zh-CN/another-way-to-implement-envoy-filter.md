@@ -50,14 +50,14 @@ HTTP Lua Filter 允许在请求和响应流程中运行 Lua 脚本，目前支�
 
 ## Apache APISIX 解决方案
 
-Apache APISIX 是一个动态、实时、高性能的 API 网关，基于 Nginx 网络库和 Lua 实现， 提供负载均衡、动态上游、灰度发布、服务熔断、身份认证、可观测性等丰富的流量管理功能。
+[Apache APISIX](https://github.com/apache/apisix) 是一个动态、实时、高性能的 API 网关，基于 Nginx 网络库和 Lua 实现， 提供负载均衡、动态上游、灰度发布、服务熔断、身份认证、可观测性等丰富的流量管理功能。
 基于以上分析，我们可以看到 Lua 是很适合用来扩展 Envoy ，而且它简单易学，开发效率极高，因为嵌入到 Envoy 中，没有额外的网络等开销，性能表现不俗。
 Apache APISIX 基于 Lua 提出了自己的解决方案，那就是提供一个强大而灵活的基础库，实现将 Apache APISIX 的所有插件以及未来会开发的插件运行的 Envoy 上，用户也可以基于此基础库开发自己的个性化插件。
 
 
 ### 示例
 
-具体的代码实现和运行请查看仓库：https://github.com/api7/envoy-apisix
+具体的代码实现和运行请查看仓库：[https://github.com/api7/envoy-apisix](https://github.com/api7/envoy-apisix)
 
 其中 Envoy 的主要配置如下：
 
