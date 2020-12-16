@@ -1,6 +1,6 @@
 ---
 title: "Apache APISIX High Performance Hands-on 2"
-date: 2020-12-11 17:16:00
+date: 2020-12-11
 ---  
 
 Author: Wang Yuansheng

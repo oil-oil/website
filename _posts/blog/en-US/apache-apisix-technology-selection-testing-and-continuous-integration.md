@@ -1,6 +1,6 @@
 ---
 title: "Apache APISIX Technology Selection, Testing and Continuous Integration"
-date: 2020-12-11 17:16:00
+date: 2020-12-11
 ---  
 
 Author: Wen Ming 

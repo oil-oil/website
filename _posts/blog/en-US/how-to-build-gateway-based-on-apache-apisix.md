@@ -1,6 +1,6 @@
 ---
 title: "Shell Finder: How to build a gateway based on Apache APISIX"
-date: 2020-12-11 17:16:00
+date: 2020-12-11
 ---  
 
 Author: Wang Hui

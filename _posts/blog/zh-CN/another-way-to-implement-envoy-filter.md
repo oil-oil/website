@@ -1,6 +1,6 @@
 ---
 title: "Envoy 与 Apache APISIX: filter 的另一种实现方式"
-date: 2020-12-16 17:16:00
+date: 2020-12-16
 ---
 
 ## Envoy filter 现状
