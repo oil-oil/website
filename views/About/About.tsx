@@ -141,7 +141,9 @@ const About: NextPage<Props, any> = ({ t, list = [] }) => {
             <div className="col2">
               <div>
                 <p>{t("about-contact-detail1")}</p>
-                <p>wenming@api7.ai</p>
+                <a href="mailto:wenming@api7.ai">
+                  <span>wenming@api7.ai</span>
+                </a>
               </div>
               <div>
                 <p>{t("about-email-adress")}</p>
