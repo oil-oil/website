@@ -72,7 +72,7 @@ export const SInner = styled.div`
     font-family: "Monserrat", sans-serif;
     line-height: 1;
     margin: 0;
-    padding-top: 2%;
+    padding: 2% 0;
   }
 
   @media (max-width: 1024px) {

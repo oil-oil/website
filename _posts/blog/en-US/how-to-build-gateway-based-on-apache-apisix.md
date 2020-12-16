@@ -1,11 +1,11 @@
 ---
-title: "Shell Finder: How to build a gateway based on Apache APISIX"
+title: "BEKE: How to build a gateway based on Apache APISIX"
 date: 2020-12-11
 ---  
 
 Author: Wang Hui
 
-I'm Wang Hui and I'm in charge of API gateway system development at Shell Housing. We use Apache APISIX as the API gateway for our production system, which handles over 100 million production traffic every day with excellent performance and stability. APISIX just joined the Apache Incubator, so besides congratulations, I'd like to share why we chose Apache APISIX in the first place and what we learned during the process of using it.
+I'm Wang Hui and I'm in charge of API gateway system development at BEKE. We use Apache APISIX as the API gateway for our production system, which handles over 100 million production traffic every day with excellent performance and stability. APISIX just joined the Apache Incubator, so besides congratulations, I'd like to share why we chose Apache APISIX in the first place and what we learned during the process of using it.
 
 ## Choose Kong or APISIX?
 
@@ -34,6 +34,8 @@ I finally chose APISIX for the following reasons.
 
 The official website justification is shown below.
 
+![4.png](https://static.apiseven.com/2020/05/1588756618-Snipaste_2020-05-06_17-16-13.png)
+
 ## What capabilities does APISIX offer?
 
 + Hot updates and hot plugins
@@ -50,11 +52,15 @@ The official website justification is shown below.
 
 APISIX has been released for nearly ten versions now, and it supports much more than that. The architecture has been mapped out in relation to the business situation as follows.
 
+![5.png](https://static.apiseven.com/2020/05/1588756665-Snipaste_2020-05-06_17-17-29.png)
+
 ## Integrating APISIX in bits and pieces
 
 After a few days of code reading, I had a certain understanding of APISIX and was ready to start working on it, but the first problem arose: I had no previous experience in developing based on open source projects, so I had to iterate on business requirements on the one hand, and upgrade open source projects on the other. I created three local branches, an APISIX branch pointing to the upstream open source repository, dev for regular business iterations, and master branch for online upgrades.
 
 After two weeks of tapping on the keyboard, my "Little King Kong" finally has some shape, so it's time to see how fast it runs and whether it saves fuel. The service is deployed on top of the 8CPU 32G memory Tencent Cloud, the upstream is a real online production environment, so you can not press too hard, the performance report is as follows.
+
+![6.png](https://static.apiseven.com/2020/05/1588756713-Snipaste_2020-05-06_17-18-13.png)
 
 Performance Report Summary: The interface took 47% less time, no errors were generated stability was improved, TPS peak was increased by 82%, and the service was relatively more stable.
 

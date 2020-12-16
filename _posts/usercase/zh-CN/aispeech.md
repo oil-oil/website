@@ -11,6 +11,8 @@ date: 2020-05-07
 
 写这篇文章时，我们已经在生产环境上应用了 Apache APISIX，接管了部分业务的入口流量，同时正逐步把原生 ingress 中流量迁移过来，如下图所示：
 
+![2.png](https://static.apiseven.com/2020/05/9c662387-7964-4ade-a469-0b7daa06d7f5-image.png)
+
 借助 Apache APISIX 动态路由能力做流量分发，同时自定义一些插件，满足业务需求。
 
 APISIX-ingress-controller 将 pod ip 注册到 upstream 的，node 中，业务流量可以绕过 kube DNS 直接访问到 pod。也正是在此基础上，可以通过插件实现一些特殊负载均衡策略。
