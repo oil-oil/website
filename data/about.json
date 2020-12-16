@@ -1,0 +1,112 @@
+{
+  "about": {
+    "zh-CN": [
+      {
+        "date": "2020 年 12 月",
+        "desc": "首届 Apache APISIX DevCon"
+      },
+      {
+        "date": "2020 年 12 月",
+        "desc": "Apache APISIX Ingress Controller 进入 Apache 基金会"
+      },
+      {
+        "date": "2020 年 10 月",
+        "desc": "Apache APISIX 荣获 OSCAR 尖峰开源项目和社区"
+      },
+      {
+        "date": "2020 年 10 月",
+        "desc": "Apache APISIX 通过信通院“可信开源项目”权威认证"
+      },
+      {
+        "date": "2020 年 10 月",
+        "desc": "Apache APISIX 2.0 发布"
+      },
+      {
+        "date": "2020 年 9 月",
+        "desc": "Apache APISIX 推出插件编排功能，这是全球第一家开源的低代码 API 网关"
+      },
+      {
+        "date": "2020 年 9 月",
+        "desc": "商业产品 APISEVEN 通过华为鲲鹏兼容性认证"
+      },
+      {
+        "date": "2020 年 7 月",
+        "desc": "Apache APISIX 成为中国最快毕业的 Apache 顶级项目"
+      },
+      {
+        "date": "2020 年 1 月",
+        "desc": "Apache APISIX 1.0 发布"
+      },
+      {
+        "date": "2019 年 10 月",
+        "desc": "APISIX 进入 Apache 孵化器，这是中国第一个由创业公司捐赠的项目"
+      },
+      {
+        "date": "2019 年 8 月",
+        "desc": "第一家客户在生成环境上线"
+      },
+      {
+        "date": "2019 年 7 月",
+        "desc": "APISIX 进入 CNCF 全景图"
+      },
+      {
+        "date": "2019 年 6 月",
+        "desc": "APISIX 在 GitHub 开源"
+      }
+    ],
+    "en-US": [
+      {
+        "date": "December 2020",
+        "desc": "First Apache APISIX DevCon"
+      },
+      {
+        "date": "December 2020",
+        "desc": "Apache APISIX Ingress Controller enters the Apache Foundation"
+      },
+      {
+        "date": "October 2020",
+        "desc": "Apache APISIX Awarded OSCAR Pinnacle Open Source Project and Community"
+      },
+      {
+        "date": "October 2020",
+        "desc": "Apache APISIX passed the authoritative certification of ”Trusted Open Source Project“ of CAICT Academy"
+      },
+      {
+        "date": "October 2020",
+        "desc": "Apache APISIX 2.0 Released"
+      },
+      {
+        "date": "September 2020",
+        "desc": "Apache APISIX Introduces Plugin Orchestration, the World's First Open Source Low-Code API Gateway"
+      },
+      {
+        "date": "September 2020",
+        "desc": "Commercial Product APISEVEN Passes Huawei Kunpeng Compatibility Certification"
+      },
+      {
+        "date": "July 2020",
+        "desc": "Apache APISIX becomes the fastest graduating Apache top project in China"
+      },
+      {
+        "date": "January 2020",
+        "desc": "Apache APISIX 1.0 Released"
+      },
+      {
+        "date": "October 2019",
+        "desc": "APISIX enters Apache Incubator, the first program in China to be donated by a startup"
+      },
+      {
+        "date": "August 2019",
+        "desc": "First customer goes live in the generation environment"
+      },
+      {
+        "date": "July 2019",
+        "desc": "APISIX enters CNCF Panorama"
+      },
+      {
+        "date": "June 2019",
+        "desc": "APISIX is open source on GitHub"
+      }
+    ]
+  }
+}

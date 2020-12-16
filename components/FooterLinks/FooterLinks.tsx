@@ -61,7 +61,9 @@ const FooterLinks: NextPage<Props, any> = ({ t }) => {
         <span className="title">{t("footer-text23")}</span>
         <ul>
           <li>
-            <span>{t("common:about")}</span>
+            <a href="/about">
+              <span>{t("common:about")}</span>
+            </a>
           </li>
           <li>
             <a href="/careers">
