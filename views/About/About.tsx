@@ -141,10 +141,6 @@ const About: NextPage<Props, any> = ({ t, list = [] }) => {
             <div className="col2">
               <div>
                 <p>{t("about-contact-detail1")}</p>
-                <p> +86 136 3126 4352</p>
-              </div>
-              <div>
-                <p>{t("about-contact-detail2")}</p>
                 <p>wenming@api7.ai</p>
               </div>
               <div>
@@ -157,7 +153,7 @@ const About: NextPage<Props, any> = ({ t, list = [] }) => {
               </div>
               <div>
                 <a href="/form-api7-trial" target="_blank">
-                  <span className="tip">{t("about-contact-detail3")}</span>
+                  <span className="tip">{t("about-contact-detail2")}</span>
                 </a>
               </div>
             </div>
