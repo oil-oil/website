@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NextPage } from "next";
 import { NextSeo } from "next-seo";
 import { TFunction } from "next-i18next";
@@ -39,9 +39,26 @@ const CodeBlock = ({ language, value }) => {
 };
 
 const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
+  useEffect(() => {
+    (window as any).disqus_config = function () {
+      this.page.url = window.location.href;
+      this.page.identifier = window.location.href.split("/").pop();
+    };
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://apiseven.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', `${+new Date()}`);
+      (d.head || d.body).appendChild(s);
+    })();
+  }, [])
+
   return (
     <>
-      <NextSeo title={data.title || t("common:job")} />
+      <NextSeo
+        title={data.title || t("common:job")}
+        description={content.trim().substring(0, 140)}
+      />
       <div>
         <Nav />
         <div>
@@ -70,6 +87,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
                       renderers={{ code: CodeBlock }}
                     />
                   </SArticle>
+                  <div id="disqus_thread"></div>
                 </SBox2>
               </SSection2>
             </div>

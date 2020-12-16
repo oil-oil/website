@@ -105,7 +105,7 @@ export const SSection2 = styled.div`
   transition-timing-function: ease, ease, ease;
   transition-delay: 0s, 0s, 0s, 0s;
   width: 100%;
-  margin: 2% auto 5%;
+  margin: 2% auto;
   padding: 0 25px;
   position: relative;
   background-color: transparent;
