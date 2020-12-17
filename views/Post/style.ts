@@ -129,6 +129,7 @@ export const SArticle = styled.article`
   font-family: initial;
   font-weight: 300;
   line-height: 1.618;
+  word-break: break-all;
   -webkit-font-smoothing: antialiased;
 
   h3 {
