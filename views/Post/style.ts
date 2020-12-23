@@ -59,7 +59,7 @@ export const SInner = styled.div`
     width: 100%;
     text-align: left;
     color: #000;
-    font-family: "Monserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     font-weight: 300;
     margin: 0;
@@ -69,7 +69,7 @@ export const SInner = styled.div`
   span {
     width: 100%;
     color: #000;
-    font-family: "Monserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1;
     margin: 0;
     padding: 2% 0;

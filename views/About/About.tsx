@@ -135,7 +135,7 @@ const About: NextPage<Props, any> = ({ t, list = [] }) => {
               </div>
               <div>
                 {t("about-office-info3")}
-                <span>{t("about-office-adress3")}</span>
+                <span>{t("about-office-address3")}</span>
               </div>
             </div>
             <div className="col2">
@@ -146,7 +146,7 @@ const About: NextPage<Props, any> = ({ t, list = [] }) => {
                 </a>
               </div>
               <div>
-                <p>{t("about-email-adress")}</p>
+                <p>{t("about-email-address")}</p>
                 <p>
                   <a href="mailto:wenming@api7.ai">
                     <span>wenming@api7.ai</span>
