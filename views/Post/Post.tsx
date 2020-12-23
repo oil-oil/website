@@ -41,6 +41,10 @@ const CodeBlock = ({ language, value }) => {
 
 const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
   useEffect(() => {
+    if (!/(usercase|blog)/.test(window.location.pathname)) {
+      return
+    }
+
     (window as any).disqus_config = function () {
       this.page.url = window.location.href;
       this.page.identifier = window.location.href.split("/").pop();

@@ -2,10 +2,22 @@
   "news": {
     "zh-CN": [
       {
+        "title": "真格 Demo Day 第10期精彩来袭，近20个潜力项目轮番登场",
+        "logo": "https://static.apiseven.com/logo/%E7%9C%9F%E6%A0%BC%E5%9F%BA%E9%87%91.png",
+        "date": "2020-12-17",
+        "url": "https://mp.weixin.qq.com/s/-kwsAuUggq-zr64hkto1Mg"
+      },
+      {
         "title": "APISIX 温铭：开源的本质是要拿开发者的杠杆｜人物志",
         "logo": "https://static.apiseven.com/logo/csdn.png",
         "date": "2020-12-02",
         "url": "https://blog.csdn.net/csdnnews/article/details/110508201"
+      },
+      {
+        "title": "Apache APISIX 通过可信开源项目评估，探寻 Apache APISIX 的开源之路",
+        "logo": "https://static.apiseven.com/logo/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%BC%80%E6%BA%90%E4%BA%A7%E4%B8%9A%E8%81%94%E7%9B%9F.jpeg",
+        "date": "2020-11-17",
+        "url": "https://mp.weixin.qq.com/s/TyKDDkacxgSRIwq1jTy1Og"
       },
       {
         "title": "API Security Gateway – Using APISIX in the EFPF Platform",
@@ -64,10 +76,22 @@
     ],
     "en-US": [
       {
+        "title": "The 10th session of ZhenFund Demo Day, with nearly 20 potential projects on stage",
+        "logo": "https://static.apiseven.com/logo/%E7%9C%9F%E6%A0%BC%E5%9F%BA%E9%87%91.png",
+        "date": "2020-12-17",
+        "url": "https://mp.weixin.qq.com/s/-kwsAuUggq-zr64hkto1Mg"
+      },
+      {
         "title": "APISIX Wen Ming: The essence of open source is to take the leverage of developers｜People Magazine",
         "logo": "https://static.apiseven.com/logo/csdn.png",
         "date": "2020-12-02",
         "url": "https://blog.csdn.net/csdnnews/article/details/110508201"
+      },
+      {
+        "title": "Apache APISIX through Trusted Open Source Project Evaluation, and Exploring the Open Source Path",
+        "logo": "https://static.apiseven.com/logo/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%BC%80%E6%BA%90%E4%BA%A7%E4%B8%9A%E8%81%94%E7%9B%9F.jpeg",
+        "date": "2020-11-17",
+        "url": "https://mp.weixin.qq.com/s/TyKDDkacxgSRIwq1jTy1Og"
       },
       {
         "title": "API Security Gateway – Using APISIX in the EFPF Platform",
