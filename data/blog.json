@@ -1,6 +1,12 @@
 {
   "zh-CN": [
     {
+      "title": "初探 Kubernetes Service API",
+      "cover": "https://kubernetes-sigs.github.io/service-apis/images/api-model.png",
+      "date": "2020-12-18",
+      "path": "/zh/blog/a-first-look-at-kubernetes-service-api"
+    },
+    {
       "title": "如何彻底避免正则表达式的灾难性回溯？",
       "cover": "https://pic2.zhimg.com/80/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w.jpg",
       "date": "2020-12-17",
@@ -92,6 +98,12 @@
     }
   ],
   "en-US": [
+    {
+      "title": "A First Look at Kubernetes Service API",
+      "cover": "https://kubernetes-sigs.github.io/service-apis/images/api-model.png",
+      "date": "2020-12-18",
+      "path": "/zh/blog/a-first-look-at-kubernetes-service-api"
+    },
     {
       "title": "How to avoid Catastrophic Backtracking completely?",
       "cover": "https://pic2.zhimg.com/80/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w.jpg",
