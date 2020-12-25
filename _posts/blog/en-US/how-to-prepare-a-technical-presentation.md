@@ -1,5 +1,5 @@
 ---
-title: "如何准备一个技术演讲"
+title: "How to prepare a technical presentation"
 date: 2016-09-01
 ---  
 

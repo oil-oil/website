@@ -65,9 +65,3 @@ wrk 是一个非常棒的 HTTP 压力测试工具，构建在 Redis、NGINX、No
 ---
 
 对于我们自己的产品来说，代码中肯定不会有任何阻塞，在做压力测试的时候，是会把 CPU 跑满。即使出现阻塞，也是有火焰图来采样分析的。所以 wrk 这里针对 Coordinated Omission 做的简单粗暴的校正，反而会产生误导。
-
-历史文章推荐：
-
-[如何构建自己的投资体系？（上）](https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyNjI1NTkyNA%3D%3D%26mid%3D2649625627%26idx%3D1%26sn%3D1ab698edb6a17e6a5468cfa0828c3c6b%26chksm%3Df0698140c71e0856cc441bbfead48cef2e4910aa774a8b2088a09e60ee8690e59d4848ee6602%26scene%3D21%23wechat_redirect)
-
-[一个黑客的自述：我曾吹响进攻的号角](https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyNjI1NTkyNA%3D%3D%26mid%3D2649625614%26idx%3D1%26sn%3Ddf1731d311ee77ec977eb431665ee643%26chksm%3Df0698155c71e08436be9e764b2419d8d8477f2b4452169c4a3b09d14d4657de08e7497e646d8%26scene%3D21%23wechat_redirect)

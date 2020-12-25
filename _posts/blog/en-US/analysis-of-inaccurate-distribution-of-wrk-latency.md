@@ -65,9 +65,3 @@ Gil Tene, who proposed the CO problem, also made a modification to wrk to specif
 ---
 
 For our own product, there is certainly no blocking in the code, and when doing stress tests, it is running the CPU full. Even if there is blocking, there is a flame chart to sample and analyze. So the simple and brutal correction wrk makes here for Coordinated Omission is rather misleading.
-
-Historical articles recommended.
-
-[How to build your own investment system? (above)](https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyNjI1NTkyNA%3D%3D%26mid%3D2649625627%26idx%3D1%26sn%3D1ab698edb6a17e6a5468cfa0828c3c6b%26chksm%3Df0698140c71e0856cc441bbfead48cef2e4910aa774a8b2088a09e60ee8690e59d4848ee6602%26scene%3D21%23wechat_redirect)
-
-[Confessions of a hacker: I have blown the attack](https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyNjI1NTkyNA%3D%3D%26mid%3D2649625614%26idx%3D1%26sn%3Ddf1731d311ee77ec977eb431665ee643%26chksm%3Df0698155c71e08436be9e764b2419d8d8477f2b4452169c4a3b09d14d4657de08e7497e646d8%26scene%3D21%23wechat_redirect)
