@@ -1,5 +1,5 @@
 ---
-title: "初探 Kubernetes Service API"
+title: "初探 Kubernetes Service APIs"
 date: 2020-12-18
 ---  
 
@@ -9,17 +9,17 @@ date: 2020-12-18
 
 我们知道 Kubernetes 为了将集群内部服务暴露出去，有多种方案实现，其中一个比较受大众推崇的就是 Ingress。Ingress 作为一种对外暴露服务的标准，有相当多的第三方实现，每种实现都有各自的技术栈 和 所依赖的网关的影子，相互之间并不兼容。
 
-为了统一各种 Ingress 的实现，便于 Kubernetes 上统一管理， [SIG-NETWORK](https://github.com/kubernetes/community/tree/master/sig-network) 社区推出了[Kubernetes Service API](https://kubernetes-sigs.github.io/service-apis/) 一套标准实现，称为第二代 Ingress 。
+为了统一各种 Ingress 的实现，便于 Kubernetes 上统一管理， [SIG-NETWORK](https://github.com/kubernetes/community/tree/master/sig-network) 社区推出了[Kubernetes Service APIs](https://kubernetes-sigs.github.io/service-apis/) 一套标准实现，称为第二代 Ingress 。
 
 ## 主题描述
 
-本文从几个问题入手，对 Kubernetes Service API 的基本概念进行介绍。
+本文从几个问题入手，对 Kubernetes Service APIs 的基本概念进行介绍。
 
 ## 介绍
 
-### Kubernetes Service API 号称第二代 Ingress 技术，到底在哪些方面优于第一代？
+### Kubernetes Service APIs 号称第二代 Ingress 技术，到底在哪些方面优于第一代？
 
-Kubernetes Service API 设计之初，目标并没有局限在 Ingress， 而是为了增强 service networking，着重通过以下几点来增强：表达性、扩展性、RBAC。
+Kubernetes Service APIs 设计之初，目标并没有局限在 Ingress， 而是为了增强 service networking，着重通过以下几点来增强：表达性、扩展性、RBAC。
 
 1. 更强的表达能力，例如 可以根据header 、weighting 来管理流量
 
@@ -37,23 +37,23 @@ matches:
       value: "/v2/foo"
 ```
 
-2. 增强了扩展能力，Service API 提出多层 API 的概念，各层独立暴露接口，方便其他自定义资源与 API 对接，做到更细粒度（API 粒度）的控制。
+2. 增强了扩展能力，Service APIs 提出多层 API 的概念，各层独立暴露接口，方便其他自定义资源与 API 对接，做到更细粒度（API 粒度）的控制。
 
 ![api-model](https://kubernetes-sigs.github.io/service-apis/images/api-model.png)
 
 3. 面向角色 RBAC：多层 API 的实现，其中一个思想就是从使用者的角度去设计资源对象。这些资源最终会与 Kubernetes 上运行应用程序的常见角色进行映射。 
 
-## Kubernetes Service API  抽象出了哪些资源对象？
+## Kubernetes Service APIs  抽象出了哪些资源对象？
 
-Kubernetes Service API 基于使用者角色，将定义了以下几种资源：
+Kubernetes Service APIs 基于使用者角色，将定义了以下几种资源：
 
 GatewayClass, Gateway, Route
 
 1. GatewayClass 定义了一组具有通用配置和行为的网关类型
 
-- 与 Gateway 的关系，类似 ingress 中的 ingess.class annotation； 
+- 与 Gateway 的关系，类似 ingress 中的 ingess.class annotation；
 
-- GatewayClass 定义了一组共享相同配置和行为的网关。每个GatewayClass将由单个 controller 处理，controller 与 GatewayClass 是一对多的关系； 
+- GatewayClass 定义了一组共享相同配置和行为的网关。每个GatewayClass将由单个 controller 处理，controller 与 GatewayClass 是一对多的关系；
 
 - GatewayClass 是 cluster 资源。必须至少定义一个 GatewayClass 才能具有功能网关。
 
@@ -71,13 +71,13 @@ GatewayClass, Gateway, Route
 
 ![schema-uml](https://kubernetes-sigs.github.io/service-apis/images/schema-uml.svg)
 
-另外，Kubernetes Service API 为了能够灵活的配置后端服务，特地定义了一个 BackendPolicy 资源对象。
+另外，Kubernetes Service APIs 为了能够灵活的配置后端服务，特地定义了一个 BackendPolicy 资源对象。
 
 通过 BackendPolicy 对象，可以配置 TLS、健康检查 以及指定后端服务类型，比如 service 还是 pod。
 
-## Kubernetes Service API 的推行会带来哪些改变？
+## Kubernetes Service APIs 的推行会带来哪些改变？
 
-Kubernetes Service API 作为一种实现标准，带来了以下改变：
+Kubernetes Service APIs 作为一种实现标准，带来了以下改变：
 
 1. 通用性： 可以有多种实现，就像 ingress 有多种实现一样，可以根据网关的特点去自定义 ingress controller，但是他们都有一致的配置结构。一种数据结构，可以配置多种 ingress controller。
 
@@ -89,13 +89,13 @@ Kubernetes Service API 作为一种实现标准，带来了以下改变：
 
 5. 跨命名空间引用：跨不同命名空间的路由可以绑定到 Gateway。允许跨命名空间的互相访问。同时也可以限制某个 Gateway 下的 Route 可以访问的命名空间范围。
 
-## 目前有哪些 ingress 实现了 Kubernetes Service API ？
+## 目前有哪些 ingress 实现了 Kubernetes Service APIs ？
 
-目前已知的从代码层面能看到对 Kubernetes Service API 资源对象支持的 Ingress 有 Contour, ingress-gce。
+目前已知的从代码层面能看到对 Kubernetes Service APIs 资源对象支持的 Ingress 有 Contour, ingress-gce。
 
-## Kubernetes Service API  如何管理资源读写权限？
+## Kubernetes Service APIs  如何管理资源读写权限？
 
-Kubernetes Service API 按照使用者的维度分为 3 个角色
+Kubernetes Service APIs 按照使用者的维度分为 3 个角色
 
 1. 基础设施提供方 GatewayClass
 
@@ -115,11 +115,11 @@ RBAC（基于角色的访问控制）是用于Kubernetes授权的标准。允许
 | Cluster Operators | No | Yes | Yes |
 | Application Developers | No | No | Yes |
 
-## Kubernetes Service API  有哪些扩展点？
+## Kubernetes Service APIs  有哪些扩展点？
 
-网关的需求非常丰富，同一个场景实现的方式多种多样，各有利弊。Kubernetes Service API 提炼出 多层 资源对象，同时也预留了一些扩展点。
+网关的需求非常丰富，同一个场景实现的方式多种多样，各有利弊。Kubernetes Service APIs 提炼出 多层 资源对象，同时也预留了一些扩展点。
 
-目前 Kubernetes Service API 的扩展点基本集中在 Route 上：
+目前 Kubernetes Service APIs 的扩展点基本集中在 Route 上：
 
 - RouteMatch 可以扩展 Route 匹配规则。
 
@@ -131,4 +131,4 @@ RBAC（基于角色的访问控制）是用于Kubernetes授权的标准。允许
 
 # 总结
 
-本文通过提问的方式，对 Kubernetes Service API 做了一些基本介绍，从整体来看，Kubernetes Service API 提炼了很多 ingress 的最佳实践，比如表达能力的增强，其实就是扩展了 Route 的能力，再比如 BackendPolicy 对象，可以为 upstream 指定几乎所有的 Kubernetes 后端资源。当然，项目初期也有不足的地方，目前 Kubernetes Service API 虽然已经从大的层面上规定了资源对象，但资源对象内部还有不少细节需要讨论之后再确定，以防止可能出现的冲突场景，结构上存在一定变数。
+本文通过提问的方式，对 Kubernetes Service APIs 做了一些基本介绍，从整体来看，Kubernetes Service APIs 提炼了很多 ingress 的最佳实践，比如表达能力的增强，其实就是扩展了 Route 的能力，再比如 BackendPolicy 对象，可以为 upstream 指定几乎所有的 Kubernetes 后端资源。当然，项目初期也有不足的地方，目前 Kubernetes Service APIs 虽然已经从大的层面上规定了资源对象，但资源对象内部还有不少细节需要讨论之后再确定，以防止可能出现的冲突场景，结构上存在一定变数。
