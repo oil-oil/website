@@ -2,6 +2,12 @@
   "news": {
     "zh-CN": [
       {
+        "title": "权威发布丨2020 中国开源先锋 33 人之心尖上的开源人物",
+        "logo": "https://static.apiseven.com/logo/segmentfault.png",
+        "date": "2020-12-23",
+        "url": "https://mp.weixin.qq.com/s/f_0PuVsD8iOt3owfYU0xMg"
+      },
+      {
         "title": "真格 Demo Day 第10期精彩来袭，近20个潜力项目轮番登场",
         "logo": "https://static.apiseven.com/logo/%E7%9C%9F%E6%A0%BC%E5%9F%BA%E9%87%91.png",
         "date": "2020-12-17",
@@ -75,6 +81,12 @@
       }
     ],
     "en-US": [
+      {
+        "title": "2020 China's Open Source Pioneers",
+        "logo": "https://static.apiseven.com/logo/segmentfault.png",
+        "date": "2020-12-23",
+        "url": "https://mp.weixin.qq.com/s/f_0PuVsD8iOt3owfYU0xMg"
+      },
       {
         "title": "The 10th session of ZhenFund Demo Day, with nearly 20 potential projects on stage",
         "logo": "https://static.apiseven.com/logo/%E7%9C%9F%E6%A0%BC%E5%9F%BA%E9%87%91.png",
