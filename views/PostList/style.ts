@@ -74,7 +74,7 @@ export const SWrapper = styled.div`
     box-sizing: border-box;
     margin: 10% auto 5%;
     text-align: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: #fff;
 
     @media (min-width: 1200px) {

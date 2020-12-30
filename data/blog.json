@@ -1,12 +1,6 @@
 {
   "zh-CN": [
     {
-      "title": "支流科技与吉利汽车：产业数字化，「智造」未来",
-      "cover": "https://tcs.teambition.net/storage/312063be67dd189efe5de6e1dcb6456b52b5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwOTUwNjY5NiwiaWF0IjoxNjA4OTAxODk2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjA2M2JlNjdkZDE4OWVmZTVkZTZlMWRjYjY0NTZiNTJiNSJ9.DaTbiOL9GIAP-1IAcT6QPEZ-wL6tlo3jqpcrDSvq98g&download=image.png",
-      "date": "2020-12-18",
-      "path": "/zh/blog/geely"
-    },
-    {
       "title": "初探 Kubernetes Service API",
       "cover": "https://kubernetes-sigs.github.io/service-apis/images/api-model.png",
       "date": "2020-12-18",

@@ -62,7 +62,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {} }) => {
     <>
       <NextSeo
         title={data.title || t("common:job")}
-        description={content.trim().substring(0, 140)}
+        description={(content || '').trim().substring(0, 140)}
       />
       <Head>
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fd9eee22eecfc00"></script>
