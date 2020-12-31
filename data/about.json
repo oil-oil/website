@@ -3,6 +3,10 @@
     "zh-CN": [
       {
         "date": "2020 年 12 月",
+        "desc": "宣布完成真格基金百万美元天使轮融资"
+      },
+      {
+        "date": "2020 年 12 月",
         "desc": "首届 Apache APISIX DevCon"
       },
       {
@@ -55,6 +59,10 @@
       }
     ],
     "en-US": [
+      {
+        "date": "December 2020",
+        "desc": "APISEVEN raises $1 Million in Series Angel Funding Led by ZhenFund"
+      },
       {
         "date": "December 2020",
         "desc": "First Apache APISIX DevCon"

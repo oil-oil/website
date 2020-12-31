@@ -2,6 +2,12 @@
   "news": {
     "zh-CN": [
       {
+        "title": "36氪首发｜推出开源云原生 API 管理平台， 「支流科技」完成百万美元天使轮融资",
+        "logo": "https://static.apiseven.com/logo/36kr.png",
+        "date": "2020-12-28",
+        "url": "https://www.36kr.com/p/1029014151006208"
+      },
+      {
         "title": "权威发布丨2020 中国开源先锋 33 人之心尖上的开源人物",
         "logo": "https://static.apiseven.com/logo/segmentfault.png",
         "date": "2020-12-23",
@@ -81,6 +87,12 @@
       }
     ],
     "en-US": [
+      {
+        "title": "APISEVEN raises $1 Million in Series Angel Funding Led by ZhenFund",
+        "logo": "https://static.apiseven.com/logo/36kr.png",
+        "date": "2020-12-28",
+        "url": "https://www.36kr.com/p/1029014151006208"
+      },
       {
         "title": "2020 China's Open Source Pioneers",
         "logo": "https://static.apiseven.com/logo/segmentfault.png",
