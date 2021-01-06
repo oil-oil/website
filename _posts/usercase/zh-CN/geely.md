@@ -7,7 +7,7 @@ date: 2020-12-18
 
 2020 年，全球企业加速数字化转型，商业模式正在变革。各行各业都在顺势而为，优化流程，改善工作方式，提升生产力，激发创新力。数字技术正集成到企业的各个领域，全面颠覆原有的协作方式，提高效率，激发驱动力，协助企业探索新的模式，发现新的价值。
 
-<img src="https://tcs.teambition.net/storage/3120fa88a7a20ab9c0f027a97b3e3ac1e9bb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwOTUwNjY5NiwiaWF0IjoxNjA4OTAxODk2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjBmYTg4YTdhMjBhYjljMGYwMjdhOTdiM2UzYWMxZTliYiJ9.V9R5bjDwgZ3kukup4wHnVu3ojtYWuVAf2oUTNVWFKo4&download=image.png" alt="Architecture" />
+<img src="https://static.apiseven.com/logo/geely-0.png" alt="Architecture" />
 
 ## 科技创新促进业务增长
 
@@ -27,7 +27,7 @@ date: 2020-12-18
 
 吉利集团选择整合成熟的 API 来提高效率，通过开放 API，突破企业老旧系统的限制，改变了对接方式。由传统的点对点的对接演变成自助化对接。将 API 变成平台，变成市场。
 
-<img src="https://tcs.teambition.net/storage/312063be67dd189efe5de6e1dcb6456b52b5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwOTUwNjY5NiwiaWF0IjoxNjA4OTAxODk2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjA2M2JlNjdkZDE4OWVmZTVkZTZlMWRjYjY0NTZiNTJiNSJ9.DaTbiOL9GIAP-1IAcT6QPEZ-wL6tlo3jqpcrDSvq98g&download=image.png" alt="Architecture" />
+<img src="https://static.apiseven.com/logo/geely-1.png" alt="Architecture" />
 
 
 一个承载着集团大量 API 的市场，需要一个性能强大、安全可靠的 API 网关。 支流科技开发的 APISEVEN 高性能云原生网关（Cloud Native API Gateway）提供精细化路由，全动态更新的能力，并且性能与同类型产品相比遥遥领先，在安全保障上深度支持各类防护，运维友好，详尽的文档，加上低门槛的可定制能力获得了吉利的青睐。
@@ -36,7 +36,7 @@ date: 2020-12-18
 
 APISEVEN 是一个动态、实时、高性能的 API 网关，基于 Apache 基金会顶级项目 APISIX 实现， 提供负载均衡、动态上游、灰度发布、服务熔断、身份认证、可观测性等丰富的流量管理功能。
 
-<img src="https://tcs.teambition.net/storage/3120d7770b4e484676dcb644777e14339ab2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwOTUwNjY5NiwiaWF0IjoxNjA4OTAxODk2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjBkNzc3MGI0ZTQ4NDY3NmRjYjY0NDc3N2UxNDMzOWFiMiJ9.EPKD---Ds7wDt_JFM6H3OcsIARhiJbiaj7CiChRcUo4&download=image.png" alt="Architecture" />
+<img src="https://static.apiseven.com/logo/geely-2.png" alt="Architecture" />
 
 
 APISEVEN 网关的数据面和控制面分离，控制面的配置与数据面的业务流量互不影响，动态同步配置。
@@ -53,7 +53,7 @@ APISEVEN 支持业务流量精细化控制，不仅能够在路由匹配阶段�
 
 运维友好，APISEVEN 支持 Prometheus、SkyWalking 动态追踪、流量复制、故障注入等功能。
 
-<img src="https://tcs.teambition.net/storage/31200b09d2a514535a67e526675b63cc15bc?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYwOTUwNjY5NiwiaWF0IjoxNjA4OTAxODk2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjAwYjA5ZDJhNTE0NTM1YTY3ZTUyNjY3NWI2M2NjMTViYyJ9.C17hXpLdFgZiFI9mvZ393jDdBzcB9gm18wJTXPw7-DA&download=image.png" alt="Architecture" />
+<img src="https://static.apiseven.com/logo/geely-3.png" alt="Architecture" />
 
 
 APISEVEN 网关的这些特性与吉利 API 市场的需求完美契合，通过集中式配置统一管理企业内部 API，加上多版本管理以及权限控制，支持开发者快速上线服务和 API, 方便用户订阅感兴趣的服务。快速变更配置的同时，不影响业务流量的正常运行，降低开发和订阅成本。
