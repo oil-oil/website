@@ -4,7 +4,7 @@ date: 2020-05-07
 ---  
 
 <div style="text-align: center">
-  <video controls src="https://opentalk-blog.b0.upaiyun.com/prod/2019-12-19/fe6c7e341b5ee7ae72473de56ef0fd3b.mp4" style="width: 100%"></video>
+  <video controls src="https://opentalk-blog.b0.upaiyun.com/prod/2019-12-19/db80d142da2bc6ab32938ce7a7f5fbb7.mp4" style="width: 100%"></video>
 </div>
 
 Lecturer Profile
