@@ -35,6 +35,11 @@ export const SSection1 = styled.div`
     margin-right: auto;
     margin-left: auto;
     position: relative;
+    :after {
+      content: '';
+      min-height: inherit;
+      font-size: 0;
+    }
   }
 
   .row {
@@ -204,6 +209,7 @@ export const SContent1 = styled.div`
   padding: 0 75px 0 50px;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .08);
   transform-style: preserve-3d;
+  position: absolute;
   text-align: left;
   justify-content: center;
   display: flex;

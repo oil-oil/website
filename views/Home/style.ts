@@ -92,7 +92,21 @@ export const SSection = styled.div`
   }
   .feature-list {
     display: grid;
+    display: -ms-grid;
     grid-template-columns: 1fr;
+    -ms-grid-columns: (1fr)[1];
+    div:nth-child(1) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(2) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 2;
+    }
+    div:nth-child(3) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 3;
+    }
   }
   .feature-item {
     display: flex;
@@ -103,6 +117,8 @@ export const SSection = styled.div`
       font-weight: bold;
     }
     .desc {
+      max-width: 360px;
+      word-wrap: break-word;
       margin-top: -10px;
       margin-bottom: 15px;
       font-size: 18px;
@@ -114,17 +130,60 @@ export const SSection = styled.div`
 
   .showcases {
     display: grid;
+    display: -ms-grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 80px);
+    -ms-grid-columns: (1fr)[2];
+    -ms-grid-rows: (80px)[5];
     grid-row-gap: 20px;
     margin-top: 30px;
     div {
       display: flex;
       justify-content: center;
       img {
-        max-width: 100%;
+        width: 228px;
         object-fit: contain;
       }
+    }
+    div:nth-child(1) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(2) {
+      -ms-grid-column: 2;
+      -ms-grid-row: 1;
+    }
+    div:nth-child(3) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 2;
+    }
+    div:nth-child(4) {
+      -ms-grid-column: 2;
+      -ms-grid-row: 2;
+    }
+    div:nth-child(5) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 3;
+    }
+    div:nth-child(6) {
+      -ms-grid-column: 2;
+      -ms-grid-row: 3;
+    }
+    div:nth-child(7) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 4;
+    }
+    div:nth-child(8) {
+      -ms-grid-column: 2;
+      -ms-grid-row: 4;
+    }
+    div:nth-child(9) {
+      -ms-grid-column: 1;
+      -ms-grid-row: 5;
+    }
+    div:nth-child(10) {
+      -ms-grid-column: 2;
+      -ms-grid-row: 5;
     }
   }
 
@@ -164,7 +223,23 @@ export const SSection = styled.div`
 
     .feature-list {
       grid-template-columns: repeat(3, 1fr);
+      -ms-grid-columns: (1fr)[3];
       grid-gap: 30px;
+      div:nth-child(1) {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+      }
+      div:nth-child(2) {
+        -ms-grid-column: 2;
+        -ms-grid-row: 1;
+        .desc {
+          padding: 0 20px;
+        }
+      }
+      div:nth-child(3) {
+        -ms-grid-column: 3;
+        -ms-grid-row: 1;
+      }
     }
 
     .feature-item {
@@ -186,6 +261,49 @@ export const SSection = styled.div`
       grid-template-columns: repeat(5, 1fr);
       grid-template-rows: repeat(2, 80px);
       grid-row-gap: 120px;
+      display: -ms-grid;
+      -ms-grid-columns: (1fr)[5];
+      -ms-grid-rows: (80px)[2];
+      div:nth-child(1) {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+      }
+      div:nth-child(2) {
+        -ms-grid-column: 2;
+        -ms-grid-row: 1;
+      }
+      div:nth-child(3) {
+        -ms-grid-column: 3;
+        -ms-grid-row: 1;
+      }
+      div:nth-child(4) {
+        -ms-grid-column: 4;
+        -ms-grid-row: 1;
+      }
+      div:nth-child(5) {
+        -ms-grid-column: 5;
+        -ms-grid-row: 1;
+      }
+      div:nth-child(6) {
+        -ms-grid-column: 1;
+        -ms-grid-row: 2;
+      }
+      div:nth-child(7) {
+        -ms-grid-column: 2;
+        -ms-grid-row: 2;
+      }
+      div:nth-child(8) {
+        -ms-grid-column: 3;
+        -ms-grid-row: 2;
+      }
+      div:nth-child(9) {
+        -ms-grid-column: 4;
+        -ms-grid-row: 2;
+      }
+      div:nth-child(10) {
+        -ms-grid-column: 5;
+        -ms-grid-row: 2;
+      }
     }
 
     .cert-list {
@@ -269,6 +387,7 @@ export const SPluginChart = styled.div`
   .left {
     -webkit-box-flex: 1;
     flex: 1;
+    flex-basis: auto;
     .gif {
       img {
         max-width: 100%;
@@ -281,6 +400,7 @@ export const SPluginChart = styled.div`
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    flex-basis: auto;
     position: relative;
     .video-button {
       width: 100%;
