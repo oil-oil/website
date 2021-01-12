@@ -40,6 +40,11 @@ export const SBox1 = styled.div`
   display: -webkit-box;
   -webkit-box-align: center;
   align-items: center;
+  :after {
+    content:'';
+    min-height:inherit;
+    font-size:0;
+  }
 
   @media (min-width: 1200px) {
     width: 1170px;

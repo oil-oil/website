@@ -49,6 +49,11 @@ export const SIconList = styled.ul`
   padding: 0;
   text-align: center;
 
+  a svg {
+    width: 1em;
+    height: 1em;
+  }
+
   @media (min-width: 1200px) {
     margin: 0;
   }
