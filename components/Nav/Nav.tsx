@@ -10,74 +10,12 @@ type Props = {
 };
 
 const NavComponent: NextPage<Props, any> = ({ t }) => {
-  const [navs, setNavs] = useState([]);
+  const [zhLang, setZhLang] = useState("/zh");
+  const [enLang, setEnLang] = useState("/en");
 
   useEffect(() => {
-    const zhUrl = location.pathname.replace("/en", "/zh");
-    const enUrl = location.pathname.replace("/zh", "/en");
-    const navs = [
-      {
-        title: t("homepage"),
-        href: "/",
-      },
-      {
-        title: t("common:news"),
-        href: "/news",
-      },
-      {
-        title: t("open-source"),
-        items: [
-          {
-            title: "Apache APISIX",
-            href: "https://github.com/apache/apisix",
-          },
-          {
-            title: "k8s ingress controller",
-            href: "https://github.com/apache/apisix-ingress-controller",
-          },
-          {
-            title: "Apache APISIX vs API7",
-            href: "/apisix-vs-api7",
-          },
-        ],
-      },
-      {
-        title: t("showcases"),
-        href:
-          "/usercases",
-      },
-      {
-        title: t("commercial-products-and-support"),
-        items: [
-          {
-            title: t("business-support"),
-            href: "/business-support/",
-          },
-          {
-            title: t("trial"),
-            href: "/form-api7-trial",
-          },
-        ],
-      },
-      {
-        title: t("job"),
-        href: "/careers",
-      },
-      {
-        title: t("text3"),
-        items: [
-          {
-            title: t("text1"),
-            href: zhUrl,
-          },
-          {
-            title: t("text2"),
-            href: enUrl,
-          },
-        ],
-      }
-    ];
-    setNavs(navs);
+    setEnLang(location.pathname.replace("/zh", "/en"));
+    setZhLang(location.pathname.replace("/en", "/zh"));
   }, []);
 
   return (
@@ -92,29 +30,32 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          {navs.map((item) => {
-            if (item.items) {
-              return (
-                <NavDropdown
-                  title={item.title}
-                  id="basic-nav-dropdown"
-                  key={item.title}
-                >
-                  {item.items.map((subitem) => (
-                    <NavDropdown.Item href={subitem.href} key={subitem.title}>
-                      {subitem.title}
-                    </NavDropdown.Item>
-                  ))}
-                </NavDropdown>
-              );
-            }
-
-            return (
-              <Nav.Link href={item.href} key={item.title}>
-                {item.title}
-              </Nav.Link>
-            );
-          })}
+          <Nav.Link href="/">{t("homepage")}</Nav.Link>
+          <Nav.Link href="/news">{t("common:news")}</Nav.Link>
+          <NavDropdown
+            title={t("open-source")}
+            id="basic-nav-dropdown"
+          >
+            <NavDropdown.Item href="https://github.com/apache/apisix">Apache APISIX</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/apache/apisix-ingress-controller">k8s ingress controller</NavDropdown.Item>
+            <NavDropdown.Item href="/apisix-vs-api7">Apache APISIX vs API7</NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="/usercases">{t("showcases")}</Nav.Link>
+          <NavDropdown
+            title={t("commercial-products-and-support")}
+            id="basic-nav-dropdown"
+          >
+            <NavDropdown.Item href="/business-support/">{t("business-support")}</NavDropdown.Item>
+            <NavDropdown.Item href="/form-api7-trial">{t("trial")}</NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="/careers">{t("job")}</Nav.Link>
+          <NavDropdown
+            title={t("text3")}
+            id="basic-nav-dropdown"
+          >
+            <NavDropdown.Item href={zhLang}>{t("text1")}</NavDropdown.Item>
+            <NavDropdown.Item href={enLang}>{t("text2")}</NavDropdown.Item>
+          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
