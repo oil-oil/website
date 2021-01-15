@@ -20,27 +20,15 @@
     },
     {
       "title": "基于 Apache APISIX 的全流量 API 网关",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2020-12-14",
       "path": "/zh/blog/full-flow-api-gateway-based-on-apache-apisix"
     },
     {
-      "title": "How to implement plugin orchestration in API GatewayEdit proposal",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
+      "title": "如何在 Apache APISIX 中实现插件编排",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2020-12-14",
-      "path": "/zh/blog/how-to-implement-plugin-orchestration-in-api-gatewayedit-proposal"
-    },
-    {
-      "title": "Apache APISIX 高性能实战2",
-      "cover": "https://opentalk-blog.b0.upaiyun.com/prod/2019-10-24/693af623d6d32b130f550e6b7ff972bb",
-      "date": "2020-12-11",
-      "path": "/zh/blog/apache-apisix-high-performance-hands-on-2"
-    },
-    {
-      "title": "Apache APISIX 技术选型、测试和持续集成",
-      "cover": "https://opentalk-blog.b0.upaiyun.com/prod/2019-10-21/d76d1acfeb3a02db533a9061eeda4d34",
-      "date": "2020-12-11",
-      "path": "/zh/blog/apache-apisix-technology-selection-testing-and-continuous-integration"
+      "path": "/zh/blog/how-to-implement-plugin-orchestration-in-api-gateway"
     },
     {
       "title": "贝壳找房：如何基于 Apache APISIX 搭建网关",
@@ -55,46 +43,22 @@
       "path": "/zh/blog/how-to-run-apisix-on-arm64-platform"
     },
     {
-      "title": "告别 Lua、Go、Wasm 插件，是时候用低代码 API 网关了",
-      "cover": "https://pic4.zhimg.com/v2-aa34c557b62aefe10b2f4f24872338ae.jpg?source=382ee89a",
-      "date": "2020-09-07",
-      "path": "/zh/blog/say-goodbye-to-lua-go-wasm-plugins-its-time-to-use-low-code-api-gateways"
-    },
-    {
-      "title": "Apache APISIX 和 Kong 以及其他网关，在技术上的对比点",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
-      "date": "2020-06-14",
-      "path": "/zh/blog/apache-apisix-and-kong-and-other-gateways-in-terms-of-technical-points-of-comparison"
-    },
-    {
-      "title": "API 网关 Apache APISIX 和 Kong 的选型对比",
+      "title": " Apache APISIX 和 Kong 的对比",
       "cover": "https://pic3.zhimg.com/80/v2-4b6f9dd69f9a087969e3ed59ba59d60a_1440w.jpg",
       "date": "2020-01-18",
       "path": "/zh/blog/api-gateways-apache-apisix-and-kong-selection-comparison"
     },
     {
       "title": "从 0 到 1：Apache APISIX 的 Apache 之路",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2019-12-16",
-      "path": "/zh/blog/from-0-to-1-the-apache-road-to-apache-apisix"
-    },
-    {
-      "title": "如何选择微服务 API 网关：对比 Kong、APISIX、Tyk、Apigee 和其他网关",
-      "cover": "https://pic1.zhimg.com/80/v2-206d23237ac330d04632231e81baa120_1440w.jpg",
-      "date": "2019-09-27",
-      "path": "/zh/blog/how-to-choose-a-microservices-api-gateway-comparing-kong-apisix-tyk-apigee-and-other-gateways"
+      "path": "/zh/blog/from-0-to-1-the-apache-way-of-apache-apisix"
     },
     {
       "title": "对 wrk 延迟分布不准确的分析",
       "cover": "https://pic4.zhimg.com/80/v2-596a56dceaf120f846ce07484e4c091b_1440w.jpg",
       "date": "2018-09-03",
       "path": "/zh/blog/analysis-of-inaccurate-distribution-of-wrk-latency"
-    },
-    {
-      "title": "如何准备一个技术演讲",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
-      "date": "2016-09-01",
-      "path": "/zh/blog/how-to-prepare-a-technical-presentation"
     }
   ],
   "en-US": [
@@ -105,7 +69,7 @@
       "path": "/zh/blog/a-first-look-at-kubernetes-service-api"
     },
     {
-      "title": "How to avoid Catastrophic Backtracking completely?",
+      "title": "How to avoid Catastrophic Backtracking in regex?",
       "cover": "https://pic2.zhimg.com/80/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w.jpg",
       "date": "2020-12-17",
       "path": "/en/blog/how-to-avoid-catastrophic-backtracking-completely"
@@ -117,28 +81,16 @@
       "path": "/en/blog/another-way-to-implement-envoy-filter"
     },
     {
-      "title": "Full-flow API gateway based on Apache APISIX",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
+      "title": "Full-traffic API gateway based on Apache APISIX",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2020-12-14",
-      "path": "/en/blog/full-flow-api-gateway-based-on-apache-apisix"
+      "path": "/en/blog/full-traffic-api-gateway-based-on-apache-apisix"
     },
     {
-      "title": "How to implement plugin orchestration in API GatewayEdit proposal",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
+      "title": "How to implement plugin orchestration in API Gateway",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2020-12-14",
-      "path": "/en/blog/how-to-implement-plugin-orchestration-in-api-gatewayedit-proposal"
-    },
-    {
-      "title": "Apache APISIX High Performance Hands-on 2",
-      "cover": "https://opentalk-blog.b0.upaiyun.com/prod/2019-10-24/693af623d6d32b130f550e6b7ff972bb",
-      "date": "2020-12-11",
-      "path": "/en/blog/apache-apisix-high-performance-hands-on-2"
-    },
-    {
-      "title": "Apache APISIX Technology Selection, Testing and Continuous Integration",
-      "cover": "https://opentalk-blog.b0.upaiyun.com/prod/2019-10-21/d76d1acfeb3a02db533a9061eeda4d34",
-      "date": "2020-12-11",
-      "path": "/en/blog/apache-apisix-technology-selection-testing-and-continuous-integration"
+      "path": "/en/blog/how-to-implement-plugin-orchestration-in-api-gateway"
     },
     {
       "title": "ke: How to build a gateway based on Apache APISIX",
@@ -147,52 +99,22 @@
       "path": "/en/blog/how-to-build-gateway-based-on-apache-apisix"
     },
     {
-      "title": "Want to run APISIX on an ARM64 platform? Just three steps",
-      "cover": "https://pic3.zhimg.com/80/v2-835f902a93bdb1ed5e8698d86e05f252_1440w.jpg",
-      "date": "2020-12-11",
-      "path": "/en/blog/how-to-run-apisix-on-arm64-platform"
-    },
-    {
-      "title": "Say goodbye to Lua, Go, Wasm plugins, it's time to use low-code API gateways",
-      "cover": "https://pic4.zhimg.com/v2-aa34c557b62aefe10b2f4f24872338ae.jpg?source=382ee89a",
-      "date": "2020-09-07",
-      "path": "/en/blog/say-goodbye-to-lua-go-wasm-plugins-its-time-to-use-low-code-api-gateways"
-    },
-    {
-      "title": "Apache APISIX and Kong and other gateways, in terms of technical points of comparison",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
-      "date": "2020-06-14",
-      "path": "/en/blog/apache-apisix-and-kong-and-other-gateways-in-terms-of-technical-points-of-comparison"
-    },
-    {
-      "title": "API Gateways Apache APISIX and Kong Selection Comparison",
-      "cover": "https://pic3.zhimg.com/80/v2-4b6f9dd69f9a087969e3ed59ba59d60a_1440w.jpg",
+      "title": "Apache APISIX vs. Kong",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2020-01-18",
       "path": "/en/blog/api-gateways-apache-apisix-and-kong-selection-comparison"
     },
     {
-      "title": "From 0 to 1: The Apache Road to Apache APISIX",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
+      "title": "From 0 to 1: The Apache way of Apache APISIX",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2019-12-16",
-      "path": "/en/blog/from-0-to-1-the-apache-road-to-apache-apisix"
-    },
-    {
-      "title": "How to Choose a Microservices API Gateway: Comparing Kong, APISIX, Tyk, Apigee, and Other Gateways",
-      "cover": "https://pic1.zhimg.com/80/v2-206d23237ac330d04632231e81baa120_1440w.jpg",
-      "date": "2019-09-27",
-      "path": "/en/blog/how-to-choose-a-microservices-api-gateway-comparing-kong-apisix-tyk-apigee-and-other-gateways"
+      "path": "/en/blog/from-0-to-1-the-apache-way-of-apache-apisix"
     },
     {
       "title": "Analysis of inaccurate distribution of wrk latency",
       "cover": "https://pic4.zhimg.com/80/v2-596a56dceaf120f846ce07484e4c091b_1440w.jpg",
       "date": "2018-09-03",
       "path": "/en/blog/analysis-of-inaccurate-distribution-of-wrk-latency"
-    },
-    {
-      "title": "How to prepare a technical presentation",
-      "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
-      "date": "2016-09-01",
-      "path": "/en/blog/how-to-prepare-a-technical-presentation"
     }
   ]
 }

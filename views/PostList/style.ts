@@ -108,7 +108,7 @@ export const SWrapper = styled.div`
     img {
       width: 100%;
       height: 120px;
-      object-fit: cover;
+      object-fit: contain;
     }
 
     a {

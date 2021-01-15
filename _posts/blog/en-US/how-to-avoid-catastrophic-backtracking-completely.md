@@ -1,7 +1,7 @@
 ---
-title: "How to avoid Catastrophic Backtracking completely?"
+title: "How to avoid Catastrophic Backtracking in Regex?"
 date: 2020-12-17
----  
+---
 
 Author: Wen Ming
 

@@ -1,7 +1,7 @@
 ---
 title: "API Gateways Apache APISIX and Kong Selection Comparison"
-date: 2020-01-18 
----  
+date: 2020-01-18
+---
 
 Author: Wen Ming
 
@@ -11,56 +11,61 @@ These two projects are covered by complete documentation and tests, and many pro
 
 These two projects are covered by complete documentation and tests, and many production users are using them, so don’t worry about stability and their sustainable development. This article will focus on the most direct and verifiable functions and performance. To make a comparison from a different perspective.
 
-![1.jpg](https://pic3.zhimg.com/80/v2-4b6f9dd69f9a087969e3ed59ba59d60a_1440w.jpg)
+| **Features**         | **Apache APISIX** | **KONG** |
+| :------------------- | :---------------- | :------- |
+| **Dynamic upstream** | Yes               | Yes      |
+| **Dynamic router**   | Yes               | Yes      |
+| **Health check**     | Yes               | Yes      |
+| **Dynamic SSL**      | Yes               | Yes      |
+| **L4 and L7 proxy**  | Yes               | Yes      |
+| **Opentracing**      | Yes               | Yes      |
+| **Custom plugin**    | Yes               | Yes      |
+| **REST API**         | Yes               | Yes      |
+| **CLI**              | Yes               | Yes      |
 
 For a more detailed comparison.
 
-![2.jpg](https://pic2.zhimg.com/80/v2-85563d407b3d43b00a1e1c33f895da01_1440w.jpg)
 
-**Compression test environment**
+| **Features**                                                    | **Apache APISIX**                                 | **Kong**                |
+| :-------------------------------------------------------------- | :------------------------------------------------ | :---------------------- |
+| Belongs to                                                      | Apache Software Foundation                        | Kong Inc.               |
+| Tech Architecture                                               | Nginx + etcd                                      | Nginx + postgres        |
+| Communication channels                                          | Mail list, Wechat group, QQ group, GitHub, meetup | GitHub, freenode, forum |
+| Single-core CPU, QPS(enable limit-count and prometheus plugins) | 18000                                             | 1700                    |
+| Latency                                                         | 0.2 ms                                            | 2 ms                    |
+| Dubbo                                                           | Yes                                               | No                      |
+| Configuration rollback                                          | Yes                                               | No                      |
+| Route with TTL                                                  | Yes                                               | No                      |
+| Plug-in hot loading                                             | Yes                                               | No                      |
+| Custom LB and route                                             | Yes                                               | No                      |
+| REST API <--> gRPC transcoding                                  | Yes                                               | No                      |
+| Tengine                                                         | Yes                                               | No                      |
+| MQTT                                                            | Yes                                               | No                      |
+| Configuration effective time                                    | Event driven, < 1ms                               | polling, 5 seconds      |
+| Dashboard                                                       | Yes                                               | No                      |
+| IdP                                                             | Yes                                               | No                      |
+| Configuration Center HA                                         | Yes                                               | No                      |
+| Speed limit for a specified time window                         | Yes                                               | No                      |
+| Support any Nginx variable as routing condition                 | Yes                                               | No                      |
 
-Test platform: AliCloud ecs.hfg5.2xlarge 8 vCPU 32 GiB.
+### Performance
+After enabling the limit-count and prometheus plug-ins, the performance of Apache APISIX is ten times that of Kong.
 
-Test method: turn on the specified number of workers (single-core, multi-core) and then use wrk to increase the stress test. Here the API gateway resources should be full (mainly CPU). And the pressure test client, upstream services are normal service, not a bottleneck.
+Here are more detailed [steps] (https://gist.github.com/membphis/137db97a4bf64d3653aa42f3e016bd01),
+Interested developers can follow the picture to verify.
 
-Enable the prometheus and limit-count plugins.
+### the reason
+Here, we discuss the reasons behind the differences in functionality and performance:
+1. The routing complexity of Apache APISIX is O(k), which is only related to the length of uri and has nothing to do with the number of routes; the routing time complexity of kong is O(n), which increases linearly with the number of routes.
 
-Tested versions: Apache APISIX 0.9 and Kong 1.4.3
+2. The time complexity of IP matching of Apache APISIX is O(1), which will not cause CPU resources to run out with a large number of IP judgments.
 
-Test scripts: [gist.github.com/membphi](https://link.zhihu.com/?target=https%3A//gist.github.com/membphis/137db97a4bf64d3653aa42f3e016bd01)
+3. The route matching of Apache APISIX accepts all the variables of Nginx as conditions and supports custom functions; other gateways have several built-in conditions.
 
-![3.jpg](https://pic4.zhimg.com/80/v2-d7aa2dd6b90bc90cd09b80dd45ed5953_1440w.png)
+4. Apache APISIX uses etcd as the configuration center. There is no single point. If a machine is down arbitrarily, the gateway cluster can still operate normally. Other gateways based on relational databases will have a single point of problem.
 
-## Press test scenario 1: Only one worker is open
+5. Apache APISIX configuration can reach all gateway nodes within 1 millisecond, using etcd watch; other gateways poll the database regularly, and it usually takes 5 seconds to get the latest configuration.
 
-[Detailed compression test results](https://link.zhihu.com/?target=https%3A//gist.github.com/membphis/137db97a4bf64d3653aa42f3e016bd01%23gistcomment-3137123)(You can reproduce the results of the performance test yourself with the script here)
+6. Apache APISIX plug-ins have been carefully tuned to maintain millisecond-level latency under high pressure.
 
-**Apache APISIX is 2x the QPS of Kong without plug-ins and with only reverse proxies, and 10x the performance of Kong with both flow limiting and prometheus plug-ins enabled.**
-
-![4.jpg](https://pic1.zhimg.com/80/v2-48d821e4b2d6834ae67fed1bdd747610_1440w.jpg)
-
-![5.jpg](https://pic1.zhimg.com/80/v2-0e8e1e951f4c1359c8d2179b43a4f298_1440w.jpg)
-
-Apache APISIX is half of Kong's latency without plugins on and with only reverse proxying; with both flow limiting and prometheus plugins on, the latency is one-tenth of Kong's.
-
-![6.jpg](https://pic1.zhimg.com/80/v2-78e9ce67c9e0fa16325b45bad817c410_1440w.jpg)
-
-![7.jpg](https://pic2.zhimg.com/80/v2-d4ca01f7a243ff52b01d6702a5add2b9_1440w.jpg)
-
-Press test scenario 2: 4 workers on
-
-[Detailed compression test results](https://link.zhihu.com/?target=https%3A//gist.github.com/membphis/137db97a4bf64d3653aa42f3e016bd01)
-
-![8.jpg](https://pic1.zhimg.com/80/v2-a79066c94bf0fefb22fff914dac7971c_1440w.jpg)
-
-![9.jpg](https://pic3.zhimg.com/80/v2-056e320b4372b06ea7a7c07bcb8a9cc2_1440w.jpg)
-
-![10.jpg](https://pic2.zhimg.com/80/v2-e4fb4c8aacea997374c06a13f72959c9_1440w.jpg)
-
-![11.jpg](https://pic4.zhimg.com/80/v2-1584da0dcf994f6d72b35b075e016f6f_1440w.jpg)
-
-## At the end
-
-The performance test shows that the performance (QPS and latency) of Apache APISIX is twice that of Kong without the plugins turned on, but with the two common plugins turned on, the performance is ten times that of Kong.
-
-You are welcome to follow and click star at Apache APISIX [https://github.com/apache/incubator-apisix](https://github.com/apache/incubator-apisix), We will work together to make it a world class project. For the convenience of domestic students, you can also join the QQ exchange group 552030619 (Apache APISIX community).
+7. Apache APISIX's unique plug-in arrangement and low-code feature can greatly reduce the threshold of secondary development.

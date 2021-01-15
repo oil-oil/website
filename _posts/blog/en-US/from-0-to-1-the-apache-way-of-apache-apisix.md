@@ -1,7 +1,7 @@
 ---
-title: "From 0 to 1: Apache APISIX's Apache Road"
-date: 2019-12-26 
----  
+title: "From 0 to 1: Apache APISIX's Apache Way"
+date: 2019-12-26
+---
 
 Author: Wen Ming
 
