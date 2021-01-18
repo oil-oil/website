@@ -22,7 +22,7 @@
       "title": "基于 Apache APISIX 的全流量 API 网关",
       "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2020-12-14",
-      "path": "/zh/blog/full-flow-api-gateway-based-on-apache-apisix"
+      "path": "/zh/blog/full-traffic-api-gateway-based-on-apache-apisix"
     },
     {
       "title": "如何在 Apache APISIX 中实现插件编排",
