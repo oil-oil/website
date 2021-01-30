@@ -28,7 +28,7 @@
       "title": "如何在 Apache APISIX 中实现插件编排",
       "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2020-12-14",
-      "path": "/zh/blog/how-to-implement-plugin-orchestration-in-api-gatewayedit-proposal"
+      "path": "/zh/blog/how-to-implement-plugin-orchestration-in-api-gateway"
     },
     {
       "title": "贝壳找房：如何基于 Apache APISIX 搭建网关",
@@ -84,7 +84,7 @@
       "title": "How to implement plugin orchestration in API Gateway",
       "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2020-12-14",
-      "path": "/en/blog/how-to-implement-plugin-orchestration-in-api-gatewayedit-proposal"
+      "path": "/en/blog/how-to-implement-plugin-orchestration-in-api-gateway"
     },
     {
       "title": "ke: How to build a gateway based on Apache APISIX",

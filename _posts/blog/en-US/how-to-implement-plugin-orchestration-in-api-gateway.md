@@ -1,14 +1,12 @@
 ---
-title: "如何在 Apache APISIX 上实现插件编排"
+title: "Apache APISIX: How to implement plugin orchestration in API Gateway"
 date: 2020-12-14
 ---
 
-This is Wen Ming's topic at the Apache Conference in 2020, introducing the unique plug-in orchestration function of Apache APISIX and the low-code API gateway.
-
-<iframe src="//player.bilibili.com/player.html?aid=457628574&bvid=BV145411L7kt&cid=252768596&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="600px" src="https://www.youtube.com/embed/iEegNXOtEhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding-top: 30px"></iframe>
 
 
-First let me introduce myself. I am from China, the co-founder of apiseven, which is a Chinese startup company.  I am the VP and PMC member of the open source project Apache APISIX. I am also a committer of Apache skywalking. In addition, I am the founder of the qihoo 360 Open Source Committee, Tencent Cloud TVP, and a TOC member of the TARS Foundation. I have more than 40 security patents.
+First let me introduce myself. I am from China, the co-founder of [apiseven](https://www.apiseven.com), which is a Chinese startup company.  I am the VP and PMC member of the open source project [Apache APISIX](https://github.com/apache/apisix). I am also a committer of Apache skywalking. In addition, I am the founder of the qihoo 360 Open Source Committee, Tencent Cloud TVP, and a TOC member of the TARS Foundation. I have more than 40 security patents.
 
 In today’s topic, I will introduce 4 parts. First, a brief introduction to Apache APISIX. What is Apache APISIX and what can it help us to deal with? The second part is the custom development in the API gateway, and the third part is the plugin in Apache APISIX. How can we automatically generate it? The last part is some thoughts on the future of API gateway.
 
