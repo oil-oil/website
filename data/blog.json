@@ -1,6 +1,12 @@
 {
   "zh-CN": [
     {
+      "title": "Amazon EKS 和 APISIX ingress controller 如何配合使用来管理复杂流量",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
+      "date": "2021-02-07",
+      "path": "/zh/blog/how-Amazon-EKS-and-APISIX-ingress-controller-work-together-to-manage-complex-traffic"
+    },
+    {
       "title": "使用 Cypress 让产品持续稳定交付",
       "cover": "https://static.apiseven.com/logo/cypress.png",
       "date": "2021-02-07",
