@@ -28,6 +28,30 @@ type Props = {
 const CareerList: NextPage<Props, any> = ({ t }) => {
   const list = [
     {
+      title: "客户成功架构师",
+      description: "有丰富的软件开发和运维相关工作经验。",
+      href: "/careers/customer-success-architect",
+      type: t("career-card-name2")
+    },
+    {
+      title: "技术文档工程师",
+      description: "负责公司产品用户手册、操作手册等相关内容的策划编写及维护。",
+      href: "/careers/technical-writer",
+      type: t("career-card-name2")
+    },
+    {
+      title: "开发者关系和生态负责人",
+      description: "与开源社区成员进行各种联系，无论是面对面、博客、论坛，还是其他社交渠道和活动。",
+      href: "/careers/head-of-developer-relations-and-ecology",
+      type: t("career-card-name2")
+    },
+    {
+      title: "服务端开发工程师（实习）",
+      description: "完成 Apache APISIX 以及周边开源项目的开发任务。",
+      href: "/careers/server-development-engineer",
+      type: t("career-card-name")
+    },
+    {
       title: t("career-card-title5"),
       description: t("career-card-desc5"),
       href: "/careers/head-of-growth",
