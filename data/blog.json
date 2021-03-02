@@ -1,6 +1,12 @@
 {
   "zh-CN": [
     {
+      "title": "使用 Cypress 获取前端测试覆盖率",
+      "cover": "https://static.apiseven.com/logo/cypress.png",
+      "date": "2021-03-02",
+      "path": "/zh/blog/get-front-end-test-coverage-with-cypress"
+    },
+    {
       "title": "使用 Helm Charts 安装 Apache APISIX",
       "cover": "https://apache.org/logos/res/apisix/apisix.png",
       "date": "2021-02-26",
@@ -80,6 +86,12 @@
     }
   ],
   "en-US": [
+    {
+      "title": "Get Front-End Test Coverage with Cypress",
+      "cover": "https://static.apiseven.com/logo/cypress.png",
+      "date": "2021-03-02",
+      "path": "/en/blog/get-front-end-test-coverage-with-cypress"
+    },
     {
       "title": "Install Apache APISIX from Helm Charts",
       "cover": "https://apache.org/logos/res/apisix/apisix.png",
