@@ -4,6 +4,7 @@ import { NextPage } from "next";
 
 import { withTranslation } from "../../i18n";
 import { TFunction } from "next-i18next";
+import { SHover } from "./style";
 
 type Props = {
   t: TFunction;
@@ -29,34 +30,39 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="/">{t("homepage")}</Nav.Link>
-          <Nav.Link href="/news">{t("common:news")}</Nav.Link>
-          <NavDropdown
-            title={t("open-source")}
-            id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item href="https://github.com/apache/apisix">Apache APISIX</NavDropdown.Item>
-            <NavDropdown.Item href="https://github.com/apache/apisix-ingress-controller">k8s ingress controller</NavDropdown.Item>
-            <NavDropdown.Item href="/apisix-vs-api7">Apache APISIX vs API7</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="/usercases">{t("showcases")}</Nav.Link>
-          <NavDropdown
-            title={t("commercial-products-and-support")}
-            id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item href="/business-support/">{t("business-support")}</NavDropdown.Item>
-            <NavDropdown.Item href="/form-api7-trial">{t("trial")}</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="/careers">{t("job")}</Nav.Link>
-          <NavDropdown
-            title={t("text3")}
-            id="basic-nav-dropdown"
-          >
-            <NavDropdown.Item href={zhLang}>{t("text1")}</NavDropdown.Item>
-            <NavDropdown.Item href={enLang}>{t("text2")}</NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
+        <SHover>
+          <Nav className="mr-auto">
+            <Nav.Link href="/">{t("homepage")}</Nav.Link>
+            <Nav.Link href="/news">{t("common:news")}</Nav.Link>
+            <NavDropdown
+              title={t("open-source")}
+              id="basic-nav-dropdown"
+              renderMenuOnMount={true}
+            >
+              <NavDropdown.Item href="https://github.com/apache/apisix">Apache APISIX</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/apache/apisix-ingress-controller">k8s ingress controller</NavDropdown.Item>
+              <NavDropdown.Item href="/apisix-vs-api7">Apache APISIX vs API7</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/usercases">{t("showcases")}</Nav.Link>
+            <NavDropdown
+              title={t("commercial-products-and-support")}
+              id="basic-nav-dropdown"
+              renderMenuOnMount={true}
+            >
+              <NavDropdown.Item href="/business-support/">{t("business-support")}</NavDropdown.Item>
+              <NavDropdown.Item href="/form-api7-trial">{t("trial")}</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/careers">{t("job")}</Nav.Link>
+            <NavDropdown
+              title={t("text3")}
+              id="basic-nav-dropdown"
+              renderMenuOnMount={true}
+            >
+              <NavDropdown.Item href={zhLang}>{t("text1")}</NavDropdown.Item>
+              <NavDropdown.Item href={enLang}>{t("text2")}</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </SHover>
       </Navbar.Collapse>
     </Navbar>
   );

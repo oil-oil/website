@@ -74,3 +74,11 @@ export const SNavItem = styled.li`
     line-height: 19px;
   }
 `
+
+export const SHover = styled.div`
+  div.dropdown.nav-item:hover {
+    div.dropdown-menu {
+      display: block;
+    }
+  }
+`
