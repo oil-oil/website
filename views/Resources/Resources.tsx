@@ -33,7 +33,7 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
 
   return (
     <SWrapper>
-      <NextSeo title="资源" />
+      <NextSeo title="Apache APISIX Devcon 2020" />
       <div>
         <Nav />
         <div className="cover">
