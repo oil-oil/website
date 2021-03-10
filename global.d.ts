@@ -7,4 +7,5 @@ type Post = {
   logo?: string;
   url?: string;
   desc?: string;
+  speaker?: string;
 }
