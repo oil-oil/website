@@ -40,17 +40,26 @@ const NavComponent: NextPage<Props, any> = ({ t }) => {
               renderMenuOnMount={true}
             >
               <NavDropdown.Item href="https://github.com/apache/apisix">Apache APISIX</NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/apache/apisix-ingress-controller">k8s ingress controller</NavDropdown.Item>
-              <NavDropdown.Item href="/apisix-vs-api7">Apache APISIX vs API7</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/apache/apisix-ingress-controller">Apache APISIX Ingress Controller</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/usercases">{t("showcases")}</Nav.Link>
             <NavDropdown
               title={t("commercial-products-and-support")}
               id="basic-nav-dropdown"
               renderMenuOnMount={true}
             >
-              <NavDropdown.Item href="/business-support/">{t("business-support")}</NavDropdown.Item>
               <NavDropdown.Item href="/form-api7-trial">{t("trial")}</NavDropdown.Item>
+              <NavDropdown.Item href="/business-support/">{t("business-support")}</NavDropdown.Item>
+              <NavDropdown.Item href="/apisix-vs-api7">Apache APISIX vs API7</NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown
+              title={t("resources")}
+              id="basic-nav-dropdown"
+              renderMenuOnMount={true}
+            >
+              <NavDropdown.Item href="/blog">{t("blog")}</NavDropdown.Item>
+              <NavDropdown.Item href="/usercases">{t("showcases")}</NavDropdown.Item>
+              <NavDropdown.Item href="/resources/apisix-devcon-2020">DevCon</NavDropdown.Item>
+              <NavDropdown.Item href="/contributor-graph">{t("contributor-graph")}</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/careers">{t("job")}</Nav.Link>
             <NavDropdown
