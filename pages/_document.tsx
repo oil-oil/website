@@ -38,7 +38,7 @@ export default class MyDocument extends Document {
       <html lang={lng}>
         <Head>
           <link
-            href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+            href="https://static.apiseven.com/bootstrap.min.css"
             rel="stylesheet"
           />
         </Head>
