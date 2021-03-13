@@ -37,6 +37,7 @@ export default class MyDocument extends Document {
     return (
       <html lang={lng}>
         <Head>
+        <meta name="keywords" content="APISIX, API7, APISEVEN, API Gateway, Cloud Native, Open Source" />
           <link
             href="https://static.apiseven.com/bootstrap.min.css"
             rel="stylesheet"
