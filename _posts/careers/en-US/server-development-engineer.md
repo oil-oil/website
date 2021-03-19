@@ -1,19 +1,13 @@
 ---
-title: Senior Nginx Development Engineer
-date: 2020-10-19 13:19:00
+title: Server Development Engineer (Internship)
+date: 2021-02-23 11:03:00
 ---
 
-### Content
+### Internship Content
 
-1. Responsible for Nginx underlay optimization for Apache APISIX;
-2. Responsible for development, maintenance, and upgrades of the Nginx kernel and third-party modules;
-
-### Requirements
-
-1. Knowledge of Nginx principles and implementation;
-2. Developed Nginx C modules;
-3. Loves open source and has a strong interest in technology;
-4. Nginx, OpenResty code contributors are preferred;
+1. completing development tasks for Apache APISIX and surrounding open source projects.
+2. Improving development documentation in English and Chinese.
+3. Collect user feedback and draw lessons from it.
 
 ### Additional
 
