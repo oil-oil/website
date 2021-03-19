@@ -167,7 +167,7 @@ About.getInitialProps = async (context) => {
   const posts = data["about"][lng];
 
   return {
-    namespacesRequired: ["common"],
+    namespacesRequired: ["common", "footer"],
     list: posts,
   };
 };
