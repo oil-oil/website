@@ -3,10 +3,6 @@ import { NextPage } from "next";
 import { TFunction } from "next-i18next";
 import { NextSeo } from "next-seo";
 
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
-import FooterLinks from "@/components/FooterLinks";
-
 import { withTranslation } from "../../i18n";
 import { SWrapper } from "./style";
 import data from "../../data/news.json";
@@ -21,7 +17,6 @@ const News: NextPage<Props, any> = ({ t, list = [] }) => {
     <SWrapper>
       <NextSeo title={t(`common:news`)} />
       <div>
-        <Nav />
         <div className="cover">
           <div className="box">
             <h1>{t(`common:news`)}</h1>
@@ -42,8 +37,6 @@ const News: NextPage<Props, any> = ({ t, list = [] }) => {
             </div>
           ))}
         </div>
-        <FooterLinks />
-        <Footer />
       </div>
     </SWrapper>
   );

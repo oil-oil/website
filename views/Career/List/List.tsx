@@ -3,9 +3,6 @@ import { NextPage } from "next";
 import { NextSeo } from "next-seo";
 import { TFunction } from "next-i18next";
 
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
-import FooterLinks from "@/components/FooterLinks";
 import { withTranslation } from "../../../i18n";
 import {
   SSection1,
@@ -87,20 +84,7 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
     <>
       <NextSeo title={t("common:job")} />
       <div className="wrapper default">
-        <Nav />
         <div className="elementor-section-wrap">
-          <SSection1>
-            <div className="background-overlay"></div>
-            <div className="container">
-              <div className="row">
-                <div className="button-wrapper">
-                  <a href="#courses" className="elementor-button" role="button">
-                    {" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </SSection1>
           <SSection2>
             <div className="widget-wrap">
               <div id="courses" className="menu-anchor"></div>
@@ -130,8 +114,6 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
               </div>
             </SSection3>
           </SSection2>
-          <FooterLinks />
-          <Footer />
         </div>
       </div>
     </>
