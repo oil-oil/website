@@ -1,5 +1,5 @@
 ---
-title: Head of Growth
+title: Leader of Growth
 date: 2020-11-17 21:16:00
 ---
 
