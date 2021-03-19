@@ -93,16 +93,9 @@ const CareerList: NextPage<Props, any> = ({ t }) => {
             <div className="background-overlay"></div>
             <div className="container">
               <div className="row">
-                <h2 className="heading-title">
-                  {t("career-block1-title")}
-                  <br /> {t("career-block1-desc")}
-                </h2>
                 <div className="button-wrapper">
                   <a href="#courses" className="elementor-button" role="button">
                     {" "}
-                    <span className="elementor-button-content-wrapper">
-                      {t("career-text1")}
-                    </span>
                   </a>
                 </div>
               </div>
