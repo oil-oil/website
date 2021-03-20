@@ -1,9 +1,7 @@
 import {
   Box,
-  Button,
   Center,
   Heading,
-  Img,
   Stack,
   Text,
   useColorModeValue as mode,
@@ -62,14 +60,11 @@ const App: NextPage<Props, any> = ({ t }) => {
             </Button> */}
           </Box>
           <Center flex="1" shadow="lg" minH="26rem" maxW={{ lg: 'xl' }}>
-            <Img
-              objectFit="contain"
-              w="full"
-              h="full"
-              htmlWidth="576px"
-              htmlHeight="420px"
-              src={`https://static.apiseven.com/low-code-api-gateway-example-${language}.gif`}
-              alt="Low-Code API Gateway"
+            <video
+              src={`https://static.apiseven.com/brand/low-code-api-gateway-example-${language}.webm`}
+              autoPlay
+              loop
+              muted
             />
           </Center>
         </Stack>
