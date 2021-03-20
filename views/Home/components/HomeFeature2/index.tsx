@@ -68,7 +68,7 @@ const App: NextPage<Props, any> = ({ t }) => {
               h="full"
               htmlWidth="576px"
               htmlHeight="420px"
-              src={`https://static.apiseven.com/low-code-api-gateway-example-${language}.gif`}
+              src={`https://api7-website-1301662268.file.myqcloud.com/low-code-api-gateway-example-${language}.gif`}
               alt="Low-Code API Gateway"
             />
           </Center>
