@@ -9,7 +9,7 @@ export const EN_US_data: BlogData[] = [
       'Amazon Elastic Kubernetes Service (Amazon EKS), a hosted Kubernetes service, allows you to easily run Kubernetes loads on Amazon Cloud Technologies without the need for control plane or node installation and maintenance.',
     type: 'article',
     tags: ['k8s', 'Amazon'],
-    href: '/zh/blog/how-Amazon-EKS-and-APISIX-ingress-controller-work-together-to-manage-complex-traffic'
+    href: '/en/blog/how-Amazon-EKS-and-APISIX-ingress-controller-work-together-to-manage-complex-traffic'
   }, {
     image:
       'https://static.apiseven.com/Snip20210315_.png',
@@ -28,7 +28,7 @@ export const EN_US_data: BlogData[] = [
       'Cloud native has become a key driver of digital transformation for global enterprises. Zhiliu Technology and Geely are working together to achieve centralized management, visualization and security of APIs, laying the foundation for Geely\'s next "10 million vehicle" era.',
     type: 'article',
     tags: [],
-    href: '/zh/usercase/geely'
+    href: '/en/usercase/geely'
   },
 ]
 
