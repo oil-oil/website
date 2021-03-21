@@ -7,7 +7,7 @@ date: 2021-02-07
 
 ## 背景
 
-盼望着，盼望着，春节的脚步近了…… 作为流量管理人员，有时候，即使节前做好了万全准备，也难挡突发状况的出现！构建四通八达的 API 网关至关重要！今天就来告诉你一个终极开发者大招——**Amazon EKS + Ingress APISIX！**
+作为流量管理人员，有时候，即使做好了万全准备，也难挡突发状况的出现。构建四通八达的 API 网关至关重要！今天就来为大家介绍**Amazon EKS + Ingress APISIX！**是如何帮助我们解决这个问题的。
 
 ## 简介
 
@@ -124,6 +124,6 @@ ingress-apisix chart 将引导我们安装 Controller 自身，我们可以将 i
       }
     }
 
-如果 Serivce 类型为 ClusterIP，则需要登录到Amazon EKS 集群中的一个 Pod，随后使用 ClusterIP或Service FQDN访问Apache APISIX。如果已经暴露（无论暴露了 NodePort或 LoadBalancer），则可直接访问可触达的外部端点。
+如果 Serivce 类型为 ClusterIP，则需要登录到 Amazon EKS 集群中的一个 Pod，随后使用 ClusterIP 或 Service FQDN 访问 Apache APISIX。如果已经暴露（无论暴露了 NodePort或 LoadBalancer），则可直接访问可触达的外部端点。
 
 注：该文章转自 aws 微信公众号。

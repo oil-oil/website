@@ -29,7 +29,6 @@ date: 2020-12-18
 
 <img src="https://static.apiseven.com/logo/geely-1.png" alt="Architecture" />
 
-
 一个承载着集团大量 API 的市场，需要一个性能强大、安全可靠的 API 网关。 支流科技开发的 APISEVEN 高性能云原生网关（Cloud Native API Gateway）提供精细化路由，全动态更新的能力，并且性能与同类型产品相比遥遥领先，在安全保障上深度支持各类防护，运维友好，详尽的文档，加上低门槛的可定制能力获得了吉利的青睐。
 
 ## 简单高效不畏挑战
@@ -54,7 +53,6 @@ APISEVEN 支持业务流量精细化控制，不仅能够在路由匹配阶段�
 运维友好，APISEVEN 支持 Prometheus、SkyWalking 动态追踪、流量复制、故障注入等功能。
 
 <img src="https://static.apiseven.com/logo/geely-3.png" alt="Architecture" />
-
 
 APISEVEN 网关的这些特性与吉利 API 市场的需求完美契合，通过集中式配置统一管理企业内部 API，加上多版本管理以及权限控制，支持开发者快速上线服务和 API, 方便用户订阅感兴趣的服务。快速变更配置的同时，不影响业务流量的正常运行，降低开发和订阅成本。
 

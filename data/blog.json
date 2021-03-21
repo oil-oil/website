@@ -99,6 +99,12 @@
       "path": "/en/blog/install-apache-apisix-from-helm-charts"
     },
     {
+      "title": "How Amazon EKS and APISIX ingress controller work together to manage complex traffic",
+      "cover": "https://apache.org/logos/res/apisix/apisix.png",
+      "date": "2021-02-07",
+      "path": "/en/blog/how-Amazon-EKS-and-APISIX-ingress-controller-work-together-to-manage-complex-traffic"
+    },
+    {
       "title": "Stable Product Delivery with Cypress",
       "cover": "https://static.apiseven.com/logo/cypress.png",
       "date": "2021-02-07",
@@ -111,10 +117,10 @@
       "path": "/en/blog/apache-apisix-helps-enterprises-transform-digitally"
     },
     {
-      "title": "A First Look at Kubernetes Service API",
+      "title": "A First Look at Kubernetes Service APIs",
       "cover": "https://gateway-api.sigs.k8s.io/images/api-model.png",
       "date": "2020-12-18",
-      "path": "/zh/blog/a-first-look-at-kubernetes-service-api"
+      "path": "/en/blog/a-first-look-at-kubernetes-service-api"
     },
     {
       "title": "How to avoid Catastrophic Backtracking in regex?",

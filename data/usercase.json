@@ -33,6 +33,12 @@
   ],
   "en-US": [
     {
+      "title": "Zhiliu Technology and Geely: Digitising the industry to Intelligent creation the future",
+      "cover": "https://static.apiseven.com/logo/geely-1.png",
+      "date": "2020-12-18",
+      "path": "/en/usercase/geely"
+    },
+    {
       "title": "360: Apache APISIX in practice in the basic operation and maintenance platform project",
       "cover": "https://static.apiseven.com/2020/05/Jietu20200312-103300-removebg-preview.png",
       "date": "2020-12-11 17:16:00",
