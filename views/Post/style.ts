@@ -46,12 +46,12 @@ export const SInner = styled.div`
   a {
     box-shadow: none;
     text-decoration: none;
-    color: #FF2500;
+    color: var(--chakra-colors-blue-500);
     font-weight: 300;
 
     :hover {
-      text-decoration: none;
-      opacity: .75;
+      text-decoration: underline;
+      color: var(--chakra-colors-blue-600);
     }
   }
 
@@ -172,14 +172,14 @@ export const SArticle = styled.article`
     padding-inline-start: 25px;
   }
 
-  p a {
+  a {
     box-shadow: none;
     text-decoration: none;
-    color: #ff2500;
+    color: var(--chakra-colors-blue-500);
 
     :hover {
-      text-decoration: none;
-      opacity: .75;
+      text-decoration: underline;
+      color: var(--chakra-colors-blue-600);
     }
   }
 
