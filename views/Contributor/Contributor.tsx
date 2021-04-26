@@ -30,8 +30,9 @@ const getParameterByName = (name, url = '') => {
 const Contributor: NextPage<Props, any> = ({ t, url }) => {
   const repo = getParameterByName('repo', url) || 'apache/apisix';
   const chart = getParameterByName('chart', url);
-  const [legend, setLegend] = useState(repo.split(','));
-  const [chartType, setChartType] = useState('contributorOverTime');
+  const merge = getParameterByName('merge', url) || '';
+  const [legend, setLegend] = useState([]);
+  const [chartType, setChartType] = useState('');
   const [shareUrl, setShareUrl] = useState('https://www.apiseven.com/en/contributor-graph')
 
   useEffect(() => {
@@ -84,7 +85,7 @@ const Contributor: NextPage<Props, any> = ({ t, url }) => {
       </Fab>
       <NextSeo title={t(`common:contributor-graph`)} />
       <div className="iframeBox">
-        <iframe src={`https://contributor-graph.apiseven.com/?chart=${chart}&repo=${repo}`} scrolling="no" style={{ overflow: "hidden", height: chartType === 'contributorMonthlyActivity' ? '1000px' : '1200px' }}></iframe>
+        <iframe src={`https://contributor-graph.apiseven.com/?chart=${chart}&repo=${repo}${merge ? '&merge=true' : ''}`} scrolling="no" style={{ overflow: "hidden", height: chartType === 'contributorMonthlyActivity' ? '1000px' : '1200px' }}></iframe>
       </div>
     </SWrapper>
   );
