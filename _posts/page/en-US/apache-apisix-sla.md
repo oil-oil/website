@@ -1,13 +1,13 @@
 ---
-title: "SLA"
+title: "Apache APISIX Service Level Agreements"
 date: 2021-05-09
 ---
 
 All the support packages are SLA-driven.
 
-- Pro Package: for non-critical deployments, respond within 4 Business hours.
-- Business Package: for critical production deployments, respond within 2 Business hours.
-- Platinum Package: for mission-critical production deployments, tight communication between APISIX support and customers’ teams, respond within 1 hour.
+- **Pro Package**: for non-critical deployments, respond within 4 Business hours.
+- **Business Package**: for critical production deployments, respond within 2 Business hours.
+- **Platinum Package**: for mission-critical production deployments, tight communication between APISIX support and customers’ teams, respond within 1 hour.
 
 The comparison table that follows summarizes these support offerings.
 
