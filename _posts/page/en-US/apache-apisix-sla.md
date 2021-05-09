@@ -1,5 +1,5 @@
 ---
-title: "Apache APISIX Service Level Agreements"
+title: "Apache APISIX Service Level Agreements (SLA)"
 date: 2021-05-09
 ---
 
