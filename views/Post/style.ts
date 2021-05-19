@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SSection1 = styled.div`
-  max-width: 780px;
+  max-width: 860px;
   transition-property: background-image, border, border-radius, box-shadow;
   transition-duration: .3s, 0.3s, 0.3s, 0.3s;
   transition-timing-function: ease, ease, ease, ease;
@@ -41,7 +41,6 @@ export const SBox1 = styled.div`
 export const SInner = styled.div`
   display: flex;
   margin-top: 25px;
-
 
   a {
     box-shadow: none;
@@ -122,7 +121,7 @@ export const SInner = styled.div`
 `;
 
 export const SSection2 = styled.div`
-  max-width: 780px;
+  max-width: 860px;
   background-color: rgba(255,255,255,.9098039215686274);
   transition-property: background-image, border, border-radius, box-shadow;
   transition-duration: .3s, 0.3s, 0.3s, 0.3s;
@@ -186,6 +185,7 @@ export const SArticle = styled.article`
   table {
     width: 100%;
     display: table;
+    table-layout: fixed;
     margin: 0;
     font-size: 16px;
     border-spacing: 0;
