@@ -33,5 +33,5 @@ The following table is the specific content:
 
 ## Toll
 
-The subscription fee is charged quarterly.  
+The subscription fee is charged annually.
 [Contact us for a quote](https://www.apiseven.com/support-for-business-form/)
