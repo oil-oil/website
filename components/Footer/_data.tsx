@@ -102,7 +102,7 @@ export const ZH_CN_links: LinkGroupData[] = [
         href: "https://github.com/apache/apisix-ingress-controller",
       }, {
         label: "服务网格",
-        href: "#"
+        href: "https://github.com/api7/apisix-mesh-agent"
       }
     ]
   },
