@@ -45,5 +45,21 @@
   "home-text30": "与网关专家聊一聊",
   "home-text31": "灵活可靠的企业级 API 网关将作为您的流量管理平台，减少通用组件研发、保障您的业务稳定。",
   "home-text32": "可靠的高性能网关",
-  "home-text33": "获得厂商和权威机构认证"
+  "home-text33": "获得厂商和权威机构认证",
+  "home-testimonials-airwallex-desc": "我们已经实现了基于 Apache APISIX 的 API 网关，并且已经顺利地向多云和微服务架构过渡，这要归功于 APISIX 高度优化和可扩展的平台，以及开发者社区的支持！",
+  "home-testimonials-airwallex-name": "Ryan Cao",
+  "home-testimonials-airwallex-job": "Airwallex 首席架构师",
+  "home-testimonials-airwallex-label": "支付",
+  "home-testimonials-tencent-ieg-desc": "我们从 Apache APISIX 诞生的第一版就开始关注这个项目，并积极给项目做贡献，团队成员也因此被选举为项目的 Committer。希望不久的将来会有更多的公司和个人加入进来，让APISIX社区更加繁荣的发展。",
+  "home-testimonials-tencent-ieg-name": "腾讯互娱用户平台团队",
+  "home-testimonials-tencent-ieg-label": "互联网",
+  "home-testimonials-meicai-desc": "我们调研了 Apache APISIX 这款云原生、高性能、可扩展的微服务 API 网关。它不仅对原生 Nginx 的功能支持友好，并且还继承了 Nginx 高并发、高性能、高可靠性的特点，同时还提供了丰富的插件，例如灰度、限流/限速、授权认证等，可以更好的为业务服务。Apache APISIX 活跃的社区文化也是吸引我们地方，对于网关的选型来说它是一个很不错的选择。",
+  "home-testimonials-meicai-name": "李样兵",
+  "home-testimonials-meicai-job": "美菜网基础服务平台负责人",
+  "home-testimonials-meicai-label": "电商",
+  "home-testimonials-tencent-cloud-desc": "我们调研过很多 API 网关，最终选择 Apache APISIX 作为新一代 API 网关的核心组件，原因是它的高性能、高可扩展性以及活跃的社区。我希望这个项目在不久的将来会有更大的发展，并对微服务领域产生更深远的影响。",
+  "home-testimonials-tencent-cloud-name": "厉辉",
+  "home-testimonials-tencent-cloud-job": "腾讯云后台工程师",
+  "home-testimonials-tencent-cloud-label": "云计算",
+  "home-testimonials": "用户的声音"
 }
