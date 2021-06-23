@@ -2,7 +2,8 @@
 title: Front-end Engineer
 date: 2021-03-19 17:20:00
 ---
-## Content
+
+## Responsibilities
 
 - Responsible for the front-end development and design of the company's products;
 - Responsible for the development and improvement of base libraries, frameworks and key modules;
@@ -21,4 +22,4 @@ We're a remote work company with employees in 6 cities across China, and we do a
 
 ## Contact
 
-[wenming@api7.ai](mailto:wenming@api7.ai)
+[support@api7.ai](mailto:support@api7.ai)

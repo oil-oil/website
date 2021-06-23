@@ -3,7 +3,7 @@ title: Senior Development Engineer
 date: 2020-10-19 13:19:00
 ---
 
-## Content
+## Responsibilities
 
 - Development of Next-Generation API Management and Analysis Platform Based on Apache APISIX;
 - Stay technologically innovative in API's big data, behavioral analytics, security, cloud-native and other areas;
@@ -17,8 +17,9 @@ date: 2020-10-19 13:19:00
 - Contributors to open source projects preferred;
 
 ## Additional
+
 We're a remote work company with employees in 6 cities across China, and we do all of our collaboration through GitHub, Slack and Google Docs.
 
 ## Contact
 
-[wenming@api7.ai](mailto:wenming@api7.ai)
+[support@api7.ai](mailto:support@api7.ai)

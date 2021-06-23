@@ -3,7 +3,7 @@ title: Go Engineer
 date: 2020-10-17 15:03:00
 ---
 
-## Content
+## Responsibilities
 
 - Responsible for the design and architecture of the Apache APISIX control plane;
 - Completes control plane function development in conjunction with front and back end development;
@@ -17,8 +17,9 @@ date: 2020-10-17 15:03:00
 - Contributors to open source projects preferred.
 
 ## Additional
+
 We're a remote work company with employees in 6 cities across China, and we do all of our collaboration through GitHub, Slack and Google Docs.
 
 ## Contact
 
-[wenming@api7.ai](mailto:wenming@api7.ai)
+[support@api7.ai](mailto:support@api7.ai)

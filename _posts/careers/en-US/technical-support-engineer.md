@@ -3,7 +3,7 @@ title: Technical Support Engineer
 date: 2020-10-19 13:19:00
 ---
 
-## Content
+## Responsibilities
 
 - Provide after-sales technical support for Apache APISIX, APISEVEN and other API gateway products and solutions to solve user problems and ensure stable operation of the system;
 - Troubleshoot problems and failures in the user's environment, reproduce and locate them. Improve documentation and manuals to help users use the product better.
@@ -17,8 +17,9 @@ date: 2020-10-19 13:19:00
 - Familiar with API gateway products and interested in open source is a plus;
 
 ## Additional
+
 We're a remote work company with employees in 6 cities across China, and we do all of our collaboration through GitHub, Slack and Google Docs.
 
 ## Contact
 
-[wenming@api7.ai](mailto:wenming@api7.ai)
+[support@api7.ai](mailto:support@api7.ai)

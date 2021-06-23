@@ -3,7 +3,7 @@ title: Customer Success Architect
 date: 2021-02-23 11:10:00
 ---
 
-## Content
+## Responsibilities
 
 - Are you eager to share brand new technologies with the world?
 - Do you love connecting with community members in a variety of ways, whether it's face-to-face, blogs, forums or other social channels and events?
@@ -18,8 +18,9 @@ date: 2021-02-23 11:10:00
 - Whether it's a face-to-face meeting or an executive office, You will be able to deliver your presentation with ease.
 
 ## Additional
+
 We're a remote work company with employees in 6 cities across China, and we do all of our collaboration through GitHub, Slack and Google Docs.
 
 ## Contact
 
-[wenming@api7.ai](mailto:wenming@api7.ai)
+[support@api7.ai](mailto:support@api7.ai)

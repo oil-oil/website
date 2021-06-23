@@ -9,7 +9,7 @@ Our users and contributors in the community have provided a great deal of suppor
 
 As our Developer Relations and Ecology Lead, you will be a solid support to the community.
 
-## Content
+## Responsibilities
 
 - Connecting with members of the open source community in a variety of ways, whether face-to-face, blogs, forums, or other social channels and events.
 - Communicating with partners and building a global API ecosystem together.
@@ -24,8 +24,9 @@ As our Developer Relations and Ecology Lead, you will be a solid support to the 
 - Solid writing skills and the ability to produce engaging content - including presentations, blogs, videos, etc.
 
 ## Additional
+
 We're a remote work company with employees in 6 cities across China, and we do all of our collaboration through GitHub, Slack and Google Docs.
 
 ## Contact
 
-[wenming@api7.ai](mailto:wenming@api7.ai)
+[support@api7.ai](mailto:support@api7.ai)
