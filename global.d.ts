@@ -16,3 +16,15 @@ type Post = {
     title: string
   }
 }
+
+type LinkItem = {
+  title: string;
+  href: string;
+}
+type Section = {
+  title: string;
+  list: {
+    title: string;
+    list: LinkItem[];
+  }[];
+}

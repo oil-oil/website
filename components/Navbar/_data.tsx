@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { IoCalendar, IoGrid, IoHelpBuoy } from 'react-icons/io5'
+import { IoCalendar, IoGrid, IoHelpBuoy, IoListSharp } from 'react-icons/io5'
 import { AiFillGithub, AiOutlineProject, AiOutlineTeam } from 'react-icons/ai'
 import { MdWeb } from 'react-icons/md'
 import { CgReadme } from 'react-icons/cg'
@@ -120,6 +120,11 @@ export const EN_US_Links: Link[] = [
         href: "/apisix-vs-api7",
         description: "Difference between Apache APISIX and API7",
         icon: <MdCompare />
+      }, {
+        label: "API7 Features",
+        href: "/products/api7/features",
+        description: "Features list",
+        icon: <IoListSharp />
       }
     ]
   },
@@ -197,6 +202,11 @@ export const ZH_CN_Links: Link[] = [
         href: "/apisix-vs-api7",
         description: "产品能力、商业支持对比",
         icon: <MdCompare />
+      }, {
+        label: "产品特性",
+        href: "/products/api7/features",
+        description: "查看 API7 产品功能特性",
+        icon: <IoListSharp />
       }
     ]
   },
