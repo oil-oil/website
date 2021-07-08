@@ -25,7 +25,7 @@
             "title": "UDP",
             "href": ""
           },{
-            "title": "gRPC/gRPC -> HTTP",
+            "title": "HTTP -> gRPC/Dubbo",
             "href": ""
           },{
             "title": "Websocket",
@@ -63,7 +63,7 @@
             "href": ""
           },
           {
-            "title": "AWS、GCP、阿里云、腾讯云等公有云",
+            "title": "AWS、GCP、阿里云、腾讯云等",
             "href": ""
           }
         ]
@@ -567,15 +567,6 @@
           "list": [
             {
               "title": "更方便 K8s 下的运维",
-              "href": ""
-            }
-          ]
-        },
-        {
-          "title": "全局插件",
-          "list": [
-            {
-              "title": "简化操作",
               "href": ""
             }
           ]

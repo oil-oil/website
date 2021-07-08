@@ -99,9 +99,9 @@ export const SMenu = styled.div`
   }
 
   li {
-    padding: 3.5px;
+    padding: 2.5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: #FFFFFF;
     font-weight: 400;
     width: 20%;
