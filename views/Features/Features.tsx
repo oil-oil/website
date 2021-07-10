@@ -98,8 +98,7 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
 Features.getInitialProps = async (context) => {
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  // After adding the English version replace "zh-CN" with lng in line 84
-  const posts = features["zh-CN"];
+  const posts = features[lng];
 
   return {
     namespacesRequired: ["common"],
