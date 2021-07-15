@@ -1,6 +1,7 @@
 {
     "career-card-name": "工程师",
     "career-card-name2": "增长团队",
+    "career-card-name3": "商务团队",
     "career-card-title1": "技术支持工程师",
     "career-card-desc1": "为 Apache APISIX、APISEVEN 等 API 网关产品和解决方案，提供售后技术支持工作，解决用户问题，保证系统稳定运行。",
     "career-text2": "立即投递",
@@ -21,5 +22,7 @@
     "career-card-title9": "客户成功架构师",
     "career-card-desc9": "有丰富的软件开发和运维相关工作经验。",
     "career-card-title10": "前端工程师",
-    "career-card-desc10": "负责公司产品的前端开发与设计。"
+    "career-card-desc10": "负责公司产品的前端开发与设计。",
+    "career-card-title11": "商务拓展经理",
+    "career-card-desc11": "根据公司业务发展需求，寻找、挖掘有利于公司的合作资源，评估资源的可合作性。"
 }

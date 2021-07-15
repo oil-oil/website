@@ -1,6 +1,7 @@
 {
     "career-card-name": "Engineer",
     "career-card-name2": "Growth",
+    "career-card-name3": "Business Team",
     "career-card-title1": "Technical Support Engineer",
     "career-card-desc1": "Provide after-sales technical support for API gateway products and solutions such as Apache APISIX, APISEVEN, etc. to resolve user issues and ensure stable operation of the system.",
     "career-text2": "View details",
@@ -21,5 +22,7 @@
     "career-card-title9": "Customer Success Architect",
     "career-card-desc9": "Extensive experience in software development and operations and maintenance related work.",
     "career-card-title10": "Front-end Engineer",
-    "career-card-desc10": "Responsible for the front-end development and design of the company's products."
+    "career-card-desc10": "Responsible for the front-end development and design of the company's products.",
+    "career-card-title11": "Business Development Manager",
+    "career-card-desc11": "According to the company's business development needs, find and explore cooperation resources that are beneficial to the company, and evaluate the cooperability of resources."
 }
