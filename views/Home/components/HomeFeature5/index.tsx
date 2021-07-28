@@ -42,9 +42,9 @@ const App: NextPage<Props, any> = ({ t }) => (
         </Text>
       </Box>
       <Stack spacing="8" direction={{ base: 'column', md: 'row' }} divider={<StackDivider />}>
-        <Stat title={t("home-text19")} value="200+" />
-        <Stat title="GitHub Stars" value="4,700+" />
-        <Stat title={t("home-text20")} value="150,000+" />
+        <Stat title={t("home-text19")} value="260+" />
+        <Stat title="GitHub Stars" value="5,700+" />
+        <Stat title={t("home-text20")} value="600,000+" />
       </Stack>
     </Box>
   </>
