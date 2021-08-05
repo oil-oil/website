@@ -461,19 +461,13 @@
       "title": "性能和高可用",
       "list": [
         {
-          "title": "QPS",
+          "title": "极致性能",
           "list": [
             {
-              "title": "单核心性能",
+              "title": "单核心支持 18000 QPS",
               "href": ""
-            }
-          ]
-        },
-        {
-          "title": "延迟",
-          "list": [
-            {
-              "title": "每请求最低延迟",
+            }, {
+              "title": "每请求最低 0.2 毫秒延迟",
               "href": ""
             }
           ]
@@ -527,46 +521,22 @@
       "title": "运维",
       "list": [
         {
-          "title": "CLI",
+          "title": "高效运维",
           "list": [
             {
-              "title": "命令行工具",
+              "title": "支持命令行工具操作",
               "href": ""
-            }
-          ]
-        },
-        {
-          "title": "Admin API",
-          "list": [
-            {
-              "title": "使用 REST API 来控制，方便集成",
+            }, {
+              "title": "支持 RESTful API，方便控制与集成",
               "href": ""
-            }
-          ]
-        },
-        {
-          "title": "单机模式",
-          "list": [
-            {
-              "title": "用 YAML 文件来定义所有规则",
+            }, {
+              "title": "支持单机模式，使用 YAML 文件来定义所有规则",
               "href": ""
-            }
-          ]
-        },
-        {
-          "title": "回滚",
-          "list": [
-            {
-              "title": "支持操作的无限回滚",
+            }, {
+              "title": "支持操作回滚，快速恢复可用状态",
               "href": ""
-            }
-          ]
-        },
-        {
-          "title": "Helm charts",
-          "list": [
-            {
-              "title": "更方便 K8s 下的运维",
+            }, {
+              "title": "支持 Helm Charts，方便 K8s 运维",
               "href": ""
             }
           ]
