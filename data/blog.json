@@ -1,14 +1,6 @@
 {
   "zh-CN": [
     {
-      "title": "从新手村出来，我在 Apache APISIX 社区发出了第一个 PR",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-08-11",
-      "path": "/zh/blog/interview-TuZhengsong"
-    },
-    {
       "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
       "image": "/static/images/weibo.png",
       "type": "article",
