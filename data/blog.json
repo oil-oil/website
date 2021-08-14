@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "贡献者，是衡量开源项目的金指标",
+      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-14",
+      "path": "/zh/blog/contributors-the-golden-metric-of-openSource-projects"
+    },
+    {
       "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
       "image": "/static/images/weibo.png",
       "type": "article",
@@ -154,6 +162,14 @@
     }
   ],
   "en-US": [
+    {
+      "title": "Contributors — The Golden Metric of OpenSource Projects",
+      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-14",
+      "path": "/en/blog/contributors-the-golden-metric-of-openSource-projects"
+    },
     {
       "title": "Traffic Split in Apache APISIX Ingress Controller",
       "image": "https://api7-website-1301662268.file.myqcloud.com/ingress_controller_cover.png",
