@@ -27,7 +27,7 @@ export const SSection = styled.section`
     width: 100%;
     height: 300px;
     z-index: -1;
-    background: url("/static/images/20210706002.jpeg") no-repeat center center / 100%;
+    background: url("https://static.apiseven.com/202108/20210706002.jpeg") no-repeat center center / 100%;
   }
 
   .titleBox {

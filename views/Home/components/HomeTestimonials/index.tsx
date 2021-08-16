@@ -19,28 +19,28 @@ const HomeTestimonials: NextPage<Props, any> = ({ t }) => {
   const list = [
   {
     description: t("home-testimonials-airwallex-desc"),
-    logo: '/static/images/airwallex.png',
+    logo: '	https://static.apiseven.com/202108/airwallex.png',
     name: t("home-testimonials-airwallex-name"),
     job: t("home-testimonials-airwallex-job"),
     label: t("home-testimonials-airwallex-label")
   },
   {
     description: t("home-testimonials-tencent-ieg-desc"),
-    logo: '/static/images/tencent-ieg.png',
+    logo: 'https://static.apiseven.com/202108/tencent-ieg.png',
     name: t("home-testimonials-tencent-ieg-name"),
     job: '',
     label: t("home-testimonials-tencent-ieg-label")
   },
   {
     description: t("home-testimonials-meicai-desc"),
-    logo: '/static/images/meicai.png',
+    logo: 'https://static.apiseven.com/202108/meicai.png',
     name: t("home-testimonials-meicai-name"),
     job: t("home-testimonials-meicai-job"),
     label: t("home-testimonials-meicai-label")
   },
   {
     description: t("home-testimonials-tencent-cloud-desc"),
-    logo: '/static/images/tencent-cloud.png',
+    logo: 'https://static.apiseven.com/202108/tencent-cloud.png',
     name: t("home-testimonials-tencent-cloud-name"),
     job: t("home-testimonials-tencent-cloud-job"),
     label: t("home-testimonials-tencent-cloud-label")

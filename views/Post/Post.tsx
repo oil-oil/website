@@ -84,7 +84,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
           <a href="https://www.apiseven.com/" target="_blank">
             <img
               style={{ width: 100 }}
-              src="/static/images/api7-logo.png"
+              src="https://static.apiseven.com/202108/api7-logo.png"
               alt=""
             />
           </a>

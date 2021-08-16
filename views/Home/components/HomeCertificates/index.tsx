@@ -58,7 +58,7 @@ const App: NextPage<Props, any> = ({ t }) => {
               target="_blank"
             >
               <Image
-                src="/static/images/huawei-compatible.jpeg"
+                src="https://static.apiseven.com/202108/huawei-compatible.jpeg"
                 maxH="80px"
                 margin="0 auto 10px"
               />
@@ -72,7 +72,7 @@ const App: NextPage<Props, any> = ({ t }) => {
               target="_blank"
             >
               <Image
-                src="/static/images/huawei-compatible.jpeg"
+                src="https://static.apiseven.com/202108/huawei-compatible.jpeg"
                 maxH="80px"
                 margin="0 auto 10px"
               />
