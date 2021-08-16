@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SWrapper = styled.div`
   display: block;
-  
+
   .cover {
     margin: 0 auto;
     width: 100%;
@@ -57,7 +57,7 @@ export const SWrapper = styled.div`
     }
 
     a {
-      transition: color .15s ease-in;
+      transition: color 0.15s ease-in;
     }
 
     button {
@@ -82,8 +82,8 @@ export const SWrapper = styled.div`
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
-        transition: left .5s ease;
+        transform: translate(-50%, -50%);
+        transition: left 0.5s ease;
       }
 
       @media (max-width: 600px) {
@@ -94,8 +94,8 @@ export const SWrapper = styled.div`
     }
 
     .detial {
-      color: #3E3E3E;
-      background: #FAFAFA;
+      color: #3e3e3e;
+      background: #fafafa;
       display: flex;
       flex-direction: row;
       text-align: center;
@@ -103,7 +103,7 @@ export const SWrapper = styled.div`
       flex-wrap: wrap;
       width: 100%;
       min-height: 500px;
-      margin: 60px auto -40px;;
+      margin: 60px auto -40px;
 
       @media (max-width: 900px) {
         margin-top: 20px;
@@ -153,7 +153,7 @@ export const SWrapper = styled.div`
       }
     }
   }
-  
+
   .desc {
     max-width: 1124px;
     font: 16px;
@@ -171,6 +171,7 @@ export const SWrapper = styled.div`
     padding: 80px 12px;
     min-height: 512px;
     max-width: 1124px;
+    margin: 0 auto;
 
     h2 {
       font-size: 26px;
@@ -181,7 +182,6 @@ export const SWrapper = styled.div`
   }
 
   .timeline {
-
     div {
       font-size: 16px;
       font-weight: 600;
@@ -191,7 +191,7 @@ export const SWrapper = styled.div`
 
     p {
       font-size: 15px;
-      color: #3E3E3E;
+      color: #3e3e3e;
     }
   }
 
@@ -203,7 +203,7 @@ export const SWrapper = styled.div`
     font-size: 16px;
     line-height: 1.7;
     font-weight: 600;
-    color: #3E3E3E;
+    color: #3e3e3e;
     position: relative;
     justify-content: space-around;
 
@@ -259,7 +259,7 @@ export const SWrapper = styled.div`
       }
 
       span:hover {
-        color: #FE0000;
+        color: #fe0000;
       }
 
       .tip {
