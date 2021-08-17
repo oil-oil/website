@@ -40,6 +40,10 @@ export default class MyDocument extends Document {
             name="keywords"
             content="APISIX, API7, APISEVEN, API Gateway, Cloud Native, Open Source"
           />
+          <meta
+            name="google-site-verification"
+            content="SqHhSbUKs7rXIolQCAgDgo9TGPBk5JOHC48_NkgYcGM"
+          />
         </Head>
         <body>
           <Main />
