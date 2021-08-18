@@ -22,5 +22,7 @@
   "help": "获取帮助",
   "resources": "资源",
   "contributor-graph": "贡献者趋势",
-  "features": "API7 功能特性"
+  "features": "API7 功能特性",
+  "devcon": "Apache APISIX Devcon 2020",
+  "ApacheCon": "ApacheCon Asia 2021"
 }

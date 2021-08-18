@@ -57,9 +57,9 @@ export const EN_US_Links: Link[] = [
         icon: <IoGrid />,
       },
       {
-        label: 'DevCon',
-        description: 'Watch Apache APISIX DevCon 2020 Records',
-        href: '/resources/apisix-devcon-2020',
+        label: 'ApacheCon Asia',
+        description: 'Watch ApacheCon Asia 2021 Records',
+        href: '/resources/acasia2021',
         icon: <SiMeetup />,
       }, {
         label: 'Contributor Graph',
@@ -167,9 +167,9 @@ export const ZH_CN_Links: Link[] = [
         icon: <IoGrid />,
       },
       {
-        label: '开发者大会',
-        description: '观看 Apache APISIX DevCon 2020 大会录像',
-        href: '/resources/apisix-devcon-2020',
+        label: 'ApacheCon Asia',
+        description: '观看 ApacheCon Asia 2021 大会录像',
+        href: '/resources/acasia2021',
         icon: <SiMeetup />,
       }, {
         label: '贡献者趋势',

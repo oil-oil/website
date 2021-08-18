@@ -5,14 +5,16 @@ import { NextSeo } from "next-seo";
 
 import { withTranslation } from "../../i18n";
 import { SWrapper } from "./style";
-import data from "../../data/devcon.json";
+import devcon from "../../data/devcon.json";
+import ApacheCon from "../../data/acasia2021.json";
 
 type Props = {
   t: TFunction;
+  type: "devcon" | "ApacheCon"
   list: Post[];
 };
 
-const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
+const Resources: NextPage<Props, any> = ({ t, type, list = [] }) => {
   useEffect(() => {
     for (let i = 0; i < list.length; i++) {
       const changeStyle = () => {
@@ -29,14 +31,14 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
 
   return (
     <SWrapper>
-      <NextSeo title="Apache APISIX Devcon 2020" />
+      <NextSeo title={t(`common:${type}`)} />
       <div>
         <div className="cover">
-          <div className="box"><h1>Apache APISIX Devcon 2020</h1></div>
+          <div className="box"><h1>{t(`common:${type}`)}</h1></div>
         </div>
         <section>
           <div className="container">
-            <h2>视频列表</h2>
+            <h2>{t('resources:container-title')}</h2>
             <ul>
               {list.map((item, index) => (
                 <li key={item.title}>
@@ -44,7 +46,7 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
                     <a className="title" href={item.path} target="blank">{item.title}</a>
                     <p className="speaker">{item.speaker}</p>
                   </div>
-                  <div className="right"><a href={item.path} target="blank">观看视频</a></div>
+                  <div className="right"><a href={item.path} target="blank">{t('resources:view-video')}</a></div>
                   <span id={`role${index}`}>
                     <a className="showButton"></a>
                   </span>
@@ -64,12 +66,21 @@ const Resources: NextPage<Props, any> = ({ t, list = [] }) => {
 };
 
 Resources.getInitialProps = async (context) => {
+  const { pathname } = context;
+  const path = pathname.slice(1);
+  let type = "devcon";
+
+  if (path === "resources/acasia2021") {
+    type = "ApacheCon";
+  }
+
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = data["videos"][lng];
+  const posts = type === "devcon" ? devcon["videos"][lng] : ApacheCon[lng];
 
   return {
-    namespacesRequired: ["common"],
+    namespacesRequired: ["common", 'resources'],
+    type,
     list: posts,
   };
 };
