@@ -16,7 +16,7 @@ href: ""
 
 >2019 年 12 月 14 日，又拍云联合 Apache APISIX 社区举办 API 网关与高性能服务最佳实践丨OpenTalk 广州站活动，HelloTalk, Inc. 后台技术负责人李凌做了题为《HelloTalk 基于 OpenResty 的全球化探索之路》的分享。
 
-![1.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/dcdd21fb8248a73fb79edd59b50146e2)
+![1.jpg](https://static.apiseven.com/202108/dcdd21fb8248a73fb79edd59b50146e2_2.jpeg)
 
 以下是分享全文：
 
@@ -26,13 +26,13 @@ href: ""
 
 HelloTalk 是全球最大的外语学习社交社区，全球 1600 万用户通过 HelloTalk 和全球语伴学习 150 门外语、进行跨文化交流及交友。用户广泛分布中国、日本、韩国、美、欧、巴西等国家，其中海外用户占 80%，从技术角度来看 HelloTalk 是一个基于全球的 Tiny 版微信。
 
-![2.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/638f50106e81c9d99eb788d4c1d3e9c1)
+![2.jpg](https://static.apiseven.com/202108/638f50106e81c9d99eb788d4c1d3e9c1_2.jpeg)
 
 HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台协助做推广，知名度较高，产品兼顾聊天、改错、翻译等功能，用户可以边聊边语音改文字。其中语音改文字和翻译支持 100 多种语言。
 
 从运营层面看，很多企业出海时不知道怎样去做第一步，技术上也同样面临这个问题——如何做到出海，并且为全球用户提供优质的服务。为了让每个国家的用户都能拥有更好的使用体验，这里就要不得不提到 OpenResty 给我们带来的帮助了。
 
-![3.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/00edd154e43d7d22b0cfbc20ae26f0ac)
+![3.jpg](https://static.apiseven.com/202108/00edd154e43d7d22b0cfbc20ae26f0ac_2.jpeg)
 
 如上图所示，HelloTalk 的用户分布很散，我们需要找到最佳的平衡点，以性价比最优的方式部署连接节点。亚太区域如韩国、日本，中国长三角和珠三角等地用户分布比较集中，比较好处理，但是在用户高度分散的其他地区（如上图的欧洲、非洲、中东），对提供稳定可靠的服务提出了较高的挑战。
 
@@ -50,11 +50,11 @@ HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台�
 
 早期我们做 IM 开发都希望协议短小精悍，HelloTalk 的协议头也比较精简，全部是 TCP 的协议体。比较有意思的是通过前后加两个特殊的字节符号，定义中间的内容，即 0x09 + Header(20 bytes) + Body + 0x0A，基本上可以保证数据包不会出乱。如果没有前后 0x09 和 0x0A 两个包，其实还是有一定概率会产生错包的。
 
-![4.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/4016aa821d2739e943508231d132bbbe)
+![4.jpg](https://static.apiseven.com/202108/4016aa821d2739e943508231d132bbbe_2.jpeg)
 
 + **自定协议 -> HTTP 的研发成本，急需高效的 proxy 服务做协议转换**
 
-![5.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/ee08f6237b70218ca6ce17c187ecce94)
+![5.jpg](https://static.apiseven.com/202108/ee08f6237b70218ca6ce17c187ecce94_2.jpeg)
 
 早期 HelloTalk 采用 TLV + PB 的协议模式，当时业务正快速发展，需要改成对外的 restful + JSON，第一步要做的是 PB 转 JSON。
 
@@ -62,7 +62,7 @@ HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台�
 
 + **基于 cosocket 的 TCP 协议安全解析**
 
-![6.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/872061737c4c7634dd5d0bcbf8a05831)
+![6.jpg](https://static.apiseven.com/202108/872061737c4c7634dd5d0bcbf8a05831_2.jpeg)
 
 协议的解析过程基本上是不断地读 socket，读到上图中的包头里的 Length 字段，再去读 body 段，这里可以看出自己要实现协议解析比较麻烦，因为要对每个协议做适配。
 
@@ -70,7 +70,7 @@ HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台�
 
 我们当时做完 C++ 的 IM 通讯服务后，看到主流的 IM App 如 WhatsApp、微信都有 Web IM，我们很快的基于 OpenResty 对他们的协议进行兼容和改造，大概两周时间，我们就从服务端快速实现了一个 WebIM 版本的 HelloTalk。
 
-![7.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/a0e113a7e01a800ffe319762841a4266)
+![7.jpg](https://static.apiseven.com/202108/a0e113a7e01a800ffe319762841a4266_2.jpeg)
 
 和微信网页版本一样扫描登录聊天，基本不对协议做改动，只在中间添加一层 OpenResty 做 WebSocket 协议转换。
 
@@ -80,11 +80,11 @@ HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台�
 
 + **WAF 保护 PHP 业务**
 
-![8.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/cd1d59bb1367622b3034bca4dc2de821)
+![8.jpg](https://static.apiseven.com/202108/cd1d59bb1367622b3034bca4dc2de821_2.jpeg)
 
 做过 PHP 开发应该知道，所有的入侵其实是各种注入 PHP 的函数名字、关键字。但当我把所有的 PHP 的函数名全放在 WAF 后，我再也没发现过被攻击，但在日志里发现很多，这说明全部被拦截了，到不了 PHP 那边。
 
-![9.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/66d9182a76c290270de3b1f8f3c9b9dd)
+![9.jpg](https://static.apiseven.com/202108/66d9182a76c290270de3b1f8f3c9b9dd_2.jpeg)
 
 三步走：
 
@@ -111,7 +111,7 @@ HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台�
 
 但我们需要考虑两个问题：成本，真正的服务质量。
 
-![10.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/1dc8e5d4ed17b1cedd8034e21891910c)
+![10.jpg](https://static.apiseven.com/202108/1dc8e5d4ed17b1cedd8034e21891910c_2.jpeg)
 
 在解决跨境问题时，由于要考虑到国内 20% 的用户和公司总部地理位置，所以我们是基于阿里云全站加速展开，原本是全部用公网代理到香港阿里云，采用两边是 VPC、中间专线的形式，但有时候会遇到专线网络抖动导致延时提高的问题，所以在深圳做了基于 OpenResty 的网关代理。而实际情况是：如果专线不通就选择走公网，公网延时大概 14ms，专线是 4ms。
 
@@ -129,7 +129,7 @@ HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台�
 
 ### **接入节点和质量把控**
 
-![11.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/217e7a308fdd8254065df74178f6257e)
+![11.jpg](https://static.apiseven.com/202108/217e7a308fdd8254065df74178f6257e_2.jpeg)
 
 目前 HelloTalk 的接入节点主要分布在：美国东部，法兰克福，新加坡，东京，香港。美国直接到香港有可能会不通，此时会按照既定机制经转德国再回到香港，日本和韩国也是回到香港。巴西也有很多用户，但巴西云厂商只有 AWS 在做，基本上全部是连到美国，如果连不通也会多个线路之间做选择。这个环节其实是云厂商或者是 CDN 厂商完成，但实际发现总有一些地区做的并不好，所以为了保证用户体验不受损，我们得有些 failover 机制保证多个服务商之间切换，保证用户的服务是可靠的。
 
@@ -139,7 +139,7 @@ HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台�
 
 + **4 层加速：SSL 握手时间过长，容易失败，得不到客户端的 IP，不方便做节点质量统计。**
 
-![12.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/40e0434fee917090a23ea52d197b979a)
+![12.jpg](https://static.apiseven.com/202108/40e0434fee917090a23ea52d197b979a_2.jpeg)
 
 4 层加速得不到客户端的 IP，(注：有些云厂商是支持的但需要在服务器上打个补丁)，它在 TCP 的包里提供了此功能，也不是很友好，如果打补丁出了问题，谁来负这个责任呢？
 
@@ -155,7 +155,7 @@ HelloTalk 海外有很多 KOL 用户在 YouTube、Instagram、Twitter 等平台�
 + 自建低速率的 VPC + 专线通道。(性价比考虑，IM 自身流量并不多，只做通知消息下发）
 + 长短连接混合收发消息：websocket + long polling + httpdns + 内置 IP failover 机制
 
-![13.jpg](https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/5f2064f82680dd2653aa547ad0019e90)
+![13.jpg](https://static.apiseven.com/202108/5f2064f82680dd2653aa547ad0019e90_2.jpeg)
 
 当然内置哪个 IP 到客户端也是一个问题，比如对于欧洲用户，其实肯定是要分配欧洲的 IP，那么首先我们服务端要把欧洲的服务端 IP 存起来，怎么存？什么时候存？这里我们是通过腾讯云的 httpdns + openresty timer 机制分配、缓存、更新的，上图中的 IP 就是用户的真实 IP，这个时候 httpdns 服务商就会根据 IP 参数做域名的 IP 解析。 
 

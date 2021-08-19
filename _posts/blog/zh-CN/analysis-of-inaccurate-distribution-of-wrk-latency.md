@@ -6,7 +6,7 @@ href: "https://github.com/moonming"
 date: 2018-09-03
 ---
 
-![1.jpg](https://pic4.zhimg.com/80/v2-596a56dceaf120f846ce07484e4c091b_1440w.jpg)
+![1.jpg](https://static.apiseven.com/202108/v2-596a56dceaf120f846ce07484e4c091b_1440w_2.jpg)
 
 题图：Photo by Snapwire from Pexels
 

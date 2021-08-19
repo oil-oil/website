@@ -12,7 +12,7 @@ date: 2021-03-27
 
 （注：为了描述方便，下文用术语 “灰度应用” 表示命中金丝雀发布规则后对应的后端应用和术语“稳定应用”表示金丝雀发布规则未命中时对应的后端应用。例如，在下图中，灰度应用是 “foo-canary”，稳定应用是 “foo”。）
 
-![1.png](https://lh6.googleusercontent.com/E_qq-RFIcVBbTFsI8-QTNH7Io5vOXapdQUaAzKE2mYlyvtXUlZEoSd8aVMHAppARmXx9_wgHsgP1CWK_R74MfPV58dLQ71kEcU57DooHKz2LuKb6D6TW9B2_C8rLsm8wHTk2_zZt)
+![1.png](https://static.apiseven.com/202108/pasted%20image%202.png)
 
 ## Ingress Nginx
 

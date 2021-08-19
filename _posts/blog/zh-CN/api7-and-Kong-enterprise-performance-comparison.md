@@ -6,7 +6,7 @@ href: "https://github.com/Serendipity96"
 date: 2021-06-01
 ---
 
-![图片](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/da52e6a2b6674d7b812ba1a21b5dd516~tplv-k3u1fbpfcp-watermark.image)
+![图片](https://static.apiseven.com/202108/da52e6a2b6674d7b812ba1a21b5dd516~tplv-k3u1fbpfcp-watermark.image)
 
 近期，GigaOm 发布了一份 API 网关的性能评测报告，报告主要介绍了在不同压测场景下， API7（基于 Apache 顶级项目 APISIX 的企业版本） 和 Kong EE（Kong 企业版本） 二者的性能差异，**结果显示 API7 性能明显优于 Kong EE，最高有数百倍的差距。**
 

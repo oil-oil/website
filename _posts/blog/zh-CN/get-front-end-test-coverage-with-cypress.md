@@ -63,7 +63,7 @@ import '@cypress/code-coverage/support';
 配置完毕后，需要我们运行测试案例，在测试案例运行结束后，Cypress 会生成 coverage 和
 .nyc_output  文件夹，里面包含测试覆盖率的报告。
 
-![1.png](https://lh4.googleusercontent.com/o-tyQagmCjprpNkuTjMFLaALZKtW4pyC9nj-GcPx4MM3xK0zrMED9Nndk5ZmZkZsQ5SIJPEovcrHyjWP2YXtEcYYDpLL49aV_97N83doTkOuMXlFsVjGu53A9FdlxOCr6i3aIDTA)
+![1.png](https://static.apiseven.com/202108/pasted%20image%200.png)
 
 执行下面的命令后测试覆盖率信息会出现在控制台。
 
@@ -71,11 +71,11 @@ import '@cypress/code-coverage/support';
 npx nyc report --reporter=text-summary
 ```
 
-![2.png](https://lh4.googleusercontent.com/n0CON1WF64wEnh3IYEc3wwwOJ2Ft_WmMLfkhOPKIKxoW0NP6Eq8VplJ87EepL5zIWOeyfJhlDmhc3ImE0ivgRlXWe1RuW2x7vL_JEri7Mz6b3tOY0it8bVvUe83CAHNgeoyXZnsy)
+![2.png](https://static.apiseven.com/202108/pasted%20image%201.png)
 
 在coverage 目录下，会有更详细的报告网页，如图所示：
 
-![3.png](https://lh4.googleusercontent.com/skjR9YUcbmeytfoYnR0it7Vfc7mheCJDt7PSUsp549IbOdfqskTrIOqUXw01e0fnuNwpGoo3GtqAER3eQjNoTIdmU7HY6hc_sZ5NYc3h-MyxqmVz_NaC3AM-J4rWJFy-9IoTWjpn)
+![3.png](https://static.apiseven.com/202108/pasted%20image%203.png)
 
 + Statements 表示是否每个语句都执行了
 

@@ -69,9 +69,9 @@ There are not many tools to choose from in this area, and there is not much atte
 
 Here are the results of the comparison tests in paper.
 
-![1.jpg](https://pic2.zhimg.com/80/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w.jpg)
+![1.jpg](https://static.apiseven.com/202108/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w.jpg)
 
-![2.jpg](https://pic1.zhimg.com/80/v2-37843f350cfce190610379f54a665e00_1440w.jpg)
+![2.jpg](https://static.apiseven.com/202108/v2-37843f350cfce190610379f54a665e00_1440w.jpg)
 
 ## Can it be done once and for all?
 
@@ -89,7 +89,7 @@ Let's take Perl as an example and see if RE2 can avoid catastrophic backtracking
 
 Let's take a look at this comparative chart of results.
 
-![3.jpg](https://pic4.zhimg.com/80/v2-98eb63b55972c76d2257b7814b5a81ab_1440w.jpg)
+![3.jpg](https://static.apiseven.com/202108/v2-98eb63b55972c76d2257b7814b5a81ab_1440w.jpg)
 
 The code is as follows, you can try it yourself if you are interested.
 

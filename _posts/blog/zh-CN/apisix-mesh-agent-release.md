@@ -26,7 +26,7 @@ B 公司现有的服务治理框架功能落后，年久失修，因业务发展
 
 ## 使用 Apache APISIX 搭建服务网格
 
-![Apache APISIX mesh agent arch](https://user-images.githubusercontent.com/23514812/129695198-60458d56-946e-4e38-887b-3d81c90eceab.png)
+![Apache APISIX mesh agent arch](https://static.apiseven.com/202108/129695198-60458d56-946e-4e38-887b-3d81c90eceab.png)
 
 鉴于 Apache APISIX 的优秀设计，我们不仅可以将 Apache APISIX 用于南北向流量管理，也可以用它管理服务网格的东西向流量，我们通过引入 APISIX-Mesh-Agent 这一组件，配合 Apache APISIX 进行使用，从而使得 Apache APISIX 可以对接业内广泛使用的服务网格控制面，例如： Istio 和 Kuma 等。
 

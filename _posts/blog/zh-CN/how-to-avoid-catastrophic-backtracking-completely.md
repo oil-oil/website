@@ -69,9 +69,9 @@ SDLFuzzer 是几年前微软开发的一个专门的 ReDoS 检测工具，但已
 
 下面是 paper 中对比测试的结果：
 
-![1.jpg](https://pic2.zhimg.com/80/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w.jpg)
+![1.jpg](https://static.apiseven.com/202108/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w_2.jpg)
 
-![2.jpg](https://pic1.zhimg.com/80/v2-37843f350cfce190610379f54a665e00_1440w.jpg)
+![2.jpg](https://static.apiseven.com/202108/v2-37843f350cfce190610379f54a665e00_1440w_2.jpg)
 
 ## 可否一劳永逸？
 
@@ -89,7 +89,7 @@ SDLFuzzer 是几年前微软开发的一个专门的 ReDoS 检测工具，但已
 
 我们先来看下这个结果对比图：
 
-![3.jpg](https://pic4.zhimg.com/80/v2-98eb63b55972c76d2257b7814b5a81ab_1440w.jpg)
+![3.jpg](https://static.apiseven.com/202108/v2-98eb63b55972c76d2257b7814b5a81ab_1440w_2.jpg)
 
 代码如下，感兴趣的可以自己试试看：
 

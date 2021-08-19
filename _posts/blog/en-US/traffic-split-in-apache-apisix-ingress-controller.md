@@ -12,7 +12,7 @@ Traffic split is also a key feature in [Ingress Controller](https://kubernetes.i
 
 (PS: For the sake of more concise descriptions, we use the term "canary app" to describe the backend service which routed after the canary rules hit, and the term "stable app" to describe the backend service which routed due to the canary rules miss, for instance, the canary and stable app are "foo-canary" and "foo" perspectively in the following diagram.)
 
-![1.png](https://lh6.googleusercontent.com/E_qq-RFIcVBbTFsI8-QTNH7Io5vOXapdQUaAzKE2mYlyvtXUlZEoSd8aVMHAppARmXx9_wgHsgP1CWK_R74MfPV58dLQ71kEcU57DooHKz2LuKb6D6TW9B2_C8rLsm8wHTk2_zZt)
+![1.png](https://static.apiseven.com/202108/pasted%20image%202.png)
 
 ## Ingress Nginx
 
