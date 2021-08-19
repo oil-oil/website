@@ -57,6 +57,14 @@
       "path": "/zh/blog/api7-and-Kong-enterprise-performance-comparison"
     },
     {
+      "title": "基于 Apache APISIX 实现的服务网格项目正式开源",
+      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-05-31",
+      "path": "/zh/blog/apisix-mesh-agent-release"
+    },
+    {
       "title": "Apache APISIX Ingress Controller 中的流量切分",
       "image": "https://api7-website-1301662268.file.myqcloud.com/ingress_controller_cover.png",
       "type": "article",
