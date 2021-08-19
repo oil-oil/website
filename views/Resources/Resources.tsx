@@ -40,23 +40,32 @@ const Resources: NextPage<Props, any> = ({ t, type, list = [] }) => {
           <div className="container">
             <h2>{t('resources:container-title')}</h2>
             <ul>
-              {list.map((item, index) => (
-                <li key={item.title}>
-                  <div className="left">
-                    <a className="title" href={item.path} target="blank">{item.title}</a>
-                    <p className="speaker">{item.speaker}</p>
-                  </div>
-                  <div className="right"><a href={item.path} target="blank">{t('resources:view-video')}</a></div>
-                  <span id={`role${index}`}>
-                    <a className="showButton"></a>
-                  </span>
-                  <div className="contentBox">
-                    <div className="content">
-                      <p>{item.desc}</p>
+              {list.map((item, index) => {
+                const disabledStatus = !item.path ? "none" : 'auto';
+                return (
+                  <li key={item.title}>
+                    <div className="left">
+                      <a className="title" href={item.path} style={{ pointerEvents: `${disabledStatus}` }} target="blank">{item.title}</a>
+                      <p className="speaker">{item.speaker}</p>
                     </div>
-                  </div>
-                </li>
-              ))}
+                    <div className="right">
+                      {
+                        item.path
+                          ? <a href={item.path} target="blank">{t('resources:view-video')}</a>
+                          : <a style={{ color: 'grey', cursor: 'not-allowed' }}>{t('resources:coming-soon')}</a>
+                      }
+                    </div>
+                    <span id={`role${index}`}>
+                      <a className="showButton"></a>
+                    </span>
+                    <div className="contentBox">
+                      <div className="content">
+                        <p>{item.desc || t('resources:no-desc')}</p>
+                      </div>
+                    </div>
+                  </li>
+                )
+              })}
             </ul>
           </div>
         </section>

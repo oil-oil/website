@@ -149,15 +149,17 @@ export const SArticle = styled.article`
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 1.35rem;
     font-weight: 500;
     line-height: 30px;
   }
 
-  h3 {
+  h3, h4, h5 {
     display: flex;
     margin: 0 0 30px;
-    font-weight: 400;
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.5;
   }
 
   ol, ul {
