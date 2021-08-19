@@ -2,7 +2,7 @@
   "zh-CN": [
     {
       "title": "Go 让 Apache APISIX 如虎添翼",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-19",
@@ -18,7 +18,7 @@
     },
     {
       "title": "贡献者，是衡量开源项目的金指标",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-14",
@@ -34,7 +34,7 @@
     },
     {
       "title": "有了 NGINX 和 Kong，为什么还需要 Apache APISIX",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-06-25",
@@ -42,7 +42,7 @@
     },
     {
       "title": "Apache APISIX 和 Envoy 性能大比拼",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-06-10",
@@ -58,7 +58,7 @@
     },
     {
       "title": "基于 Apache APISIX 实现的服务网格项目正式开源",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-05-31",
@@ -66,7 +66,7 @@
     },
     {
       "title": "Apache APISIX Ingress Controller 中的流量切分",
-      "image": "https://api7-website-1301662268.file.myqcloud.com/ingress_controller_cover.png",
+      "image": "https://static.apiseven.com/202108/ingress_controller_cover.png",
       "type": "article",
       "tags": [],
       "date": "2021-03-27",
@@ -82,7 +82,7 @@
     },
     {
       "title": "使用 Helm Charts 安装 Apache APISIX",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-02-26",
@@ -90,7 +90,7 @@
     },
     {
       "title": "Amazon EKS 和 APISIX ingress controller 如何配合使用来管理复杂流量",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-02-07",
@@ -106,7 +106,7 @@
     },
     {
       "title": "Apache APISIX 助力企业数字化转型",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-02-04",
@@ -122,7 +122,7 @@
     },
     {
       "title": "如何彻底避免正则表达式的灾难性回溯？",
-      "image": "https://pic2.zhimg.com/80/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w.jpg",
+      "image": "https://static.apiseven.com/202108/v2-79b82522f7d06f0ae3c4ccc7aa6adc2d_1440w.jpg",
       "type": "article",
       "tags": [],
       "date": "2020-12-17",
@@ -178,7 +178,7 @@
     },
     {
       "title": "对 wrk 延迟分布不准确的分析",
-      "image": "https://pic4.zhimg.com/80/v2-596a56dceaf120f846ce07484e4c091b_1440w.jpg",
+      "image": "https://static.apiseven.com/202108/v2-596a56dceaf120f846ce07484e4c091b_1440w.jpg",
       "type": "article",
       "tags": [],
       "date": "2019-12-16",
