@@ -7,8 +7,6 @@ date: 2021-08-06 14:50:00
   <iframe src="//player.bilibili.com/player.html?aid=334774886&bvid=BV1JA411w7w8&cid=388417850&page=1" frameborder="0" scrolling="no" style="display: block; min-width: 100%; width: 100%; height: 100%; border: none; overflow: auto;"></iframe>
 </div>
 
-# 用 Chaos Mesh 测试 Apache APISIX 的恢复能力
-
 ## 分享人简介
 
 Shuyang Wu: Shuyang 是 Apache APISIX 和 Chaos Mesh 的提交者，目前在 API7 担任实习软件工程师。他领导了 Chaos Mesh 与 Apache APISIX CI 的整合工作。
@@ -21,4 +19,4 @@ Apache APISIX 是领先的 API 网关 OSS 之一。为了确保一切按计划�
 
 ## PPT 下载
 
-点击下载 [PPT](https://api7-website-1301662268.cos.accelerate.myqcloud.com/202108/Shuyang%20Wu%20-%20Test%20Apache%20APISIX%20Resillience%20with%20Chaos%20Mesh%20-%20API%20%26%20Microservices.pptx)
+关注 Apache APISIX 公众号，回复“ApacheCon”下载 PPT。

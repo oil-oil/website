@@ -3,8 +3,6 @@ title: "基于 Apache APISIX 的 Kubernetes Ingress 的实现"
 date: 2021-08-07 14:50:00
 ---
 
-# 基于 Apache APISIX 的 Kubernetes Ingress 的实现
-
 ## 分享人简介
 
 Apache APISIX PMC / Apache apisix-ingress-controller Founder / Apache Skywalking Committer。
@@ -17,4 +15,4 @@ Apache APISIX PMC / Apache apisix-ingress-controller Founder / Apache Skywalking
 
 ## PPT 下载
 
-点击下载 [PPT](https://api7-website-1301662268.cos.accelerate.myqcloud.com/202108/%E5%9F%BA%E4%BA%8E%20Apache%20APISIX%20%E7%9A%84%20Kubernetes%20Ingress%20%E7%9A%84%E5%AE%9E%E7%8E%B0%20.pptx)
+关注 Apache APISIX 公众号，回复“ApacheCon”下载 PPT。

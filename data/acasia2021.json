@@ -31,6 +31,24 @@
       "path": "/zh/apache-con-asia-2021/Apache-APISIX-From-OpenSource-Commercialization"
     },
     {
+      "title": "使用 Echarts 呈现社区活动的渲染图",
+      "speaker": "孙毅",
+      "desc": "我们通过以下方式分析了开源资源库的情况：1.贡献者增长曲线；2.每月的贡献者活动；3.来反映开源项目的健康状况，这里我们分享一些关于如何制作这两张图的经验和一些有趣的事情。",
+      "path": "/zh/apache-con-asia-2021/Rendering-Community-Events-Using-ECharts"
+    },
+    {
+      "title": "按照 Apache Way 运作开源商业化公司，这行得通吗？",
+      "speaker": "温铭",
+      "desc": "Apache Way 是被无数开源项目证实的社区成功之道，那么对于开源商业公司而言，Apache Way 是否可行呢？它在商业社会是否行得通？ 通过 2 年开源商业公司的经营，支流科技希望用公司的切身经历来回答这个问题。",
+      "path": "/zh/apache-con-asia-2021/Apache-APISIX-From-OpenSource-Commercialization-by-Apache-Way"
+    },
+    {
+      "title": "开源的魅力",
+      "speaker": "琚致远",
+      "desc": "Apache 软件基金会顶级项目 Apache APISIX 以及子项目，在过去 30 天中共合并了 250+ PRs，贡献者趋势也十分乐观。除此之外，高质量的邮件列表、活跃的、QQ 群 与 GitHub 也吸引众多社区的关注。作为 Apache APISIX PMC，从我的视角来分享 Apache APISIX 做了哪些事情，催化出活跃的社区？",
+      "path": "/zh/apache-con-asia-2021/The-Appeal-of-OpenSource"
+    },
+    {
       "title": "如何将 Apache APISIX 扩展为一个服务网格的边车",
       "speaker": "张超",
       "desc": "在这个主题中，我将介绍 apisix-mesh-agent 项目，它有一些能力将 Apache APISIX 扩展为服务网格场景中的边车程序，更重要的是，它使用 xDS 协议从 Istio、Kuma 等控制平面获取配置。之后，我将介绍关于在服务网中使用 Apache APISIX 的未来计划和期望。"
@@ -51,22 +69,9 @@
       "desc": "该演讲主题主要是讲述 Apache APISIX 在中国移动公有云对象存储 EOS 中的应用与实践经验分享。首先介绍了中国移动公有云建设规划及对象存储产品发展演进历程，然后阐述了我们为什么选择 Apache APISIX 作为负载均衡网关，并对 EOS 流量治理架构演进三个阶段进行进行了详细介绍。同时，我们还分享了基于 Apache APISIX 我们解决了哪些实际生产问题，做了哪些方案及开发工作，最后对我们未来的演进做了一些规划说明。"
     },
     {
-      "title": "使用 Echarts 呈现社区活动的渲染图",
-      "speaker": "孙毅",
-      "desc": "我们通过以下方式分析了开源资源库的情况：1.贡献者增长曲线；2.每月的贡献者活动；3.来反映开源项目的健康状况，这里我们分享一些关于如何制作这两张图的经验和一些有趣的事情。"
-    },
-    {
       "title": "Apache APISIX 的孵化器之旅",
       "speaker": "温铭",
       "desc": "Apache APISIX 的孵化器之旅"
-    },
-    {
-      "title": "按照 Apache Way 运作开源商业化公司，这行得通吗？",
-      "speaker": "温铭"
-    },
-    {
-      "title": "开源的魅力",
-      "speaker": "琚致远"
     }
   ]
 }

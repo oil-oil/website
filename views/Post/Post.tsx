@@ -160,6 +160,11 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
                     renderers={{ code: CodeBlock }}
                   />
                 </SArticle>
+                {
+                  // ApacheCon page QR code
+                  shareUrl.includes('apache-con-asia-2021') &&
+                  <img src="../static/images/APISIX-wechat.png" style={{ width: '200px' }} alt="Apache APISIX WeChat" />
+                }
                 <div id="disqus_thread"></div>
               </SBox2>
             </SSection2>

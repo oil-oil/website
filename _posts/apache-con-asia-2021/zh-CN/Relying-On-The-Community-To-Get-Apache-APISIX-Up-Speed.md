@@ -7,8 +7,6 @@ date: 2021-08-06 16:10:00
   <iframe src="//player.bilibili.com/player.html?aid=762343193&bvid=BV1Q64y1Y7fF&cid=388411338&page=1" frameborder="0" scrolling="no" style="display: block; min-width: 100%; width: 100%; height: 100%; border: none; overflow: auto;"></iframe>
 </div>
 
-# 依托社区让 Apache APISIX 高速发展
-
 ## 分享人简介
 
 王院生: 开源爱好者 Apache APISIX 创始人和 PMC 成员
@@ -19,4 +17,4 @@ date: 2021-08-06 16:10:00
 
 ## PPT 下载
 
-点击下载 [PPT](https://api7-website-1301662268.cos.accelerate.myqcloud.com/202108/%E4%BE%9D%E6%89%98%E7%A4%BE%E5%8C%BA%E8%AE%A9%20Apache%20APISIX%20%E9%AB%98%E9%80%9F%E5%8F%91%E5%B1%95.key)
+关注 Apache APISIX 公众号，回复“ApacheCon”下载 PPT。

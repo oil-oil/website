@@ -3,7 +3,9 @@ title: "使用 ECharts 呈现社区活动的渲染图"
 date: 2021-08-06 16:10:00
 ---
 
-# 使用 ECharts 呈现社区活动的渲染图
+<div class="iframeBox">
+  <iframe src="//player.bilibili.com/player.html?aid=847253062&bvid=BV1fL4y1Y7rf&cid=388393914&page=1" frameborder="0" scrolling="no" style="display: block; min-width: 100%; width: 100%; height: 100%; border: none; overflow: auto;"></iframe>
+</div>
 
 ## 分享人简介
 
@@ -15,5 +17,4 @@ Sun Yi: apache/apisix 的提交者。主要负责维护 apache/apisix-dashboard 
 
 ## PPT 下载
 
-点击下载 [PPT](https://api7-website-1301662268.cos.accelerate.myqcloud.com/202108/%E5%AD%99%E6%AF%85--%E4%BD%BF%E7%94%A8%20Echarts%20%E5%91%88%E7%8E%B0%E7%A4%BE%E5%8C%BA%E6%B4%BB%E5%8A%A8%E7%9A%84%E6%B8%B2%E6%9F%93%E5%9B%BE.key)
-
+关注 Apache APISIX 公众号，回复“ApacheCon”下载 PPT。

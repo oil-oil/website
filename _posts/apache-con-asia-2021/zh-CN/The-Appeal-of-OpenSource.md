@@ -3,7 +3,9 @@ title: "开源的魅力"
 date: 2021-08-07 14:10:00
 ---
 
-# 开源的魅力
+<div class="iframeBox">
+  <iframe src="//player.bilibili.com/player.html?aid=504930956&bvid=BV1tg41157TB&cid=392831471&page=1" frameborder="0" scrolling="no" style="display: block; min-width: 100%; width: 100%; height: 100%; border: none; overflow: auto;"></iframe>
+</div>
 
 ## 分享人简介
 
@@ -11,8 +13,8 @@ date: 2021-08-07 14:10:00
 
 ## 分享主题介绍
 
-开源的魅力。
+Apache 软件基金会顶级项目 Apache APISIX 以及子项目，在过去 30 天中共合并了 250+ PRs，贡献者趋势也十分乐观。除此之外，高质量的邮件列表、活跃的、QQ 群 与 GitHub 也吸引众多社区的关注。作为 Apache APISIX PMC，从我的视角来分享 Apache APISIX 做了哪些事情，催化出活跃的社区？
 
 ## PPT 下载
 
-点击下载 [PPT](https://api7-website-1301662268.cos.accelerate.myqcloud.com/202108/%E7%90%9A%E8%87%B4%E8%BF%9C-%E5%BC%80%E6%BA%90%E7%9A%84%E9%AD%85%E5%8A%9B-%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA.pptx.pdf)
+关注 Apache APISIX 公众号，回复“ApacheCon”下载 PPT。

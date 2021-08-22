@@ -3,8 +3,6 @@ title: "Apache APISIX 在移动云对象存储 EOS 的应用与实践"
 date: 2021-08-07 15:30:00
 ---
 
-# Apache APISIX 在移动云对象存储 EOS 的应用与实践
-
 ## 分享人简介
 
 陈焱山: 毕业后一直从事分布式存储软件开发及架构方案设计工作，深度参与了移动云建设过程，重点完成了对象存储相关的主要技术方案选型及落地开发建设工作。同时，在分布式对象存储领域拥有丰富的实战经验，目前正在思考基于 APISIX 七层网关实现对象存储流量治理工作，实现架构进一步升级。
@@ -15,5 +13,4 @@ date: 2021-08-07 15:30:00
 
 ## PPT 下载
 
-点击下载 [PPT](https://api7-website-1301662268.cos.accelerate.myqcloud.com/202108/Apache%20APISIX%20%E5%9C%A8%E7%A7%BB%E5%8A%A8%E4%BA%91%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8EOS%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E8%B7%B5.pdf)
-
+关注 Apache APISIX 公众号，回复“ApacheCon”下载 PPT。
