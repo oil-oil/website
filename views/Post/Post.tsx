@@ -21,6 +21,8 @@ type Props = {
     author: string;
     date: Date;
     href: string;
+    keywords: string;
+    description: string;
   };
 };
 
@@ -97,7 +99,13 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
     <>
       <NextSeo
         title={data.title || t("common:job")}
-        description={(content || "").trim().substring(0, 140)}
+        description={data.description || (content || "").trim().substring(0, 140)}
+        additionalMetaTags={[
+          {
+            name: 'keywords',
+            content: data.keywords || '',
+          }
+        ]}
       />
       <Head>
         <script
