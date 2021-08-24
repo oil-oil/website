@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/6814606?v=4"
 author: "王院生"
 href: "https://github.com/membphis"
 date: 2021-06-25
-keywords: APISIX,Kong,Nginx,Envoy,API 网关,社区,开源,架构,生态,服务网格,Github,流量,插件,动态
+keywords: APISIX,Kong,Nginx,Envoy,API 网关
 description: 本文介绍了 Apache APISIX 架构演进历史，对比 Nginx 和 Kong 这两个框架 Apache APISIX 的优势是什么
 ---
 

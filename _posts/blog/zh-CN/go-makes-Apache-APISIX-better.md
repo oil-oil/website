@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/4161644?v=4"
 author: "罗泽轩"
 href: "https://github.com/spacewander"
 date: 2021-08-19
-keywords: Go,Golang,APISIX,插件,plugin,apisix-go-plugin-runner,Lua,路由规则
+keywords: Go,APISIX,插件,plugin,apisix-go-plugin-runner
 description: 本文讲述了使用 Go 语音开发 Apache APISIX 插件。Apache APISIX 允许用户通过插件的方式来拓展功能，如鉴权、限流、请求改写等核心功能都是通过插件的方式实现的。虽然 Apache APISIX 核心代码是使用 Lua 编写的，但是 Apache APISIX 支持多语言开发插件，比如 Go 、Java。希望通过拥抱 Go 的生态圈，让 Apache APISIX 支持更多功能。apisix-go-plugin-runner 项目地址：https://github.com/apache/apisix-go-plugin-runner
 ---
 

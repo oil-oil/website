@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/10428333?s=460&u=f48ef50c5621a1
 author: "Chao Zhang"
 href: "https://github.com/tokers"
 date: 2021-03-27
-keywords: APISIX,Ingress Controller,API 网关,Traefik,服务网格,Sidecar,Proxy,流量切分,金丝雀发布,蓝绿部署,Kubernetes,Ingress Nginx,Kong
+keywords: APISIX,Ingress Controller,API 网关,流量切分,Ingress Nginx
 description: Ingress Nginx 支持基于权重和基于 Header 规则的金丝雀发布，但是需要通过 annotations 的方式进行配置，语义不强；而 Kong 的方案仅支持基于权重进行金丝雀发布，某些场景下无法满足使用需求，且需要多处配置；Apache APISIX Ingress Controller 则较好地同时支持了两种使用场景，并且其提供的路由规则灵活多变，配置简单且易于理解
 ---
 
