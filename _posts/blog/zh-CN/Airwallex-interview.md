@@ -1,6 +1,8 @@
 ---
 title: "Apache APISIX 在 Airwallex 的应用 | 专访 Airwallex 技术平台负责人李杨"
 date: 2021-08-16
+keywords: APISIX,Airwallex,空中云汇,技术选型,金融,网关,gateway,Nginx,场景,流量,数据主权,微服务,Authentication,Authorization,租户,性能,稳定
+description: 本文采访了 Airwallex 空中云汇 Technical Platform Lead 李杨，李杨负责公司技术平台的演进。采访中详细介绍了 Airwallex 空中云汇在做技术选型时为什么选择 Apache APISIX、Apache APISIX 在 Airwallex 空中云汇的使用场景、Apache APISIX 在生产环境的表现等
 ---
 我们有幸采访到了 Airwallex 的技术平台负责人李杨，在采访中，李杨谈到了为什么在技术选型时选择 Apache APISIX ，以及 Apache APISIX 在 Airwallex 的应用。
 
@@ -26,7 +28,7 @@ Airwallex （空中云汇）是一家全球金融科技公司，赋能各类规�
 
 - **私有部署**：API 网关作为企业核心技术架构组件，企业应该把它部署在自己的私有网络边缘。Apache APISIX 具有良好的环境适应性，能够被轻易地部署在包括云计算平台在内的各种环境上。
 
-- **开源协议**：*Apache 2.0 赋予了定制 APISIX 的企业相当大的技术自由度。
+- **开源协议**：Apache 2.0 赋予了定制 APISIX 的企业相当大的技术自由度。
 
 **Q：Apache APISIX 用在了哪些场景？解决了哪些问题？**
 
@@ -50,8 +52,9 @@ Airwallex （空中云汇）是一家全球金融科技公司，赋能各类规�
 
 ![Airwallex arch](https://static.apiseven.com/202108/20210816003.png)
 
-在 Apache APISIX 升级过程中是否顺利？分享一下升级过程中的感受或者故事。 
-为了能够随时升级到新版本的Apache APISIX，我们把主要的功能都实现为定制化插件。这意味着我们的代码库不可能与Apache APISIX主Repo核心代码产生冲突，这帮助我们避免了可能遇到的代码冲突。但有时我们也需要修改核心代码，此时我们会尽量在开源社区实现这些功能。在开源社区讨论这些功能的时候，社区的小伙伴们非常热心参与讨论，在大多数情况下都能很快解决我们的问题。
+**Q:在 Apache APISIX 升级过程中是否顺利？分享一下升级过程中的感受或者故事。**
+
+为了能够随时升级到新版本的 Apache APISIX，我们把主要的功能都实现为定制化插件。这意味着我们的代码库不可能与 Apache APISIX 主 Repo 核心代码产生冲突，这帮助我们避免了可能遇到的代码冲突。但有时我们也需要修改核心代码，此时我们会尽量在开源社区实现这些功能。在开源社区讨论这些功能的时候，社区的小伙伴们非常热心参与讨论，在大多数情况下都能很快解决我们的问题。
 
 **Q:Apache APISIX 在生产环境运行多久了？在线上表现如何？**
 

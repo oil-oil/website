@@ -4,6 +4,8 @@ avatar: "https://avatars.githubusercontent.com/u/6814606?v=4"
 author: "王院生"
 href: "https://github.com/membphis"
 date: 2021-06-10
+keywords: APISIX,Envoy,API 网关,CNCF,代理,架构,L7,OpenResty,QPS,Latency,吞吐,Nginx
+description: 本文介绍了在一定条件下，Apache APISIX 和 Envoy 的性能对比，总体来说 APISIX 在响应延迟和 QPS 层面都略优于 Envoy， 由于 NGINX 的多 worker 的协作方式在高并发场景下更有优势，APISIX 在开启多个 worker 进程后性能提升较 Enovy 更为明显；APISIX 在性能和延迟上的表现使它在处理南北向流量上具有海量的吞吐能力，根据自己的业务场景来选择合理的组件配合插件构建自己的服务
 ---
 
 在 CNCF 组织的一场技术分享会上，第一次听到了 Envoy 这么一个东西，分享的嘉宾巴拉巴拉讲了一大堆，啥都没记住，就记住了一个特别新颖的概念“通信总线”，后面 google 了下 Envoy 这个东西到底是什么，发现官网上如是描述：

@@ -4,6 +4,8 @@ avatar: "https://avatars.githubusercontent.com/u/34589752?v=4"
 author: "Yiyiyimu"
 href: "https://github.com/Yiyiyimu"
 date: 2021-08-14
+keywords: APISIX,contributor,developer,OpenSource,Github,贡献者,贡献者图表,开源项目,指标,统计,开发者
+description: 本文讲述了为什么贡献者数量变化是衡量开源项目的金指标。虽然 GitHub 已有的指标数量很多，例如 Star 数、Issue 数量和 PR 数量，但是这些指标都不能直观地反映出一个开源项目在一段时间内的变化趋势和活跃度。所以笔者 Yiyiyimu 提出了新的指标：贡献者增长和月度活跃贡献者，并创造了一款开源工具，其名为“献者图表”，方便 GitHub 用户使用这些指标来确认项目的活跃度。目前，贡献者图表已经在 Apache APISIX 、Apache Skywalking、Apache DolphinScheduler、Apache Openwhisk、Apache ShardingSphere、awesome-docker、TiDB docs-dm 等多个开源项目中使用
 ---
 
 根据 GitHub 2020 年的统计显示，这一年新增了 6000 万个代码仓库，超过 5600 万的开发者参与到开源项目中。预计到 2025 年，在 GitHub 参与开源项目的开发者人数将会超过 1 亿。
