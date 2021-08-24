@@ -22,6 +22,15 @@ const MyApp = ({ Component, pageProps, t }: AppProps & { t: TFunction }) => {
       />
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="360-site-verification"
+          content="7a8950b2ab9e03e9668794870f777aa8"
+        />
+        <meta name="sogou_site_verification" content="JqlVhaW8xK" />
+        <meta
+          name="shenma-site-verification"
+          content="ab196e369036a20df45bb78b041b1430_1629777066"
+        />
       </Head>
       <ChakraProvider>
         <Navbar />
