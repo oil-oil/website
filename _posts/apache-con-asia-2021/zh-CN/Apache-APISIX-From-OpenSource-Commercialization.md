@@ -1,6 +1,8 @@
 ---
 title: "Apache APISIX 从开源项目到商业化之路"
 date: 2021-08-07 13:30:00
+keywords: APISIX,Apache,开源,商业化
+description: Apache APISIX 从开源项目到商业化之路
 ---
 
 <div class="iframeBox">

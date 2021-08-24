@@ -1,6 +1,8 @@
 ---
 title: "使用 Apache APISIX 实现限流限速"
 date: 2021-08-06 13:30:00
+keywords: APISIX,ApacheCon,限流限速,Nginx
+description: 本次分享将带来如何使用 Apache APISIX 来实现动态、精细化、分布式的限流限速，以及如何通过插件编排来实现更符合业务需求的限流限速
 ---
 
 <div class="iframeBox">

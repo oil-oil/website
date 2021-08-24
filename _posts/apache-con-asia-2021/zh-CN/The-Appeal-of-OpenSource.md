@@ -1,6 +1,8 @@
 ---
 title: "开源的魅力"
 date: 2021-08-07 14:10:00
+keywords: APISIX,开源,贡献者,社区,生态
+description: Apache 软件基金会顶级项目 Apache APISIX 以及子项目，在过去 30 天中共合并了 250+ PRs，贡献者趋势也十分乐观。除此之外，高质量的邮件列表、活跃的、QQ 群 与 GitHub 也吸引众多社区的关注。作为 Apache APISIX PMC，从我的视角来分享 Apache APISIX 做了哪些事情，催化出活跃的社区
 ---
 
 <div class="iframeBox">

@@ -1,6 +1,8 @@
 ---
 title: "按照 Apache Way 运作开源商业化公司，这行得通吗？"
 date: 2021-08-07 13:30:00
+keywords: APISIX,Apache,开源,商业化
+description: Apache Way 是被无数开源项目证实的社区成功之道，那么对于开源商业公司而言，Apache Way 是否可行呢？它在商业社会是否行得通？ 通过 2 年开源商业公司的经营，支流科技希望用公司的切身经历来回答这个问题
 ---
 
 <div class="iframeBox">
