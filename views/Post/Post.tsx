@@ -99,12 +99,14 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
     <>
       <NextSeo
         title={data.title || t("common:job")}
-        description={data.description || (content || "").trim().substring(0, 140)}
+        description={
+          data.description || (content || "").trim().substring(0, 140)
+        }
         additionalMetaTags={[
           {
-            name: 'keywords',
-            content: data.keywords || '',
-          }
+            name: "keywords",
+            content: data.keywords || "APISIX,API7,API Gateway,Open Source",
+          },
         ]}
       />
       <Head>
@@ -170,8 +172,13 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
                 </SArticle>
                 {
                   // ApacheCon page QR code
-                  shareUrl.includes('apache-con-asia-2021') &&
-                  <img src="../static/images/APISIX-wechat.png" style={{ width: '200px' }} alt="Apache APISIX WeChat" />
+                  shareUrl.includes("apache-con-asia-2021") && (
+                    <img
+                      src="../static/images/APISIX-wechat.png"
+                      style={{ width: "200px" }}
+                      alt="Apache APISIX WeChat"
+                    />
+                  )
                 }
                 <div id="disqus_thread"></div>
               </SBox2>

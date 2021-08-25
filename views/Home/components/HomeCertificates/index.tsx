@@ -51,6 +51,15 @@ const App: NextPage<Props, any> = ({ t }) => {
             justifyContent="space-around"
             alignItems="center"
           >
+            <Box textAlign="center" as="a" href="/zh/cert/uos" target="_blank">
+              <Image
+                src="https://static.apiseven.com/202108/1629864662635-2d20f607-6330-48f8-9acc-aaaed47133a6.png"
+                maxH="80px"
+                margin="0 auto 10px"
+              />
+              <Text>统信软件产品互认证明</Text>
+            </Box>
+            <br />
             <Box
               textAlign="center"
               as="a"
