@@ -33,6 +33,14 @@
       "path": "/zh/blog/contributors-the-golden-metric-of-openSource-projects"
     },
     {
+      "title": "ApacheCon Asia 2021：Apache APISIX 技术议题一览",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-25",
+      "path": "/zh/blog/apachecon-asia-2021"
+    },
+    {
       "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
       "image": "https://static.apiseven.com/202108/weibo.png",
       "type": "article",
