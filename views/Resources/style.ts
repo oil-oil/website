@@ -153,7 +153,7 @@ export const SWrapper = styled.div`
       font-weight: 300;
       font-size: 18px;
       line-height: 1.78;
-      overflow: hidden;
+      overflow: auto;
       float: left;
       clear: both;
       background-color: #f1f1f1;
