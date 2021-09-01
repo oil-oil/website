@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX × KubeSphere：提供更好用的网关及 K8S Ingress Controller",
+      "image": "https://static.apiseven.com/202108/1630405298071-c8a69f1e-b9b8-4c0d-bc58-9dbc3331dc9a.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-31",
+      "path": "/zh/blog/Apache-APISIX-KubeSphere-a-better-gateway-and-K8S-Ingress-Controller"
+    },
+    {
       "title": "使用 Apache APISIX 的 OpenID Connect 插件进行集中身份认证",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
