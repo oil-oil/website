@@ -17,6 +17,14 @@
       "path": "/zh/blog/using-the-apache-apisix-openid-connect-plugin-for-centralized-authentication"
     },
     {
+      "title": "为什么 Apache APISIX 选择 Nginx + Lua 这个技术栈",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-25",
+      "path": "/zh/blog/Why-Apache-APISIX-chose-Nginx-and-Lua"
+    },
+    {
       "title": "Go 让 Apache APISIX 如虎添翼",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
