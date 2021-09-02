@@ -57,6 +57,14 @@
       "path": "/zh/blog/kong-to-apisix"
     },
     {
+      "title": "如何利用 Apache APISX 提升 Nginx 的可观测性",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-06",
+      "path": "/zh/blog/using-apache-apisix-to-improve-the-observability-of-nginx"
+    },
+    {
       "title": "ApacheCon Asia 2021：Apache APISIX 技术议题一览",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
