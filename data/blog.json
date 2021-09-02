@@ -97,6 +97,14 @@
       "path": "/zh/blog/why-we-need-Apache-APISIX"
     },
     {
+      "title": "使用 Java 编写 Apache APISIX 插件",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-06-21",
+      "path": "/zh/blog/use-Java-to-write-Apache-APISIX-plugins"
+    },
+    {
       "title": "Rancher × Apache APISIX: 极速部署更好用的开源网关和 Ingress Controller",
       "image": "https://static.apiseven.com/202108/1630114939501-2f7fc28c-33bf-4099-9d90-843c74dcca6b.jpeg",
       "type": "article",
