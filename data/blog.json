@@ -97,6 +97,14 @@
       "path": "/zh/blog/why-we-need-Apache-APISIX"
     },
     {
+      "title": "Rancher × Apache APISIX: 极速部署更好用的开源网关和 Ingress Controller",
+      "image": "https://static.apiseven.com/202108/1630114939501-2f7fc28c-33bf-4099-9d90-843c74dcca6b.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-06-24",
+      "path": "/zh/blog/deploy-great-open-source-gateway-and-ingress-controller-fast"
+    },
+    {
       "title": "Apache APISIX 和 Envoy 性能大比拼",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
