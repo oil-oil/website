@@ -49,6 +49,14 @@
       "path": "/zh/blog/contributors-the-golden-metric-of-openSource-projects"
     },
     {
+      "title": "Kong-To-APISIX 迁移工具",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-05",
+      "path": "/zh/blog/kong-to-apisix"
+    },
+    {
       "title": "ApacheCon Asia 2021：Apache APISIX 技术议题一览",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
