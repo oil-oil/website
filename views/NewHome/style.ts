@@ -1,128 +1,162 @@
 import styled from "styled-components";
 
-export const ContentAll = styled.div`
+export const SContentAll = styled.div`
        display:flex;
        flex-direction:column;
        width:100%;
        positon:absulute;
 `
 
-export const Navbar = styled.div`
+export const SNavbar = styled.div`
        display:flex;
        flex-direction:row;
        height:80px;
        width:100%;
        positon:relative;
        border-bottom:2px solid #eaf2fa;
-       div:nth-child(1) {
-           position:relative;
-           width:15%;
-           margin-left:8%;
-           text-align:center;
-          
-       }
-       div:nth-child(2) {
-        position:relative;
-        width:44%;
-        display:flex;
-        flex-direction:row;
-        text-align:center;
-        justify-content:center;
-        align-items: center;
-        color:blue;
-    } 
-    div:nth-child(3) {
-        position:relative;
-        width:10%;
-        display:flex;
-        flex-direction:row;
-        margin-left:3%;
-      
-    }
+  
     div:nth-child(4) {
         position:relative;
         width：10%;
         margin-left:6%;
-        margin-top:10px;
-        justify-content: center;
+        justify-SContent: center;
 
     }
 `
+export const SNavbarimg = styled.div`
 
-export const Navbarsearch = styled.div`
+    position:relative;
+    width:14%;
+    margin-left:7%;
+    text-align:center;
+
+`
+export const SNavbarcenter = styled.div`
+    position:relative;
+    width:44%;
+    display:flex;
+    flex-direction:row;
+
+`
+
+export const SelectMenu = styled.div`
+    color: #1d1b84;
+    font-size: 17px;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    width:18%;
+    text-align:left;
+    justify-SContent: center;
+    white-space:nowrap;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-right:50px;
+    margin-left:0;
+    padding-left:10px;
+`
+export const SNavbarbutton = styled.div`
+    position:relative;
+    width:10%;
+    display:flex;
+    flex-direction:row;
+    margin-left:3%;
+    margin-top:15px;
+`
+export const SNavbarstart = styled.div`
+    position:absolute;
+    top:25px;
+    right:42px;
+    width:100px;
+`
+export const SNavbarsearch = styled.div`
        display:flex;
        flex-direction:row;
        height:80px;
        position: sticky;
        width:100%;
-       justify-content: center;
+       justify-SContent: center;
        align-item:center;
        border-bottom:2px solid #eaf2fa;
        div:nth-child(1) {
            position:relative;
            width:15%;
-           margin-right:8%;
+           margin-left:-160px;
            top:25%;
            font-size:21px;
+           font-weight: 700;
        }
        div:nth-child(2) {
-        background-color:pink;
         display:flex;
-        flex-direction:row;
         position:relative;
         width:50%;
         height:50px;
         margin-top:15px;
-        margin-right:80px;
+        margin-left:80px;
         border-radius:15px;
         input{
             position:relative;
-          
             width:100%;
+            z-index:99;
         }
     }
  `
-export const Cardstyle = styled.div`
+export const SCardstyle = styled.div`
        display:flex;
        flex-direction:row;
  `
 
- export const SelectMenu = styled.div`
-     display:flex;
-     flex-direction:column;
-     flex:1;
-     position:relative;
-     text-align:center;
-     justify-content: center;
-
- `
-export const Content = styled.div`
+export const SContent = styled.div`
      display:flex;
      flex-direction:row;
      position:relative;
      width:100%;
+     height:1300px;
      
 `
 export const SiderLeft = styled.div`
      display:flex;
      flex-direction:column;
-     margin-left:8%;
+     margin-left:9%;
      width:16%;
+     margin-top:20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #344b80;
+     a{
+        display:flex;
+        flex-direction:row;
+        positon:relative;
+        margin-top:18px;
+        margin-right:50px;
+        img{
+            
+        }
+     }
 `
 
-export const Contentitem = styled.div`
+export const SContentitem = styled.div`
+     display:flex;
+     flex-direction:column;
+     width:100%;
+     position:relative;
+     margin-left:4%;
+     
+`
+export const Siderright = styled.div`
      display:flex;
      flex-direction:column;
      width:66%;
      position:relative;
-     margin-left:6%;
-     
+     margin-left:1%;
 `
-
-export const Title = styled.div`
+export const STitle = styled.div`
      display:flex;
      flex-direction:column;
-
+     position:relative;
+     margin-top:50px;
      div:nth-child(1){
         font-size:12px;
         font-weight: 700;
@@ -144,20 +178,51 @@ export const Title = styled.div`
      }
 `
 
-export const Contentcard = styled.div`
+export const SContentcard = styled.div`
      display:flex;
-     flex-direction:row;
-     width:28%;
+     flex-direction:column;
+     width:20%;
      position:relative;
      top:70px;
      margin-right:15px;
-     border-radius:15px; 
-     height:300px;
+     border-radius: 10px;
+     padding: 24px;
+     box-sizing: border-box;
+     text-align: left;
+     width: 100%;
+     img{
+         width:30px;
+         height:30px;
+        opacity: 1; 
+        visibility: inherit;
+        background-color:#773ae7;
+       }
 `
 
-export const Footer = styled.div`
+export const Sidertitle = styled.div`
+     position:relative;
+     display:flex;
+     flex-direction:column;
+     margin-top:20px;
+     h4{
+         margin-top:10px;
+     }
+`
+
+export const SFooter = styled.div`
      position:fixed;
      bottom:0;
      width:100%;
      margin-top:100px;
+`
+
+export const SContentlist = styled.div`
+     display:flex;
+     flex-direction:column;
+     position:relative;
+     width:100%;
+     margin-top:50px;
+     background-color:#1a154e;
+     color:white;
+     border-radius:15px;
 `
