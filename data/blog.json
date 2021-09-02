@@ -97,6 +97,14 @@
       "path": "/zh/blog/why-we-need-Apache-APISIX"
     },
     {
+      "title": "Chaos Mesh 助力 Apache APISIX 提升稳定性",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-06-16",
+      "path": "/zh/blog/Chaos-Mesh-helps-Apache-APISIX-improve-stability"
+    },
+    {
       "title": "使用 Java 编写 Apache APISIX 插件",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
