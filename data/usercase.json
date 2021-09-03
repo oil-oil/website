@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX 在 Airwallex 的应用 | 专访 Airwallex 技术平台负责人李杨",
+      "image": "https://static.apiseven.com/202108/airwallex-logo-white.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-16",
+      "path": "/zh/blog/Airwallex-interview"
+    },
+    {
       "title": "舍弃 Kong 和 Nginx，Apache APISIX 在趣链科技 BaaS 平台的落地实践",
       "image": "https://static.apiseven.com/202108/1630649111460-9830be28-289b-4b38-916f-c68cda764301.png",
       "type": "article",
