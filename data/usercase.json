@@ -17,6 +17,14 @@
       "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
     },
     {
+      "title": "Apache APISIX 在移动云的应用",
+      "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-03",
+      "path": "/zh/usercase/china-mobile"
+    },
+    {
       "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
       "image": "https://static.apiseven.com/202108/weibo.png",
       "type": "article",
