@@ -25,14 +25,6 @@
       "path": "/zh/usercase/china-mobile"
     },
     {
-      "title": "支持 10 亿日流量的基础设施：当 Apahce APISIX 遇上腾讯",
-      "image": "https://static.apiseven.com/202108/1630652712703-ddc0018a-6adf-4fd8-afac-a1a16efccc3c.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-05-24",
-      "path": "/zh/usercase/tencent-game"
-    },
-    {
       "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
       "image": "https://static.apiseven.com/202108/weibo.png",
       "type": "article",
