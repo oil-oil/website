@@ -13,7 +13,7 @@ type Props = {
 
 const Whitepaper: NextPage<Props, any> = ({ t }) => {
   const [isMobile, setIsMobile] = useState(true);
-  const targetURL = "https://api7-website-1301662268.cos.accelerate.myqcloud.com/202108/API7-Whitepaper.pdf"
+  const targetURL = "https://static.apiseven.com/202108/API7-Whitepaper.pdf"
 
   useEffect(() => {
     setIsMobile(false);
