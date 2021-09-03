@@ -33,6 +33,14 @@
       "path": "/zh/usercase/geely"
     },
     {
+      "title": "贝壳找房：如何基于 Apache APISIX 搭建网关",
+      "image": "https://static.apiseven.com/202108/1630652517130-8b2b2fe6-cf0a-4f1c-9ccd-0a25986680b3.png",
+      "type": "article",
+      "tags": [],
+      "date": "2020-12-11",
+      "path": "/zh/blog/how-to-build-gateway-based-on-apache-apisix"
+    },
+    {
       "title": "360：Apache APISIX 在基础运维平台项目中的实践",
       "image": "https://static.apiseven.com/202108/api7-logo.png",
       "type": "article",
