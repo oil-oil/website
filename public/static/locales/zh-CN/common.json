@@ -24,5 +24,6 @@
   "contributor-graph": "贡献者趋势",
   "features": "API7 功能特性",
   "devcon": "Apache APISIX Devcon 2020",
-  "ApacheCon": "ApacheCon Asia 2021"
+  "ApacheCon": "ApacheCon Asia 2021",
+  "whitepaper": "API7 网关技术白皮书"
 }

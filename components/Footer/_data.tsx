@@ -45,8 +45,8 @@ export const EN_US_links: LinkGroupData[] = [
         label: "DevCon",
         href: "/resources/apisix-devcon-2020"
       }, , {
-        label: "Documentation",
-        href: "#"
+        label: "API7 Whitepaper",
+        href: "/resources/api7-whitepaper"
       }
     ]
   },
@@ -119,8 +119,8 @@ export const ZH_CN_links: LinkGroupData[] = [
         label: "开发者大会",
         href: "/resources/apisix-devcon-2020"
       }, {
-        label: "产品文档",
-        href: "#"
+        label: "白皮书",
+        href: "/resources/api7-whitepaper"
       }, {
         label: "隐私政策",
         href: "/privacy_policy"
