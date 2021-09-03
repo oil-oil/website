@@ -49,6 +49,14 @@
       "path": "/zh/blog/contributors-the-golden-metric-of-openSource-projects"
     },
     {
+      "title": "舍弃 Kong 和 Nginx，Apache APISIX 在趣链科技 BaaS 平台的落地实践",
+      "image": "https://static.apiseven.com/202108/1630649111460-9830be28-289b-4b38-916f-c68cda764301.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-09",
+      "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
+    },
+    {
       "title": "Kong-To-APISIX 迁移工具",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
