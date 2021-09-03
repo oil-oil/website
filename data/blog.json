@@ -81,6 +81,14 @@
       "path": "/zh/blog/apachecon-asia-2021"
     },
     {
+      "title": "深度剖析 Apache APISIX Mesh Agent",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-16",
+      "path": "/zh/blog/how-to-use-mesh-agent"
+    },
+    {
       "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
       "image": "https://static.apiseven.com/202108/weibo.png",
       "type": "article",
