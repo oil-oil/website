@@ -452,7 +452,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
             }}>
               <h1 style={{ marginTop: 60, fontWeight: 600, fontSize: 25 }}>Join our Newsletter</h1>
               <h3 style={{ marginTop: 10, marginBottom: 20, fontWeight: 400, fontSize: 16 }}>Get all the latest Strapi updates, news and events.</h3>
-              <Input pleaseholder="Email" variant="outline" sytle={{ marginTop: 40, height: 40, width: 90, positon: "relative" }}></Input>
+              <Input pleaseholder="Email" variant="outline" style={{ marginTop: 40, height: 40, width: 90, position: "relative" }}></Input>
               <Button backgroundColor="#8c4bff" color="white" width="320px" top="10px">Subscribe</Button>
               <h3 style={{ marginTop: 20, width: 320, marginBottom: 50, fontSize: 13 }}>
                 By submitting this form you consent to us emailing you occasionally about our products and services. You can unsubscribe from emails at any time, and we will never pass your email to third parties.
