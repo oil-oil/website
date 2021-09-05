@@ -22,7 +22,7 @@ const SiderLeftAll: NextPage<Props, any> = ({ t }) => {
     },
     {
       imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Academy_1e45bae812_29fd831fdd.svg",
-      name: "Strapi Academy"
+      name: "API7 Academy"
     },
     {
       imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Blog_c574ff6bf6_317c7fba9b.svg",

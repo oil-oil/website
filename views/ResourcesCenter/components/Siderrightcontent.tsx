@@ -23,7 +23,7 @@ type Props = {
 const SiderRightContent: NextPage<Props, any> = ({ t }) => {
   const titleList = [
     { title: "RESOURCE CENTER" },
-    { title: "Strapi Resources" },
+    { title: "API7 Resources" },
     { title: "Everything  you need to optimize the way you work with" },
   ]
   const cardList = [
@@ -33,7 +33,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
       imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/book_icon_80d2c538d0_7c87cfcff3.svg",
       h1: "Developer",
       h1br: "Documentation",
-      h3: "All you need to get Strapi up-and-running.",
+      h3: "All you need to get API7 up-and-running.",
       buttontext: "Documentation",
       buttonbg: "#773ae7",
     },
@@ -43,7 +43,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
       imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/user_guide_icon_8cbe401776_121b8a6c83.svg",
       h1: "Developer",
       h1br: "Documentation",
-      h3: "All you need to get Strapi up-and-running.",
+      h3: "All you need to get API7 up-and-running.",
       buttontext: "Documentation",
       buttonbg: "#cc5d34",
     },
@@ -53,15 +53,15 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
       imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/education_icon_18fb97653f_723577953c.svg",
       h1: "Developer",
       h1br: "Documentation",
-      h3: "All you need to get Strapi up-and-running.",
+      h3: "All you need to get API7 up-and-running.",
       buttontext: "Documentation",
       buttonbg: "#01489e",
     }
   ]
   const titleListSecond = [
     { title: "" },
-    { title: "Learn with Strapi" },
-    { title: "Explore our library of educational SContent to learn how to set up and manage your Strapi project." }
+    { title: "Learn with API7" },
+    { title: "Explore our library of educational SContent to learn how to set up and manage your API7 project." }
   ]
   const cardListSecond = [
     {
@@ -77,13 +77,13 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
     {
       srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/education_color_icon_df7a108290_6a4ece3811.svg",
       text: "Academy",
-      divcontent: "Learn how to become a Strapi expert."
+      divcontent: "Learn how to become a API7 expert."
     }
   ]
   const cardListThird = [
     {
       srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/recipe_starter_36c43126ce_065f8d503b.svg",
-      text: "Strapi Recipes",
+      text: "API7 Recipes",
       divcontent: "Bite-size video tutorials"
     },
     {
@@ -100,7 +100,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
   const titleListThird = [
     { title: "" },
     { title: "Changelog" },
-    { title: "Find out about the Strapi product updates, new features and general improvements." }
+    { title: "Find out about the API7 product updates, new features and general improvements." }
   ]
   const titleListFour = [
     { title: "" },
@@ -138,7 +138,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
       imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/book_icon_80d2c538d0_7c87cfcff3.svg",
       h1: "Developer",
       h1br: "Documentation",
-      h3: "All you need to get Strapi up-and-running.",
+      h3: "All you need to get API7 up-and-running.",
       buttontext: "Documentation",
       buttonbg: "#773ae7",
     },
@@ -148,7 +148,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
       imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Subtract_b17455b597_062be5a73e.svg",
       h1: "Developer",
       h1br: "Documentation",
-      h3: "All you need to get Strapi up-and-running.",
+      h3: "All you need to get API7 up-and-running.",
       buttontext: "Contribute to the Codebas",
       buttonbg: "#0f8d55",
     },
@@ -332,7 +332,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
                 height: 90, width: 700, marginLeft: 100
               }}>
                 Aug 4, 2021<br />
-                Improvements and fixes - Strapi v3.6.6 & v3.6.7
+                Improvements and fixes - API7 v3.6.6 & v3.6.7
               </div>
               <div style={{
                 height: 90, width: 700, marginLeft: 100
@@ -340,13 +340,13 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
               }}>
                 Jun 23, 2021<br />
                 3.6.5
-                Improvements and fixes - Strapi v3.6.5
+                Improvements and fixes - API7 v3.6.5
               </div>
               <div style={{
                 height: 90, width: 700, marginLeft: 100
               }}>
                 Apr 22, 2021<br />
-                🌍 Internationalization - Strapi v3.6
+                🌍 Internationalization - API7 v3.6
               </div>
             </div>
 
@@ -451,7 +451,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
               marginLeft: 270,
             }}>
               <h1 style={{ marginTop: 60, fontWeight: 600, fontSize: 25 }}>Join our Newsletter</h1>
-              <h3 style={{ marginTop: 10, marginBottom: 20, fontWeight: 400, fontSize: 16 }}>Get all the latest Strapi updates, news and events.</h3>
+              <h3 style={{ marginTop: 10, marginBottom: 20, fontWeight: 400, fontSize: 16 }}>Get all the latest API7 updates, news and events.</h3>
               <Input pleaseholder="Email" variant="outline" style={{ marginTop: 40, height: 40, width: 90, position: "relative" }}></Input>
               <Button backgroundColor="#8c4bff" color="white" width="320px" top="10px">Subscribe</Button>
               <h3 style={{ marginTop: 20, width: 320, marginBottom: 50, fontSize: 13 }}>
