@@ -1,5 +1,5 @@
 {
-  "company-name": "深圳支流科技有限公司 -- Full Traffic Management: API Gateway, Kubernetes Ingress Controller & Service Mesh",
+  "company-name": "深圳支流科技有限公司 -- 全流量管理: API 网关 & Kubernetes Ingress Controller & 服务网格",
   "homepage": "首页",
   "open-source": "开源项目",
   "showcases": "用户案例",
@@ -25,5 +25,6 @@
   "features": "API7 功能特性",
   "devcon": "Apache APISIX Devcon 2020",
   "ApacheCon": "ApacheCon Asia 2021",
-  "ResourceLibrary": "资源中心"
+  "ResourceLibrary": "资源中心",
+  "whitepaper": "API7 网关技术白皮书"
 }

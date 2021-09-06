@@ -1,5 +1,5 @@
 {
-  "company-name": "API7.ai -- Full Traffic Management: API Gateway, Kubernetes Ingress Controller & Service Mesh",
+  "company-name": "API7.ai -- Full Traffic Management: API Gateway & Kubernetes Ingress Controller & Service Mesh",
   "homepage": "Home",
   "open-source": "Projects",
   "showcases": "Showcases",
@@ -25,5 +25,6 @@
   "features": "API7 Features",
   "devcon": "Apache APISIX Devcon 2020",
   "ApacheCon": "ApacheCon Asia 2021",
-  "ResourceLibrary": "Resource Library"
+  "ResourceLibrary": "Resource Library",
+  "whitepaper": "API7 Whitepaper"
 }

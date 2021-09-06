@@ -67,9 +67,9 @@ export const EN_US_Links: Link[] = [
         href: '/contributor-graph',
         icon: <AiOutlineProject />,
       }, {
-        label: 'Documentation',
-        description: 'Coming soon',
-        href: '#',
+        label: 'API7 Whitepaper',
+        description: 'Learn more about the API7\'s Whitepaper for more features and performance reports.',
+        href: '/resources/api7-whitepaper',
         icon: <IoHelpBuoy />,
       }
     ],
@@ -178,9 +178,9 @@ export const ZH_CN_Links: Link[] = [
         icon: <AiOutlineProject />,
       },
       {
-        label: '产品文档',
-        description: '敬请期待',
-        href: '#',
+        label: '白皮书',
+        description: '阅读 API7 网关技术白皮书，了解更多功能与性能报告。',
+        href: '/resources/api7-whitepaper',
         icon: <CgReadme />,
       }
     ],

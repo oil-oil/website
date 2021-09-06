@@ -1,6 +1,38 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX 在 Airwallex 的应用 | 专访 Airwallex 技术平台负责人李杨",
+      "image": "https://static.apiseven.com/202108/airwallex-logo-white.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-16",
+      "path": "/zh/blog/Airwallex-interview"
+    },
+    {
+      "title": "舍弃 Kong 和 Nginx，Apache APISIX 在趣链科技 BaaS 平台的落地实践",
+      "image": "https://static.apiseven.com/202108/1630649111460-9830be28-289b-4b38-916f-c68cda764301.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-09",
+      "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
+    },
+    {
+      "title": "Apache APISIX 在移动云的应用",
+      "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-03",
+      "path": "/zh/usercase/china-mobile"
+    },
+    {
+      "title": "支持 10 亿日流量的基础设施：当 Apahce APISIX 遇上腾讯",
+      "image": "https://static.apiseven.com/202108/1630660478569-f57ad3e2-5e2b-48a9-a700-ec4bed0ed66d.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-05-24",
+      "path": "/zh/usercase/tencent-game"
+    },
+    {
       "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
       "image": "https://static.apiseven.com/202108/weibo.png",
       "type": "article",
@@ -10,15 +42,23 @@
     },
     {
       "title": "支流科技与吉利汽车：产业数字化，「智造」未来",
-      "image": "https://static.apiseven.com/logo/geely-1.png",
+      "image": "https://static.apiseven.com/202108/1630660907007-9479c0cf-40b2-49f4-8e53-a14ebd0ff5f7.jpeg",
       "type": "article",
       "tags": [],
       "date": "2020-12-18",
       "path": "/zh/usercase/geely"
     },
     {
+      "title": "贝壳找房：如何基于 Apache APISIX 搭建网关",
+      "image": "https://static.apiseven.com/202108/1630652517130-8b2b2fe6-cf0a-4f1c-9ccd-0a25986680b3.png",
+      "type": "article",
+      "tags": [],
+      "date": "2020-12-11",
+      "path": "/zh/blog/how-to-build-gateway-based-on-apache-apisix"
+    },
+    {
       "title": "360：Apache APISIX 在基础运维平台项目中的实践",
-      "image": "https://static.apiseven.com/202108/api7-logo.png",
+      "image": "https://static.apiseven.com/202108/1630659436541-4bd84bcf-d1d5-41cc-9c96-96049dfd846a.jpeg",
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
@@ -26,7 +66,7 @@
     },
     {
       "title": "思必驰：为什么我们重新写了一个 k8s ingress controller？",
-      "image": "https://static.apiseven.com/2020/05/ef94496d-c0e5-41ff-a56f-a497cdf03218-image.png",
+      "image": "https://static.apiseven.com/202108/1630659436546-c8033e34-899a-422d-a2b1-8b0346b419f7.png",
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
@@ -34,7 +74,7 @@
     },
     {
       "title": "HelloTalk：基于 OpenResty 和 Apache APISIX 的全球化探索之路",
-      "image": "https://static.apiseven.com/202108/638f50106e81c9d99eb788d4c1d3e9c1.jpeg",
+      "image": "https://static.apiseven.com/202108/1630659826670-f05370cb-6cd2-4832-84fa-1dd9392933c9.png",
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
@@ -42,7 +82,7 @@
     },
     {
       "title": "腾讯云：为什么选择 Apache APISIX 来实现 k8s ingress controller?",
-      "image": "https://static.apiseven.com/202108/api7-logo.png",
+      "image": "https://static.apiseven.com/202108/1630659436549-f5217d09-3ef9-49df-b0be-0b6fab3eca66.jpeg",
       "type": "video",
       "tags": [],
       "date": "2020-12-11 17:16:00",
@@ -52,7 +92,7 @@
   "en-US": [
     {
       "title": "Zhiliu Technology and Geely: Digitising the industry to Intelligent creation the future",
-      "image": "https://static.apiseven.com/logo/geely-1.png",
+      "image": "https://static.apiseven.com/202108/1630660907005-53bffbd1-272e-4280-8598-97c825f3e9d5.jpeg",
       "type": "article",
       "tags": [],
       "date": "2020-12-18",
@@ -60,7 +100,7 @@
     },
     {
       "title": "360: Apache APISIX in practice in the basic operation and maintenance platform project",
-      "image": "https://static.apiseven.com/202108/api7-logo.png",
+      "image": "https://static.apiseven.com/202108/1630659436541-4bd84bcf-d1d5-41cc-9c96-96049dfd846a.jpeg",
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
@@ -68,7 +108,7 @@
     },
     {
       "title": "aispeech: Why have we rewritten a k8s ingress controller?",
-      "image": "https://static.apiseven.com/2020/05/ef94496d-c0e5-41ff-a56f-a497cdf03218-image.png",
+      "image": "https://static.apiseven.com/202108/1630659436546-c8033e34-899a-422d-a2b1-8b0346b419f7.png",
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
@@ -76,7 +116,7 @@
     },
     {
       "title": "HelloTalk: A Global Exploration Path Based on OpenResty and Apache APISIX",
-      "image": "https://opentalk-blog.b0.upaiyun.com/prod/2020-01-08/638f50106e81c9d99eb788d4c1d3e9c1",
+      "image": "https://static.apiseven.com/202108/1630659826670-f05370cb-6cd2-4832-84fa-1dd9392933c9.png",
       "type": "article",
       "tags": [],
       "date": "2020-12-11 17:16:00",
@@ -84,7 +124,7 @@
     },
     {
       "title": "Tencent Cloud: Why did you choose Apache APISIX to implement k8s ingress controller?",
-      "image": "https://static.apiseven.com/202108/api7-logo.png",
+      "image": "https://static.apiseven.com/202108/1630660907008-1584e873-993d-4636-aa5c-bfcd1f4bb041.png",
       "type": "video",
       "tags": [],
       "date": "2020-12-11 17:16:00",

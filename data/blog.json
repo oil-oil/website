@@ -1,12 +1,36 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX × KubeSphere：提供更好用的网关及 K8S Ingress Controller",
+      "image": "https://static.apiseven.com/202108/1630405298071-c8a69f1e-b9b8-4c0d-bc58-9dbc3331dc9a.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-31",
+      "path": "/zh/blog/Apache-APISIX-KubeSphere-a-better-gateway-and-K8S-Ingress-Controller"
+    },
+    {
       "title": "使用 Apache APISIX 的 OpenID Connect 插件进行集中身份认证",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-26",
       "path": "/zh/blog/using-the-apache-apisix-openid-connect-plugin-for-centralized-authentication"
+    },
+    {
+      "title": "为什么 Apache APISIX 选择 Nginx + Lua 这个技术栈",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-25",
+      "path": "/zh/blog/Why-Apache-APISIX-chose-Nginx-and-Lua"
+    },
+    {
+      "title": "在 Apache APISIX 中使用 Casbin 进行授权",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-23",
+      "path": "/zh/blog/use-authz-casbin"
     },
     {
       "title": "Go 让 Apache APISIX 如虎添翼",
@@ -33,6 +57,54 @@
       "path": "/zh/blog/contributors-the-golden-metric-of-openSource-projects"
     },
     {
+      "title": "舍弃 Kong 和 Nginx，Apache APISIX 在趣链科技 BaaS 平台的落地实践",
+      "image": "https://static.apiseven.com/202108/1630649111460-9830be28-289b-4b38-916f-c68cda764301.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-09",
+      "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
+    },
+    {
+      "title": "Kong-To-APISIX 迁移工具",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-05",
+      "path": "/zh/blog/kong-to-apisix"
+    },
+    {
+      "title": "如何利用 Apache APISX 提升 Nginx 的可观测性",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-06",
+      "path": "/zh/blog/using-apache-apisix-to-improve-the-observability-of-nginx"
+    },
+    {
+      "title": "插件编排在 Apache APISIX 中的应用与实践",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-27",
+      "path": "/zh/blog/limit-rep-plug"
+    },
+    {
+      "title": "ApacheCon Asia 2021：Apache APISIX 技术议题一览",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-25",
+      "path": "/zh/blog/apachecon-asia-2021"
+    },
+    {
+      "title": "深度剖析 Apache APISIX Mesh Agent",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-16",
+      "path": "/zh/blog/how-to-use-mesh-agent"
+    },
+    {
       "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
       "image": "https://static.apiseven.com/202108/weibo.png",
       "type": "article",
@@ -41,12 +113,44 @@
       "path": "/zh/blog/the-road-to-customization-of-Sina-Weibo-API-gateway-based-on-Apache-APISIX"
     },
     {
+      "title": "差之毫厘：etcd 3 完美支持 HTTP 访问？",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-06-30",
+      "path": "/zh/blog/etcd3-support-HTTP-access-perfectly"
+    },
+    {
       "title": "有了 NGINX 和 Kong，为什么还需要 Apache APISIX",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-06-25",
       "path": "/zh/blog/why-we-need-Apache-APISIX"
+    },
+    {
+      "title": "Chaos Mesh 助力 Apache APISIX 提升稳定性",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-06-16",
+      "path": "/zh/blog/Chaos-Mesh-helps-Apache-APISIX-improve-stability"
+    },
+    {
+      "title": "使用 Java 编写 Apache APISIX 插件",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-06-21",
+      "path": "/zh/blog/use-Java-to-write-Apache-APISIX-plugins"
+    },
+    {
+      "title": "Rancher × Apache APISIX: 极速部署更好用的开源网关和 Ingress Controller",
+      "image": "https://static.apiseven.com/202108/1630114939501-2f7fc28c-33bf-4099-9d90-843c74dcca6b.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-06-24",
+      "path": "/zh/blog/deploy-great-open-source-gateway-and-ingress-controller-fast"
     },
     {
       "title": "Apache APISIX 和 Envoy 性能大比拼",
@@ -162,7 +266,7 @@
     },
     {
       "title": "贝壳找房：如何基于 Apache APISIX 搭建网关",
-      "image": "https://static.apiseven.com/2020/05/1588756665-Snipaste_2020-05-06_17-17-29.png",
+      "image": "https://static.apiseven.com/202108/1630652517130-8b2b2fe6-cf0a-4f1c-9ccd-0a25986680b3.png",
       "type": "article",
       "tags": [],
       "date": "2020-12-11",
