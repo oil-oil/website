@@ -82,6 +82,7 @@ export const SCardstyle = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-left: 10%;
   .timeLineBox {
     display: flex;
     flex-direction: column;
@@ -104,12 +105,12 @@ export const SCardstyle = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
+    width: 100%;
   }
 
   .timeContentBox {
     height: 90px;
-    margin-left: 20%;
+    margin-left: 10%;
     display: flex;
     align-items: center;
     p {
@@ -347,6 +348,7 @@ export const SContent = styled.div`
   width: 83.333%;
   margin-bottom: 20px;
   border: white;
+  align-items: flex-start;
 
   @media (max-width: 800px) {
     width: 100%;
@@ -377,11 +379,16 @@ export const SiderLeft = styled.div`
   font-weight: 400;
   line-height: 28px;
   color: #344b80;
+  position: sticky;
+  top: -416px;
+  h2 {
+    margin: 15px 0;
+  }
   a {
     display: flex;
     flex-direction: row;
     position: relative;
-    margin-top: 18px;
+    margin-top: 13px;
     margin-right: 50px;
   }
   span {
