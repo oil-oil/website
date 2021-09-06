@@ -13,10 +13,10 @@ type Props = {
   t: TFunction;
 };
 
-const NewHome: NextPage<Props, any> = ({ t }) => {
+const ResourceLibrary: NextPage<Props, any> = ({ t }) => {
   return (
     <>
-      <NextSeo title={t(`common:newhome`)} />
+      <NextSeo title={t(`common:ResourceLibrary`)} />
       <SContentAll>
         <SContent>
           <SiderLeftAll />
@@ -28,4 +28,4 @@ const NewHome: NextPage<Props, any> = ({ t }) => {
   )
 }
 
-export default withTranslation("newhome")(NewHome as any);
+export default withTranslation("ResourceLibrary")(ResourceLibrary as any);

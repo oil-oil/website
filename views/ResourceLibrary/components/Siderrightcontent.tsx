@@ -89,7 +89,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
     }
   ]
 
-  const cardListFour = [
+  const cardListThree = [
     {
       srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/iconfinder_discord_3069758_1_1_18c962b4c9_b698a303d6.svg",
       text: "Starts",
@@ -112,7 +112,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
     }
   ]
 
-  const cardListSix = [
+  const cardListFour = [
     {
       scontentcardbg: "#a06aff",
       divbgcolor: "#773ae7",
@@ -135,8 +135,6 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
     },
   ]
   return (
-    <>
-      <NextSeo title={t(`common:contentlast`)} />
       <Siderright>
         <SContentitem>
           <STitle>
@@ -165,7 +163,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
           </STitle>
           <SLinkBox>
             {cardListSecond.map((item) => (
-              <a href="" className="box">
+              <a href="" key={item.text} className="box">
                 <div className="iconBox">
                   <div></div>
                   <img src={item.srcURL} alt="" />
@@ -186,11 +184,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
             <Button style={{ marginTop: '58px', backgroundColor: '#8c4bff', width: 250, height: 55, color: 'white' }}>See the changelogs</Button>
           </STitle>
           <SCardstyle>
-            <div style={{
-              display: "flex",
-              flexDirection: "column",
-              marginTop: 15
-            }}>
+            <div className="timeLineBox">
               <div className="linePoint"></div>
               <div className="timeLine"></div>
 
@@ -229,7 +223,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
             <p>Join the conversation with users from all over the world.</p>
           </STitle>
           <SCommunityBox>
-            {cardListFour.map((item) => (
+            {cardListThree.map((item) => (
               <a key={item.text} href="" className="communityList">
                 <div className="background"></div>
                 <div className="iconBox">
@@ -244,7 +238,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
           </SCommunityBox>
 
           <SLearnAbout>
-            {cardListSix.map((item) => (
+            {cardListFour.map((item) => (
               <div className="cardBox" style={{ background: (item.scontentcardbg) }}>
                 <div className="title" style={{
                   backgroundColor: (item.divbgcolor),
@@ -271,7 +265,6 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
           </SLearnAbout>
         </SContentitem>
       </Siderright>
-    </>
   )
 }
 

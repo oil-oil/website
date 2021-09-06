@@ -75,31 +75,28 @@ const SiderLeftAll: NextPage<Props, any> = ({ t }) => {
     }
   ]
   return (
-    <>
-      <NextSeo title={t(`common:siderleftall`)} />
-      <SiderLeft>
-        <div>
-          {alist.map((item) => (
-            <a key={item.name} href="">
-              <img src={item.imgURL} />
-              <span>{item.name}</span>
-            </a>
-          ))}
-        </div>
-        <div>
-          {contentlist.map((item) => (
-            <Sidertitle>
-              <h2>
-                {item.title}
-              </h2>
-              {item.text.map((it) => (
-                <a href='' key={item.title}>{it.title}</a>
-              ))}
-            </Sidertitle>
-          ))}
-        </div>
-      </SiderLeft>
-    </>
+    <SiderLeft>
+      <div>
+        {alist.map((item) => (
+          <a key={item.name} href="">
+            <img src={item.imgURL} />
+            <span>{item.name}</span>
+          </a>
+        ))}
+      </div>
+      <div>
+        {contentlist.map((item) => (
+          <Sidertitle key={item.title}>
+            <h2>
+              {item.title}
+            </h2>
+            {item.text.map((it) => (
+              <a href='' key={item.title}>{it.title}</a>
+            ))}
+          </Sidertitle>
+        ))}
+      </div>
+    </SiderLeft>
   )
 }
 

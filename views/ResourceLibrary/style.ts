@@ -82,6 +82,11 @@ export const SCardstyle = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  .timeLineBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
   .linePoint {
     background-color: #c8cee1;
     width: 10px;
@@ -536,4 +541,13 @@ export const SContentstart = styled.div`
   justify-content: center;
   align-items: center;
   height: 300px;
+  h1 {
+    font-size: 40px;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50;
+  }
 `;

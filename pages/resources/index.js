@@ -1,1 +1,1 @@
-export {default}  from "@/views/ResourcesCenter"
+export {default}  from "@/views/ResourceLibrary"
