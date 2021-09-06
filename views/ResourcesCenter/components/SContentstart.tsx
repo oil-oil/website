@@ -8,7 +8,7 @@ import { TFunction } from "next-i18next";
 import { NextSeo } from "next-seo";
 
 import {
-  SContent,
+  SContent2,
   SContentstart
 } from "../style";
 
@@ -21,12 +21,8 @@ const SContentstartAll: NextPage<Props, any> = ({ t }) => {
   return (
     <>
       <NextSeo title={t(`common:scontentstart`)} />
-      <SContent style={{
-        marginTop: 80
-      }}>
-        <img src={imgURL} style={{
-          position: "absolute", right: 0
-        }} />
+      <SContent2>
+        <img src={imgURL} />
         <SContentstart>
           <h1 style={{
             fontSize: 40,
@@ -53,7 +49,7 @@ const SContentstartAll: NextPage<Props, any> = ({ t }) => {
             }}>get starts</Button>
           </div>
         </SContentstart>
-      </SContent>
+      </SContent2>
     </>
   )
 }

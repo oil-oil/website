@@ -80,25 +80,23 @@ const SiderLeftAll: NextPage<Props, any> = ({ t }) => {
       <SiderLeft>
         <div>
           {alist.map((item) => (
-            <a>
+            <a key={item.name} href="">
               <img src={item.imgURL} />
-              {item.name}
+              <span>{item.name}</span>
             </a>
           ))}
         </div>
         <div>
           {contentlist.map((item) => (
             <Sidertitle>
-              <h2 style={{ color: "#8c4bff", fontWeight: 600, fontSize: 16 }}>
+              <h2>
                 {item.title}
               </h2>
               {item.text.map((it) => (
-                <h4 style={{ color: "#5e709d", fontSize: 16, fontWeight: 400, marginBottom: 0 }}>{it.title}</h4>
+                <a href='' key={item.title}>{it.title}</a>
               ))}
             </Sidertitle>
           ))}
-        </div>
-        <div>
         </div>
       </SiderLeft>
     </>

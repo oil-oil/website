@@ -87,27 +87,24 @@ export const SCardstyle = styled.div`
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin-left: 50px;
   }
   .timeLine {
     background-color: #c8cee1;
     width: 2px;
     height: 65px;
-    margin: 6px 0 3px 54px;
+    margin: 6px 0 3px 4px;
   }
 
   .timeLineContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     position: absolute;
   }
 
   .timeContentBox {
     height: 90px;
-    width: 100%;
-    margin-left: 200px;
+    margin-left: 20%;
     display: flex;
     align-items: center;
     p {
@@ -126,9 +123,18 @@ export const SCardstyle = styled.div`
 `;
 
 export const SResourcesCard = styled.div`
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
   width: 100%;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+
+    .imgBox {
+      display: none;
+    }
+  }
 `;
 
 export const SLinkBox = styled.div`
@@ -238,9 +244,93 @@ export const SCommunityBox = styled.div`
       font-size: 13px;
       font-weight: 400;
       color: #344b80;
-      font-family: Poppins,serif;
+      font-family: Poppins, serif;
       line-height: 19px;
     }
+  }
+`;
+
+export const SLearnAbout = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 23px;
+
+  .cardBox {
+    display: flex;
+    padding: 32px 16px 24px;
+    border-radius: 10px;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 72px;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 24px;
+    position: relative;
+    border-radius: 100%;
+  }
+
+  .button {
+    width: 100%;
+    color: #ffffff;
+    padding: 18px 20px;
+  }
+
+  .cardWrapper {
+    position: relative;
+    grid-column: 1/-1;
+    background-color: #1a154e;
+    border-radius: 10px;
+
+    .box {
+      margin: 0 auto;
+      display: flex;
+      padding: 40px 19px 32px;
+      max-width: 350px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      input::-webkit-input-placeholder {
+        color: #E0E0E0;
+      }
+
+      h1 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 1rem;
+        color: #ffffff;
+      }
+
+      p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 1rem;
+        color: #ffffff;
+      }
+      span {
+        font-size: 13px;
+        line-height: 1.57;
+        font-weight: 400;
+        color: #f6fafe;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -252,7 +342,25 @@ export const SContent = styled.div`
   width: 83.333%;
   margin-bottom: 20px;
   border: white;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
+
+export const SContent2 = styled.div`
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 10%;
+
+  img {
+    position: absolute;
+    right: 0;
+  }
+`
 
 export const SiderLeft = styled.div`
   display: flex;
@@ -270,8 +378,9 @@ export const SiderLeft = styled.div`
     position: relative;
     margin-top: 18px;
     margin-right: 50px;
-    img {
-    }
+  }
+  span {
+    margin-left: 12px;
   }
 
   @media (max-width: 1200px) {
@@ -285,6 +394,10 @@ export const SContentitem = styled.div`
   position: relative;
   margin-left: 4%;
   margin-bottom: 64px;
+
+  @media (max-width: 800px) {
+    margin-right: 5%;
+  }
 `;
 
 export const Siderright = styled.div`
@@ -382,13 +495,26 @@ export const SContentcard = styled.div`
 `;
 
 export const Sidertitle = styled.div`
-  position: relative;
+  position: sticky;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   width: 100%;
+  h2 {
+    color: #8c4bff;
+    font-weight: 600;
+    font-size: 16px;
+  }
   h4 {
     margin-top: 10px;
+  }
+  a {
+    color: #5e709d;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-right: 0;
+    line-height: 1.4;
   }
 `;
 
@@ -400,17 +526,6 @@ export const SFooter = styled.div`
   height: 100px;
   margin-left: 5%;
   border-top: 2px solid #eaf2fa;
-`;
-
-export const SContentlist = styled.div`
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  margin-top: 50px;
-  background-color: #1a154e;
-  color: white;
-  border-radius: 15px;
 `;
 
 export const SContentstart = styled.div`

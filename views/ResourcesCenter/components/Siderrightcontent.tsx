@@ -13,10 +13,10 @@ import {
   SContentcard,
   SCardstyle,
   Siderright,
-  SContentlist,
   SResourcesCard,
   SLinkBox,
-  SCommunityBox
+  SCommunityBox,
+  SLearnAbout
 } from "../style";
 
 type Props = {
@@ -120,7 +120,7 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
       h1: "Developer",
       h1br: "Documentation",
       h3: "All you need to get API7 up-and-running.",
-      buttontext: "Documentation",
+      buttontext: "Contribute to the Documentation",
       buttonbg: "#773ae7",
     },
     {
@@ -147,12 +147,12 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
           <SResourcesCard>
             {cardList.map((item) => (
               <SContentcard key={item.h1} style={{ background: (item.scontentcardbg) }}>
-                <div style={{ backgroundColor: (item.divbgcolor) }}>
+                <div className="imgBox" style={{ backgroundColor: (item.divbgcolor) }}>
                   <img src={item.imgURL} alt="" />
                 </div>
                 <h1>{item.h1}<br />{item.h1br}</h1>
                 <p>{item.desc}</p>
-                <Button style={{ backgroundColor: (item.buttonbg), color: "white", marginTop: 30, height: 50 }}>{item.buttontext}</Button>
+                <Button style={{ backgroundColor: (item.buttonbg), color: "white" }}>{item.buttontext}</Button>
               </SContentcard>
             ))}
           </SResourcesCard>
@@ -230,55 +230,45 @@ const SiderRightContent: NextPage<Props, any> = ({ t }) => {
           </STitle>
           <SCommunityBox>
             {cardListFour.map((item) => (
-              <a key={item.text} className="communityList">
+              <a key={item.text} href="" className="communityList">
                 <div className="background"></div>
                 <div className="iconBox">
                   <img src={item.srcURL} />
                 </div>
                 <div className="contentBox">
-                  <Text style={{color: "#1d1b84", fontSize: 17, fontWeight: 600, lineHeight: 1.5 }}>{item.text}</Text>
+                  <Text style={{ color: "#1d1b84", fontSize: 17, fontWeight: 600, lineHeight: 1.5 }}>{item.text}</Text>
                   <p>{item.divcontent}</p>
                 </div>
               </a>
             ))}
           </SCommunityBox>
 
-          <SCardstyle>
+          <SLearnAbout>
             {cardListSix.map((item) => (
-              <SContentcard style={{ background: (item.scontentcardbg), }}>
-                <div style={{
-                  borderRadius: 40,
-                  width: 80,
-                  height: 80,
+              <div className="cardBox" style={{ background: (item.scontentcardbg) }}>
+                <div className="title" style={{
                   backgroundColor: (item.divbgcolor),
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginLeft: 140
                 }}>
-                  <img src={item.imgURL} alt="" style={{ width: 35, height: 35, }} />
+                  <img src={item.imgURL} alt="" />
                 </div>
-                <Button style={{ backgroundColor: (item.buttonbg), color: "white", marginTop: 30, height: 50 }}>{item.buttontext}</Button>
-              </SContentcard>
+                <div className="button">
+                  <Button style={{ backgroundColor: (item.buttonbg) }}>
+                    <a href="">{item.buttontext}</a></Button>
+                </div>
+              </div>
             ))}
-          </SCardstyle>
-        </SContentitem>
-        <SContentitem>
-          <SContentlist>
-            <div style={{
-              width: 320,
-              position: "relative",
-              marginLeft: 270,
-            }}>
-              <h1 style={{ marginTop: 60, fontWeight: 600, fontSize: 25 }}>Join our Newsletter</h1>
-              <h3 style={{ marginTop: 10, marginBottom: 20, fontWeight: 400, fontSize: 16 }}>Get all the latest API7 updates, news and events.</h3>
-              <Input pleaseholder="Email" variant="outline" style={{ marginTop: 40, height: 40, width: 90, position: "relative" }}></Input>
-              <Button backgroundColor="#8c4bff" color="white" width="320px" top="10px">Subscribe</Button>
-              <h3 style={{ marginTop: 20, width: 320, marginBottom: 50, fontSize: 13 }}>
-                By submitting this form you consent to us emailing you occasionally about our products and services. You can unsubscribe from emails at any time, and we will never pass your email to third parties.
-              </h3>
+            <div className="cardWrapper">
+              <div className="box">
+                <h1>Join our Newsletter</h1>
+                <p>Get all the latest API7 updates, news and events.</p>
+                <Input backgroundColor="#FFFFFF" placeholder="Email" variant="outline"></Input>
+                <Button backgroundColor="#8c4bff" color="white" width="320px" top="10px">Subscribe</Button>
+                <span>
+                  By submitting this form you consent to us emailing you occasionally about our products and services. You can unsubscribe from emails at any time, and we will never pass your email to third parties.
+                </span>
+              </div>
             </div>
-          </SContentlist>
+          </SLearnAbout>
         </SContentitem>
       </Siderright>
     </>
