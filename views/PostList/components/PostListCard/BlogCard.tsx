@@ -29,7 +29,7 @@ export const BlogCard = (props: BlogCardProps) => {
 
   return (
     <Box {...rest}>
-      <BlogMedia src={image} alt={title} />
+      <BlogMedia href={path} src={image} alt={title} />
       <Box mt="6" padding="0 20px">
         <BlogMeta tags={tags} type={type} />
         <Box mb="6">
