@@ -11,7 +11,6 @@ export const SContentAll = styled.div`
 export const SCardstyle = styled.div`
   display: flex;
   flex-direction: row;
-  width: 100%;
   margin-left: 10%;
   .timeLineBox {
     display: flex;
@@ -214,6 +213,10 @@ export const SLearnAbout = styled.div`
     width: 100%;
     position: relative;
     overflow: hidden;
+
+    @media (max-width: 420px) {
+      padding: 32px 16px 24px;
+    }
   }
   .cardBox::after {
     content: "";
@@ -268,6 +271,8 @@ export const SLearnAbout = styled.div`
     border-radius: 10px;
 
     .box {
+      position: relative;
+      z-index: 3;
       margin: 0 auto;
       display: flex;
       padding: 40px 19px 32px;
@@ -310,7 +315,21 @@ export const SLearnAbout = styled.div`
       right: 80px;
       left: auto;
       transform: scale(1);
-      z-index: 1;
+      z-index: 5;
+    }
+
+    @media (max-width: 900px) {
+      .iconBox {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 1;
+        transform: translateX(-50%) scale(0.4);
+      }
+
+      .box {
+        margin-top: 40px;
+      }
     }
   }
 

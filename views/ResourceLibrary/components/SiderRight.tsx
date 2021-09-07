@@ -259,7 +259,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
               <h1>Join our Newsletter</h1>
               <p>Get all the latest API7 updates, news and events.</p>
               <Input backgroundColor="#FFFFFF" placeholder="Email" variant="outline"></Input>
-              <Button colorScheme="blue" color="white" width="320px" top="10px">Subscribe</Button>
+              <Button colorScheme="blue" color="white" width="100%" top="10px">Subscribe</Button>
               <span>
                 By submitting this form you consent to us emailing you occasionally about our products and services. You can unsubscribe from emails at any time, and we will never pass your email to third parties.
               </span>
