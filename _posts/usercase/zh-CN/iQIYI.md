@@ -1,7 +1,7 @@
 ---
-title: “基于 Apache APISIX，爱奇艺 API 网关的更新与落地实践”
+title: "基于 Apache APISIX，爱奇艺 API 网关的更新与落地实践"
 date: 2021-09-07
-author: “何聪”
+author: "何聪"
 ---
 > 本文整理自爱奇艺高级研发师何聪在 Apache APISIX Meetup - 上海站的演讲，通过阅读本文，您可以了解到基于 Apache APISIX 网关，爱奇艺技术团队是如何进行公司架构的更新与融合，打造出全新的网关服务。
 > 欢迎感兴趣的同学访问 bilibili [爱奇艺基于 Apache APISIX 的 API 网关落地实践](https://www.bilibili.com/video/BV1Qq4y1M7bK/)，观看视频。
