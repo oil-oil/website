@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "基于 Apache APISIX，爱奇艺 API 网关的更新与落地实践",
+      "image": "https://static.apiseven.com/202108/1630997461438-faa0dc43-7d5a-4973-94a3-c38a00b79344.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-07",
+      "path": "/zh/blog/iQIYI"
+    },
+    {
       "title": "Apache APISIX 在 Airwallex 的应用 | 专访 Airwallex 技术平台负责人李杨",
       "image": "https://static.apiseven.com/202108/airwallex-logo-white.png",
       "type": "article",
