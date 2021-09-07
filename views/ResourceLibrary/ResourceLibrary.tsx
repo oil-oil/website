@@ -5,8 +5,7 @@ import { TFunction } from "next-i18next";
 import { NextSeo } from "next-seo";
 
 import SiderLeftAll from "./components/SiderLeft"
-import SiderRightContent from "./components/Siderrightcontent"
-import SContentstartAll from "./components/SContentstart"
+import SiderRightContent from "./components/SiderRight"
 import { SContentAll, SContent, } from "./style";
 
 type Props = {
@@ -22,7 +21,6 @@ const ResourceLibrary: NextPage<Props, any> = ({ t }) => {
           <SiderLeftAll />
           <SiderRightContent />
         </SContent>
-        <SContentstartAll />
       </SContentAll>
     </>
   )

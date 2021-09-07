@@ -8,76 +8,6 @@ export const SContentAll = styled.div`
   justify-content: center;
 `;
 
-export const SNavbar = styled.div`
-  display: flex;
-  flex-direction: row;
-  height: 80px;
-  width: 100%;
-  position: relative;
-  border-bottom: 1px solid #eaf2fa;
-  text-align: center;
-  align-items: center;
-
-  div:nth-child(4) {
-    position: relative;
-    width: 10%;
-    margin-left: 6%;
-    justify-content: center;
-  }
-`;
-
-export const SNavbarimg = styled.div`
-  position: relative;
-  width: 15.5%;
-  margin-left: 7%;
-  text-align: center;
-  img {
-    width: 136px;
-    margin-top: 25px;
-    margin-left: 20px;
-  }
-`;
-
-export const SNavbarcenter = styled.div`
-  position: relative;
-  width: 44%;
-  display: flex;
-  flex-direction: row;
-`;
-
-export const SelectMenu = styled.div`
-  color: #1d1b84;
-  font-size: 17px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 18%;
-  text-align: left;
-  justify-content: center;
-  white-space: nowrap;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 28px;
-  margin-right: 50px;
-  margin-left: 0;
-  padding-left: 10px;
-`;
-
-export const SNavbarbutton = styled.div`
-  position: relative;
-  width: 10%;
-  display: flex;
-  flex-direction: row;
-  margin-left: 3%;
-`;
-
-export const SNavbarstart = styled.div`
-  position: absolute;
-  top: 25px;
-  right: 42px;
-  width: 100px;
-`;
-
 export const SCardstyle = styled.div`
   display: flex;
   flex-direction: row;
@@ -105,12 +35,12 @@ export const SCardstyle = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    margin-right: 10%;
   }
 
   .timeContentBox {
     height: 90px;
-    margin-left: 10%;
+    margin-left: 15%;
     display: flex;
     align-items: center;
     p {
@@ -164,6 +94,11 @@ export const SLinkBox = styled.div`
     width: 100%;
     text-decoration: none;
     border-radius: 10px;
+    :hover {
+      .iconBox {
+        transform: perspective(100px) scale(1.06, 1.06);
+      }
+    }
 
     .iconBox {
       display: flex;
@@ -174,6 +109,8 @@ export const SLinkBox = styled.div`
       height: 72px;
       margin-right: 16px;
       position: relative;
+      transition: all 0.3s;
+      transform: perspective(100px);
 
       div {
         position: absolute;
@@ -219,6 +156,11 @@ export const SCommunityBox = styled.div`
     text-align: left;
     width: 100%;
     box-sizing: border-box;
+    :hover {
+      .background {
+        transform: perspective(100px) scale(1.06, 1.06);
+      }
+    }
   }
   .iconBox {
     display: flex;
@@ -242,6 +184,8 @@ export const SCommunityBox = styled.div`
     border: 1px solid #eaf2fa;
     border-radius: 10px;
     z-index: -1;
+    transition: all 0.3s;
+    transform: perspective(100px);
   }
 
   .contentBox {
@@ -250,7 +194,6 @@ export const SCommunityBox = styled.div`
       font-size: 13px;
       font-weight: 400;
       color: #344b80;
-      font-family: Poppins, serif;
       line-height: 19px;
     }
   }
@@ -263,7 +206,7 @@ export const SLearnAbout = styled.div`
 
   .cardBox {
     display: flex;
-    padding: 32px 16px 24px;
+    padding: 32px 50px 24px;
     border-radius: 10px;
     flex-direction: column;
     box-sizing: border-box;
@@ -271,6 +214,23 @@ export const SLearnAbout = styled.div`
     width: 100%;
     position: relative;
     overflow: hidden;
+  }
+  .cardBox::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .cardBox:first-child::after {
+    background-image: url("https://strapi.io/assets/icons/socials-grid-background-purple.svg");
+  }
+  .cardBox:nth-child(2)::after {
+    background-image: url("https://strapi.io/assets/icons/socials-grid-background-green.svg");
   }
 
   .title {
@@ -288,7 +248,17 @@ export const SLearnAbout = styled.div`
   .button {
     width: 100%;
     color: #ffffff;
-    padding: 18px 20px;
+    border-radius: 8px;
+    z-index: 1;
+    transition: all 0.3s;
+    transform: perspective(100px);
+    :hover {
+      transform: perspective(100px) scale(1.06, 1.06);
+    }
+    .background {
+      width: 100%;
+      padding: 18px 20px;
+    }
   }
 
   .cardWrapper {
@@ -308,7 +278,7 @@ export const SLearnAbout = styled.div`
       text-align: center;
 
       input::-webkit-input-placeholder {
-        color: #E0E0E0;
+        color: #e0e0e0;
       }
 
       h1 {
@@ -333,6 +303,42 @@ export const SLearnAbout = styled.div`
         margin-top: 1.5rem;
       }
     }
+
+    .iconBox {
+      position: absolute;
+      top: -37px;
+      right: 80px;
+      left: auto;
+      transform: scale(1);
+      z-index: 1;
+    }
+  }
+
+  .cardWrapper::before {
+    content: "";
+    left: 0;
+    background-image: url("https://strapi.io/assets/newsletter-right-pattern.svg");
+    background-position: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 0;
+  }
+  .cardWrapper::after {
+    content: "";
+    right: 0;
+    background-image: url("https://strapi.io/assets/newsletter-right-pattern.svg");
+    background-position: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 0;
   }
 
   @media (max-width: 900px) {
@@ -355,32 +361,19 @@ export const SContent = styled.div`
   }
 `;
 
-export const SContent2 = styled.div`
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin: 0 auto;
-  width: 100%;
-  margin-top: 10%;
-
-  img {
-    position: absolute;
-    right: 0;
-  }
-`
-
-export const SiderLeft = styled.div`
+export const SSiderLeft = styled.div`
   display: flex;
   flex: 1 1;
   min-width: 215px;
   flex-direction: column;
   margin-top: 20px;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 28px;
   color: #344b80;
   position: sticky;
   top: -416px;
+  margin-bottom: 34px;
   h2 {
     margin: 15px 0;
   }
@@ -412,7 +405,7 @@ export const SContentitem = styled.div`
   }
 `;
 
-export const Siderright = styled.div`
+export const SSiderright = styled.div`
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
@@ -446,7 +439,7 @@ export const STitle = styled.div`
     margin-bottom: 35px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #8c4bff;
+    color: #3182ce;
   }
 
   h2 {
@@ -482,12 +475,12 @@ export const SContentcard = styled.div`
     color: #ffffff;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 24px;
   }
   p {
     color: #ffffff;
     font-size: 16px;
-    margin: 15px 0;
+    margin: 24px 0;
   }
   div {
     border-radius: 40px;
@@ -506,55 +499,25 @@ export const SContentcard = styled.div`
   }
 `;
 
-export const Sidertitle = styled.div`
+export const SSidertitle = styled.div`
   position: sticky;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   width: 100%;
+  font-size: 15px;
   h2 {
-    color: #8c4bff;
+    color: #3182ce;
     font-weight: 600;
-    font-size: 16px;
   }
   h4 {
     margin-top: 10px;
   }
   a {
     color: #5e709d;
-    font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
     margin-right: 0;
     line-height: 1.4;
-  }
-`;
-
-export const SFooter = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  margin-top: 10px;
-  height: 100px;
-  margin-left: 5%;
-  border-top: 2px solid #eaf2fa;
-`;
-
-export const SContentstart = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  h1 {
-    font-size: 40px;
-  }
-  
-  div {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50;
   }
 `;

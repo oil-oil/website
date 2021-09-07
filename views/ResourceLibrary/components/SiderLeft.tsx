@@ -2,15 +2,14 @@ import React from "react";
 import { withTranslation } from "../../../i18n";
 import { NextPage } from "next";
 import { TFunction } from "next-i18next";
-import { NextSeo } from "next-seo";
 
-import { SiderLeft, Sidertitle, } from "../style";
+import { SSiderLeft, SSidertitle, } from "../style";
 
 type Props = {
   t: TFunction;
 };
 
-const SiderLeftAll: NextPage<Props, any> = ({ t }) => {
+const SiderLeft: NextPage<Props, any> = ({ t }) => {
   const alist = [
     {
       imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Docs_eaeebb385f_0f9f202b8f.svg",
@@ -75,7 +74,7 @@ const SiderLeftAll: NextPage<Props, any> = ({ t }) => {
     }
   ]
   return (
-    <SiderLeft>
+    <SSiderLeft>
       <div>
         {alist.map((item) => (
           <a key={item.name} href="">
@@ -86,18 +85,18 @@ const SiderLeftAll: NextPage<Props, any> = ({ t }) => {
       </div>
       <div>
         {contentlist.map((item) => (
-          <Sidertitle key={item.title}>
+          <SSidertitle key={item.title}>
             <h2>
               {item.title}
             </h2>
             {item.text.map((it) => (
               <a href='' key={item.title}>{it.title}</a>
             ))}
-          </Sidertitle>
+          </SSidertitle>
         ))}
       </div>
-    </SiderLeft>
+    </SSiderLeft>
   )
 }
 
-export default withTranslation("siderleftall")(SiderLeftAll);
+export default withTranslation("siderLeft")(SiderLeft);
