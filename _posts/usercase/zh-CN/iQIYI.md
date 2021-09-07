@@ -8,17 +8,15 @@ author: “何聪”
 
 > 作者何聪，高级研发师，IIG 基础架构部-计算云，主要负责爱奇艺网关开发和运维工作
 
-![](https://tfzcfxawmk.feishu.cn/space/api/box/stream/download/asynccode/?code=OTRlNmZmMjg5ZjVkYWY5OTM2YjI5MmM1YWQyMDIyOGRfU2pNTDQwRnRuRVBTNkJpb3ZwbFBIR3J6d3lLREpjWG5fVG9rZW46Ym94Y25PNG53cHlrcmk0ZGZkV0pwOXNVYXZjXzE2MzA5ODY5Mjk6MTYzMDk5MDUyOV9WNA)
-
 ## 背景描述
 
 爱奇艺在之前有开发了一款网关——Skywalker，它是基于 Kong 做的二次开发，目前流量使用也是比较大的，网关存量业务**日常峰值为百万级别 QPS，API 路由数量上万**。但这款产品的不足随着使用也开始逐步体现。
 
-\1. 性能差强人意，因为业务量大，每天收到很多 CPU IDLE 过低的告警
+1. 性能差强人意，因为业务量大，每天收到很多 CPU IDLE 过低的告警
 
-\2. 系统架构的组件依赖多
+2. 系统架构的组件依赖多
 
-\3. 运维开发成本较高
+3. 运维开发成本较高
 
 今年在交接到此项目后，我们根据上述问题和困境，开始对相关网关类产品做了一些调研，然后发现了 Apache APISIX。
 
@@ -28,7 +26,7 @@ author: “何聪”
 
 ### 为什么放弃 Kong？
 
-![](https://tfzcfxawmk.feishu.cn/space/api/box/stream/download/asynccode/?code=MDdmZTQ3ZDVjNzg3OTZkODcxMTYwN2Y3MjNlMTgyNjlfRXg1allBbjJoQTk4NzhQVDN1cWQ1R3lEYW1zV0tpSnNfVG9rZW46Ym94Y25CWUlXdjVLczFDczhFM2d4dlJ5cnBlXzE2MzA5ODY5Mjk6MTYzMDk5MDUyOV9WNA)
+![](https://static.apiseven.com/202108/1630995514489-6f7b382a-ed2d-46ad-8ded-4dda42ed3bc8.png)
 
 Kong 使用 PostgreSQL 来存储它的信息，这显然不是一个好方式。 同时在调研过程中我们查看了 Apache APISIX 与 Kong 的性能的对比，在性能优化方面 Apache APISIX 比 Kong 提升了10 倍，这个指标是非常让人惊喜的。 同时我们也比较了一些主要的网关产品，Apache APISIX 的响应延迟比其它网关低 50% 以上，在 CPU 达到 70% 以上时 Apache APISIX 仍能稳定运转。
 
@@ -40,13 +38,13 @@ Kong 使用 PostgreSQL 来存储它的信息，这显然不是一个好方式。
 
 爱奇艺网关的总体架构如下图所示，包含域名、网关到服务实例和监控告警。DPVS 是公司内部基于 LVS 做的一个开源项目，Hubble 监控告警也是基于开源项目做的深度二次开发，Consul 这块做了些性能和高可用性方面的优化。
 
-![](https://tfzcfxawmk.feishu.cn/space/api/box/stream/download/asynccode/?code=NGM5YTdkMzlmNzEyMmE0N2FlMTVhYTg3Nzk1NGY0N2VfckdwcWJxa1VJS2FYSGVKOEJsQmhDbElKWGR6SjhPeU5fVG9rZW46Ym94Y251R2JqWFBuYjZBQXl5VUhvczNGTmVmXzE2MzA5ODY5Mjk6MTYzMDk5MDUyOV9WNA)
+![](https://static.apiseven.com/202108/1630995637366-b42e408b-53ea-47fb-b282-e68042f13090.png)
 
 ### 应用场景一：微服务网关
 
 关于网关这块，简单从控制面和数据面介绍一下。
 
-![](https://tfzcfxawmk.feishu.cn/space/api/box/stream/download/asynccode/?code=YjgwYzZkMTQ2ZGMyZjg2ODA4OTM4Y2VjNGIyYjU2OWNfWjZSZXNoQzlpNlZXRkg0U2J5eTFoY1ZqWDBsZ0xxd2hfVG9rZW46Ym94Y25VeUE2MGRQa25wVW9zY2dvUGlmOGRlXzE2MzA5ODY5Mjk6MTYzMDk5MDUyOV9WNA)
+![](https://static.apiseven.com/202108/1630995699492-bdc1c560-2c0a-4db0-82c9-2a5391941863.png)
 
  数据面主要面向前端用户，从 LB 到网关整个架构都是多地多链路灾备部署，以用户就近接入原则进行布点。
 
@@ -56,7 +54,7 @@ Kong 使用 PostgreSQL 来存储它的信息，这显然不是一个好方式。
 
 目前阶段，基于 Apache APISIX 调整后的 API 架构实现了一些基础功能，如限流、认证、报警、监控等。
 
-![](https://tfzcfxawmk.feishu.cn/space/api/box/stream/download/asynccode/?code=MDBiODYyZWExYWQ5YWM5N2I0NTdkNmFhYWEyYjA4MDBfMjBNZVNIUnhmZkI3eVd2Z2oxNHBNYVZhbVA0NzdYUHBfVG9rZW46Ym94Y25ZbVFKN3VQNE16cDQ0TVczT3Jtd0puXzE2MzA5ODY5Mjk6MTYzMDk5MDUyOV9WNA)
+![](https://static.apiseven.com/202108/1630995732178-1717dd1a-3cdf-4f34-aea2-9a26df1c37c1.png)
 
  首先是 HTTPS 部分，爱奇艺方面出于对安全性的考虑，证书和密钥是不会存放在网关机器上，会放在一个专门的远程服务器上。之前使用 Kong 时我们没有在这方面做相关支持，采用前置 Nginx 做 HTTPS Offload，此次迁移到 Apache APISIX 后，我们在 Apache APISIX 上实现了该功能，从链路上来说就少了一层转发。
 
@@ -68,15 +66,15 @@ Kong 使用 PostgreSQL 来存储它的信息，这显然不是一个好方式。
 
 关于前面提到的服务发现，主要是通过服务中心把服务注册到 Consul 集群，然后通过 DNS 服务发现的方式去做动态更新，其中 QAE 是我们公司内部的一个微服务平台。简单举例说明一下更新后端应用实例时的大体流程。
 
-![](https://tfzcfxawmk.feishu.cn/space/api/box/stream/download/asynccode/?code=ODJhMjE0OWQzNmVkY2Y3ZjI1ZTBhOTA1OGNmN2UxNjBfZ3ppQ3ZMYVRWZldZNnlDYWQ1Sm1WU2J1cWtwcHhYZ1FfVG9rZW46Ym94Y25LWTVTbXNnZU9tT1I0SFo1SkxkVXZkXzE2MzA5ODY5Mjk6MTYzMDk5MDUyOV9WNA)
+![](https://static.apiseven.com/202108/1630995762178-b807f5fe-8851-4f10-acdc-fbf1c372b12f.png)
 
 实例变更时，首先会从 Consul 中注销对应节点，并通过 API 网关 Controller 向网关发送更新 DNS 缓存的请求。缓存更新成功后，Controller 再反馈 QAE 平台可以停止相关后端应用节点，避免业务流量再转发到已下线节点。
 
 ### 应用场景四：定向路由
 
-![](https://tfzcfxawmk.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGNiYWM2OWZhMTcxNGM3NTBmNTg2ODZkMDZjNTE3NjJfaktOVXoyR1pvTDFJNEdxbVdpZWJqSUo5clBzZlhvT2tfVG9rZW46Ym94Y25LbG96U1B6alU1QmFTY2pMTzlrOEZmXzE2MzA5ODY5Mjk6MTYzMDk5MDUyOV9WNA)
+![](https://static.apiseven.com/202108/1630995803596-e8d73d5d-29e0-4f66-b3bd-976d650bafcb.png)
 
-网关是多地部署的，事先搭建好一整套多地互备链路，同时建议用户后端服务也是多地就近部署。随后用户在 Skywalker 网关平台上创建一个 API 服务，Controller 会在全 DC 网关集群上都部署好 API 路由，同时业务域名默认CNAME到统一的网关域名上。
+网关是多地部署的，事先搭建好一整套多地互备链路，同时建议用户后端服务也是多地就近部署。随后用户在 Skywalker 网关平台上创建一个 API 服务，Controller 会在全 DC 网关集群上都部署好 API 路由，同时业务域名默认 CNAME 到统一的网关域名上。
 
 直接为业务提供多地就近接入、故障灾备切换能力，同时也支持用户自定义解析路由。针对用户自身的故障切流、蓝绿部署、灰度发布等需求，用户可以通过采用 uuid 域名来自定义解析路由配置，同时也支持后端服务发现的自定义调度。
 
@@ -86,7 +84,7 @@ Kong 使用 PostgreSQL 来存储它的信息，这显然不是一个好方式。
 
 针对灾备，除了要多地多链路互备，还要考虑多级多节点问题，故障节点越向客户端靠近，受影响的业务和流量越大。
 
-1. 如果是最远的后端服务节点故障，依靠网关和服务中心的健康检查机制，可以实现故障单节点的熔断或者故障 DC的切换，影响范围限制在指定业务上，用户无感知。
+1. 如果是最远的后端服务节点故障，依靠网关和服务中心的健康检查机制，可以实现故障单节点的熔断或者故障 DC 的切换，影响范围限制在指定业务上，用户无感知。
 2. 如果是网关级别故障，需要依靠 L4 DPVS 的健康检查机制，熔断故障网关节点，影响范围小，用户无感知。
 3. 如果故障点并非上述述熔断措施所能修复，就需要依靠域名粒度的外网多点可用性拨测，实现域名解析级别的故障自动切换，这种方式故障修复速度相对较慢，影响业务多，用户可感知。
 
@@ -108,7 +106,13 @@ Kong 使用 PostgreSQL 来存储它的信息，这显然不是一个好方式。
 
 ### 成果四：优化了 ETCD 连接数量的性能问题
 
-目前是 Apache APISIX 的每个 worker 都会跟 ETCD 连接，每一个监听目录都会去建一个连接。比如一台物理机是 80 core，监听目录有 10个，单台网关服务器就有 800 个连接。一个网关集群10 台的话，8000 个连接对 ETCD 压力蛮大的。我们做的优化是只拿一个 worker 去监听有限的必要目录，和其余 worker 之间共享信息。
+目前是 Apache APISIX 的每个 worker 都会跟 ETCD 连接，每一个监听目录都会去建一个连接。比如一台物理机是 80 core，监听目录有 10个，单台网关服务器就有 800 个连接。一个网关集群 10 台的话，8000 个连接对 ETCD 压力蛮大的。我们做的优化是只拿一个 worker 去监听有限的必要目录，和其余 worker 之间共享信息。
 
 除了上述问题，还有一些问题也正在努力优化中。
 
+1. 大量 API 的问题，即使APISIX能够支持，我们也要考虑其他依赖组件的瓶颈。比如上述的 ETCD、Prometheus 监控和日志服务。所以后续我们可能会采取大集群共享和小集群独立这两种方式来混合部署业务，比如一些重要业务我们会以小集群方式进行部署。
+2. 关于 Prometheus 监控指标，后续我们也会进行相应的缩减和优化，对 DNS 服务发现这块做更多的优化。
+
+## 对 Apache APISIX 的期望
+
+我们希望 Apache APISIX 能在后续的开发更新中，除了支持更多的功能，也可以一直保持性能的高效和稳定。
