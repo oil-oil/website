@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "使用 Apache APISIX 进行集中式身份认证及进阶玩法",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-07",
+      "path": "/zh/blog/how-to-use-apisix-auth"
+    },
+    {
       "title": "Apache APISIX × KubeSphere：提供更好用的网关及 K8S Ingress Controller",
       "image": "https://static.apiseven.com/202108/1630405298071-c8a69f1e-b9b8-4c0d-bc58-9dbc3331dc9a.jpeg",
       "type": "article",
