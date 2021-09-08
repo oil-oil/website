@@ -56,7 +56,7 @@ Apache APISIX 有一个活跃健康的社区，截止到目前（主仓库）已
 
 服务网格有一个非常重要的一个特性，就是服务治理。把限流限速、服务发现、服务注册、熔断等功能通过服务网格的方式下沉到基础组件，使业务研发人员不需要去关注服务治理，全神贯注实现业务层的开发，效率会提高，同时服务的稳定性也会提升。这是引入服务网格可能会带来的一些好处。
 
-### **2.2 API 网关的优势**** **
+### **2.2 API 网关的优势**
 
 API 网关是 API 管理这个范畴的一个工具，除了把服务所提供的 API 暴露出来，供其他服务调用以外，也有一些和服务网格重叠的特性，如：服务治理 —— 服务发现、限流限速、熔断。通过还会在 API 网关层做认证、授权。这是 API 网关的一些优势。
 
@@ -150,7 +150,7 @@ apisix-mesh-agent 作为 Apache APISIX 和控制面的中间层，从控制面�
 
 apisix-mesh-agent 支持 xDS 协议，这使得 Apache APISIX 能对接实现 xDS 协议的控制面，如：Istio。从控制面获得的配置格式也是 xDS 协议格式的，apisix-mesh-agent 把配置转换成 Apache APISIX 可识别的格式。使用 Apache APISIX 格式的配置有点好处：节省内存资源。因为 xDS 协议的字段比较冗余，Apache APISIX 的配置字段非常简洁，保存配置到内存，占用的内存资源比较少。
 
-### **3.2 实现 etcd V3 API** ** **
+### **3.2 实现 etcd V3 API**
 
 etcd V3 API 有两类的接口，一类是 etcd 实例之间进行 Raft 协议数据传递的 API，另一类是面向客户端的 API。apisix-mesh-agent 实现的是面向客户端的 API，目前只实现了 Apache APISIX 必用 API，如：Range 、Watch。实现这些接口后，只需要在 Apache APISIX 的配置里将 etcd 的地址配置到 apisix-mesh-agent 的监听地址，Apache APISIX 不需要任何改动就可以把数据从 apisix-mesh-agent 存到内存里。
 
