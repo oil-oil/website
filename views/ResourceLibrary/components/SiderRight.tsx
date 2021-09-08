@@ -27,87 +27,100 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
     {
       scontentcardbg: "#a06aff",
       divbgcolor: "#773ae7",
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/book_icon_80d2c538d0_7c87cfcff3.svg",
+      imgURL: "https://static.apiseven.com/202108/book_icon.svg",
       h1: "Developer",
       h1br: "Documentation",
       desc: "All you need to get API7 up-and-running.",
       buttontext: "Documentation",
       buttonbg: "#773ae7",
+      path: "",
     },
     {
       scontentcardbg: "#ef773c",
       divbgcolor: "#cc5d34",
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/user_guide_icon_8cbe401776_121b8a6c83.svg",
+      imgURL: "https://static.apiseven.com/202108/guide_icon.svg",
       h1: "User",
       h1br: "Guide",
       desc: "All you need to get API7 up-and-running.",
       buttontext: "User Guide",
       buttonbg: "#cc5d34",
+      path: "",
     },
     {
       scontentcardbg: "#005abf",
       divbgcolor: "#01489e",
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/education_icon_18fb97653f_723577953c.svg",
+      imgURL: "https://static.apiseven.com/202108/education_icon.svg",
       h1: "API7",
       h1br: "Academy",
       desc: "All you need to get API7 up-and-running.",
       buttontext: "API7 Academy",
       buttonbg: "#01489e",
+      path: "",
     }
   ]
   const cardListSecond = [
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/starter_icon_0df41f5df5_1c2d337459.svg",
+      srcURL: "https://static.apiseven.com/202108/starter_icon.svg",
       text: "Starts",
-      divcontent: "Get started in no time"
+      divcontent: "Get started in no time",
+      path: "",
     },
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/tutorial_icon_2f939092a4_8d07fa044a.svg",
+      srcURL: "https://static.apiseven.com/202108/tutorial_icon.svg",
       text: "Tutorials",
-      divcontent: "Where you’ll learn everything"
+      divcontent: "Where you’ll learn everything",
+      path: "",
     },
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/education_color_icon_df7a108290_6a4ece3811.svg",
+      srcURL: "https://static.apiseven.com/202108/education_color_icon.svg",
       text: "Academy",
-      divcontent: "Learn how to become a API7 expert."
+      divcontent: "Learn how to become a API7 expert.",
+      path: "",
     },
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/recipe_starter_36c43126ce_065f8d503b.svg",
+      srcURL: "https://static.apiseven.com/202108/recipe_starter.svg",
       text: "API7 Recipes",
-      divcontent: "Bite-size video tutorials"
+      divcontent: "Bite-size video tutorials",
+      path: "",
     },
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/webinar_icon_29af7d8390_3d20ff5c55.svg",
+      srcURL: "https://static.apiseven.com/202108/webinar_icon.svg",
       text: "Webinars",
-      divcontent: "Check all our online meetups"
+      divcontent: "Check all our online meetups",
+      path: "",
     },
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Vector_3_1748490973.svg",
+      srcURL: "https://static.apiseven.com/202108/vector.svg",
       text: "Blog",
-      divcontent: "Discover all the latest about our product and culture."
+      divcontent: "Discover all the latest about our product and culture.",
+      path: "",
     }
   ]
 
   const cardListThree = [
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/iconfinder_discord_3069758_1_1_18c962b4c9_b698a303d6.svg",
+      srcURL: "https://static.apiseven.com/202108/iconfinder_discord.svg",
       text: "Starts",
-      divcontent: "Get started in no time"
+      divcontent: "Get started in no time",
+      path: "",
     },
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/forum_14cfcb6fc1_3d87b46985.png",
+      srcURL: "https://static.apiseven.com/202108/forum.png",
       text: "Forum",
-      divcontent: "Find answers and ask questions to the community"
+      divcontent: "Find answers and ask questions to the community",
+      path: "",
     },
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/github_a0fb0e8472_2f1a9ca3d9.png",
+      srcURL: "https://static.apiseven.com/202108/github.png",
       text: "Github",
-      divcontent: "Where it all happens"
+      divcontent: "Where it all happens",
+      path: "",
     },
     {
-      srcURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/twitter_4117b0ebb6_8167d31c10.png",
+      srcURL: "https://static.apiseven.com/202108/twitter.png",
       text: "Twitter",
-      divcontent: "Stay up to date with the latest news"
+      divcontent: "Stay up to date with the latest news",
+      path: "",
     }
   ]
 
@@ -115,22 +128,24 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
     {
       scontentcardbg: "#a06aff",
       divbgcolor: "#773ae7",
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/book_icon_80d2c538d0_7c87cfcff3.svg",
+      imgURL: "https://static.apiseven.com/202108/book_icon.svg",
       h1: "Developer",
       h1br: "Documentation",
       h3: "All you need to get API7 up-and-running.",
       buttontext: "Contribute to the Documentation",
       buttonbg: "#773ae7",
+      path: "",
     },
     {
       scontentcardbg: "#1ac277",
       divbgcolor: "#0f8d55",
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Subtract_b17455b597_062be5a73e.svg",
+      imgURL: "https://static.apiseven.com/202108/subtract.svg",
       h1: "Developer",
       h1br: "Documentation",
       h3: "All you need to get API7 up-and-running.",
       buttontext: "Contribute to the Codebas",
       buttonbg: "#0f8d55",
+      path: "",
     },
   ]
   return (
@@ -149,9 +164,11 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
               </div>
               <h1>{item.h1}<br />{item.h1br}</h1>
               <p>{item.desc}</p>
-              <Button marginTop="5" style={{ backgroundColor: (item.buttonbg), fontSize: "15px", color: "white" }}>
-                <span>{item.buttontext}</span>
-              </Button>
+              <a href={item.path} target="_blank">
+                <Button marginTop="5" style={{ backgroundColor: (item.buttonbg), fontSize: "15px", color: "white" }}>
+                  <span>{item.buttontext}</span>
+                </Button>
+              </a>
             </SContentcard>
           ))}
         </SResourcesCard>
@@ -164,7 +181,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
         </STitle>
         <SLinkBox>
           {cardListSecond.map((item) => (
-            <a href="" key={item.text} className="box">
+            <a href={item.path} key={item.text} className="box">
               <div className="iconBox">
                 <div></div>
                 <img src={item.srcURL} alt="" />
@@ -225,7 +242,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
         </STitle>
         <SCommunityBox>
           {cardListThree.map((item) => (
-            <a key={item.text} href="" className="communityList">
+            <a key={item.text} href={item.path} className="communityList">
               <div className="background"></div>
               <div className="iconBox">
                 <img src={item.srcURL} />
@@ -240,13 +257,13 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
 
         <SLearnAbout>
           {cardListFour.map((item) => (
-            <div className="cardBox" style={{ background: (item.scontentcardbg) }}>
+            <div key={item.h1} className="cardBox" style={{ background: (item.scontentcardbg) }}>
               <div className="title" style={{
                 backgroundColor: (item.divbgcolor),
               }}>
                 <img src={item.imgURL} alt="" />
               </div>
-              <a href="" className="button" style={{ backgroundColor: item.buttonbg }}>
+              <a href={item.path} target="_blank" className="button" style={{ backgroundColor: item.buttonbg }}>
                 <div className="background">
                   <span>{item.buttontext}</span>
                 </div>
@@ -254,7 +271,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
             </div>
           ))}
           <div className="cardWrapper">
-          <svg width="125" height="97" fill="none" className="iconBox"><path d="M0 36.898L125 .172 34.204 49.901 0 36.898z" fill="#A36FFF"></path><path d="M125 .172L34.205 49.901l14.58 31.069L125 .172z" fill="#8C4BFF"></path><path d="M125 .172l-72.378 56.24 29.096 39.95L125 .172z" fill="#A36FFF"></path><path d="M48.785 80.97l3.837-24.557 8.42 11.555L48.784 80.97z" fill="#7E43E6"></path></svg>
+            <svg width="125" height="97" fill="none" className="iconBox"><path d="M0 36.898L125 .172 34.204 49.901 0 36.898z" fill="#A36FFF"></path><path d="M125 .172L34.205 49.901l14.58 31.069L125 .172z" fill="#8C4BFF"></path><path d="M125 .172l-72.378 56.24 29.096 39.95L125 .172z" fill="#A36FFF"></path><path d="M48.785 80.97l3.837-24.557 8.42 11.555L48.784 80.97z" fill="#7E43E6"></path></svg>
             <div className="box">
               <h1>Join our Newsletter</h1>
               <p>Get all the latest API7 updates, news and events.</p>

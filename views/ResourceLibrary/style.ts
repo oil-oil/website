@@ -230,10 +230,10 @@ export const SLearnAbout = styled.div`
     background-position: bottom;
   }
   .cardBox:first-child::after {
-    background-image: url("https://strapi.io/assets/icons/socials-grid-background-purple.svg");
+    background-image: url("https://static.apiseven.com/202108/socials-grid-background-purple.svg");
   }
   .cardBox:nth-child(2)::after {
-    background-image: url("https://strapi.io/assets/icons/socials-grid-background-green.svg");
+    background-image: url("https://static.apiseven.com/202108/socials-grid-background-green.svg");
   }
 
   .title {
@@ -336,7 +336,7 @@ export const SLearnAbout = styled.div`
   .cardWrapper::before {
     content: "";
     left: 0;
-    background-image: url("https://strapi.io/assets/newsletter-right-pattern.svg");
+    background-image: url("https://static.apiseven.com/202108/newsletter-left-pattern.svg");
     background-position: 0;
     position: absolute;
     top: 0;
@@ -349,7 +349,7 @@ export const SLearnAbout = styled.div`
   .cardWrapper::after {
     content: "";
     right: 0;
-    background-image: url("https://strapi.io/assets/newsletter-right-pattern.svg");
+    background-image: url("https://static.apiseven.com/202108/newsletter-right-pattern.svg");
     background-position: 100%;
     position: absolute;
     top: 0;
@@ -515,6 +515,10 @@ export const SContentcard = styled.div`
     height: 35px;
     opacity: 1;
     visibility: inherit;
+  }
+  a {
+    width: 100%;
+    display: contents;
   }
 `;
 

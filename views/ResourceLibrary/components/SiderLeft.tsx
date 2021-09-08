@@ -12,64 +12,71 @@ type Props = {
 const SiderLeft: NextPage<Props, any> = ({ t }) => {
   const alist = [
     {
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Docs_eaeebb385f_0f9f202b8f.svg",
-      name: "Developer Docs"
+      imgURL: "https://static.apiseven.com/202108/book.svg",
+      name: "Developer Docs",
+      path: "",
     },
     {
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Guide_09ef691265_c697e5f9a8.svg",
-      name: "User Guide"
+      imgURL: "https://static.apiseven.com/202108/guide.svg",
+      name: "User Guide",
+      path: "",
     },
     {
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Academy_1e45bae812_29fd831fdd.svg",
-      name: "API7 Academy"
+      imgURL: "https://static.apiseven.com/202108/academy.svg",
+      name: "API7 Academy",
+      path: "",
     },
     {
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Blog_c574ff6bf6_317c7fba9b.svg",
-      name: "Blog"
+      imgURL: "https://static.apiseven.com/202108/blog.svg",
+      name: "Blog",
+      path: "",
     },
     {
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Starters_4b89901bbb_273b0aff32.svg",
-      name: "Starters"
+      imgURL: "https://static.apiseven.com/202108/starters.svg",
+      name: "Starters",
+      path: "",
     },
     {
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Tutorials_8b77c0edf7_9a742e9db8.svg",
-      name: "Tutorials"
+      imgURL: "https://static.apiseven.com/202108/tutorials.svg",
+      name: "Tutorials",
+      path: "",
     },
     {
-      imgURL: "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/Recipes_b51019258a_2bb0e825c8.svg",
-      name: "Video Library"
+      imgURL: "https://static.apiseven.com/202108/recipes.svg",
+      name: "Video Library",
+      path: "",
     },
   ]
   const contentlist = [
     {
       title: "DEVELOPER DOCUMENTATION",
       text: [
-        { title: "Getting Started" },
-        { title: "Setup & Deployment" },
-        { title: "Development" },
-        { title: "Update & Migration" },
-        { title: "Developer Resources" },
-        { title: "Guides" }
+        { title: "Getting Started", path: "" },
+        { title: "Setup & Deployment", path: "" },
+        { title: "Development", path: "" },
+        { title: "Update & Migration", path: "" },
+        { title: "Developer Resources", path: "" },
+        { title: "Guides", path: "" }
       ]
     },
     {
       title: "USER GUIDE",
       text: [
-        { title: "Getting Started" },
-        { title: "Content Manager" },
-        { title: "Content-Type Builder" },
-        { title: "Users, Roles & Permissions" },
-        { title: "Plugins" },
-        { title: "General Settings" }
+        { title: "Getting Started", path: "" },
+        { title: "Content Manager", path: "" },
+        { title: "Content-Type Builder", path: "" },
+        { title: "Users, Roles & Permissions", path: "" },
+        { title: "Plugins", path: "" },
+        { title: "General Settings", path: "" }
       ]
     },
     {
       title: "RESOURCES",
       text: [
-        { title: "Newsroom" },
-        { title: "Support" },
-        { title: "Press Kit" },
-        { title: "Guide to Headless CMS" }
+        { title: "Newsroom", path: "" },
+        { title: "Support", path: "" },
+        { title: "Press Kit", path: "" },
+        { title: "Guide to Headless CMS", path: "" }
       ]
     }
   ]
@@ -77,7 +84,7 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
     <SSiderLeft>
       <div>
         {alist.map((item) => (
-          <a key={item.name} href="">
+          <a key={item.name} target="_blank" href={item.path}>
             <img src={item.imgURL} />
             <span>{item.name}</span>
           </a>
@@ -90,7 +97,7 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
               {item.title}
             </h2>
             {item.text.map((it) => (
-              <a href='' key={item.title}>{it.title}</a>
+              <a href={it.path} target="_blank" key={it.title}>{it.title}</a>
             ))}
           </SSidertitle>
         ))}
