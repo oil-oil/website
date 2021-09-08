@@ -1,6 +1,6 @@
 ---
 title: “基于 Apache APISIX 的服务网格方案”
-date: 2021-09-08
+date: 2021-8-20
 author: “张超” 
 keywords: APISIX,服务网格,网关,控制面,架构
 description: 本文将为大家介绍如何在服务网格方案中使用 Apache APISIX 作为数据面及其作为网格的 sidecar 的优势。
@@ -180,7 +180,7 @@ Apache APISIX 目前开源了 50 多个插件，使用 Apache APISIX 作为服�
 
 使用基于 Apache APISIX 的服务网格方案，能够统一南北向和东西向的技术栈，只需要管理 1 个组件，大大降低了运维成本。
 
-1. **基于 Apache APISIX 的服务网格，规划与发展方向**
+## **4.基于 Apache APISIX 的服务网格，规划与发展方向** 
 
 截止目前，apisix-mesh-agent 开源仅一个月时间，还有许多功能要完善，以下是对 Apache APISIX 服务网格未来的一些规划。
 
