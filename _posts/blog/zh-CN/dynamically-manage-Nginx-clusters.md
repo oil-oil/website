@@ -2,7 +2,7 @@
 title: "APISIX架构分析：如何动态管理Nginx集群？"
 avatar: "https://avatars.githubusercontent.com/u/6623378?v=4"
 author: "陶辉"
-href: "https://github.com/russelltao"
+href: "https://github.com/russelltao
 date: 2021-09-08
 keywords: APISIX,Nginx,集群管理,网关,etcd,Lua
 description: 本文介绍了 APISIX 如何作为网关实现对 Nginx 集群的动态管理。
@@ -10,7 +10,7 @@ description: 本文介绍了 APISIX 如何作为网关实现对 Nginx 集群的�
 
 开源版 Nginx 最为人诟病的就是不具备动态配置、远程 API 及集群管理的能力，而 APISIX 作为 CNCF 毕业的开源七层网关，基于 etcd、Lua 实现了对 Nginx 集群的动态管理。
 
-![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59370c8a053a46be973e222c41e0efaa~tplv-k3u1fbpfcp-zoom-1.image)
+![ APISIX 架构图](https://static.apiseven.com/202108/1631090573350-1f110333-7060-4911-bff2-2a61ca7366cb.png)
 
 让 Nginx 具备动态、集群管理能力并不容易，因为这将面临以下问题：
 
@@ -36,7 +36,7 @@ APISIX 基于 Lua 定时器及 lua-resty-etcd 模块实现了配置的动态管�
 2. etcd 的 watch 机制允许客户端监控某个 key 的变动，即，若类似 /nginx/http/upstream 这种 key 的 value 值发生变动，watch 的客户端会立刻收到通知，如下图所示：
    
 
-![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1fb978cba31f4a18abee18c61b3b18be~tplv-k3u1fbpfcp-zoom-1.image)
+![基于 etcd 同步 nginx 配置](https://static.apiseven.com/202108/1631090573362-420cbbe8-0b76-4b7f-aeb0-a5a47d70b917.jpg)
 
 基于etcd同步nginx配置
 
@@ -133,7 +133,7 @@ ngx_http_lua_ngx_timer_helper(lua_State *L, int every)
 
 Nginx 框架为 C 模块开发提供了许多钩子，而 OpenResty 将部分钩子以 Lua 语言形式暴露了出来，如下图所示：
 
-![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/77aa8cf10b704ccf838b581f5ef2f78b~tplv-k3u1fbpfcp-zoom-1.image)
+![openresty 钩子](https://static.apiseven.com/202108/1631090573361-b542e165-27dd-4b77-8c93-655ebe6bed0f.png)
 
 APISIX 仅使用了其中 8 个钩子（注意，APISIX 没有使用set\_by\_lua和rewrite\_by\_lua，rewrite 阶段的 plugin 其实是 APISIX 自定义的，与 Nginx 无关），包括：
 
@@ -287,7 +287,7 @@ end
 
 watchcancel 函数又是做什么的呢？这其实是 OpenResty 生态的缺憾导致的。etcd v3 已经支持高效的 gRPC 协议（底层为 HTTP2 协议）。你可能听说过，HTTP2 不但具备多路复用的能力，还支持服务器直接推送消息，关于 HTTP2 的细节可以参照我的这篇文章[《深入剖析HTTP3协议》](https://www.taohui.pub/2021/02/04/网络协议/深入剖析HTTP3协议/)，从 HTTP3 协议对照理解 HTTP2：
 
-![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/79f1c027c31e489ca156fd4e7982a7ae~tplv-k3u1fbpfcp-zoom-1.image)
+![http2 的多路复用与服务器推送](https://static.apiseven.com/202108/1631090573357-ee3e9c97-b101-4411-89fa-ea0277d53763.png)
 
 然而，**Lua 生态目前并不支持 HTTP2 协议！**所以 lua-resty-etcd 库实际是通过低效的 HTTP/1.1 协议与 etcd 通讯的，因此接收 /watch 通知也是通过带有超时的 /v3/watch 请求完成的。这个现象其实是由 2 个原因造成的：
 
@@ -297,7 +297,7 @@ watchcancel 函数又是做什么的呢？这其实是 OpenResty 生态的缺憾
 
 使用 HTTP/1.1 的 lua-resty-etcd 库其实很低效，如果你在 APISIX 上抓包，会看到频繁的 POST 报文，其中 URI为/v3/watch，而 Body 是 Base64 编码的 watch 目录：
 
-![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1a5853104a0c4220a96ffabd669687d4~tplv-k3u1fbpfcp-zoom-1.image)
+![APISIX与etcd通过HTTP1通讯](https://static.apiseven.com/202108/1631090573355-28fe8c04-f340-4378-aca6-c3e7ecda1c92.jpg)
 
 我们可以验证下 watchdir 函数的实现细节：
 
@@ -498,7 +498,7 @@ end
    
 2. 其次将静态Trie前缀树中的location配置与请求的URI匹配，详见[《URL 是如何关联 Nginx location 配置块的？》](https://www.taohui.pub/2021/08/09/nginx/URL是如何关联location配置块的？/)；
    
-    ![图片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/27f6a023479a4d4f9c580ff473649aec~tplv-k3u1fbpfcp-zoom-1.image)
+   ![](https://static.apiseven.com/202108/1631090573360-4d842f4b-7ba7-4d45-a0c9-906ea178ab55.png)
     
 3. 在上述 2 个过程中，如果含有正则表达式，则基于数组顺序（在 nginx.conf 中出现的次序）依次匹配。
    
