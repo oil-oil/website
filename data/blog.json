@@ -1,5 +1,13 @@
 {
   "zh-CN": [
+     {
+      "title": "APISIX架构分析：如何动态管理Nginx集群？",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-08",
+      "path": "/zh/blog/dynamically-manage-Nginx-clusters"
+    },
     {
       "title": "使用 Apache APISIX 进行集中式身份认证及进阶玩法",
       "image": "https://static.apiseven.com/202108/apisix.png",
