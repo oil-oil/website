@@ -186,7 +186,7 @@ Apache APISIX 目前开源了 50 多个插件，使用 Apache APISIX 作为服�
 
 **第一，对 xDS 协议做更多支持**
 
-目前，apisix-mesh-agent 只支持了 xDS 协议中的 LDS，RDS，CDS 和 EDS，而且只使用 LDS 绑定RDS 需要的路由配置名称，直接获取路由；使用 CDS 和 EDS 直接获取服务集群的定义和服务集群的实例。
+目前，apisix-mesh-agent 只支持了 xDS 协议中的 LDS、RDS、CDS 和 EDS，而且只使用 LDS 绑定RDS 需要的路由配置名称，直接获取路由；使用 CDS 和 EDS 直接获取服务集群的定义和服务集群的实例。
 
 未来我们计划：
 
