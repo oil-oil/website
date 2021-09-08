@@ -202,7 +202,3 @@ Apache APISIX 目前开源了 50 多个插件，使用 Apache APISIX 作为服�
 **第三，自研控制面**
 
 现在服务网格的控制面依托其他开源组件（如：Istio、Kuma），使得我们可以以较低的成本使用现有的功能，而如果未来遇到问题很难解决，也会考虑去落地实现一个专属 Apache APISIX 的服务网格控制面 ，使 Apache APISIX 的能力更好地发挥出来，服务网格在使用中也更加高效、简便。
-
-## **关于作者**
-
-张超，深圳支流科技 Engineer，Apache APISIX PMC 成员，Tars 基金会大使，Nginx、OpenResty、ingress-nginx 等多个开源项目的贡献者。
