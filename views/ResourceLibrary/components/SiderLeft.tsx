@@ -23,13 +23,13 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
     },
     {
       imgURL: "https://static.apiseven.com/202108/academy.svg",
-      name: "API7 Academy",
+      name: "Academy",
       path: "",
     },
     {
       imgURL: "https://static.apiseven.com/202108/blog.svg",
       name: "Blog",
-      path: "",
+      path: "/blog",
     },
     {
       imgURL: "https://static.apiseven.com/202108/starters.svg",
@@ -44,7 +44,7 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
     {
       imgURL: "https://static.apiseven.com/202108/recipes.svg",
       name: "Video Library",
-      path: "",
+      path: "https://space.bilibili.com/551921247",
     },
   ]
   const contentlist = [

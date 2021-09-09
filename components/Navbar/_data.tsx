@@ -182,6 +182,11 @@ export const ZH_CN_Links: Link[] = [
         description: '阅读 API7 网关技术白皮书，了解更多功能与性能报告。',
         href: '/resources/api7-whitepaper',
         icon: <CgReadme />,
+      }, {
+        label: '资源中心',
+        description: 'Everything you need to optimize the way you work with API7.',
+        href: '/resources',
+        icon: <CgReadme />,
       }
     ],
   }, {

@@ -275,7 +275,7 @@ export const SLearnAbout = styled.div`
       z-index: 3;
       margin: 0 auto;
       display: flex;
-      padding: 40px 19px 32px;
+      padding: 40px 19px;
       max-width: 350px;
       flex-direction: column;
       align-items: center;
