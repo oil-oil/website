@@ -10,7 +10,7 @@ import {
 import { withTranslation } from 'i18n';
 import { NextPage } from 'next';
 import { TFunction } from 'next-i18next';
-import * as React from 'react'
+import React, { Fragment } from 'react'
 import { I18nContext } from "react-i18next";
 
 import { SubscribeForm } from '@/components/SubscribeForm'
@@ -70,10 +70,10 @@ const App: NextPage<Props, any> = ({ t }) => {
                 "https://api7-website-1301662268.file.myqcloud.com/20210330/gray/xindongfang-2.png",
                 "https://api7-website-1301662268.file.myqcloud.com/20210330/gray/haoweilai-2.png"
               ].map(item => (
-                <>
+                <Fragment key={item}>
                   <Image src={item} key={item} display={{ base: 'flex', lg: 'none' }} />
                   <Image src={item} key={item} maxW="200" display={{ base: 'none', lg: 'flex' }} />
-                </>
+                </Fragment>
               ))
             }
           </SimpleGrid>

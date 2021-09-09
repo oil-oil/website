@@ -76,7 +76,7 @@ const HomeTestimonials: NextPage<Props, any> = ({ t }) => {
           {
             list.map((item, index) => {
             return (
-              <Box>
+              <Box item={index}>
                 <Box maxW="4xl" mx="auto" px={{ base: '6', md: '8' }} py={{ base: '12', md: '8' }}>
                   <Flex pb={{ base: '12', md: '8' }} wrap="wrap" justifyContent="space-between">
                     <Box minW="150">
