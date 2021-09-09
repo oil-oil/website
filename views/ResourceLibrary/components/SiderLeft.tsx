@@ -73,10 +73,9 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
     {
       title: "RESOURCES",
       text: [
-        { title: "Newsroom", path: "" },
-        { title: "Support", path: "" },
-        { title: "Press Kit", path: "" },
-        { title: "Guide to Headless CMS", path: "" }
+        { title: "News", path: "/news" },
+        { title: "Contributor Over Time", path: "/contributor-graph" },
+        { title: "Support", path: "mailto:support@api7.ai" },
       ]
     }
   ]
