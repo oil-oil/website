@@ -9,6 +9,14 @@
       "path": "/zh/blog/how-to-use-apisix-auth"
     },
     {
+      "title": "Python 助你快速上手 Apache APISIX 插件开发",
+      "image": "https://static.apiseven.com/202108/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-07",
+      "path": "/zh/blog/python-helps-you-quickly-with-Apache-APISIX-plugin-development"
+    },
+    {
       "title": "基于 Apache APISIX 的服务网格方案",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
