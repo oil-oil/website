@@ -1,9 +1,9 @@
 ---
 title: "基于 Apache APISIX 的服务网格方案"
-date: 2021-08-20
 avatar: "https://avatars.githubusercontent.com/u/10428333?v=4"
 author: "张超"
-href: "https://github.com/tokers
+href: "https://github.com/tokers"
+date: 2021-08-20
 keywords: APISIX,服务网格,网关,控制面,架构
 description: 本文将为大家介绍如何在服务网格方案中使用 Apache APISIX 作为数据面及其作为网格的 sidecar 的优势。
 ---
@@ -90,11 +90,11 @@ Apache APISIX 能与 Apache SkyWalking、Prometheus、ZipKin 等组件的结合�
 
 #### Apache APISIX 作为数据面带来的问题
 
-- **问题一：如何及时获取配置变更？ **
+- **问题一：如何及时获取配置变更？**
 
 在服务网格场景下，数据面实例可能有很多，如何保证在实例数特别多时配置变更的下发延时较低？
 
-- **问题二：控制面的选型 **
+- **问题二：控制面的选型**
 
 一个完整的服务网格方案必须有数据面和控制面，Apache APISIX 可以作为数据面，控制面该怎么选呢？是选现有的服务网格产品，如：Istio / Kuma / OpenServiceMesh ，还是自研？
 
