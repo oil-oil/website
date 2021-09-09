@@ -9,7 +9,7 @@
       "path": "/zh/blog/how-to-use-apisix-auth"
     },
     {
-      "title": "使用 Apache APISIX 进行集中式身份认证及进阶玩法",
+      "title": "Python 助你快速上手 Apache APISIX 插件开发",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
