@@ -2,7 +2,7 @@
 title: "APISIX架构分析：如何动态管理Nginx集群？"
 avatar: "https://avatars.githubusercontent.com/u/6623378?v=4"
 author: "陶辉"
-href: "https://github.com/russelltao
+href: "https://github.com/russelltao"
 date: 2021-09-08
 keywords: APISIX,Nginx,集群管理,网关,etcd,Lua
 description: 本文介绍了 APISIX 如何作为网关实现对 Nginx 集群的动态管理。
