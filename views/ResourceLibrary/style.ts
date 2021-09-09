@@ -8,55 +8,6 @@ export const SContentAll = styled.div`
   justify-content: center;
 `;
 
-export const SCardstyle = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin-left: 10%;
-  .timeLineBox {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-  }
-  .linePoint {
-    background-color: #c8cee1;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-  }
-  .timeLine {
-    background-color: #c8cee1;
-    width: 2px;
-    height: 65px;
-    margin: 6px 0 3px 4px;
-  }
-
-  .timeLineContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 10%;
-  }
-
-  .timeContentBox {
-    height: 90px;
-    margin-left: 15%;
-    display: flex;
-    align-items: center;
-    p {
-      line-height: 19px;
-      font-family: Poppins, serif;
-      font-weight: 400;
-      color: #344b80;
-    }
-    span {
-      font-size: 17px;
-      line-height: 22px;
-      font-weight: 600;
-      color: #1d1b84;
-    }
-  }
-`;
-
 export const SResourcesCard = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

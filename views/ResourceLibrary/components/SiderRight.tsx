@@ -8,7 +8,6 @@ import {
   SContentitem,
   STitle,
   SContentcard,
-  SCardstyle,
   SSiderright,
   SResourcesCard,
   SLinkBox,
@@ -203,59 +202,6 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
             </a>
           ))}
         </SLinkBox>
-      </SContentitem>
-
-      <SContentitem>
-        <STitle style={{ marginBottom: 40 }}>
-          <h2>Changelog</h2>
-          <p>
-            Find out about the Apache APISIX product updates, new features and general
-            improvements.
-          </p>
-          <Button
-            colorScheme="blue"
-            style={{
-              marginTop: "58px",
-              width: 250,
-              height: 55,
-              color: "white",
-            }}
-          >
-            See the changelogs
-          </Button>
-        </STitle>
-        <SCardstyle>
-          <div className="timeLineBox">
-            <div className="linePoint"></div>
-            <div className="timeLine"></div>
-
-            <div className="linePoint"></div>
-            <div className="timeLine"></div>
-
-            <div className="linePoint"></div>
-            <div className="timeLine"></div>
-          </div>
-          <div className="timeLineContent">
-            <div className="timeContentBox">
-              <div>
-                <p>Aug 4, 2021</p>
-                <span>Improvements and fixes - API7 v3.6.6 & v3.6.7</span>
-              </div>
-            </div>
-            <div className="timeContentBox">
-              <div>
-                <p>Jun 23, 2021</p>
-                <span>3.6.5 Improvements and fixes - API7 v3.6.5</span>
-              </div>
-            </div>
-            <div className="timeContentBox">
-              <div>
-                <p>Apr 22, 2021</p>
-                <span>🌍 Internationalization - API7 v3.6</span>
-              </div>
-            </div>
-          </div>
-        </SCardstyle>
       </SContentitem>
 
       <SContentitem>
