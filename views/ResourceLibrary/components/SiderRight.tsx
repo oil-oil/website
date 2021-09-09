@@ -58,7 +58,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
   const cardListSecond = [
     {
       srcURL: "https://static.apiseven.com/202108/starter_icon.svg",
-      text: "Starts",
+      text: "Starters",
       divcontent: "Get started in no time",
       path: "",
     },
