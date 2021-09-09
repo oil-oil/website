@@ -3,7 +3,7 @@ title: "Python 助你快速上手 Apache APISIX 插件开发"
 avatar: "https://avatars.githubusercontent.com/u/8529452?v=4"
 author: "shuaijinchao"
 href: "https://github.com/shuaijinchao "
-date: 2021-08-20
+date: 2021-09-07
 keywords: Python,APISIX,APISIX Python 插件,APISIX Python plugin,apisix-python-plugin-runner,APISIX Python Plugin Runner
 description: 本文为大家介绍了 Python Runner 插件，并讲解如何利用该插件通过 Python 来开发 Apache APISIX。
 ---
