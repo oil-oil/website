@@ -2,7 +2,7 @@
 title: "基于 Apache APISIX 的服务网格方案"
 avatar: "https://avatars.githubusercontent.com/u/10428333?v=4"
 author: "张超"
-href: "https://github.com/tokers"
+href: "https://github.com/tokers "
 date: 2021-08-20
 keywords: APISIX,服务网格,网关,控制面,架构
 description: 本文将为大家介绍如何在服务网格方案中使用 Apache APISIX 作为数据面及其作为网格的 sidecar 的优势。
