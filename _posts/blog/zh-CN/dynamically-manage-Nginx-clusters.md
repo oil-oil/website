@@ -2,10 +2,10 @@
 title: "APISIX架构分析：如何动态管理Nginx集群？"
 avatar: "https://avatars.githubusercontent.com/u/6623378?v=4"
 author: "陶辉"
-href: "https://github.com/russelltao  
+href: "https://github.com/russelltao"  
 date: 2021-09-07
 keywords: APISIX,Nginx,集群管理,网关,etcd,Lua
-description: 本文介绍了如何利用 Apache APISIX 对 Nginx 集群进行动态管理。
+description: 本文介绍了如何利用 Apache APISIX 对 Nginx 集群进行动态管理
 ---
 
 开源版 Nginx 最为人诟病的就是不具备动态配置、远程 API 及集群管理的能力，而 APISIX 作为 CNCF 毕业的开源七层网关，基于 etcd、Lua 实现了对 Nginx 集群的动态管理。
