@@ -2,7 +2,7 @@
 title: "Python 助你快速上手 Apache APISIX 插件开发"
 avatar: "https://avatars.githubusercontent.com/u/8529452?v=4"
 author: "shuaijinchao"
-href: "https://github.com/shuaijinchao"
+href: "https://github.com/shuaijinchao "
 date: 2021-08-20
 keywords: Python,APISIX,APISIX Python 插件,APISIX Python plugin,apisix-python-plugin-runner,APISIX Python Plugin Runner
 description: 本文为大家介绍了 Python Runner 插件，并讲解如何利用该插件通过 Python 来开发 Apache APISIX。
@@ -33,7 +33,7 @@ description: 本文为大家介绍了 Python Runner 插件，并讲解如何利�
 之间的一道桥梁，通过 `Python Runner` 可以把 `Python` 直接应用到 `APISIX` 的插件开发中，最重要的还是希望让更多对 `Apache APISIX` 和 `API 网关` 感兴趣的 `Python开发者`
 通过这个项目更多的了解使用 `Apache APISIX`，以下为 `Apache APISIX` 多语言支持的架构图。
 
-![Apache APISIX work flow](../static/img/blog_img/2021-09-06-1.png)
+![Apache APISIX work flow](https://static.apiseven.com/202108/1631168726051-76d50225-dd9f-4ec4-9995-4da6c6510ce7.png)
 
 上图左边是 `Apache APISIX` 的工作流程，右边的 `Plugin Runner` 是各语言的插件运行器，本文介绍的 `apisix-python-plugin-runner` 就是支持 `Python`
 语言的 `Plugin Runner`。
