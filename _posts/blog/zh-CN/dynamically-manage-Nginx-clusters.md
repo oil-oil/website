@@ -2,7 +2,7 @@
 title: "APISIX架构分析：如何动态管理Nginx集群？"
 avatar: "https://avatars.githubusercontent.com/u/6623378?v=4"
 author: "陶辉"
-href: "https://github.com/russelltao"  
+href: "https://github.com/russelltao"
 date: 2021-08-10
 keywords: APISIX,Nginx,集群管理,网关,etcd,Lua
 description: 本文介绍了如何利用 Apache APISIX 对 Nginx 集群进行动态管理
@@ -10,13 +10,13 @@ description: 本文介绍了如何利用 Apache APISIX 对 Nginx 集群进行动
 
 开源版 Nginx 最为人诟病的就是不具备动态配置、远程 API 及集群管理的能力，而 APISIX 作为 CNCF 毕业的开源七层网关，基于 etcd、Lua 实现了对 Nginx 集群的动态管理。
 
-![ APISIX 架构图](https://static.apiseven.com/202108/1631090573350-1f110333-7060-4911-bff2-2a61ca7366cb.png)
+![APISIX 架构图](https://static.apiseven.com/202108/1631090573350-1f110333-7060-4911-bff2-2a61ca7366cb.png)
 
 让 Nginx 具备动态、集群管理能力并不容易，因为这将面临以下问题：
 
-- 微服务架构使得上游服务种类多、数量大，这导致路由规则、上游 Server的变更极为频率。而 Nginx 的路由匹配是基于静态的Trie前缀树、哈希表、正则数组实现的，一旦 server\_name、location 变动，不执行 reload 就无法实现配置的动态变更；
+- 微服务架构使得上游服务种类多、数量大，这导致路由规则、上游 Server 的变更极为频率。而 Nginx 的路由匹配是基于静态的 Trie 前缀树、哈希表、正则数组实现的，一旦 server\_name、location 变动，不执行 reload 就无法实现配置的动态变更；
   
-- Nginx 将自己定位于 ADC 边缘负载均衡，因此它对上游并不支持 HTTP2 协议。这增大了 OpenResty 生态实现 etcd gRPC 接口的难度，因此通过watch机制接收配置变更必然效率低下；
+- Nginx 将自己定位于 ADC 边缘负载均衡，因此它对上游并不支持 HTTP2 协议。这增大了 OpenResty 生态实现 etcd gRPC 接口的难度，因此通过 watch 机制接收配置变更必然效率低下；
   
 - 多进程架构增大了 Worker 进程间的数据同步难度，必须选择 1 个低成本的实现机制，保证每个 Nginx 节点、Worker 进程都持有最新的配置；
   
