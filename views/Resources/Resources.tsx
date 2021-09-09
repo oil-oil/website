@@ -85,7 +85,7 @@ Resources.getInitialProps = async (context) => {
 
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = type === "devcon" ? devcon["videos"][lng] : ApacheCon[lng];
+  const posts = type === "devcon" ? devcon[lng] : ApacheCon[lng];
 
   return {
     namespacesRequired: ["common", 'resources'],

@@ -1,66 +1,64 @@
 {
-  "videos": {
-    "zh-CN": [
-      {
-        "title": "参会人员自我介绍",
-        "speaker": "",
-        "desc": "无更多介绍",
-        "path": "/zh/apisix-devcon-2020/self-introduction"
-      },
-      {
-        "title": "Apache APISIX 的过去和未来",
-        "speaker": "温铭｜Apache APISIX PMC",
-        "desc": "无更多介绍",
-        "path": "/zh/apisix-devcon-2020/the-past-and-future-of-apache-apisix"
-      },
-      {
-        "title": "APISIX 与微服务网关模式在 Airwallex 的实践",
-        "speaker": "李扬｜Airwallex",
-        "desc": "Airwallex 引入 API 网关后提高了哪些性能，它的网关选型和网关架构是什么？以及它的分布式路由管理的结构是怎样的？",
-        "path": "/zh/apisix-devcon-2020/airwallex"
-      },
-      {
-        "title": "基于 APISIX 的跨集群流量治理在思必驰的实践应用",
-        "speaker": "吴旺｜思必驰",
-        "desc": "介绍了思必驰公司使用 API 网关之前与之后的网关层架构，和整个过程中的一些经验和总结。",
-        "path": "/zh/apisix-devcon-2020/aispeech"
-      },
-      {
-        "title": "Apache APISIX 在腾讯云智能钛机器学习平台的实践与探索",
-        "speaker": "刁寿钧｜腾讯云",
-        "desc": "从业务背景、项目实战、学习体会、思考展望四方面来分析介绍，APISIX 在腾讯云智能钛机器学习平台的实践与探索。",
-        "path": "/zh/apisix-devcon-2020/tencent-cloud-intelligent-titanium-machine-learning-platform"
-      },
-      {
-        "title": "Apache APISIX 与 Envoy 的结合",
-        "speaker": "王院生｜支流科技",
-        "desc": "为大家讲解什么是 Envoy，以及它的优势是什么？APIXSIX 和 Envoy 结合的好处在哪里，以及如何去使用它们。",
-        "path": "/zh/apisix-devcon-2020/apache-apisix-over-envoy"
-      },
-      {
-        "title": "Apache APISIX 在 k8s ingress 的最佳实践",
-        "speaker": "厉辉 & 金卫｜腾讯云",
-        "desc": "通过架构简介、Ingress 最佳实践、Ingress 设计思路和总结与展望，来为大家讲解 APISIX 在 k8s ingress 中的最佳实践。",
-        "path": "/zh/apisix-devcon-2020/k8s-ingress"
-      },
-      {
-        "title": "云原生网关 Apache APISIX 在 KubeSphere 容器平台的应用",
-        "speaker": "张仁宇｜KubeSphere & 李凌｜Shopify",
-        "desc": "KubeSphere是什么，如何在 Kubernetes 之上构建企业级分布式多租户的容器平台？多租户管理、多集群管理、多集群应用分发、全平台监控、多租户日志查询等。",
-        "path": "/zh/apisix-devcon-2020/kubesphere"
-      },
-      {
-        "title": "Apache APISIX 落地 openEuler 社区",
-        "speaker": "马俊杰｜航天网信",
-        "desc": "无更多介绍",
-        "path": "/zh/apisix-devcon-2020/openeuler"
-      },
-      {
-        "title": "微博基于 APISIX 的定制开发",
-        "speaker": "聂永｜微博",
-        "desc": "无更多介绍",
-        "path": "/zh/apisix-devcon-2020/weibo"
-      }
-    ]
-  }
+  "zh-CN": [
+    {
+      "title": "参会人员自我介绍",
+      "speaker": "",
+      "desc": "无更多介绍",
+      "path": "/zh/apisix-devcon-2020/self-introduction"
+    },
+    {
+      "title": "Apache APISIX 的过去和未来",
+      "speaker": "温铭｜Apache APISIX PMC",
+      "desc": "无更多介绍",
+      "path": "/zh/apisix-devcon-2020/the-past-and-future-of-apache-apisix"
+    },
+    {
+      "title": "APISIX 与微服务网关模式在 Airwallex 的实践",
+      "speaker": "李扬｜Airwallex",
+      "desc": "Airwallex 引入 API 网关后提高了哪些性能，它的网关选型和网关架构是什么？以及它的分布式路由管理的结构是怎样的？",
+      "path": "/zh/apisix-devcon-2020/airwallex"
+    },
+    {
+      "title": "基于 APISIX 的跨集群流量治理在思必驰的实践应用",
+      "speaker": "吴旺｜思必驰",
+      "desc": "介绍了思必驰公司使用 API 网关之前与之后的网关层架构，和整个过程中的一些经验和总结。",
+      "path": "/zh/apisix-devcon-2020/aispeech"
+    },
+    {
+      "title": "Apache APISIX 在腾讯云智能钛机器学习平台的实践与探索",
+      "speaker": "刁寿钧｜腾讯云",
+      "desc": "从业务背景、项目实战、学习体会、思考展望四方面来分析介绍，APISIX 在腾讯云智能钛机器学习平台的实践与探索。",
+      "path": "/zh/apisix-devcon-2020/tencent-cloud-intelligent-titanium-machine-learning-platform"
+    },
+    {
+      "title": "Apache APISIX 与 Envoy 的结合",
+      "speaker": "王院生｜支流科技",
+      "desc": "为大家讲解什么是 Envoy，以及它的优势是什么？APIXSIX 和 Envoy 结合的好处在哪里，以及如何去使用它们。",
+      "path": "/zh/apisix-devcon-2020/apache-apisix-over-envoy"
+    },
+    {
+      "title": "Apache APISIX 在 k8s ingress 的最佳实践",
+      "speaker": "厉辉 & 金卫｜腾讯云",
+      "desc": "通过架构简介、Ingress 最佳实践、Ingress 设计思路和总结与展望，来为大家讲解 APISIX 在 k8s ingress 中的最佳实践。",
+      "path": "/zh/apisix-devcon-2020/k8s-ingress"
+    },
+    {
+      "title": "云原生网关 Apache APISIX 在 KubeSphere 容器平台的应用",
+      "speaker": "张仁宇｜KubeSphere & 李凌｜Shopify",
+      "desc": "KubeSphere是什么，如何在 Kubernetes 之上构建企业级分布式多租户的容器平台？多租户管理、多集群管理、多集群应用分发、全平台监控、多租户日志查询等。",
+      "path": "/zh/apisix-devcon-2020/kubesphere"
+    },
+    {
+      "title": "Apache APISIX 落地 openEuler 社区",
+      "speaker": "马俊杰｜航天网信",
+      "desc": "无更多介绍",
+      "path": "/zh/apisix-devcon-2020/openeuler"
+    },
+    {
+      "title": "微博基于 APISIX 的定制开发",
+      "speaker": "聂永｜微博",
+      "desc": "无更多介绍",
+      "path": "/zh/apisix-devcon-2020/weibo"
+    }
+  ]
 }

@@ -45,7 +45,7 @@ const News: NextPage<Props, any> = ({ t, list = [] }) => {
 News.getInitialProps = async (context) => {
   const { lng = "zh-CN" } = (context.req as any) || {};
 
-  const posts = data["news"][lng];
+  const posts = data[lng];
 
   return {
     namespacesRequired: ["common"],
