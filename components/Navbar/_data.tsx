@@ -6,6 +6,7 @@ import { CgReadme } from 'react-icons/cg'
 import { SiMeetup } from 'react-icons/si'
 import { MdCompare } from 'react-icons/md'
 import { TiNews } from 'react-icons/ti'
+import { VscLibrary } from 'react-icons/vsc'
 
 import { getRequestDemoLink } from '../../helper'
 
@@ -71,6 +72,11 @@ export const EN_US_Links: Link[] = [
         description: 'Learn more about the API7\'s Whitepaper for more features and performance reports.',
         href: '/resources/api7-whitepaper',
         icon: <IoHelpBuoy />,
+      }, , {
+        label: 'Resource Center',
+        description: 'Everything you need to optimize the way you work with API7.',
+        href: '/resources',
+        icon: <VscLibrary />,
       }
     ],
   },
@@ -184,9 +190,9 @@ export const ZH_CN_Links: Link[] = [
         icon: <CgReadme />,
       }, {
         label: '资源中心',
-        description: 'Everything you need to optimize the way you work with API7.',
+        description: '访问资源中心，查看更多相关资源',
         href: '/resources',
-        icon: <CgReadme />,
+        icon: <VscLibrary />,
       }
     ],
   }, {
