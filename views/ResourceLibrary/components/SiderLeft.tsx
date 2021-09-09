@@ -13,7 +13,7 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
   const alist = [
     {
       imgURL: "https://static.apiseven.com/202108/book.svg",
-      name: "Developer Docs",
+      name: "Documentation",
       path: "",
     },
     {
@@ -73,7 +73,6 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
     {
       title: "RESOURCES",
       text: [
-        { title: "News", path: "/news" },
         { title: "Contributor Over Time", path: "/contributor-graph" },
         { title: "Support", path: "mailto:support@api7.ai" },
       ]
