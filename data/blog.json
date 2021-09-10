@@ -129,6 +129,14 @@
       "path": "/zh/blog/the-road-to-customization-of-Sina-Weibo-API-gateway-based-on-Apache-APISIX"
     },
     {
+      "title": "张晋涛提名成为 Apache APISIX committer 同时提名成为中国首位 K8s ingress-nginx reviewer",
+      "image": "https://static.apiseven.com/202108/1631245191267-54671967-3bdf-4327-9bb1-09220023bfdc.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-08",
+      "path": "/zh/blog/interview-Apache-APISIX-committer-JintaoZhang"
+    },
+    {
       "title": "差之毫厘：etcd 3 完美支持 HTTP 访问？",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
