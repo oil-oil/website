@@ -137,6 +137,14 @@
       "path": "/zh/blog/interview-Apache-APISIX-committer-JintaoZhang"
     },
     {
+      "title": "Apache APISIX PMC 王院生：一线奋斗快二十年，希望我的代码有价值且长寿",
+      "image": "https://static.apiseven.com/202108/1631256596586-671c5f27-1609-4029-98aa-8e7b879e545e.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-13",
+      "path": "/zh/blog/interview-YuanshengWang"
+    },
+    {
       "title": "差之毫厘：etcd 3 完美支持 HTTP 访问？",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
