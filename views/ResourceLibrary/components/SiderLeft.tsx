@@ -13,68 +13,68 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
   const alist = [
     {
       imgURL: "https://static.apiseven.com/202108/book.svg",
-      name: "Documentation",
-      path: "",
+      name: "sider-title1",
+      path: "https://apisix.apache.org/zh/docs",
     },
     {
       imgURL: "https://static.apiseven.com/202108/guide.svg",
-      name: "User Guide",
-      path: "",
+      name: "sider-title2",
+      path: "https://apisix.apache.org/docs/apisix/getting-started",
     },
     {
       imgURL: "https://static.apiseven.com/202108/academy.svg",
-      name: "Academy",
+      name: "sider-title3",
       path: "",
     },
     {
       imgURL: "https://static.apiseven.com/202108/blog.svg",
-      name: "Blog",
+      name: "sider-title4",
       path: "/blog",
     },
-    {
-      imgURL: "https://static.apiseven.com/202108/starters.svg",
-      name: "Starters",
-      path: "",
-    },
+    // {
+    //   imgURL: "https://static.apiseven.com/202108/starters.svg",
+    //   name: "sider-title5",
+    //   path: "https://apisix.apache.org/docs/apisix/getting-started",
+    // },
     {
       imgURL: "https://static.apiseven.com/202108/tutorials.svg",
-      name: "Tutorials",
-      path: "",
+      name: "sider-title6",
+      path: "https://apisix.apache.org/docs/apisix/how-to-build",
     },
     {
       imgURL: "https://static.apiseven.com/202108/recipes.svg",
-      name: "Video Library",
+      name: "sider-title7",
       path: "https://space.bilibili.com/551921247",
     },
   ]
   const contentlist = [
     {
-      title: "DEVELOPER DOCUMENTATION",
+      title: "sider-content-title1",
       text: [
-        { title: "Getting Started", path: "" },
-        { title: "Setup & Deployment", path: "" },
-        { title: "Development", path: "" },
-        { title: "Update & Migration", path: "" },
-        { title: "Developer Resources", path: "" },
-        { title: "Guides", path: "" }
+        { title: "sider-content-title1-list1", path: "https://apisix.apache.org/docs/dashboard/develop" },
+        { title: "sider-content-title1-list2", path: "https://apisix.apache.org/docs/apisix/how-to-build" },
+        { title: "sider-content-title1-list3", path: "" },
+        { title: "sider-content-title1-list4", path: "" },
+        { title: "sider-content-title1-list5", path: "" },
+        { title: "sider-content-title1-list6", path: "" }
       ]
     },
     {
-      title: "USER GUIDE",
+      title: "sider-content-title2",
       text: [
-        { title: "Getting Started", path: "" },
-        { title: "Content Manager", path: "" },
-        { title: "Content-Type Builder", path: "" },
-        { title: "Users, Roles & Permissions", path: "" },
-        { title: "Plugins", path: "" },
-        { title: "General Settings", path: "" }
+        { title: "sider-content-title2-list1", path: "https://apisix.apache.org/docs/dashboard/USER_GUIDE/" },
+        { title: "sider-content-title2-list2", path: "" },
+        { title: "sider-content-title2-list3", path: "https://apisix.apache.org/docs/apisix/plugins/wolf-rbac/#add-application-admin-normal-user-permission-resource-and-user-authorize" },
+        { title: "sider-content-title2-list4", path: "" },
+        { title: "sider-content-title2-list5", path: "https://apisix.apache.org/docs/apisix/plugins/batch-requests" },
+        { title: "sider-content-title2-list6", path: "" }
       ]
     },
     {
-      title: "RESOURCES",
+      title: "sider-content-title3",
       text: [
-        { title: "Contributor Over Time", path: "/contributor-graph" },
-        { title: "Support", path: "mailto:support@api7.ai" },
+        { title: "sider-content-title3-list1", path: "/contributor-graph" },
+        { title: "sider-content-title3-list2", path: "mailto:support@api7.ai" },
       ]
     }
   ]
@@ -82,9 +82,9 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
     <SSiderLeft>
       <div>
         {alist.map((item) => (
-          <a key={item.name} target="_blank" href={item.path}>
+          <a style={{ color: !item.path && '#afa7a7' }} key={item.name} target="_blank" href={item.path !== "" && item.path}>
             <img src={item.imgURL} />
-            <span>{item.name}</span>
+            <span>{t(`resourceLibrary:${item.name}`)}</span>
           </a>
         ))}
       </div>
@@ -92,10 +92,10 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
         {contentlist.map((item) => (
           <SSidertitle key={item.title}>
             <h2>
-              {item.title}
+              {t(`resourceLibrary:${item.title}`)}
             </h2>
             {item.text.map((it) => (
-              <a href={it.path} target="_blank" key={it.title}>{it.title}</a>
+              <a style={{ color: !it.path && '#afa7a7' }} href={it.path !== "" && it.path} target="_blank" key={it.title}>{t(`resourceLibrary:${it.title}`)}</a>
             ))}
           </SSidertitle>
         ))}

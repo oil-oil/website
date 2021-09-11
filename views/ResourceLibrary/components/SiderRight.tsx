@@ -25,10 +25,10 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       scontentcardbg: "#a06aff",
       divbgcolor: "#773ae7",
       imgURL: "https://static.apiseven.com/202108/book_icon.svg",
-      h1: "Developer",
-      h1br: "Documentation",
-      desc: "All you need to get Apache APISIX up-and-running.",
-      buttontext: "Documentation",
+      h1: "sider-right-center-title1-list1-h1",
+      h1br: "sider-right-center-title1-list1-h1br",
+      desc: "sider-right-center-title1-list1-desc",
+      buttontext: "sider-right-center-title1-list1-button",
       buttonbg: "#773ae7",
       path: "https://apisix.apache.org/docs",
     },
@@ -36,21 +36,21 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       scontentcardbg: "#ef773c",
       divbgcolor: "#cc5d34",
       imgURL: "https://static.apiseven.com/202108/guide_icon.svg",
-      h1: "User",
-      h1br: "Guide",
-      desc: "Get the most out of the admin panel with our user guide.",
-      buttontext: "User Guide",
+      h1: "sider-right-center-title1-list2-h1",
+      h1br: "sider-right-center-title1-list2-h1br",
+      desc: "sider-right-center-title1-list2-desc",
+      buttontext: "sider-right-center-title1-list2-button",
       buttonbg: "#cc5d34",
-      path: "",
+      path: "https://apisix.apache.org/docs/apisix/getting-started",
     },
     {
       scontentcardbg: "#005abf",
       divbgcolor: "#01489e",
       imgURL: "https://static.apiseven.com/202108/education_icon.svg",
-      h1: "Apache APISIX",
-      h1br: "Academy",
-      desc: "Learn how to become an Apache APISIX expert.",
-      buttontext: "Academy",
+      h1: "sider-right-center-title1-list3-h1",
+      h1br: "sider-right-center-title1-list3-h1br",
+      desc: "sider-right-center-title1-list3-desc",
+      buttontext: "sider-right-center-title1-list3-button",
       buttonbg: "#01489e",
       path: "",
     },
@@ -58,38 +58,38 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
   const cardListSecond = [
     {
       srcURL: "https://static.apiseven.com/202108/starter_icon.svg",
-      text: "Starters",
-      divcontent: "Get started in no time",
-      path: "",
+      text: "sider-right-center-title2-list1-title",
+      divcontent: "sider-right-center-title2-list1-desc",
+      path: "https://apisix.apache.org/docs/apisix/getting-started",
     },
     {
       srcURL: "https://static.apiseven.com/202108/tutorial_icon.svg",
-      text: "Tutorials",
-      divcontent: "Where you’ll learn everything",
-      path: "",
+      text: "sider-right-center-title2-list2-title",
+      divcontent: "sider-right-center-title2-list2-desc",
+      path: "https://apisix.apache.org/docs/apisix/how-to-build",
     },
     {
       srcURL: "https://static.apiseven.com/202108/education_color_icon.svg",
-      text: "Academy",
-      divcontent: "Learn how to become an Apache APISIX expert.",
+      text: "sider-right-center-title2-list3-title",
+      divcontent: "sider-right-center-title2-list3-desc",
       path: "",
     },
     {
       srcURL: "https://static.apiseven.com/202108/recipe_starter.svg",
-      text: "Recipes",
-      divcontent: "Bite-size video tutorials",
-      path: "",
+      text: "sider-right-center-title2-list4-title",
+      divcontent: "sider-right-center-title2-list4-desc",
+      path: "https://space.bilibili.com/551921247",
     },
     {
       srcURL: "https://static.apiseven.com/202108/webinar_icon.svg",
-      text: "Webinars",
-      divcontent: "Check all our online meetups",
+      text: "sider-right-center-title2-list5-title",
+      divcontent: "sider-right-center-title2-list5-desc",
       path: "",
     },
     {
       srcURL: "https://static.apiseven.com/202108/vector.svg",
-      text: "Blog",
-      divcontent: "Discover all the latest about our product and culture.",
+      text: "sider-right-center-title2-list6-title",
+      divcontent: "sider-right-center-title2-list6-desc",
       path: "/blog",
     },
   ];
@@ -97,20 +97,20 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
   const cardListThree = [
     {
       srcURL: "https://static.apiseven.com/202108/forum.png",
-      text: "Discussions",
-      divcontent: "Find answers and ask questions to the community",
+      text: "sider-right-center-title3-list1-title",
+      divcontent: "sider-right-center-title3-list1-desc",
       path: "https://github.com/apache/apisix/discussions",
     },
     {
       srcURL: "https://static.apiseven.com/202108/github.png",
-      text: "Github",
-      divcontent: "Where it all happens",
+      text: "sider-right-center-title3-list2-title",
+      divcontent: "sider-right-center-title3-list2-desc",
       path: "https://github.com/apache/apisix",
     },
     {
       srcURL: "https://static.apiseven.com/202108/twitter.png",
-      text: "Twitter",
-      divcontent: "Stay up to date with the latest news",
+      text: "sider-right-center-title3-list3-title",
+      divcontent: "sider-right-center-title3-list2-desc",
       path: "https://twitter.com/apacheapisix",
     },
   ];
@@ -120,7 +120,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       scontentcardbg: "#a06aff",
       divbgcolor: "#773ae7",
       imgURL: "https://static.apiseven.com/202108/book_icon.svg",
-      buttontext: "Contribute to the Documentation",
+      buttontext: "sider-right-center-title3-button1",
       buttonbg: "#773ae7",
       path: "https://apisix.apache.org/docs",
     },
@@ -128,7 +128,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       scontentcardbg: "#1ac277",
       divbgcolor: "#0f8d55",
       imgURL: "https://static.apiseven.com/202108/subtract.svg",
-      buttontext: "Contribute to the Codebase",
+      buttontext: "sider-right-center-title3-button2",
       buttonbg: "#0f8d55",
       path: "https://github.com/apache/apisix/blob/master/CONTRIBUTING.md",
     },
@@ -137,9 +137,9 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
     <SSiderright>
       <SContentitem>
         <STitle>
-          <span>RESOURCE Center</span>
-          <h2>Resources</h2>
-          <p>Everything you need to optimize the way you work with Apache APISIX</p>
+          <span>{t("resourceLibrary:sider-right-center-title")}</span>
+          <h2>{t("resourceLibrary:sider-right-center-title1")}</h2>
+          <p>{t("resourceLibrary:sider-right-center-desc1")}</p>
         </STitle>
         <SResourcesCard>
           {cardList.map((item) => (
@@ -154,21 +154,21 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
                 <img src={item.imgURL} alt="" />
               </div>
               <h1>
-                {item.h1}
+                {t(`resourceLibrary:${item.h1}`)}
                 <br />
-                {item.h1br}
+                {t(`resourceLibrary:${item.h1br}`)}
               </h1>
-              <p>{item.desc}</p>
-              <a href={item.path} target="_blank">
+              <p>{t(`resourceLibrary:${item.desc}`)}</p>
+              <a style={{}} href={item.path !== "" && item.path} target="_blank">
                 <Button
                   marginTop="5"
                   style={{
                     backgroundColor: item.buttonbg,
                     fontSize: "15px",
-                    color: "white",
+                    color: !item.path ? "#afa7a7" : "white",
                   }}
                 >
-                  <span>{item.buttontext}</span>
+                  <span>{t(`resourceLibrary:${item.buttontext}`)}</span>
                 </Button>
               </a>
             </SContentcard>
@@ -178,15 +178,12 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
 
       <SContentitem>
         <STitle>
-          <h2>Learn with Apache APISIX</h2>
-          <p>
-            Explore our library of educational contents to learn how to set up
-            and manage your Apache APISIX project.
-          </p>
+          <h2>{t("resourceLibrary:sider-right-center-title2")}</h2>
+          <p>{t("resourceLibrary:sider-right-center-desc2")}</p>
         </STitle>
         <SLinkBox>
           {cardListSecond.map((item) => (
-            <a href={item.path} key={item.text} className="box">
+            <a style={{ color: !item.path && '#afa7a7' }} href={item.path !== "" && item.path} target="_blank" key={item.text} className="box">
               <div className="iconBox">
                 <div></div>
                 <img src={item.srcURL} alt="" />
@@ -195,9 +192,9 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
                 <Text
                   style={{ fontSize: 17, color: "#1d1b84", fontWeight: 700 }}
                 >
-                  {item.text}
+                  {t(`resourceLibrary:${item.text}`)}
                 </Text>
-                <p>{item.divcontent}</p>
+                <p>{t(`resourceLibrary:${item.divcontent}`)}</p>
               </div>
             </a>
           ))}
@@ -206,16 +203,17 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
 
       <SContentitem>
         <STitle style={{ marginBottom: 40 }}>
-          <h2>Connect with the community</h2>
-          <p>Join the conversation with users from all over the world.</p>
+          <h2>{t("resourceLibrary:sider-right-center-title3")}</h2>
+          <p>{t("resourceLibrary:sider-right-center-desc3")}</p>
         </STitle>
         <SCommunityBox>
           {cardListThree.map((item) => (
             <a
               key={item.text}
-              href={item.path}
+              href={item.path !== "" && item.path}
               target="_blank"
               className="communityList"
+              style={{ color: !item.path && '#afa7a7' }}
             >
               <div className="background"></div>
               <div className="iconBox">
@@ -230,9 +228,9 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
                     lineHeight: 1.5,
                   }}
                 >
-                  {item.text}
+                  {t(`resourceLibrary:${item.text}`)}
                 </Text>
-                <p>{item.divcontent}</p>
+                <p>{t(`resourceLibrary:${item.divcontent}`)}</p>
               </div>
             </a>
           ))}
@@ -254,13 +252,13 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
                 <img src={item.imgURL} alt="" />
               </div>
               <a
-                href={item.path}
+                href={item.path !== "" && item.path}
                 target="_blank"
                 className="button"
-                style={{ backgroundColor: item.buttonbg }}
+                style={{ backgroundColor: item.buttonbg, color: !item.path && '#afa7a7' }}
               >
                 <div className="background">
-                  <span>{item.buttontext}</span>
+                  <span>{t(`resourceLibrary:${item.buttontext}`)}</span>
                 </div>
               </a>
             </div>
@@ -285,8 +283,8 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
               ></path>
             </svg>
             <div className="box">
-              <h1>Join our Newsletter</h1>
-              <p>Get all the latest updates, news and events.</p>
+              <h1>{t("resourceLibrary:sider-right-center-title4")}</h1>
+              <p>{t("resourceLibrary:sider-right-center-desc4")}</p>
               <form
                 id="subscribe-form"
                 method="post"
@@ -306,7 +304,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
                   top="10px"
                   type="submit"
                 >
-                  Subscribe
+                  {t("resourceLibrary:sider-right-center-button4")}
                 </Button>
               </form>
             </div>
