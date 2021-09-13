@@ -3172,7 +3172,7 @@ mkdirp-classic@^0.5.2, mkdirp-classic@^0.5.3:
   resolved "https://registry.yarnpkg.com/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz#fa10c9115cc6d8865be221ba47ee9bed78601113"
   integrity sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==
 
-mobile-detect@^1.4.5:
+mobile-detect@1.4.5:
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/mobile-detect/-/mobile-detect-1.4.5.tgz#da393c3c413ca1a9bcdd9ced653c38281c0fb6ad"
   integrity sha512-yc0LhH6tItlvfLBugVUEtgawwFU2sIe+cSdmRJJCTMZ5GEJyLxNyC/NIOAOGk67Fa8GNpOttO3Xz/1bHpXFD/g==
@@ -3222,7 +3222,7 @@ next-seo@4.26.0:
   resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.26.0.tgz#4218cfae5651fdc2e330dcdf1cc1b34ce199d41c"
   integrity sha512-5TqywQ3XAwqdmEU1AyNZjR7WdDKFTkDD8aBtgQelPvzBUEy8i0mTjtiw+09jhiHFNik6FqS8uPKCaYcY6jRgSQ==
 
-next-sitemap@^1.6.168:
+next-sitemap@1.6.168:
   version "1.6.168"
   resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.6.168.tgz#5d184b7713edf03c16e6d9064c9a00b2339ec78c"
   integrity sha512-zzveI/1tjyvdTHd9qoxzH1JyK+wNqW3L+AxHf7Ppa7FbmcLb9Gj30b2pBLTK9wSiRVuSYAjOGxsPliL+daxspQ==
