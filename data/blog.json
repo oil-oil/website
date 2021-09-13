@@ -331,6 +331,14 @@
   ],
   "en-US": [
     {
+      "title": "Using the Apache APISIX OpenID Connect Plug-in for Centralized Identity Authentication",
+      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-16",
+      "path": "/en/blog/how-to-use-apisix-auth"
+    },
+    {
       "title": "Contributors — The Golden Metric of OpenSource Projects",
       "image": "https://apache.org/logos/res/apisix/apisix.png",
       "type": "article",
