@@ -1,5 +1,13 @@
 {
   "zh-CN": [
+  	{
+      "title": "纵观移动云对象存储发展历程，也少不了 Apache APISIX 的能力加持",
+      "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-13",
+      "path": "/zh/usercase/china-mobile-cloud"
+    },
     {
       "title": "基于 Apache APISIX，爱奇艺 API 网关的更新与落地实践",
       "image": "https://static.apiseven.com/202108/1630997461438-faa0dc43-7d5a-4973-94a3-c38a00b79344.jpg",
@@ -23,14 +31,6 @@
       "tags": [],
       "date": "2021-08-09",
       "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
-    },
-    {
-      "title": "Apache APISIX 在移动云的应用",
-      "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-08-03",
-      "path": "/zh/usercase/china-mobile"
     },
     {
       "title": "支持 10 亿日流量的基础设施：当 Apahce APISIX 遇上腾讯",
