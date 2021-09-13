@@ -8,12 +8,12 @@ keywords: APISIX,API Gateway,OpenID,Okta,Centralized Authentication
 description: This article describes the steps to configure Okta authentication using the OpenID Connect plug-in for Apache APISIX.
 ---
 
-Configuring Okta authentication using the Apache APISIX OpenID Connect plug-in is a simple three-step process that allows you to switch from traditional authentication mode to centralized identity authentication mode. The following sections describe the steps to configure Okta authentication using the OpenID Connect plug-in for Apache APISIX.
+Using the Apache APISIX OpenID Connect plugin to configure Okta authentication is a simple three-step process. It allows you to switch from traditional authentication mode to centralized identity authentication mode. The following sections describe the steps to configure Okta authentication using the OpenID Connect plugin for Apache APISIX.
 
 Centralized identity authentication mode, compared with traditional authentication mode, has the following advantages:
 
-1. Simplifies the application development process, reduces the development application workload and maintenance costs, and avoids repeated development of authentication code for each application.
-2. Improves business security, centralized authentication mode at the gateway level can intercept unauthenticated requests in time to protect the back-end applications.
+1. Centralized identity authentication simplifies the application development process.
+1. Centralized identity authentication improves business security. 
 
 ## Prerequisite
 
@@ -21,7 +21,7 @@ Have an Okta account ready for use.
 
 ## Step 1: Configuring Okta
 
-1. Log in to your Okta account, click "Creat App Integration" to create an Okta application.
+1. Log in to your Okta account, click "Create App Integration" to create an Okta application.
         ![Create App Integration](https://static.apiseven.com/202108/1629945284704-056f75ef-f726-4c62-8c4e-f491ba9ed35b.png)
 
 1. Select the "OIDC- OpenID Connect" for Sign-in method, and select "Web Application" for Application type.
@@ -59,11 +59,11 @@ sudo yum install -y https://github.com/apache/apisix/releases/download/2.7/apisi
 
 ### Installing via Docker
 
-Please refer to: [Installing Apache APISIX with Docker](https://hub.docker.com/r/apache/apisix).
+Please refer to: [Installing Apache APISIX with Docker](https://apisix.apache.org/docs/apisix/how-to-build/#installation-via-docker).
 
 ### Installing via Helm Chart
 
-Please refer to: [Installing Apache APISIX with Helm Chart](https://github.com/apache/apisix-helm-chart).
+Please refer to: [Installing Apache APISIX with Helm Chart](https://apisix.apache.org/docs/apisix/how-to-build/#installation-via-helm-chart).
 
 ### Installing via  Source Release
 
@@ -79,7 +79,7 @@ Please refer to: [Installing Apache APISIX with Helm Chart](https://github.com/a
     wget https://downloads.apache.org/apisix/2.7/apache-apisix-2.7-src.tgz
     ```
 
-    You can also download the Apache APISIX Release source package from the Apache APISIX website. The [Apache APISIX Official Website - Download Page](https://apisix.apache.org/downloads/) also provides source packages for Apache APISIX, APISIX Dashboard and APISIX Ingress Controller.
+    You can also download the Apache APISIX Release source package from the Apache APISIX website. The [Apache APISIX Official Website - Download Page](https://apisix.apache.org/downloads/) also provides source packages for Apache APISIX, APISIX Dashboard and [APISIX Ingress Controller](https://github.com/apache/apisix-ingress-controller).
 
 1. Unzip the Apache APISIX Release source package.
   
