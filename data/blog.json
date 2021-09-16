@@ -49,14 +49,6 @@
       "path": "/zh/blog/Why-Apache-APISIX-chose-Nginx-and-Lua"
     },
     {
-      "title": "在 Apache APISIX 中使用 Casbin 进行授权",
-      "image": "https://static.apiseven.com/202108/apisix.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-08-23",
-      "path": "/zh/blog/use-authz-casbin"
-    },
-    {
       "title": "Go 让 Apache APISIX 如虎添翼",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
@@ -87,6 +79,14 @@
       "tags": [],
       "date": "2021-08-09",
       "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
+    },
+    {
+      "title": "Apache APISIX 在移动云的应用",
+      "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-03",
+      "path": "/zh/blog/china-mobile"
     },
     {
       "title": "Kong-To-APISIX 迁移工具",
@@ -135,6 +135,22 @@
       "tags": [],
       "date": "2021-07-14",
       "path": "/zh/blog/the-road-to-customization-of-Sina-Weibo-API-gateway-based-on-Apache-APISIX"
+    },
+    {
+      "title": "张晋涛提名成为 Apache APISIX committer 同时提名成为中国首位 K8s ingress-nginx reviewer",
+      "image": "https://static.apiseven.com/202108/1631245191267-54671967-3bdf-4327-9bb1-09220023bfdc.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-08",
+      "path": "/zh/blog/interview-Apache-APISIX-committer-JintaoZhang"
+    },
+    {
+      "title": "Apache APISIX PMC 王院生：一线奋斗快二十年，希望我的代码有价值且长寿",
+      "image": "https://static.apiseven.com/202108/1631256596586-671c5f27-1609-4029-98aa-8e7b879e545e.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-13",
+      "path": "/zh/blog/interview-YuanshengWang"
     },
     {
       "title": "差之毫厘：etcd 3 完美支持 HTTP 访问？",
@@ -322,6 +338,14 @@
     }
   ],
   "en-US": [
+    {
+      "title": "Using the Apache APISIX OpenID Connect Plug-in for Centralized Identity Authentication",
+      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-16",
+      "path": "/en/blog/how-to-use-apisix-auth-with-okta"
+    },
     {
       "title": "Contributors — The Golden Metric of OpenSource Projects",
       "image": "https://apache.org/logos/res/apisix/apisix.png",

@@ -70,7 +70,7 @@ export const EN_US_Links: Link[] = [
       }, {
         label: 'API7 Whitepaper',
         description: 'Learn more about the API7\'s Whitepaper for more features and performance reports.',
-        href: '/resources/api7-whitepaper',
+        href: 'https://static.apiseven.com/202108/API7-WhitePaper-EN.pdf',
         icon: <IoHelpBuoy />,
       }, , {
         label: 'Resource Center',
@@ -186,7 +186,7 @@ export const ZH_CN_Links: Link[] = [
       {
         label: '白皮书',
         description: '阅读 API7 网关技术白皮书，了解更多功能与性能报告。',
-        href: '/resources/api7-whitepaper',
+        href: 'https://static.apiseven.com/202108/API7-Whitepaper.pdf',
         icon: <CgReadme />,
       }, {
         label: '资源中心',
