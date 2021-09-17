@@ -1,5 +1,13 @@
 {
   "zh-CN": [
+    {
+      "title": "Apache APISIX 在腾讯云智能钛平台中的落地实践",
+      "image": "https://static.apiseven.com/202108/1631784534536-960df338-0ce3-4934-b00a-a5d4be69c82b.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-16",
+      "path": "/zh/blog/tencent-cloud"
+    },
   	{
       "title": "Apache APISIX 助力有赞云原生 PaaS 平台，实现全面微服务治理",
       "image": "https://static.apiseven.com/202108/1631610955399-5a86d93a-a15d-4145-801f-e44bd7dd00f4.png",
