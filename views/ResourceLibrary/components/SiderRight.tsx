@@ -110,7 +110,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
     {
       srcURL: "https://static.apiseven.com/202108/twitter.png",
       text: "sider-right-center-title3-list3-title",
-      divcontent: "sider-right-center-title3-list2-desc",
+      divcontent: "sider-right-center-title3-list3-desc",
       path: "https://twitter.com/apacheapisix",
     },
   ];
