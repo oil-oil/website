@@ -6,6 +6,7 @@ export const SContentAll = styled.div`
   width: 100%;
   position: absulute;
   justify-content: center;
+  padding: 0 8%;
 `;
 
 export const SResourcesCard = styled.div`
@@ -269,6 +270,13 @@ export const SLearnAbout = styled.div`
       z-index: 5;
     }
 
+    @media (max-width: 1200px) {
+      .box {
+        display: block;
+        max-width: 100%;
+      }
+    }
+
     @media (max-width: 900px) {
       .iconBox {
         position: absolute;
@@ -321,7 +329,7 @@ export const SContent = styled.div`
   flex-direction: row;
   position: relative;
   margin: 0 auto;
-  width: 83.333%;
+  /* width: 83.333%; */
   margin-bottom: 20px;
   border: white;
   align-items: flex-start;
@@ -344,6 +352,7 @@ export const SSiderLeft = styled.div`
   position: sticky;
   top: -416px;
   margin-bottom: 34px;
+  margin-right: 60px;
   h2 {
     margin: 15px 0;
   }
@@ -367,7 +376,7 @@ export const SContentitem = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-left: 4%;
+  /* margin-left: 4%; */
   margin-bottom: 64px;
 
   @media (max-width: 800px) {
@@ -380,7 +389,7 @@ export const SSiderright = styled.div`
   flex: 0 1 auto;
   flex-direction: column;
   position: relative;
-  margin-left: 1%;
+  /* margin-left: 1%; */
 `;
 
 export const STitle = styled.div`
