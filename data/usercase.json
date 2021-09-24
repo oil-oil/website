@@ -1,5 +1,13 @@
 {
   "zh-CN": [
+    {
+      "title": "Apache APISIX Ingress 为何成为又拍云打造容器网关的新选择？",
+      "image": "https://static.apiseven.com/202108/1632471964537-d6e83f25-050b-4702-a235-cce5e8be3fa7.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-24",
+      "path": "/zh/usercase/youpai-cloud"
+    },
   	{
       "title": "Apache APISIX 助力便利充电创领者小电，实现云原生方案",
       "image": "https://static.apiseven.com/202108/1631948440679-a76d3bef-3395-43d9-8d0f-c47b17514759.png",
