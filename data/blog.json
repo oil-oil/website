@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX 在腾讯云智能钛平台中的落地实践",
+      "image": "https://static.apiseven.com/202108/1631784534536-960df338-0ce3-4934-b00a-a5d4be69c82b.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-16",
+      "path": "/zh/blog/tencent-cloud"
+    },
+    {
       "title": "使用 Apache APISIX 进行集中式身份认证及进阶玩法",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
@@ -81,6 +89,14 @@
       "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
     },
     {
+      "title": "Apache APISIX 在移动云的应用",
+      "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-03",
+      "path": "/zh/blog/china-mobile"
+    },
+    {
       "title": "Kong-To-APISIX 迁移工具",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
@@ -135,6 +151,14 @@
       "tags": [],
       "date": "2021-07-08",
       "path": "/zh/blog/interview-Apache-APISIX-committer-JintaoZhang"
+    },
+    {
+      "title": "Apache APISIX PMC 王院生：一线奋斗快二十年，希望我的代码有价值且长寿",
+      "image": "https://static.apiseven.com/202108/1631256596586-671c5f27-1609-4029-98aa-8e7b879e545e.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-07-13",
+      "path": "/zh/blog/interview-YuanshengWang"
     },
     {
       "title": "差之毫厘：etcd 3 完美支持 HTTP 访问？",
@@ -322,6 +346,14 @@
     }
   ],
   "en-US": [
+    {
+      "title": "Using the Apache APISIX OpenID Connect Plug-in for Centralized Identity Authentication",
+      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-08-16",
+      "path": "/en/blog/how-to-use-apisix-auth-with-okta"
+    },
     {
       "title": "Contributors — The Golden Metric of OpenSource Projects",
       "image": "https://apache.org/logos/res/apisix/apisix.png",
