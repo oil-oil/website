@@ -20,7 +20,7 @@
     },
     {
       "title": "支流科技完成数百万美元 A+ 轮融资",
-      "logo": "https://static.apiseven.com/202108/logo.png",
+      "logo": "https://static.apiseven.com/202108/1632463514273-5d1329a0-bef7-4493-8409-8395fa4c3abe.png",
       "date": "2021-06-18",
       "url": "https://mp.weixin.qq.com/s/kTzCus_JlelCKX-AmOm-wA"
     },
@@ -135,6 +135,18 @@
   ],
   "en-US": [
     {
+      "title": "Apache APISIX Certified by CAICT as a Trusted Open Source Project",
+      "logo": "https://static.apiseven.com/logo/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%BC%80%E6%BA%90%E4%BA%A7%E4%B8%9A%E8%81%94%E7%9B%9F.jpeg",
+      "date": "2021-09-17",
+      "url": "https://mp.weixin.qq.com/s/OyniHcz65QUZDyQCZOsJAQ"
+    },
+    {
+      "title": "Zhiliu Technology and Jingdong Cloud work together to build a new PaaS ecosystem",
+      "logo": "https://static.apiseven.com/202108/20210714001.png",
+      "date": "2021-07-14",
+      "url": "/zh/blog/jd-cloud"
+    },
+    {
       "title": "APISEVEN joins the first phase of Tencent Cloud Native Accelerator Program",
       "logo": "https://static.apiseven.com/202108/20210706001.png",
       "date": "2021-06-30",
@@ -142,7 +154,7 @@
     },
     {
       "title": "APISEVEN raises millions in Series A+ Funding led by Matrix Partners China",
-      "logo": "https://www.matrixpartners.com.cn/images/sample/logo.png",
+      "logo": "https://static.apiseven.com/202108/1632463514273-5d1329a0-bef7-4493-8409-8395fa4c3abe.png",
       "date": "2021-06-18",
       "url": "https://mp.weixin.qq.com/s/kTzCus_JlelCKX-AmOm-wA"
     },
