@@ -9,9 +9,9 @@ export const SWrapper = styled.div`
   h2 {
     font-size: 28px;
     font-weight: 500;
-    color: #3E464C;
+    color: #3e464c;
   }
-`
+`;
 
 export const SSection = styled.section`
   width: 100%;
@@ -27,7 +27,8 @@ export const SSection = styled.section`
     width: 100%;
     height: 300px;
     z-index: -1;
-    background: url("https://static.apiseven.com/202108/20210706002.jpeg") no-repeat center center / 100%;
+    background: url("https://static.apiseven.com/202108/20210706002.jpeg")
+      no-repeat center center / 100%;
   }
 
   .titleBox {
@@ -38,7 +39,7 @@ export const SSection = styled.section`
     h1 {
       font-size: 36px;
       font-weight: 600;
-      color: #FFFFFF;
+      color: #ffffff;
       margin-bottom: 30px;
     }
 
@@ -46,7 +47,7 @@ export const SSection = styled.section`
       width: 100%;
       font-size: 22px;
       font-weight: 400;
-      color: #FFFFFF;
+      color: #ffffff;
     }
   }
 
@@ -75,12 +76,13 @@ export const SSection = styled.section`
       }
     }
   }
-`
+`;
 
 export const SMenu = styled.div`
   position: absolute;
   width: 100%;
   top: 340px;
+  white-space: nowrap;
 
   @media (max-width: 1000px) {
     top: 325px;
@@ -102,9 +104,9 @@ export const SMenu = styled.div`
     padding: 2.5px;
     text-align: center;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 400;
-    width: 20%;
+    width: 22%;
 
     a {
       width: 100%;
@@ -130,11 +132,11 @@ export const SMenu = styled.div`
     position: fixed;
     align-items: center;
     z-index: 10;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
 
     li {
-      color: #455D82;
+      color: #455d82;
     }
   }
 
@@ -159,7 +161,8 @@ export const SMenu = styled.div`
       width: 100%;
       padding: 0 0 10px;
     }
-    ul, li {
+    ul,
+    li {
       font-size: 14px;
     }
 
@@ -168,7 +171,7 @@ export const SMenu = styled.div`
       padding: 10px;
     }
   }
-  
+
   @media (max-width: 520px) {
     ul {
       display: none;
@@ -182,7 +185,7 @@ export const SMenu = styled.div`
       }
     }
   }
-`
+`;
 
 export const SShowBox = styled.div`
   display: block;
@@ -194,10 +197,10 @@ export const SShowBox = styled.div`
     padding-top: 20px;
     padding: 20px 0 0;
   }
-  
+
   h3 {
     font-size: 24px;
-    color: #455D82;
+    color: #455d82;
     font-weight: 500;
     margin-bottom: 20px;
   }
@@ -231,7 +234,7 @@ export const SShowBox = styled.div`
 
   .itemBoxList {
     width: 33%;
-    color: #68747F;
+    color: #68747f;
     padding-right: 30px;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -293,4 +296,4 @@ export const SShowBox = styled.div`
       margin-bottom: 20px;
     }
   }
-`
+`;
