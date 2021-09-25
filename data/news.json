@@ -1,6 +1,12 @@
 {
   "zh-CN": [
     {
+      "title": "API7 通过麒麟软件 NeoCertify 认证",
+      "logo": "https://static.apiseven.com/202108/1632467693166-c391cf5d-90bf-4e71-b7f0-fae897563476.png",
+      "date": "2021-09-24",
+      "url": "/zh/blog/qilin-news"
+    },
+    {
       "title": "Apache APISIX 通过中国信通院 “可信开源项目” 认证",
       "logo": "https://static.apiseven.com/logo/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%BC%80%E6%BA%90%E4%BA%A7%E4%B8%9A%E8%81%94%E7%9B%9F.jpeg",
       "date": "2021-09-17",
@@ -134,6 +140,12 @@
     }
   ],
   "en-US": [
+    {
+      "title": "API7 has been certified by Kylin Software NeoCertify",
+      "logo": "https://static.apiseven.com/202108/1632467693166-c391cf5d-90bf-4e71-b7f0-fae897563476.png",
+      "date": "2021-09-24",
+      "url": "/zh/blog/qilin-news"
+    },
     {
       "title": "Apache APISIX Certified by CAICT as a Trusted Open Source Project",
       "logo": "https://static.apiseven.com/logo/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%BC%80%E6%BA%90%E4%BA%A7%E4%B8%9A%E8%81%94%E7%9B%9F.jpeg",
