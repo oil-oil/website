@@ -6,7 +6,6 @@ export const SContentAll = styled.div`
   width: 100%;
   position: absulute;
   justify-content: center;
-  padding: 0 8%;
 `;
 
 export const SResourcesCard = styled.div`
@@ -166,7 +165,7 @@ export const SLearnAbout = styled.div`
     position: relative;
     overflow: hidden;
 
-    @media (max-width: 420px) {
+    @media (max-width: 520px) {
       padding: 32px 16px 24px;
     }
   }
@@ -228,7 +227,6 @@ export const SLearnAbout = styled.div`
       margin: 0 auto;
       display: flex;
       padding: 40px 19px;
-      max-width: 350px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -239,7 +237,7 @@ export const SLearnAbout = styled.div`
       }
 
       h1 {
-        font-size: 22px;
+        font-size: 21px;
         font-weight: 600;
         line-height: 30px;
         margin-bottom: 1rem;
@@ -329,13 +327,15 @@ export const SContent = styled.div`
   flex-direction: row;
   position: relative;
   margin: 0 auto;
-  /* width: 83.333%; */
+  width: 83.333%;
+  max-width: 1200px;
   margin-bottom: 20px;
   border: white;
   align-items: flex-start;
 
   @media (max-width: 800px) {
     width: 100%;
+    padding: 0 8%;
   }
 `;
 
@@ -376,11 +376,10 @@ export const SContentitem = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  /* margin-left: 4%; */
   margin-bottom: 64px;
 
-  @media (max-width: 800px) {
-    margin-right: 5%;
+  @media (max-width: 500px) {
+    margin-bottom: 34px;
   }
 `;
 
@@ -389,7 +388,6 @@ export const SSiderright = styled.div`
   flex: 0 1 auto;
   flex-direction: column;
   position: relative;
-  /* margin-left: 1%; */
 `;
 
 export const STitle = styled.div`
@@ -436,6 +434,19 @@ export const STitle = styled.div`
     color: #344b80;
     font-weight: 400;
     line-height: 28px;
+  }
+  @media (max-width: 500px) {
+    span {
+      font-size: 12px;
+    }
+
+    h2 {
+      font-size: 33px;
+    }
+
+    p {
+      font-size: 17px;
+    }
   }
 `;
 
