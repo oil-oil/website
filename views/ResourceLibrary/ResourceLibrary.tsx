@@ -6,7 +6,7 @@ import { NextSeo } from "next-seo";
 
 import SiderLeftAll from "./components/SiderLeft"
 import SiderRightContent from "./components/SiderRight"
-import { SContentAll, SContent, } from "./style";
+import { SContentAll, SContent } from "./style";
 
 type Props = {
   t: TFunction;
