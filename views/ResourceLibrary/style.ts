@@ -472,7 +472,7 @@ export const SContentcard = styled.div`
     font-size: 16px;
     margin: 24px 0;
   }
-  div {
+  .imgBox {
     border-radius: 40px;
     width: 80px;
     height: 80px;
@@ -481,15 +481,32 @@ export const SContentcard = styled.div`
     align-items: center;
   }
 
+  .boxCenter {
+    flex: 1 1;
+  }
+
+  .buttonBox {
+    display: block;
+    a {
+      width: 100%;
+      display: inline-block;
+      position: relative;
+      transition: all 0.3s;
+      transform: perspective(100px);
+      button {
+        width: 100%;
+      }
+    }
+    a:hover {
+      transform: perspective(100px) scale(1.06, 1.06);
+    }
+  }
+
   img {
     width: 35px;
     height: 35px;
     opacity: 1;
     visibility: inherit;
-  }
-  a {
-    width: 100%;
-    display: contents;
   }
 `;
 

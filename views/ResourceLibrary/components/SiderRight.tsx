@@ -153,24 +153,29 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
               >
                 <img src={item.imgURL} alt="" />
               </div>
-              <h1>
-                {t(`resourceLibrary:${item.h1}`)}
-                <br />
-                {t(`resourceLibrary:${item.h1br}`)}
-              </h1>
-              <p>{t(`resourceLibrary:${item.desc}`)}</p>
-              <a style={{}} href={item.path !== "" && item.path} target="_blank">
-                <Button
-                  marginTop="5"
-                  style={{
-                    backgroundColor: item.buttonbg,
-                    fontSize: "15px",
-                    color: !item.path ? "#afa7a7" : "white",
-                  }}
-                >
-                  <span>{t(`resourceLibrary:${item.buttontext}`)}</span>
-                </Button>
-              </a>
+              <div className="boxCenter">
+                <h1>
+                  {t(`resourceLibrary:${item.h1}`)}
+                  <br />
+                  {t(`resourceLibrary:${item.h1br}`)}
+                </h1>
+                <p>{t(`resourceLibrary:${item.desc}`)}</p>
+              </div>
+              <div>
+                <div className="buttonBox">
+                  <a href={item.path !== "" && item.path} target="_blank">
+                    <Button
+                      style={{
+                        backgroundColor: item.buttonbg,
+                        fontSize: "15px",
+                        color: !item.path ? "#afa7a7" : "white",
+                      }}
+                    >
+                      <span>{t(`resourceLibrary:${item.buttontext}`)}</span>
+                    </Button>
+                  </a>
+                </div>
+              </div>
             </SContentcard>
           ))}
         </SResourcesCard>
