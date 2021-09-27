@@ -1,5 +1,37 @@
 {
   "zh-CN": [
+    {
+      "title": "Apache APISIX Ingress 为何成为又拍云打造容器网关的新选择？",
+      "image": "https://static.apiseven.com/202108/1632471964537-d6e83f25-050b-4702-a235-cce5e8be3fa7.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-24",
+      "path": "/zh/usercase/youpai-cloud"
+    },
+  	{
+      "title": "Apache APISIX 助力便利充电创领者小电，实现云原生方案",
+      "image": "https://static.apiseven.com/202108/1631948440679-a76d3bef-3395-43d9-8d0f-c47b17514759.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-18",
+      "path": "/zh/usercase/xiaodian"
+    },
+    {
+      "title": "Apache APISIX 在腾讯云智能钛平台中的落地实践",
+      "image": "https://static.apiseven.com/202108/1631784534536-960df338-0ce3-4934-b00a-a5d4be69c82b.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-16",
+      "path": "/zh/blog/tencent-cloud"
+    },
+  	{
+      "title": "Apache APISIX 助力有赞云原生 PaaS 平台，实现全面微服务治理",
+      "image": "https://static.apiseven.com/202108/1631610955399-5a86d93a-a15d-4145-801f-e44bd7dd00f4.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-14",
+      "path": "/zh/usercase/youzan"
+    },
   	{
       "title": "纵观移动云对象存储发展历程，也少不了 Apache APISIX 的能力加持",
       "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",

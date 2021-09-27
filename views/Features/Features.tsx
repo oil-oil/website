@@ -15,6 +15,14 @@ type Props = {
 const Features: NextPage<Props, any> = ({ t, list = [] }) => {
   const [currentHeight, setCurrentHeight] = useState(0);
 
+  let arr = [];
+  if (typeof window !== 'undefined') {
+    const sectionBoxArr = document.querySelectorAll('.sectionBox');
+    for (let i = 0; i < sectionBoxArr.length; i++) {
+      arr[i] = sectionBoxArr[i].clientHeight;
+    }
+  };
+
   useEffect(() => {
     window.addEventListener('scroll', () => {
       setCurrentHeight(document.documentElement.scrollTop);
@@ -23,19 +31,19 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
   }, [currentHeight]);
 
   const autoMenuSelected = () => {
-    if (currentHeight < 1944) {
+    if (currentHeight < (arr[0] + 300)) {
       onSelected(0);
     }
-    if (currentHeight >= 1944) {
+    if (currentHeight < (arr[0] + arr[1] + 300) && currentHeight >= (arr[0] + 300)) {
       onSelected(1);
     }
-    if (currentHeight >= 2708) {
+    if (currentHeight >= (arr[0] + arr[1] + 300) && currentHeight < (arr[0] + arr[1] + arr[2] + 300)) {
       onSelected(2);
     }
-    if (currentHeight >= 3082) {
+    if (currentHeight >= (arr[0] + arr[1] + arr[2] + 300) && currentHeight < (arr[0] + arr[1] + arr[2] + arr[3] + 300)) {
       onSelected(3);
     }
-    if (currentHeight >= 3622) {
+    if (currentHeight >= (arr[0] + arr[1] + arr[2] + arr[3] + 300)) {
       onSelected(4);
     }
   };
@@ -62,7 +70,7 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
           <ul className={currentHeight > 320 && "newmenu"}>
             {list.map((item, index) => {
               return (
-                <li id={`unActive_${index}`} key={index}><a href={`#${item.title}`} onClick={() => { onSelected(index) }}>{item.title}</a></li>
+                <li id={`unActive_${index}`} key={index} ><a href={`#${item.title}`} onClick={() => { onSelected(index) }}>{item.title}</a></li>
               )
             })}
           </ul>

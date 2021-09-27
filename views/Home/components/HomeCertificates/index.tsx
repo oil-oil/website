@@ -4,7 +4,6 @@ import {
   Stack,
   Text,
   useColorModeValue,
-  StackDivider,
   Image,
 } from "@chakra-ui/react";
 import * as React from "react";
@@ -101,6 +100,21 @@ const App: NextPage<Props, any> = ({ t }) => {
                 margin="0 auto 10px"
               />
               <Text>可信开源项目</Text>
+            </Box>
+            <br />
+            <Box
+              textAlign="center"
+              as="a"
+              href="/zh/cert/qilin-NeoCertify"
+              target="_blank"
+              w="201px"
+            >
+              <Image
+                src="https://static.apiseven.com/202108/1632467693166-c391cf5d-90bf-4e71-b7f0-fae897563476.png"
+                maxH="80px"
+                margin="0 auto 10px"
+              />
+              <Text>麒麟软件 NeoCertify 认证</Text>
             </Box>
           </Stack>
         )}

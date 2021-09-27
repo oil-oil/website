@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX 在腾讯云智能钛平台中的落地实践",
+      "image": "https://static.apiseven.com/202108/1631784534536-960df338-0ce3-4934-b00a-a5d4be69c82b.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-16",
+      "path": "/zh/blog/tencent-cloud"
+    },
+    {
       "title": "使用 Apache APISIX 进行集中式身份认证及进阶玩法",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
