@@ -19,23 +19,18 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
     {
       imgURL: "https://static.apiseven.com/202108/guide.svg",
       name: "sider-title2",
-      path: "https://apisix.apache.org/docs/apisix/getting-started",
-    },
-    {
-      imgURL: "https://static.apiseven.com/202108/academy.svg",
-      name: "sider-title3",
-      path: "",
+      path: "https://apisix.apache.org/docs/dashboard/USER_GUIDE/",
     },
     {
       imgURL: "https://static.apiseven.com/202108/blog.svg",
       name: "sider-title4",
       path: "/blog",
     },
-    // {
-    //   imgURL: "https://static.apiseven.com/202108/starters.svg",
-    //   name: "sider-title5",
-    //   path: "https://apisix.apache.org/docs/apisix/getting-started",
-    // },
+    {
+      imgURL: "https://static.apiseven.com/202108/starters.svg",
+      name: "sider-title5",
+      path: "https://apisix.apache.org/docs/apisix/getting-started",
+    },
     {
       imgURL: "https://static.apiseven.com/202108/tutorials.svg",
       name: "sider-title6",
@@ -46,28 +41,31 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
       name: "sider-title7",
       path: "https://space.bilibili.com/551921247",
     },
+    {
+      imgURL: "https://static.apiseven.com/202108/academy.svg",
+      name: "sider-title3",
+      path: "",
+    },
   ]
   const contentlist = [
     {
       title: "sider-content-title1",
       text: [
         { title: "sider-content-title1-list1", path: "https://apisix.apache.org/docs/dashboard/develop" },
-        { title: "sider-content-title1-list2", path: "https://apisix.apache.org/docs/apisix/how-to-build" },
-        { title: "sider-content-title1-list3", path: "" },
-        { title: "sider-content-title1-list4", path: "" },
-        { title: "sider-content-title1-list5", path: "" },
-        { title: "sider-content-title1-list6", path: "" }
+        { title: "sider-content-title1-list2", path: "https://apisix.apache.org/zh/docs/apisix/install-dependencies" },
+        { title: "sider-content-title1-list3", path: "https://apisix.apache.org/zh/docs/apisix/how-to-build" },
+        { title: "sider-content-title1-list4", path: "https://apisix.apache.org/zh/docs/apisix/admin-api" },
+        { title: "sider-content-title1-list5", path: "https://apisix.apache.org/zh/docs/apisix/control-api" },
       ]
     },
     {
       title: "sider-content-title2",
       text: [
-        { title: "sider-content-title2-list1", path: "https://apisix.apache.org/docs/dashboard/USER_GUIDE/" },
-        { title: "sider-content-title2-list2", path: "" },
-        { title: "sider-content-title2-list3", path: "https://apisix.apache.org/docs/apisix/plugins/wolf-rbac/#add-application-admin-normal-user-permission-resource-and-user-authorize" },
-        { title: "sider-content-title2-list4", path: "" },
-        { title: "sider-content-title2-list5", path: "https://apisix.apache.org/docs/apisix/plugins/batch-requests" },
-        { title: "sider-content-title2-list6", path: "" }
+        { title: "sider-content-title2-list1", path: "https://apisix.apache.org/zh/docs/apisix/getting-started/" },
+        { title: "sider-content-title2-list2", path: "https://apisix.apache.org/zh/docs/apisix/health-check" },
+        { title: "sider-content-title2-list3", path: "https://apisix.apache.org/zh/docs/apisix/plugin-develop" },
+        { title: "sider-content-title2-list4", path: "https://apisix.apache.org/zh/docs/apisix/external-plugin" },
+        { title: "sider-content-title2-list5", path: "https://apisix.apache.org/zh/docs/apisix/FAQ" },
       ]
     },
     {

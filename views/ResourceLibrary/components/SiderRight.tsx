@@ -44,15 +44,15 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       path: "https://apisix.apache.org/docs/apisix/getting-started",
     },
     {
-      scontentcardbg: "#005abf",
-      divbgcolor: "#01489e",
-      imgURL: "https://static.apiseven.com/202108/education_icon.svg",
+      scontentcardbg: "#e13352",
+      divbgcolor: "#D5324F",
+      imgURL: "https://static.apiseven.com/202108/blog-white.svg",
       h1: "sider-right-center-title1-list3-h1",
       h1br: "sider-right-center-title1-list3-h1br",
       desc: "sider-right-center-title1-list3-desc",
       buttontext: "sider-right-center-title1-list3-button",
-      buttonbg: "#01489e",
-      path: "",
+      buttonbg: "#D5324F",
+      path: "/blog",
     },
   ];
   const cardListSecond = [
@@ -69,16 +69,16 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       path: "https://apisix.apache.org/docs/apisix/how-to-build",
     },
     {
-      srcURL: "https://static.apiseven.com/202108/education_color_icon.svg",
-      text: "sider-right-center-title2-list3-title",
-      divcontent: "sider-right-center-title2-list3-desc",
-      path: "",
-    },
-    {
       srcURL: "https://static.apiseven.com/202108/recipe_starter.svg",
       text: "sider-right-center-title2-list4-title",
       divcontent: "sider-right-center-title2-list4-desc",
       path: "https://space.bilibili.com/551921247",
+    },
+    {
+      srcURL: "https://static.apiseven.com/202108/vector.svg",
+      text: "sider-right-center-title2-list6-title",
+      divcontent: "sider-right-center-title2-list6-desc",
+      path: "/blog",
     },
     {
       srcURL: "https://static.apiseven.com/202108/webinar_icon.svg",
@@ -87,10 +87,10 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       path: "",
     },
     {
-      srcURL: "https://static.apiseven.com/202108/vector.svg",
-      text: "sider-right-center-title2-list6-title",
-      divcontent: "sider-right-center-title2-list6-desc",
-      path: "/blog",
+      srcURL: "https://static.apiseven.com/202108/education_color_icon.svg",
+      text: "sider-right-center-title2-list3-title",
+      divcontent: "sider-right-center-title2-list3-desc",
+      path: "",
     },
   ];
 
@@ -122,7 +122,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       imgURL: "https://static.apiseven.com/202108/book_icon.svg",
       buttontext: "sider-right-center-title3-button1",
       buttonbg: "#773ae7",
-      path: "https://apisix.apache.org/docs",
+      path: "https://github.com/apache/apisix/blob/master/CONTRIBUTING.md#contribution-guidelines-for-documentation",
     },
     {
       scontentcardbg: "#1ac277",
