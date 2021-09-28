@@ -99,7 +99,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       srcURL: "https://static.apiseven.com/202108/forum.png",
       text: "sider-right-center-title3-list1-title",
       divcontent: "sider-right-center-title3-list1-desc",
-      path: "https://github.com/apache/apisix/discussions",
+      path: "https://apisix.apache.org/docs/general/subscribe-guide",
     },
     {
       srcURL: "https://static.apiseven.com/202108/github.png",
