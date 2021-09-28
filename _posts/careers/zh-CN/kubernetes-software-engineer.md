@@ -1,21 +1,20 @@
 ---
-title: 服务端开发工程师（实习）
+title: Kubernetes 工程师
 date: 2021-9-28 14:03:00
 ---
 
 ### 岗位职责
 
-1. 完成 Apache APISIX 以及周边开源项目的开发任务；
-2. 完善中英文开发文档；
-3. 收集用户反馈，并从中总结经验。
+1. 参与基于 Apache APISIX 的 Kubernetes Ingress controller 的相关设计和开发；
+2. 参与 Service Mesh 方向的控制面系统的设计和开发。
 
 ### 任职要求
 
-1. 在校/应届实习生；
-2. 良好的计算机基础；
-3. 喜欢开源，沟通流畅；
-4. 参与过开源社区或编程夏令营，优先考虑；
-5. 熟悉 C/C++/Golang，优先考虑。
+1. 熟悉 Kubernetes 技术及其开源社区；
+2. 能基于 Kubernetes 相关 API 进行功能开发；
+3. 了解主流的 Service Mesh 技术方案；
+4. 有 3 年以上开发经验（1 年以上 GO 开发经验）；
+5. Kubernetes 相关社区开源贡献者优先。
 
 ### 附加信息
 

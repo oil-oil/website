@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "百万级 QPS 业务新宠，金山办公携手 Apache APISIX 打造网关实践新体验",
+      "image": "https://static.apiseven.com/202108/1632799172316-5b77ec72-4f49-4c16-9883-832808507669.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-09-28",
+      "path": "/zh/usercase/WPS"
+    },
+    {
       "title": "Apache APISIX Ingress 为何成为又拍云打造容器网关的新选择？",
       "image": "https://static.apiseven.com/202108/1632471964537-d6e83f25-050b-4702-a235-cce5e8be3fa7.png",
       "type": "article",

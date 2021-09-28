@@ -1,19 +1,23 @@
 ---
-title: Senior Nginx Development Engineer
-date: 2020-10-19 13:19:00
+title: Nginx Development Engineer
+date: 2021-9-28 14:03:00
 ---
 
-## Responsibilities
+## Job Responsibilities
 
-- Responsible for Nginx underlay optimization for Apache APISIX;
-- Responsible for development, maintenance, and upgrades of the Nginx kernel and third-party modules;
+- Develop the next generation API management and analysis platform based on Apache APISIX.
+- Create technical innovations in the areas of big data, behavioral analysis, security protection, and cloud-native for APIs.
+- Participate in the development of Apache APISIX and be a committer or PMC of Apache APISIX.
 
-## Requirements
+## Job Requirements
 
-- Knowledge of Nginx principles and implementation;
-- Developed Nginx C modules;
-- Loves open source and has a strong interest in technology;
-- Nginx, OpenResty code contributors are preferred;
+- In-depth knowledge of Apache APISIX or other API gateways.
+- Agree with open source culture, familiar with open source collaboration.
+- Good coding habits, agree with Test-driven development.
+- Good documentation habits, able to read and write in English.
+- Familiar with service mesh, k8s ingress controller is preferred.
+- Contributor of any open source project  is preferred.
+- Contributor of Nginx or OpenResty is preferred.
 
 ## Additional
 
@@ -21,4 +25,4 @@ We're a remote work company with employees in 6 cities across China, and we do a
 
 ## Contact
 
-[support@api7.ai](mailto:support@api7.ai)
+[recruit@api7.ai](mailto:recruit@api7.ai)

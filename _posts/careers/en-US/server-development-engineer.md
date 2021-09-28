@@ -1,13 +1,21 @@
 ---
-title: Server Development Engineer (Internship)
-date: 2021-02-23 11:03:00
+title: Server-side Development Engineer (Internship)
+date: 2021-9-28 14:03:00
 ---
 
-## Internship Responsibilities
+## Job Responsibilities
 
-- completing development tasks for Apache APISIX and surrounding open source projects.
-- Improving development documentation in English and Chinese.
-- Collect user feedback and draw lessons from it.
+- Complete the development tasks of Apache APISIX and its related open source projects.
+- Improve Apache APISIX's documents in English and Chinese.
+- Collect user feedbacks,  and extract notable points for enhancements or improvements of Apache APISIX from them.
+
+## Job Requirements
+
+- Undergraduate or recent graduate.
+- Good programming skill with solid knowledge in computer science.
+- Like open source, good communication skills.
+- Participated in open source community or programming summer camps is preferred.
+- Familiar with C, C++, or Go is preferred.
 
 ## Additional
 
@@ -15,4 +23,4 @@ We're a remote work company with employees in 6 cities across China, and we do a
 
 ## Contact
 
-[support@api7.ai](mailto:support@api7.ai)
+[recruit@api7.ai](mailto:recruit@api7.ai)

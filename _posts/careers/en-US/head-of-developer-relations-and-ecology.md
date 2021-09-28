@@ -1,6 +1,6 @@
 ---
 title: Head of Developer Relations and Ecology
-date: 2021-02-23 11:05:00
+date: 2021-9-28 14:03:00
 ---
 
 For Apache APISIX and Shenzhen Zhiliu Technology Co.,Ltd, the open source community is the cornerstone, and we believe in "community over code".
@@ -9,19 +9,18 @@ Our users and contributors in the community have provided a great deal of suppor
 
 As our Developer Relations and Ecology Lead, you will be a solid support to the community.
 
-## Responsibilities
+## Job Responsibilities
 
-- Connecting with members of the open source community in a variety of ways, whether face-to-face, blogs, forums, or other social channels and events.
-- Communicating with partners and building a global API ecosystem together.
-- Let APISIX run in more enterprises and complete more large-flow challenges;
-- This position supports telecommuting.
+- Interact and communicate with members of the open source community through face-to-face communications, blogs, forums, or other social channels and events.
+- Communicate with partners and build a global API ecosystem together.
+- Let APISIX run in more enterprises and accomplish more high traffic challenges.
 
-## Requirements
+## Job Requirements
 
-- Understanding of the open source community and identification with the open source culture.
-- Good in dealing with engineers.
-- Happy to work with remote distribution teams.
-- Solid writing skills and the ability to produce engaging content - including presentations, blogs, videos, etc.
+- Understand the open source community and identify with the open source culture; an ideal candidate would be contributor to Apache or CNCF projects.
+- Familiar with the technical concepts, good communication skills.
+- Able to read, write, and speak English proficiently, able to work with remotely.
+- Familiar with Apache culture, solid writing skills, and the ability to produce engaging content - including presentations, blogs, videos, etc.
 
 ## Additional
 
@@ -29,4 +28,4 @@ We're a remote work company with employees in 6 cities across China, and we do a
 
 ## Contact
 
-[support@api7.ai](mailto:support@api7.ai)
+[recruit@api7.ai](mailto:recruit@api7.ai)

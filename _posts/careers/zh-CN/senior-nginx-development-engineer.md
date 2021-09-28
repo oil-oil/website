@@ -1,19 +1,23 @@
 ---
-title: 高级 NGINX 开发工程师
-date: 2020-10-19 13:19:00
+title: 网关研发工程师/ Nginx 开发工程师
+date: 2021-9-28 14:03:00
 ---
 
-### 工作内容
+### 岗位职责
 
-1. 负责针对 Apache APISIX 的 Nginx 底层优化；
-2. 负责 Nginx 内核和第三方模块的开发、维护和升级。
+1. 研发基于 Apache APISIX 的下一代 API 管理和分析平台；
+2. 在 API 的大数据、行为分析、安全防护、云原生等领域保持技术创新；
+3. 参与 Apache APISIX 的研发，成为 committer 或 PMC。（核心贡献者）。
 
-### 岗位要求
+### 任职要求
 
-1. 熟悉 Nginx 原理和具体实现；
-2. 开发过 Nginx C 模块；
-3. 热爱开源，对技术有浓厚兴趣；
-4. Nginx、OpenResty 代码贡献者优先。
+1. 对 Apache APISIX 或其他网关有深入的了解；
+2. 认同开源文化，熟悉开源协作方式；
+3. 良好的编码习惯，认同测试驱动开发；
+4. 良好的文档习惯及英文读写能力；
+5. 熟悉服务网格、k8s ingress controller 者优先；
+6. 开源项目贡献者优先。
+7. Nginx、OpenResty 代码贡献者优先；
 
 ### 附加信息
 
@@ -33,4 +37,4 @@ date: 2020-10-19 13:19:00
 
 ### 联系方式
 
-[support@api7.ai](mailto:support@api7.ai)
+[recruit@api7.ai](mailto:recruit@api7.ai)

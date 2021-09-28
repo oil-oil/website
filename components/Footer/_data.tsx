@@ -46,7 +46,7 @@ export const EN_US_links: LinkGroupData[] = [
         href: "/resources/apisix-devcon-2020"
       }, , {
         label: "API7 Whitepaper",
-        href: "https://static.apiseven.com/202108/API7-WhitePaper-EN.pdf"
+        href: "https://static.apiseven.com/202108/API7-WhitePaper-EN(1).pdf"
       }
     ]
   },
