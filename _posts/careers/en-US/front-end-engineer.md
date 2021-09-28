@@ -1,20 +1,18 @@
 ---
 title: Front-end Engineer
-date: 2021-03-19 17:20:00
+date: 2021-9-28 14:03:00
 ---
 
-## Responsibilities
+## Job Responsibilities
 
-- Responsible for the front-end development and design of the company's products;
-- Responsible for the development and improvement of base libraries, frameworks and key modules;
-- Work with the overall technical team to optimize the development methods and processes and specifications of the front-end team and improve team efficiency.
+- Develop and maintain of the company's website to improve the impact and  user experience.
+- Optimize the front-end component design and build process to ensure development efficiency and quality.
 
-## Requirements
+## Job Requirements
 
-- Proficiency in front-end frameworks such as jQuery, Bootstrap, Ant Design and familiarity with objectified Javascript programming;
-- Experience in the development of enterprise products or SaaS;
-- Knowledge of user experience, interaction and user requirement analysis, product or interface design experience is preferred;
-- Strong self-learning ability, relatively high enthusiasm and concern for front-end cutting-edge areas, good execution, good willingness to communicate and collaborate, and focus on efficiency.
+- Proficient in HTML/CSS/JavaScript, familiar with TypeScript and new language specifications and syntax features, such as ES6, etc.
+- Familiar with the usage and implementation principles of front-end frameworks such as React, Gatsby, and Wordpress.
+- Excellent problem-solving and identification skills, good English communication skills and teamwork spirit.
 
 ## Additional
 
@@ -22,4 +20,4 @@ We're a remote work company with employees in 6 cities across China, and we do a
 
 ## Contact
 
-[support@api7.ai](mailto:support@api7.ai)
+[recruit@api7.ai](mailto:recruit@api7.ai)
