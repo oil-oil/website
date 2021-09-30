@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Input, Text } from "@chakra-ui/react";
 import { withTranslation } from "../../../i18n";
 import { NextPage } from "next";
-import { TFunction } from "next-i18next";
+import { TFunction, I18nContext } from "next-i18next";
 
 import {
   SContentitem,
@@ -20,6 +20,10 @@ type Props = {
 };
 
 const SiderRight: NextPage<Props, any> = ({ t }) => {
+  const {
+    i18n: { language },
+  } = React.useContext(I18nContext);
+
   const cardList = [
     {
       scontentcardbg: "#a06aff",
@@ -154,11 +158,11 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
                 <img src={item.imgURL} alt="" />
               </div>
               <div className="boxCenter">
-                <h1>
-                  {t(`resourceLibrary:${item.h1}`)}
-                  <br />
-                  {t(`resourceLibrary:${item.h1br}`)}
-                </h1>
+                <div className="titleBox" style={{ display: language === "en-US" && 'table-caption' }}>
+                  <p>
+                    {t(`resourceLibrary:${item.h1}`)}
+                  </p>
+                </div>
                 <p>{t(`resourceLibrary:${item.desc}`)}</p>
               </div>
               <div>

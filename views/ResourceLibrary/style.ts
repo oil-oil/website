@@ -95,6 +95,7 @@ export const SCommunityBox = styled.div`
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
+    margin-top: 0;
   }
 
   .communityList {
@@ -378,7 +379,7 @@ export const SContentitem = styled.div`
   position: relative;
   margin-bottom: 64px;
 
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     margin-bottom: 34px;
   }
 `;
@@ -396,6 +397,10 @@ export const STitle = styled.div`
   position: relative;
   margin-top: 50px;
   margin-bottom: 64px;
+
+  @media (max-width: 700px) {
+    margin-bottom: 30px;
+  }
 
   div:nth-child(2) {
     font-size: 30px;
@@ -461,12 +466,6 @@ export const SContentcard = styled.div`
   text-align: left;
   width: 100%;
 
-  h1 {
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 24px;
-  }
   p {
     color: #ffffff;
     font-size: 16px;
@@ -483,6 +482,18 @@ export const SContentcard = styled.div`
 
   .boxCenter {
     flex: 1 1;
+    margin-top: 24px;
+
+    .titleBox {
+      p {
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+      }
+    }
   }
 
   .buttonBox {
