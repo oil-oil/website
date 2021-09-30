@@ -3,6 +3,8 @@ title: "How Amazon EKS and APISIX ingress controller work together to manage com
 avatar: ""
 author: "Amazon Cloud Technologies AWS Cloud Computing"
 href: ""
+keywords: API7,Apache APISIX,API Gateway,blog,Amazon EKS,APISIX ingress controller
+description: As a traffic manager, sometimes even when you're prepared for the unexpected, it's hard to stop the unexpected. Building a four-way API gateway is crucial! Here's how **Amazon EKS + Ingress APISIX!** can help with that today.
 date: 2021-02-07
 ---  
 

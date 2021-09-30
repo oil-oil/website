@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/34589752?v=4"
 author: "Yiyiyimu"
 href: "https://github.com/Yiyiyimu"
 date: 2021-06-16
-keywords: APISIX,Chaos Mesh,混沌工程,API 网关
+keywords: API7,Apache APISIX,API 网关,技术博客,Chaos Mesh,混沌工程
 description: 本文介绍了使用 Chaos Mesh 提升 Apache APISIX 稳定性
 ---
 

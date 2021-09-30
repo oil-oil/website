@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/30819887?v=4"
 author: "Zhengsong Tu"
 href: "https://github.com/tzssangglass"
 date: 2021-06-21
-keywords: APISIX,Java,Plugin
+keywords: API7,Apache APISIX,API 网关,技术博客,Java,插件
 description: 本文介绍了 Apache APISIX 支持多语言编写插件，使用 Java 编写插件的教程
 ---
 

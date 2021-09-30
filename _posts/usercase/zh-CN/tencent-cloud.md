@@ -4,6 +4,8 @@ date: 2020-05-07
 avatar: ""
 author: ""
 href: ""
+keywords: API7,Apache APISIX,API 网关,企业案例,腾讯云
+description: 通过阅读本文，您可以了解到腾讯云团队是如何基于 Apache APISIX 网关，打造出全新的网关服务。
 ---  
 
 <div style="text-align: center">

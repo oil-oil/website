@@ -2,7 +2,7 @@
 title: "API7 通过麒麟软件 NeoCertify 认证"
 author: 支流科技
 date: 2021-09-24
-keywords: API7,支流科技,麒麟软件,NeoCertify
+keywords: API7,Apache APISIX,API 网关,技术博客,麒麟软件认证,NeoCertify
 description: 2021 年 9 月，深圳支流科技 API7 已通过麒麟软件 NeoCertify 认证
 ---
 

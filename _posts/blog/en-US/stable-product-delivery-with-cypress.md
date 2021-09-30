@@ -3,6 +3,8 @@ title: "Stable Product Delivery with Cypress"
 avatar: "https://avatars.githubusercontent.com/u/31329157?s=460&u=e81b4bb4db2be162c1fcac6d188f5b0f82f71920&v=4"
 author: "Sun Yi"
 href: "https://github.com/LiteSun"
+keywords: API7,Apache APISIX,API Gateway,blog,Apache APISIX Dashboard,Cypress
+description: With 552 commits and 10 releases, it is important to ensure the quality of Apache APISIX Dashboard. Thus, we utilized Cypress to ensure stable product delivery.
 date: 2021-02-07
 ---
 

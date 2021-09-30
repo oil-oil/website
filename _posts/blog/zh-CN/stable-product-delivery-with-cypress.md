@@ -3,6 +3,8 @@ title: "使用 Cypress 让产品持续稳定交付"
 avatar: "https://avatars.githubusercontent.com/u/31329157?s=460&u=e81b4bb4db2be162c1fcac6d188f5b0f82f71920&v=4"
 author: "孙毅"
 href: "https://github.com/LiteSun"
+keywords: API7,Apache APISIX,API 网关,技术博客,Cypress
+description: Apache APISIX Dashboard 引入了 E2E 测试模块以确保稳定的产品交付。
 date: 2021-02-07
 ---
 

@@ -3,6 +3,8 @@ title: "Contributors — The Golden Metric of OpenSource Projects"
 avatar: "https://miro.medium.com/fit/c/1360/1360/1*cNmhlRdcWxuom1cbm5ZS4g.jpeg"
 author: "Lien"
 href: "https://medium.com/@lilien1010/about"
+keywords: API7,Apache APISIX,API Gateway,blog,Contributors
+description: For developers, how can they find out which one is the best fit for their company among the hundreds of projects on Github?
 date: 2021-08-14
 ---
 

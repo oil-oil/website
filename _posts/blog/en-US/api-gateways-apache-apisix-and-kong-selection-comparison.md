@@ -3,6 +3,8 @@ title: "API Gateways Apache APISIX and Kong Selection Comparison"
 avatar: "https://avatars.githubusercontent.com/u/26448043?s=460&u=9a51a2ee99658ea30918952675fdffeca8b5dc4c&v=4"
 author: "Wen Ming"
 href: "https://github.com/moonming"
+keywords: API7,Apache APISIX,API Gateway,blog,Kong,Comparison
+description: Apache APISIX and Kong are both open source microservice API gateways, this article is comparing Apache APISIX and Kong on mutiple dimensions. 
 date: 2020-01-18
 ---
 

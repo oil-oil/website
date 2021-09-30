@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/25628854?v=4"
 author: "朱欣欣"
 href: "https://github.com/starsz"
 date: 2021-09-07
-keywords: APISIX,身份认证,集中式
+keywords: API7,Apache APISIX,API 网关,技术博客,身份认证
 description: 本文介绍了 Apache APISIX 的身份认证功能，从重要性和玩法使用上进行了详细介绍和细节使用。
 ---
 

@@ -3,6 +3,8 @@ title: "A first look at Kubernetes Service APIs"
 avatar: "https://avatars.githubusercontent.com/u/4413028?s=460&u=e140a6d2bf19c426da6498b8888edc96509be649&v=4"
 author: "Jin Wei"
 href: "https://github.com/gxthrj"
+keywords: API7,Apache APISIX,API Gateway,blog,Kubernetes Service APIs
+description: We know that Kubernetes has a number of solutions for exposing services inside the cluster, one of the more popular being Ingress, which is a standard for exposing services to the outside world and has a number of third party implementations, each with their own technology stack and dependencies on gateways that are not compatible with each other.
 date: 2020-12-18
 ---
 

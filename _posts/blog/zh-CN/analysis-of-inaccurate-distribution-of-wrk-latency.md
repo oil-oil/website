@@ -3,6 +3,7 @@ title: "对 wrk 延迟分布不准确的分析"
 avatar: "https://avatars.githubusercontent.com/u/26448043?s=460&u=9a51a2ee99658ea30918952675fdffeca8b5dc4c&v=4"
 author: "温铭"
 href: "https://github.com/moonming"
+keywords: API7,Apache APISIX,API 网关,技术博客,wrk 延迟分布
 date: 2018-09-03
 ---
 

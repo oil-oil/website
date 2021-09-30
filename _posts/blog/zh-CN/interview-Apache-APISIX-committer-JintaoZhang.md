@@ -3,7 +3,7 @@ title: "张晋涛提名成为 Apache APISIX committer 同时提名成为中国�
 author: OSCHINA
 avatar: "https://portrait.gitee.com/uploads/avatars/namespace/0/1_oschina_1620785990.png"
 date: 2021-07-08
-keywords: APISIX,ingress-nginx
+keywords: API7,Apache APISIX,API 网关,技术博客,K8s ingress-nginx
 description: 本文采访了 Apache APISIX committer 张晋涛，同时他也成为了 中国首位 K8s ingress-nginx reviewer
 ---
 

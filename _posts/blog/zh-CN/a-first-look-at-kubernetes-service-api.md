@@ -3,6 +3,8 @@ title: "初探 Kubernetes Service APIs"
 avatar: "https://avatars.githubusercontent.com/u/4413028?s=460&u=e140a6d2bf19c426da6498b8888edc96509be649&v=4"
 author: "金卫"
 href: "https://github.com/gxthrj"
+keywords: API7,Apache APISIX,API 网关,技术博客,Kubernetes Service APIs
+description: 本文从几个问题入手，对 Kubernetes Service APIs 的基本概念进行介绍。
 date: 2020-12-18
 ---
 

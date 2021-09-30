@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/10428333?v=4"
 author: "张超"
 href: "https://github.com/tokers"
 date: 2021-07-16
-keywords: APISIX,服务网格,Service Mesh,开源,Sidecar
+keywords: API7,Apache APISIX,API 网关,技术博客,服务网格,Service Mesh
 description: 本文介绍了基于 Apache APISIX 的服务网格方案，将对 apisix-mesh-agent 进行分析，介绍其使用定位及其实现的功能
 ---
 

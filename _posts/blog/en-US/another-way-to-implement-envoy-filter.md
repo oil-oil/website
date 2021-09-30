@@ -1,6 +1,8 @@
 ---
 title: "Envoy and Apache APISIX: Another way to implement Envoy filter"
 avatar: ""
+keywords: API7,Apache APISIX,API Gateway,blog,Envoy
+description: Envoy is an L7 proxy and communication bus designed for large modern service oriented architectures.A pluggable filter chain mechanism allows filters to be written to perform different tasks and inserted into the main server.
 date: 2020-12-16
 ---
 

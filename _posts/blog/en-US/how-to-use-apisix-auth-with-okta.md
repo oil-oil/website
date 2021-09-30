@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/25628854?v=4"
 author: "Xinxin Zhu"
 href: "https://github.com/starsz"
 date: 2021-09-07
-keywords: APISIX,API Gateway,OpenID,Okta,Centralized Authentication
+keywords: API7,Apache APISIX,API Gateway,blog,Centralized Authentication,Okta
 description: This article describes the steps to configure Okta authentication using the OpenID Connect plug-in for Apache APISIX.
 ---
 

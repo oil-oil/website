@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/2106987?v=4"
 author: "琚致远"
 href: "https://github.com/juzhiyuan"
 date: 2021-07-27
-keywords: APISIX,插件编排,低代码,降低成本,网关
+keywords: API7,Apache APISIX,API 网关,技术博客,插件编排,低代码
 description: 本文将为大家介绍如何借助低代码 API 网关 Apache APISIX 中插件编排能力，将 50+ 插件通过“拖拽”的方式进行组合编排，最终实现场景化需求。
 ---
 

@@ -4,7 +4,7 @@ author: spacewander
 href: "https://github.com/spacewander"
 avatar: "https://avatars.githubusercontent.com/u/4161644?v=4"
 date: 2021-06-30
-keywords: APISIX,etcd,API 网关,代理,Latency
+keywords: API7,Apache APISIX,API 网关,技术博客,etcd
 description: 本文介绍了 etcd 升级到 3.x 版本后，其对外 API 的协议从普通的 HTTP1 切换到了 gRPC。为了兼顾那些不能使用 gRPC 的特殊群体，etcd 通过 gRPC-gateway 的方式代理 HTTP1 请求，以 gRPC 形式去访问新的 gRPC API。作者发现其中一个 bug，并分析修复，给 etcd 提交了 PR
 ---
 

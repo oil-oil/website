@@ -4,7 +4,9 @@ avatar: "https://avatars.githubusercontent.com/u/4413028?s=460&u=e140a6d2bf19c42
 author: "Jin Wei"
 href: "https://github.com/gxthrj"
 date: 2020-05-07 
----  
+keywords: API7,Apache APISIX,API Gateway,User Case,aispeech
+description: This article is about the integration of Apache APISIX and k8s instead of native ingress.
+---
 
 **Preface**
 

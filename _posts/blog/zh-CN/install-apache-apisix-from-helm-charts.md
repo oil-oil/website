@@ -3,6 +3,7 @@ title: "使用 Helm Charts 安装 Apache APISIX"
 avatar: "https://avatars.githubusercontent.com/u/10428333?s=460&u=f48ef50c5621a1616a3ede50221547e34270e061&v=4"
 author: "张超"
 href: "https://github.com/tokers"
+keywords: API7,Apache APISIX,API 网关,技术博客,Helm Charts,安装指南
 date: 2021-02-26
 ---
 

@@ -2,6 +2,7 @@
 title: "Apache APISIX 在移动云的应用"
 date: 2021-08-09
 author: "陈焱山"
+keywords: API7,Apache APISIX,API 网关,技术博客,企业案例,中国移动
 ---  
 
 我们有幸采访了中国移动云能力中心的陈焱山，在采访中我们了解到中国移动公有云建设发展演进历程，了解了中国移动云为什么选择 Apache APISIX 作为负载均衡网关，并且知晓移动云后续的发展规划。

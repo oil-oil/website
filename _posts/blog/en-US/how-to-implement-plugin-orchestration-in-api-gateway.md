@@ -1,6 +1,8 @@
 ---
 title: "Apache APISIX: How to implement plugin orchestration in API Gateway"
 avatar: ""
+keywords: API7,Apache APISIX,API Gateway,blog,plugin orchestration,low code
+description: Let's take a look at what can Apache APISIX do for you? It can handle Layer 4 and Layer 7 traffic, including HTTP, https, tcp, udp, mqtt, etc.
 date: 2020-12-14
 ---
 

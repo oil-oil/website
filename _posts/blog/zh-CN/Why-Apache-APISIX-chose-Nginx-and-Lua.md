@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/4161644?v=4"
 author: "spacewander"
 href: "https://github.com/spacewander"
 date: 2021-08-25
-keywords: API 网关,APISIX,Lua,Nginx
+keywords: API7,Apache APISIX,API 网关,技术博客,Lua,Nginx
 description: 本文由 api7.ai 工程师罗泽轩撰写，介绍了 APISIX 选用 Nginx + Lua 这个技术栈的历史背景和这个技术栈为 APISIX 带来的优势。罗泽轩是 OpenResty 开发者以及 Apache APISIX Committer。
 ---
 

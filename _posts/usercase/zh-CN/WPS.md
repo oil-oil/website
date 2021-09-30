@@ -2,7 +2,7 @@
 title: "百万级 QPS 业务新宠，金山办公携手 Apache APISIX 打造网关实践新体验"
 author: "张强"
 date: 2021-09-28
-keywords: Apache APISIX,金山办公,API 网关,百万级 QPS
+keywords: API7,Apache APISIX,API 网关,企业案例,金山办公
 description: 本文介绍了金山办公如何使用 Apache APISIX 应对百万级 QPS 业务，同时基于 Apache APISIX 更新与改进网关实践层面的内容。
 tags: technology
 ---

@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/23514812?v=4"
 author: "赵若妃"
 href: "https://github.com/Serendipity96"
 date: 2021-06-01
-keywords: API 网关,APISIX,Kong,API7,压测
+keywords: API7,Apache APISIX,API 网关,技术博客,压力测试,性能测试
 description: 近期，GigaOm 发布了一份 API 网关的性能评测报告，报告主要介绍了在不同压测场景下， API7（基于 Apache 顶级项目 APISIX 的企业版本） 和 Kong EE（Kong 企业版本） 二者的性能差异，结果显示 API7 性能明显优于 Kong EE，最高有数百倍的差距
 ---
 
