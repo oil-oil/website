@@ -44,7 +44,7 @@
     "@types/react-syntax-highlighter": "13.5.2",
     "@types/styled-components": "5.1.12",
     "babel-plugin-styled-components": "1.13.2",
-    "next-sitemap": "1.6.173",
+    "next-sitemap": "1.6.179",
     "raw-loader": "4.0.2",
     "typescript": "4.4.3"
   }
