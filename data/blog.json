@@ -65,14 +65,6 @@
       "path": "/zh/blog/contributors-the-golden-metric-of-openSource-projects"
     },
     {
-      "title": "Apache APISIX 在移动云的应用",
-      "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-08-03",
-      "path": "/zh/blog/china-mobile"
-    },
-    {
       "title": "Kong-To-APISIX 迁移工具",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
