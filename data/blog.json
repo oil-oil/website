@@ -1,14 +1,6 @@
 {
   "zh-CN": [
     {
-      "title": "Apache APISIX 在腾讯云智能钛平台中的落地实践",
-      "image": "https://static.apiseven.com/202108/1631784534536-960df338-0ce3-4934-b00a-a5d4be69c82b.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-09-16",
-      "path": "/zh/blog/tencent-cloud"
-    },
-    {
       "title": "使用 Apache APISIX 进行集中式身份认证及进阶玩法",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
@@ -65,36 +57,12 @@
       "path": "/zh/blog/go-makes-Apache-APISIX-better"
     },
     {
-      "title": "Apache APISIX 在 Airwallex 的应用 | 专访 Airwallex 技术平台负责人李杨",
-      "image": "https://static.apiseven.com/202108/airwallex-logo-white.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-08-16",
-      "path": "/zh/blog/Airwallex-interview"
-    },
-    {
       "title": "贡献者，是衡量开源项目的金指标",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-14",
       "path": "/zh/blog/contributors-the-golden-metric-of-openSource-projects"
-    },
-    {
-      "title": "舍弃 Kong 和 Nginx，Apache APISIX 在趣链科技 BaaS 平台的落地实践",
-      "image": "https://static.apiseven.com/202108/1630649111460-9830be28-289b-4b38-916f-c68cda764301.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-08-09",
-      "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
-    },
-    {
-      "title": "Apache APISIX 在移动云的应用",
-      "image": "https://static.apiseven.com/202108/1630653195154-f2140025-b7a5-48be-9e02-06643207ba9f.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-08-03",
-      "path": "/zh/blog/china-mobile"
     },
     {
       "title": "Kong-To-APISIX 迁移工具",
@@ -135,14 +103,6 @@
       "tags": [],
       "date": "2021-07-16",
       "path": "/zh/blog/how-to-use-mesh-agent"
-    },
-    {
-      "title": "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路",
-      "image": "https://static.apiseven.com/202108/weibo.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-07-14",
-      "path": "/zh/blog/the-road-to-customization-of-Sina-Weibo-API-gateway-based-on-Apache-APISIX"
     },
     {
       "title": "张晋涛提名成为 Apache APISIX committer 同时提名成为中国首位 K8s ingress-nginx reviewer",
@@ -311,14 +271,6 @@
       "tags": [],
       "date": "2020-12-14",
       "path": "/zh/blog/how-to-implement-plugin-orchestration-in-api-gateway"
-    },
-    {
-      "title": "贝壳找房：如何基于 Apache APISIX 搭建网关",
-      "image": "https://static.apiseven.com/202108/1630652517130-8b2b2fe6-cf0a-4f1c-9ccd-0a25986680b3.png",
-      "type": "article",
-      "tags": [],
-      "date": "2020-12-11",
-      "path": "/zh/blog/how-to-build-gateway-based-on-apache-apisix"
     },
     {
       "title": "Apache APISIX 和 Kong 的对比",

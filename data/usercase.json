@@ -30,7 +30,7 @@
       "type": "article",
       "tags": [],
       "date": "2021-09-16",
-      "path": "/zh/blog/tencent-cloud"
+      "path": "/zh/usercase/tencent-cloud"
     },
   	{
       "title": "Apache APISIX 助力有赞云原生 PaaS 平台，实现全面微服务治理",
@@ -62,7 +62,7 @@
       "type": "article",
       "tags": [],
       "date": "2021-08-16",
-      "path": "/zh/blog/Airwallex-interview"
+      "path": "/zh/usercase/Airwallex-interview"
     },
     {
       "title": "舍弃 Kong 和 Nginx，Apache APISIX 在趣链科技 BaaS 平台的落地实践",
@@ -70,7 +70,7 @@
       "type": "article",
       "tags": [],
       "date": "2021-08-09",
-      "path": "/zh/blog/Apache-APISIX-in-Quliankeji"
+      "path": "/zh/usercase/Apache-APISIX-in-Quliankeji"
     },
     {
       "title": "支持 10 亿日流量的基础设施：当 Apahce APISIX 遇上腾讯",
@@ -86,7 +86,7 @@
       "type": "article",
       "tags": [],
       "date": "2020-07-14",
-      "path": "/zh/blog/the-road-to-customization-of-Sina-Weibo-API-gateway-based-on-Apache-APISIX"
+      "path": "/zh/usercase/the-road-to-customization-of-Sina-Weibo-API-gateway-based-on-Apache-APISIX"
     },
     {
       "title": "支流科技与吉利汽车：产业数字化，「智造」未来",
@@ -102,7 +102,7 @@
       "type": "article",
       "tags": [],
       "date": "2020-12-11",
-      "path": "/zh/blog/how-to-build-gateway-based-on-apache-apisix"
+      "path": "/zh/usercase/how-to-build-gateway-based-on-apache-apisix"
     },
     {
       "title": "360：Apache APISIX 在基础运维平台项目中的实践",
