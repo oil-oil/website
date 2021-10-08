@@ -62,7 +62,7 @@
       "type": "article",
       "tags": [],
       "date": "2021-08-16",
-      "path": "/zh/blog/Airwallex-interview"
+      "path": "/zh/usercase/Airwallex-interview"
     },
     {
       "title": "舍弃 Kong 和 Nginx，Apache APISIX 在趣链科技 BaaS 平台的落地实践",

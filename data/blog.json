@@ -57,14 +57,6 @@
       "path": "/zh/blog/go-makes-Apache-APISIX-better"
     },
     {
-      "title": "Apache APISIX 在 Airwallex 的应用 | 专访 Airwallex 技术平台负责人李杨",
-      "image": "https://static.apiseven.com/202108/airwallex-logo-white.png",
-      "type": "article",
-      "tags": [],
-      "date": "2021-08-16",
-      "path": "/zh/blog/Airwallex-interview"
-    },
-    {
       "title": "贡献者，是衡量开源项目的金指标",
       "image": "https://static.apiseven.com/202108/apisix.png",
       "type": "article",
