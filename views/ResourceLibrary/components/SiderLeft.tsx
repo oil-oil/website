@@ -41,11 +41,6 @@ const SiderLeft: NextPage<Props, any> = ({ t }) => {
       name: "sider-title7",
       path: "https://space.bilibili.com/551921247",
     },
-    {
-      imgURL: "https://static.apiseven.com/202108/academy.svg",
-      name: "sider-title3",
-      path: "",
-    },
   ]
   const contentlist = [
     {

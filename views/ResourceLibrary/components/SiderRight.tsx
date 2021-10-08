@@ -35,6 +35,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       buttontext: "sider-right-center-title1-list1-button",
       buttonbg: "#773ae7",
       path: "https://apisix.apache.org/docs",
+      pathZH: "https://apisix.apache.org/zh/docs"
     },
     {
       scontentcardbg: "#ef773c",
@@ -46,6 +47,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       buttontext: "sider-right-center-title1-list2-button",
       buttonbg: "#cc5d34",
       path: "https://apisix.apache.org/docs/apisix/getting-started",
+      pathZH: "https://apisix.apache.org/zh/docs/apisix/getting-started"
     },
     {
       scontentcardbg: "#e13352",
@@ -65,12 +67,14 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       text: "sider-right-center-title2-list1-title",
       divcontent: "sider-right-center-title2-list1-desc",
       path: "https://apisix.apache.org/docs/apisix/getting-started",
+      pathZH: "https://apisix.apache.org/zh/docs/apisix/getting-started"
     },
     {
       srcURL: "https://static.apiseven.com/202108/tutorial_icon.svg",
       text: "sider-right-center-title2-list2-title",
       divcontent: "sider-right-center-title2-list2-desc",
       path: "https://apisix.apache.org/docs/apisix/how-to-build",
+      pathZH: "https://apisix.apache.org/zh/docs/apisix/how-to-build"
     },
     {
       srcURL: "https://static.apiseven.com/202108/recipe_starter.svg",
@@ -88,12 +92,6 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
       srcURL: "https://static.apiseven.com/202108/webinar_icon.svg",
       text: "sider-right-center-title2-list5-title",
       divcontent: "sider-right-center-title2-list5-desc",
-      path: "",
-    },
-    {
-      srcURL: "https://static.apiseven.com/202108/education_color_icon.svg",
-      text: "sider-right-center-title2-list3-title",
-      divcontent: "sider-right-center-title2-list3-desc",
       path: "",
     },
   ];
@@ -167,7 +165,7 @@ const SiderRight: NextPage<Props, any> = ({ t }) => {
               </div>
               <div>
                 <div className="buttonBox">
-                  <a href={item.path !== "" && item.path} target="_blank">
+                  <a href={item.path !== "" && (language === "en-US" ? item.path : item.pathZH || item.path)} target="_blank">
                     <Button
                       style={{
                         backgroundColor: item.buttonbg,
