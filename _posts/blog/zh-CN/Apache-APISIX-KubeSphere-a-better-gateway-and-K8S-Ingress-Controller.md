@@ -4,7 +4,7 @@ author: Jintao Zhang
 href: "https://github.com/tao12345666333"
 avatar: "https://avatars.githubusercontent.com/u/3264292?v=4"
 date: 2021-08-31
-keywords: API 网关,APISIX,KubeSphere,Ingress
+keywords: API7,Apache APISIX,API 网关,技术博客,KubeSphere
 description: 本文介绍了在 KubeSphere 中使用 Apache APISIX 的官方 Helm 仓库直接部署 Apache APISIX 和 APISIX Ingress Controller 。并且 Apache APISIX 可通过作为网关，或者 APISIX Ingress Controller 的数据面来承载业务流量
 ---
 

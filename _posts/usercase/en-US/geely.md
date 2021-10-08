@@ -3,6 +3,8 @@ title: "Zhiliu Technology and Geely: Digitising the industry to Intelligent crea
 avatar: ""
 author: ""
 href: ""
+keywords: API7,Apache APISIX,API Gateway,User Case,Geely
+description: Geely Automobile Group has thousands of business systems, and the number of interfaces has increased with each passing day. How to manage the existing systems in a unified and efficient manner and how to open up the interfaces to provide greater value to the outside world are the main issues currently faced.
 date: 2020-12-18
 ---  
 

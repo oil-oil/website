@@ -2,7 +2,8 @@
 title: "纵观移动云对象存储发展历程，也少不了 Apache APISIX 的能力加持"
 date: 2021-09-13
 author: "陈焱山"
-keywords: 移动云存储,Apache APISIX,云服务,网关
+keywords: API7,Apache APISIX,API 网关,企业案例,中国移动
+description: 通过阅读本文，您可以了解到中国移动云是如何基于 Apache APISIX 进行产品的开发和功能改进与更新，打造出更完善的移动云对象存储。
 ---
 
 > 本文整理自中国移动云能力中心陈焱山在 ApacheCon 2021 亚洲站的演讲，通过阅读本文，您可以了解到中国移动云是如何基于 Apache APISIX 进行产品的开发和功能改进与更新，打造出更完善的移动云对象存储。

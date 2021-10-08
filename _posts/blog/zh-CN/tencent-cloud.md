@@ -2,7 +2,7 @@
 title: "Apache APISIX 在腾讯云智能钛平台中的落地实践"
 author: "刁寿钧"
 date: 2021-09-16
-keywords: APISIX,腾讯云,API 网关,API Gateway
+keywords: API7,Apache APISIX,API 网关,技术博客,企业案例,腾讯云
 description: 本文主要介绍了腾讯云智能钛平台使用 Apache APISIX 的企业案例，以及使用 Apache APISIX 作为产品流量网关的具体例子。
 ---
 

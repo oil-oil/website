@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/31329157?s=460&u=e81b4bb4db2be1
 author: "孙毅"
 href: "https://github.com/LiteSun"
 date: 2021-03-02
-keywords: Cypress,APISIX,APISIX Dashboard,前端测试,覆盖率
+keywords: API7,Apache APISIX,API 网关,技术博客,Cypress,APISIX Dashboard
 description: 本文介绍了如何使用 Cypress 获取 APISIX Dashboard 前端 E2E 覆盖率，目前 APISIX Dashboard 前端 E2E 覆盖率已经达到了 71.57%, 将持续协同社区，继续增强测试覆盖率，为用户提供更可靠稳定的产品
 ---
 

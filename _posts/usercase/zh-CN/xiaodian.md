@@ -2,7 +2,7 @@
 title: "Apache APISIX 助力便利充电创领者小电，实现云原生方案"
 author: "孙冉"
 date: 2021-09-18
-keywords: Apache APISIX,小电,云原生,容器化
+keywords: API7,Apache APISIX,API 网关,企业案例,小电
 description: 本文介绍了国内便利充电创领者——小电通过应用 Apache APISIX，进行公司产品架构的云原生项目搭建的相关背景和实践介绍
 ---
 

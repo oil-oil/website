@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/25628854?v=4"
 author: "朱欣欣"
 href: "https://github.com/starsz"
 date: 2021-08-26
-keywords: API 网关,APISIX,Apache APISIX,Okta,集中认证
+keywords: API7,Apache APISIX,API 网关,技术博客,Okta,集中认证
 description: 本文展示了使用 Apache APISIX OpenID Connect Plugin 进行 Okta 集中认证的过程。 本文包含了对Apache APISIX 和 Okta 集中认证的概念介绍，展示了在 Apache APISIX 中直接建立来自 Okta 的集中式身份认证的过程。这种集中认证的方法减少了开发者的学习和维护成本，提供了安全和精简的用户体验。
 ---
 ## 关于作者

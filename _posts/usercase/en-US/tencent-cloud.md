@@ -3,6 +3,8 @@ title: "Tencent Cloud: Why did you choose Apache APISIX to implement k8s ingress
 avatar: ""
 author: ""
 href: ""
+keywords: API7,Apache APISIX,API Gateway,User Case,Tencent Cloud
+description: This article introduces how Tencent Cloud use Apache APISIX in their production environments.
 date: 2020-05-07 
 ---  
 

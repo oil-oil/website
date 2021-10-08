@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/10428333?v=4"
 author: "张超"
 href: "https://github.com/tokers"
 date: 2021-05-31
-keywords: APISIX,服务网格,Service Mesh,开源,Sidecar
+keywords: API7,Apache APISIX,API 网关,技术博客,服务网格,Service Mesh
 description: 本文介绍了基于 Apache APISIX 的服务网格方案，分析了为什么需要服务网格，基于 Apahce APISIX 的服务网格的架构设计及优势，欢迎大家下载使用
 ---
 

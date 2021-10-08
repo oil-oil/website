@@ -3,6 +3,8 @@ title: "Traffic Split in Apache APISIX Ingress Controller"
 avatar: "https://avatars.githubusercontent.com/u/10428333?s=460&u=f48ef50c5621a1616a3ede50221547e34270e061&v=4"
 author: "Chao Zhang"
 href: "https://github.com/tokers"
+keywords: API7,Apache APISIX,API Gateway,blog,Apache APISIX Ingress Controller,Traffic Split
+description: Traffic Split is a feature that splits and deliveries traffic to multiple backend services. Apache APISIX Ingress Controller now features traffic split.
 date: 2021-03-27
 ---
 

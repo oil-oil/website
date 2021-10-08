@@ -3,6 +3,8 @@ title: "BEKE: How to build a gateway based on Apache APISIX"
 avatar: ""
 author: "Wang Hui"
 href: ""
+keywords: API7,Apache APISIX,API Gateway,blog,usercase,BEKE
+description: BEKE use Apache APISIX as the API gateway for our production system to handle over 100 million production traffic every day with excellent performance and stability.
 date: 2020-12-11
 ---
 

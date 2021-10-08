@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/4413028?v=4"
 author: "金卫"
 href: "https://github.com/gxthrj"
 date: 2021-08-06
-keywords: APISIX,Nginx,可观测性,Envoy
+keywords: API7,Apache APISIX,API 网关,技术博客,可观测性,Envoy
 description: 最佳实践：本文将从 Nginx 可观测性、Apache APISIX 与 Nginx 的关系、Apache APISIX 可观测性，以及结合Apache SkyWalking 进一步提升可观测性这些方面分享关于可观测性的方案与实践。
 ---
 

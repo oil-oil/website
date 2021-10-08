@@ -2,7 +2,7 @@
 title: "基于 Apache APISIX，新浪微博 API 网关的定制化开发之路"
 author: "聂永，微博基础架构师，开源爱好者，爱折腾追求 Geek。"
 date: 2021-07-14
-keywords: APISIX,微博,API 网关,DevOps,Consul KV
+keywords: API7,Apache APISIX,API 网关,技术博客,企业案例,新浪微博
 description: 本文介绍了新浪微博 API 网关基于 Apache APISIX 的定制化开发，由于 Nginx 的更新方式不能满足业务需求，且整个处理流程较长，效率较低，无法满足低代码化的 DevOps 运维趋势。经过一番调研之后，微博选择了最接近期盼的基于云原生的微服务 API 网关：Apache APISIX，借助其动态、高效、稳定等特性以满足业务的快速响应要求
 ---
 

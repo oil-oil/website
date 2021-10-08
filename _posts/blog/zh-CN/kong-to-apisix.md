@@ -4,7 +4,7 @@ author: "Yiyiyimu"
 avatar: "https://avatars.githubusercontent.com/u/34589752?v=4"
 href: "https://github.com/Yiyiyimu"
 date: 2021-08-05
-keywords: API 网关,APISIX,Kong,迁移,工具
+keywords: API7,Apache APISIX,API 网关,技术博客,Kong,迁移
 description: 最佳实践：如果你正在使用 Kong，对 APISIX 感兴趣又苦于难以上手，不妨试试我们刚开源的迁移工具 Kong-To-APISIX，助你一键平滑迁移。
 ---
 

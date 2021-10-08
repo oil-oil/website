@@ -2,7 +2,7 @@
 title: "Apache APISIX 助力有赞云原生 PaaS 平台，实现全面微服务治理"
 author: "戴诺璟"
 date: 2021-09-15
-keywords: Apache APISIX,有赞,微服务治理,云原生
+keywords: API7,Apache APISIX,API 网关,企业案例,有赞
 description: 本文主要介绍了有赞云原生 PaaS 平台使用 Apache APISIX 的企业案例，以及如何使用 Apache APISIX 作为产品流量网关的具体实例。
 tags: usercase
 ---

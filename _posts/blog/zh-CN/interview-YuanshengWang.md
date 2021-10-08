@@ -1,7 +1,7 @@
 ---
 title: "Apache APISIX PMC 王院生：一线奋斗快二十年，希望我的代码有价值且长寿"
 date: 2021-07-13
-keywords: APISIX,API 网关
+keywords: API7,Apache APISIX,API 网关,技术博客,PMC,七牛云
 description: 本文来自七牛云 ECUG 活动组对 Apache APISIX PMC 王院生的采访，王院生就云原生、API 网关方面发表了自己的观点
 ---
 

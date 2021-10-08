@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/8529452?v=4"
 author: "shuaijinchao"
 href: "https://github.com/shuaijinchao "
 date: 2021-09-07
-keywords: Python,APISIX,APISIX Python 插件,APISIX Python plugin,apisix-python-plugin-runner,APISIX Python Plugin Runner
+keywords: API7,Apache APISIX,API 网关,技术博客,APISIX Python 插件
 description: 本文为大家介绍了 Python Runner 插件，并讲解如何利用该插件通过 Python 来开发 Apache APISIX。
 ---
 

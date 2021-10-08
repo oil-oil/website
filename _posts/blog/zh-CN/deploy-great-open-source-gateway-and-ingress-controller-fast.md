@@ -4,7 +4,7 @@ avatar: "https://avatars.githubusercontent.com/u/3264292?v=4"
 author: "Jintao Zhang"
 href: "https://github.com/tao12345666333"
 date: 2021-06-24
-keywords: APISIX,Rancher,Ingress Controller,Kubernetes
+keywords: API7,Apache APISIX,API 网关,技术博客,Rancher
 description: 本文讲述了在 Rancher 中使用 Apache APISIX 的官方 Helm 仓库直接部署 Apache APISIX 和 APISIX Ingress controller，并且 Apache APISIX 可通过作为网关，或者 APISIX Ingress controller 的数据面来承载业务流量
 ---
 

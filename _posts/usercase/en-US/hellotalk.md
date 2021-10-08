@@ -3,6 +3,8 @@ title: "HelloTalk: A Global Exploration Path Based on OpenResty and Apache APISI
 avatar: ""
 author: "Li Ling"
 href: ""
+keywords: API7,Apache APISIX,API Gateway,User Case,HelloTalk
+description: This article introduces what HelloTalk does and how to use OpenResty and Apache APISIX based on the scenarios.
 date: 2020-05-07 
 ---  
 

@@ -2,7 +2,7 @@
 title: "支流科技与京东云携手，共筑 PaaS 新生态"
 author: 支流科技
 date: 2021-07-14
-keywords: APISIX,支流科技,京东云
+keywords: API7,Apache APISIX,API 网关,技术博客,京东云,支流科技
 description: 7月13日，京东云峰会在北京圆满落幕！会上正式发布了 PaaS 生态联盟“云筑计划”，支流科技作为首批成员单位正式加入，成为其技术合作伙伴
 ---
 

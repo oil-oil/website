@@ -2,7 +2,7 @@
 title: "Apache APISIX Ingress 为何成为又拍云打造容器网关的新选择？"
 author: "陈卓"
 date: 2021-09-24
-keywords: Apache APISIX,Apache APISIX Ingress,又拍云,容器网关
+keywords: API7,Apache APISIX,API 网关,企业案例,又拍云
 description: 本文介绍了又拍云选择 Apache APISIX Ingress 后所带来公司内部网关架构的更新与调整，同时分享了在使用过程中的一些实践场景介绍。
 tags: technology
 ---

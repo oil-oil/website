@@ -9,7 +9,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "@chakra-ui/react": "1.6.8",
+    "@chakra-ui/react": "1.6.9",
     "@emotion/react": "11.4.1",
     "@emotion/styled": "11.3.0",
     "@fortawesome/fontawesome-svg-core": "1.2.36",
@@ -28,7 +28,7 @@
     "next-seo": "4.28.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "4.2.0",
+    "react-icons": "4.3.1",
     "react-id-swiper": "4.0.0",
     "react-markdown": "5.0.3",
     "react-syntax-highlighter": "15.4.4",
@@ -39,12 +39,12 @@
     "swiper": "5.4.5"
   },
   "devDependencies": {
-    "@types/node": "14.17.20",
-    "@types/react": "17.0.25",
+    "@types/node": "14.17.21",
+    "@types/react": "17.0.27",
     "@types/react-syntax-highlighter": "13.5.2",
     "@types/styled-components": "5.1.12",
     "babel-plugin-styled-components": "1.13.2",
-    "next-sitemap": "1.6.168",
+    "next-sitemap": "1.6.179",
     "raw-loader": "4.0.2",
     "typescript": "4.4.3"
   }

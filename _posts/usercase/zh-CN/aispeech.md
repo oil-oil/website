@@ -4,6 +4,8 @@ date: 2020-05-07
 avatar: "https://avatars.githubusercontent.com/u/4413028?s=460&u=e140a6d2bf19c426da6498b8888edc96509be649&v=4"
 author: "金卫"
 href: "https://github.com/gxthrj"
+keywords: API7,Apache APISIX,API 网关,企业案例,思必驰
+description: 思必驰在生产环境上应用了 Apache APISIX，接管了部分业务的入口流量，同时正逐步把原生 ingress 中流量迁移过来。
 ---  
 
 **前言**
