@@ -90,7 +90,7 @@ const App: NextPage<Props, any> = ({ t }) => {
             <Box
               textAlign="center"
               as="a"
-              href="/zh/cert/trusted-cloud"
+              href="/zh/cert/oscar2021"
               target="_blank"
               w="201px"
             >
