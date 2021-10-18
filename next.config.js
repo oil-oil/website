@@ -21,4 +21,13 @@ module.exports = {
     });
     return config;
   },
+  async redirects() {
+    return [
+      {
+        source: '/careers/technical-support-engineer',
+        destination: '/careers/site-reliability-engineer',
+        permanent: true,
+      },
+    ]
+  },
 };
