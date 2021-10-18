@@ -2,7 +2,7 @@
 title: "保姆级教程，从概念到实践帮你快速上手 Apache APISIX Ingress"
 author: "张晋涛"
 authorURL: "https://github.com/tao12345666333"
-authorImageURL: "https://avatars.githubusercontent.com/u/3264292?v=4"
+avatar: "https://avatars.githubusercontent.com/u/3264292?v=4"
 date: 2021-10-09
 keywords: Apache APISIX,Ingress,Kubernetes,自定义资源
 description: 本文从理论和实践两个角度，对 Apache APISIX Ingress 进行了详细的描述与讲解
