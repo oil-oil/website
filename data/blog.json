@@ -9,6 +9,14 @@
       "path": "/zh/blog/progress-of-apisix-ingress"
     },
     {
+      "title": "教程篇：如何在 Apache APISIX Ingress Controller 中使用 Cert Manager 管理证书",
+      "image": "https://static.apiseven.com/202108/1635317196674-3a938089-082f-498b-aebd-c5fb431ec57b.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-10-22",
+      "path": "/zh/blog/cert-manager-ingress"
+    },
+    {
       "title": "保姆级教程，从概念到实践帮你快速上手 Apache APISIX Ingress",
       "image": "https://static.apiseven.com/202108/1633765366863-8964a75c-0c16-4683-ad9b-c8c83ac64ec6.png",
       "type": "article",
