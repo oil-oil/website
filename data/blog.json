@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX 扩展指南",
+      "image": "https://static.apiseven.com/202108/1635477377880-495ce2b8-e5cd-4270-b27f-733fac416fd8.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-10-29",
+      "path": "/zh/blog/Extension-guide"
+    },
+    {
       "title": "从 0 到 1，APISIX Ingress 加入社区后的发展与收获",
       "image": "https://static.apiseven.com/202108/1635304156040-50b7a2ae-ed0c-42ac-8517-edd0715e0082.png",
       "type": "article",
