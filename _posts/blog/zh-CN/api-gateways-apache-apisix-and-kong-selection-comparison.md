@@ -73,5 +73,6 @@ Apache APISIX 和 Kong 都是开源的微服务 API 网关，那么在这两者�
 
 7. Apache APISIX 独有的插件编排和低代码功能，可以大大降低二次开发的门槛。
 
-
-<iframe src="//player.bilibili.com/player.html?aid=626036919&bvid=BV1Zt4y1X73K&cid=202170017&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<div class="iframeBox">
+  <iframe src="//player.bilibili.com/player.html?aid=626036919&bvid=BV1Zt4y1X73K&cid=202170017&page=1" frameborder="0" scrolling="no" style="display: block; min-width: 100%; width: 100%; height: 100%; border: none; overflow: auto;"></iframe>
+</div>
