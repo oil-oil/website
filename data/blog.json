@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "浅谈 Apache APISIX 的可观测性",
+      "image": "https://static.apiseven.com/202108/1636013355698-20623fe2-d8e2-4e9e-b270-65f311d05267.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-04",
+      "path": "/zh/blog/the-observability-of-Apache-APISIX"
+    },
+    {
       "title": "Apache APISIX 扩展指南",
       "image": "https://static.apiseven.com/202108/1635477377880-495ce2b8-e5cd-4270-b27f-733fac416fd8.jpg",
       "type": "article",
