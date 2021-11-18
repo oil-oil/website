@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "如何与 Dapr 集成打造 Apache APISIX 网关控制器",
+      "image": "https://static.apiseven.com/202108/1637119221118-75dab9f1-4092-4684-ad23-34932d8a7eac.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-18",
+      "path": "/zh/blog/dapr-with-apisix"
+    },
+    {
       "title": "浅谈 Apache APISIX 的可观测性",
       "image": "https://static.apiseven.com/202108/1636013355698-20623fe2-d8e2-4e9e-b270-65f311d05267.jpg",
       "type": "article",
