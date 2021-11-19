@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "重磅功能！Apache APISIX 拥抱 WASM 生态",
+      "image": "https://static.apiseven.com/202108/1637289637179-ab74d38f-acd4-4401-908f-e1d310a33583.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-19",
+      "path": "/zh/blog/apisix-support-wasm"
+    },
+    {
       "title": "如何与 Dapr 集成打造 Apache APISIX 网关控制器",
       "image": "https://static.apiseven.com/202108/1637119221118-75dab9f1-4092-4684-ad23-34932d8a7eac.png",
       "type": "article",
