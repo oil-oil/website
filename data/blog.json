@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "如何在 Kubernetes 集群中使用 Nocalhost 开发 Apache APISIX Ingress Controller",
+      "image": "https://static.apiseven.com/202108/1637573217230-936ee05d-be69-41c1-9032-6b83ea43087d.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-22",
+      "path": "/zh/blog/develop-apisix-ingress-with-nocalhost-in-kubernetes"
+    },
+    {
       "title": "重磅功能！Apache APISIX 拥抱 WASM 生态",
       "image": "https://static.apiseven.com/202108/1637289637179-ab74d38f-acd4-4401-908f-e1d310a33583.png",
       "type": "article",
