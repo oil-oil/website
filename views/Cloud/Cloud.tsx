@@ -110,7 +110,7 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
           <div className="titleBox">
             <h1>Why APISEVEN Cloud?</h1>
             <div>Run your microservices anywhere but manage your API Gateway in one place, integrating your Apache APISIX cluster effortlessly without the concern of how does the Control plane run.
-              APISEVEN Cloud provides poweful observabilty supports and a friendly dashboard to operate and manage the cluster easily.</div>
+              APISEVEN Cloud provides powerful observabilty supports and a friendly dashboard to operate and manage the cluster easily.</div>
           </div>
           <div className="features">
             {featuresList.map((feature) => (
