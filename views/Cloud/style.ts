@@ -3,6 +3,47 @@ import styled from "styled-components";
 export const SWrapper = styled.div`
   width: 100%;
 
+  .background {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    background-image: url("/static/images/cloud_bg.png");
+
+    ::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: 1 !important;
+      z-index: -1;
+      background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.0001) 25%),
+        radial-gradient(
+          circle at top left,
+          #2486b9 -60%,
+          rgba(255, 255, 255, 0.0001) 25%
+        ),
+        radial-gradient(ellipse at top, #f0f7ff, #fff) 50% 0/5000px 100%
+          no-repeat;
+    }
+
+    ::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      background-image: inherit;
+      background-size: auto 100%;
+      background-position: calc(50% + 17.5vw) 0;
+      background-repeat: no-repeat;
+    }
+  }
+
   .titleBox {
     margin: 0 auto;
     text-align: center;
@@ -10,6 +51,7 @@ export const SWrapper = styled.div`
     margin-bottom: 80px;
 
     h1 {
+      color: #2177b8;
       font-size: 42px;
       font-weight: 500;
       letter-spacing: 1px;
@@ -21,7 +63,7 @@ export const SWrapper = styled.div`
     }
 
     div {
-      width: 900px;
+      width: 700px;
       text-align: left;
       margin: 0 auto;
       margin-top: 30px;
@@ -34,7 +76,13 @@ export const SWrapper = styled.div`
 export const SHero = styled.div`
   margin: 0 auto;
   padding: 30px 0 60px;
-  background-color: #f7fafc;
+  position: relative;
+  z-index: 2;
+  background: radial-gradient(
+    circle at bottom right,
+    #93d5dc -50%,
+    rgba(255, 255, 255, 0.0001) 25%
+  );
 
   .descBox {
     margin: 0 auto;
@@ -67,7 +115,7 @@ export const SHero = styled.div`
     list-style: none;
     align-items: flex-start;
     margin-top: 30px;
-    
+
     li {
       width: 20%;
       height: fit-content;
@@ -106,31 +154,84 @@ export const SContent = styled.div`
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 10%;
   }
 
   .card {
     width: 33.33%;
     align-items: flex-start;
-    padding: 15px;
+    text-align: center;
+    padding: 15px 40px;
     margin-bottom: 25px;
+
+    svg {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      margin: 0 auto;
+    }
+
+    h3 {
+      font-size: 24px;
+      color: #126bae;
+      font-weight: 400;
+      line-height: 1.5;
+      margin-top: 15px;
+    }
+
+    div {
+      margin-top: 10px;
+      padding: 0 20px;
+      font-size: 16px;
+      p {
+        margin-bottom: 10px;
+      }
+      a {
+        color: #126bae;
+      }
+    }
   }
 `;
 
 export const SForm = styled.div`
-  background-color: #FFF;
+  background-color: #fff;
   padding: 30px 0 60px;
   margin: 0 auto;
 
   .formBox {
-    width: 700px;
+    width: 900px;
     height: 600px;
     margin: 0 auto;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
   }
-`
+`;
 
 export const SContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-`
+
+  .leftBox {
+    width: 50%;
+    margin: 80px 0;
+    text-align: left;
+    padding: 0 0 0 2%;
+
+    h1 {
+      color: #2177b8;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58px;
+      letter-spacing: 1px;
+    }
+
+    span {
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 28px;
+      font-weight: 400;
+      margin: 20px 0 30px;
+    }
+  }
+`;
