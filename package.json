@@ -42,7 +42,7 @@
     "@types/node": "16.11.10",
     "@types/react": "17.0.36",
     "@types/react-syntax-highlighter": "13.5.2",
-    "@types/styled-components": "5.1.15",
+    "@types/styled-components": "5.1.16",
     "babel-plugin-styled-components": "2.0.1",
     "next-sitemap": "1.6.203",
     "raw-loader": "4.0.2",
