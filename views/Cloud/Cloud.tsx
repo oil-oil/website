@@ -94,7 +94,7 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
             <h1>APISEVEN Cloud</h1>
             <span>Powered by Apache APISIX®</span>
             <p>Connect your APIs & Microservices in multi-cloud environments</p>
-            <Button width="200px" colorScheme="blue">Request Demo</Button>
+            <Button as='a' href={'#cloudForm'} width="200px" colorScheme="blue">Request Demo</Button>
           </div>
           <ul className="iconBox">
             {iconList.map((item) => (
@@ -132,7 +132,7 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
       </SContent>
 
       <SForm>
-        <SContainer>
+        <SContainer id="cloudForm">
           <div className="titleBox">
             <h1>Sign up for early access</h1>
           </div>
