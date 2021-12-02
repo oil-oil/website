@@ -63,12 +63,28 @@ export const SWrapper = styled.div`
     }
 
     div {
-      width: 700px;
+      width: 60%;
       text-align: left;
       margin: 0 auto;
       margin-top: 30px;
       font-size: 22px;
       font-weight: 400;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .background::after {
+      background-position: calc(65% + 17.5vw) 0;
+    }
+  }
+
+  @media (max-width: 670px) {
+    .background {
+      background: radial-gradient(
+        circle at bottom right,
+        #93d5dc -50%,
+        rgba(255, 255, 255, 0.0001) 25%
+      );
     }
   }
 `;
@@ -110,11 +126,11 @@ export const SHero = styled.div`
   .iconBox {
     display: flex;
     margin-right: 5px;
-    margin: 0 auto;
     text-align: center;
     list-style: none;
     align-items: flex-start;
-    margin-top: 30px;
+    flex-wrap: wrap;
+    margin: 30 auto 0;
 
     li {
       width: 20%;
@@ -130,7 +146,6 @@ export const SHero = styled.div`
 
     div {
       width: 100%;
-      height: 100px;
       margin-top: 15px;
       svg {
         width: 40px;
@@ -139,6 +154,38 @@ export const SHero = styled.div`
       }
       p {
         margin-top: 15px;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    .iconBox li {
+      width: 33.33%;
+      margin: 10px auto;
+      :last-child {
+        border-right: 1px solid #0000000f;
+      }
+    }
+  }
+
+  @media (max-width: 670px) {
+    background: radial-gradient(
+      circle at bottom left,
+      #93d5dc -50%,
+      rgba(255, 255, 255, 0.0001) 25%
+    );
+    .iconBox {
+      margin-top: 10px;
+      flex-wrap: wrap;
+      li {
+        width: 50%;
+        margin: 20px auto 5px;
+        :nth-child(even) {
+          border: none;
+        }
+      }
+      li:last-child {
+        border-right: none;
       }
     }
   }
@@ -157,6 +204,7 @@ export const SContent = styled.div`
   }
 
   .card {
+    width: 33.33%;
     align-items: flex-start;
     text-align: center;
     padding: 15px 40px;
@@ -187,6 +235,22 @@ export const SContent = styled.div`
       a {
         color: #126bae;
       }
+    }
+  }
+
+  @media (max-width: 900px) {
+    .card {
+      padding: 15px 0;
+    }
+  }
+
+  @media (max-width: 670px) {
+    padding: 30px 0;
+    .features {
+      margin-top: 20px;
+    }
+    .card {
+      width: 100%;
     }
   }
 `;
@@ -220,6 +284,40 @@ export const SContainer = styled.div`
       margin: 20px 0 30px;
     }
   }
+
+  @media (max-width: 1300px) {
+    width: 950px;
+  }
+
+  @media (max-width: 1000px) {
+    width: 87%;
+  }
+
+  @media (max-width: 900px) {
+    .titleBox {
+      div {
+        width: 80%;
+      }
+    }
+  }
+
+  @media (max-width: 670px) {
+    width: 100%;
+    padding: 0 20px;
+
+    .leftBox {
+      width: 100%;
+    }
+
+    .titleBox {
+      margin: 0;
+      word-break: break-word;
+
+      div {
+        width: 95%;
+      }
+    }
+  }
 `;
 
 export const SForm = styled.div`
@@ -228,7 +326,7 @@ export const SForm = styled.div`
   background: linear-gradient(rgb(215 232 245 / 70%), #fbfefe);
 
   .formBox {
-    width: 550px;
+    width: 500px;
     margin: 0 auto;
     padding: 40px 20px;
     border-radius: 10px;
@@ -249,5 +347,12 @@ export const SForm = styled.div`
   .buttonBox {
     display: flex;
     margin-top: 20px;
+  }
+
+  @media (max-width: 670px) {
+    .formBox {
+      width: 100%;
+      margin-top: 30px;
+    }
   }
 `;

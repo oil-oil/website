@@ -118,7 +118,6 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
           </div>
           <div className="features">
             {featuresList.map((feature) => (
-              <Box width="33.33%">
                 <div className="card" key={feature.title}>
                   {feature.icon}
                   <h3>{feature.title}</h3>
@@ -127,7 +126,6 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
                     <a href={feature.href}>Learn About</a>
                   </div>
                 </div>
-              </Box>
             ))}
           </div>
         </SContainer>
