@@ -157,7 +157,6 @@ export const SContent = styled.div`
   }
 
   .card {
-    width: 33.33%;
     align-items: flex-start;
     text-align: center;
     padding: 15px 40px;
@@ -192,19 +191,6 @@ export const SContent = styled.div`
   }
 `;
 
-export const SForm = styled.div`
-  background-color: #fff;
-  padding: 30px 0 60px;
-  margin: 0 auto;
-
-  .formBox {
-    width: 900px;
-    height: 600px;
-    margin: 0 auto;
-    background-color: #f3f3f3;
-  }
-`;
-
 export const SContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
@@ -233,5 +219,35 @@ export const SContainer = styled.div`
       font-weight: 400;
       margin: 20px 0 30px;
     }
+  }
+`;
+
+export const SForm = styled.div`
+  padding: 20px 0 80px;
+  margin: 0 auto;
+  background: linear-gradient(rgb(215 232 245 / 70%), #fbfefe);
+
+  .formBox {
+    width: 550px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+    background: #ffffff;
+  }
+
+  .verifyBox {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    img {
+      margin-left: 20px;
+    }
+  }
+
+  .buttonBox {
+    display: flex;
+    margin-top: 20px;
   }
 `;

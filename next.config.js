@@ -1,14 +1,27 @@
 const { nextI18NextRewrites } = require("next-i18next/rewrites");
+const fs = require('fs')
 
 const localeSubpaths = {
   "zh-CN": "zh",
   "en-US": "en",
 };
 
+let leanCloudConfig;
+try {
+  leanCloudConfig = JSON.parse(fs.readFileSync('../leanCloudConfig.json', 'utf8'));
+} catch (err) {
+  leanCloudConfig = {
+    appId: "",
+    appKey: "",
+    serverURL: ""
+  };
+};
+
 module.exports = {
   rewrites: async () => nextI18NextRewrites(localeSubpaths),
   publicRuntimeConfig: {
     localeSubpaths,
+    leanCloudConfig,
   },
   webpack: function (config) {
     config.node = {

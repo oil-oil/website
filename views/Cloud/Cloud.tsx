@@ -2,11 +2,15 @@ import React from "react";
 import { NextPage } from "next";
 import { TFunction } from "next-i18next";
 import { NextSeo } from "next-seo";
-import { Button } from "@chakra-ui/button";
+import {
+  Button,
+  Box,
+} from '@chakra-ui/react';
 import { AiOutlineCloud, AiOutlineFileProtect, AiOutlineDashboard, AiOutlineInbox, AiOutlinePayCircle, AiOutlineApi } from "react-icons/ai";
 
 import { SWrapper, SHero, SContent, SForm, SContainer } from "./style";
 import { withTranslation } from "../../i18n";
+import CloudForm from "./component/CloudForm";
 
 type Props = {
   t: TFunction;
@@ -78,7 +82,7 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
       desc: 'Easily to configure the Gateway.',
       href: '',
     }
-  ]
+  ];
 
   return (
     <SWrapper>
@@ -114,14 +118,16 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
           </div>
           <div className="features">
             {featuresList.map((feature) => (
-              <div className="card" key={feature.title}>
-                {feature.icon}
-                <h3>{feature.title}</h3>
-                <div>
-                  <p>{feature.desc}</p>
-                  <a href={feature.href}>Learn About</a>
+              <Box width="33.33%">
+                <div className="card" key={feature.title}>
+                  {feature.icon}
+                  <h3>{feature.title}</h3>
+                  <div>
+                    <p>{feature.desc}</p>
+                    <a href={feature.href}>Learn About</a>
+                  </div>
                 </div>
-              </div>
+              </Box>
             ))}
           </div>
         </SContainer>
@@ -132,7 +138,9 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
           <div className="titleBox">
             <h1>Sign up for early access</h1>
           </div>
-          <div className="formBox"></div>
+          <div className="formBox">
+            <CloudForm />
+          </div>
         </SContainer>
       </SForm>
     </SWrapper>
