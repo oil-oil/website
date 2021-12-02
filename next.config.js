@@ -8,7 +8,7 @@ const localeSubpaths = {
 
 let leanCloudConfig;
 try {
-  leanCloudConfig = JSON.parse(fs.readFileSync('../leanCloudConfig.json', 'utf8'));
+  leanCloudConfig = JSON.parse(fs.readFileSync('../leanCloudKey.json', 'utf8'));
 } catch (err) {
   leanCloudConfig = {
     appId: "",
