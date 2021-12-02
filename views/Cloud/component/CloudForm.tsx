@@ -25,10 +25,6 @@ const CloudForm: NextPage<Props, any> = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const toast = useToast();
 
-  if (leanCloudConfig.appId === "") {
-    return null;
-  }
-
   const TestObject = AV.Object.extend('API7_Cloud_data');
   const testObject = new TestObject();
 
@@ -39,10 +35,12 @@ const CloudForm: NextPage<Props, any> = () => {
     }).then(function (captcha) {
       setImgVerify(captcha)
     });
-  }
+  };
 
   useEffect(() => {
-    onImgRefresh();
+    if (leanCloudConfig.appId !== "") {
+      onImgRefresh();
+    }
   }, []);
 
   return (
