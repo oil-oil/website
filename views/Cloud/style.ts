@@ -49,6 +49,7 @@ export const SWrapper = styled.div`
     text-align: center;
     margin-top: 50px;
     margin-bottom: 80px;
+    word-break: break-word;
 
     h1 {
       color: #2177b8;
