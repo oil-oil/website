@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { NextPage } from "next";
+import { TFunction } from "next-i18next";
 import {
   FormControl,
   FormLabel,
   FormErrorMessage,
-  FormHelperText,
   Input,
   Button,
   useToast,
@@ -18,13 +18,16 @@ if (leanCloudConfig.appId !== '') {
   AV.init(leanCloudConfig);
 }
 
-type Props = {}
+type Props = {
+  t: TFunction;
+}
 
-const CloudForm: NextPage<Props, any> = () => {
+const CloudForm: NextPage<Props, any> = ({ t }) => {
   const [imgVerify, setImgVerify] = useState<AV.Captcha>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const toast = useToast();
 
+  // leanCloud folders name
   const TestObject = AV.Object.extend('API7_Cloud_data');
   const testObject = new TestObject();
 
@@ -86,52 +89,49 @@ const CloudForm: NextPage<Props, any> = () => {
         });
       }}
     >
-      {(props) => (
+      {() => (
         <Form>
           <Field name='name'>
-            {({ field, form }) => (
+            {({ field }) => (
               <FormControl id='name' isRequired>
-                <FormLabel>Name</FormLabel>
+                <FormLabel>{t('cloud-form-name')}</FormLabel>
                 <Input {...field} type='text' />
-                <FormHelperText>We'll never share your name.</FormHelperText>
+
               </FormControl>
             )}
           </Field>
 
           <Field name='email'>
-            {({ field, form }) => (
+            {({ field }) => (
               <FormControl id='email' isRequired>
-                <FormLabel>Email</FormLabel>
+                <FormLabel>{t('cloud-form-email')}</FormLabel>
                 <Input {...field} type='email' />
-                <FormHelperText>We'll never share your email.</FormHelperText>
               </FormControl>
             )}
           </Field>
 
           <Field name='phone'>
-            {({ field, form }) => (
+            {({ field }) => (
               <FormControl id='phone' isRequired>
-                <FormLabel>Phone</FormLabel>
+                <FormLabel>{t('cloud-form-phone')}</FormLabel>
                 <Input {...field} type='text' />
-                <FormHelperText>We'll never share your phone.</FormHelperText>
               </FormControl>
             )}
           </Field>
 
           <Field name='organization'>
-            {({ field, form }) => (
+            {({ field }) => (
               <FormControl id='organization' isRequired>
-                <FormLabel>Organization</FormLabel>
+                <FormLabel>{t('cloud-form-organization')}</FormLabel>
                 <Input {...field} type='text' />
-                <FormHelperText>We'll never share your organization.</FormHelperText>
               </FormControl>
             )}
           </Field>
 
           <Field name='extra' >
-            {({ field, form }) => (
+            {({ field }) => (
               <FormControl id='extra' isRequired>
-                <FormLabel>How do you knnow APISEVEN Cloud</FormLabel>
+                <FormLabel>{t('cloud-form-extra')}</FormLabel>
                 <Input {...field} type='text' />
               </FormControl>
             )}
@@ -140,12 +140,12 @@ const CloudForm: NextPage<Props, any> = () => {
           <Field name='verify_code' validate={(value) => {
             let error;
             if (value.length !== 4) {
-              error = "Please enter the correct verification code"
+              error = t('cloud-form-error-verify_code')
             } return error;
           }}>
             {({ field, form }) => (
               <FormControl id='verify_code' isRequired isInvalid={form.errors.verify_code && form.touched.verify_code}>
-                <FormLabel>Please enter the verification code in the image</FormLabel>
+                <FormLabel>{t('cloud-form-verify_code')}</FormLabel>
                 <div className="verifyBox">
                   <Input width="85%" {...field} min={4} type='text' />
                   <img onClick={onImgRefresh} src={imgVerify?.url} alt="" />

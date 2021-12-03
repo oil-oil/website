@@ -2,13 +2,17 @@ import React from "react";
 import { NextPage } from "next";
 import { TFunction } from "next-i18next";
 import { NextSeo } from "next-seo";
-import {
-  Button,
-  Box,
-} from '@chakra-ui/react';
-import { AiOutlineCloud, AiOutlineFileProtect, AiOutlineDashboard, AiOutlineInbox, AiOutlinePayCircle, AiOutlineApi } from "react-icons/ai";
+import { Button } from '@chakra-ui/react';
+import { 
+  AiOutlineCloud,
+  AiOutlineFileProtect,
+  AiOutlineDashboard,
+  AiOutlineInbox,
+  AiOutlinePayCircle,
+  AiOutlineApi
+} from "react-icons/ai";
 
-import { SWrapper, SHero, SContent, SForm, SContainer } from "./style";
+import { SWrapper, SHero, SFeaturesBox, SForm, SContainer } from "./style";
 import { withTranslation } from "../../i18n";
 import CloudForm from "./component/CloudForm";
 
@@ -20,27 +24,27 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
   const iconList = [
     {
       icon: <AiOutlineCloud color="#2b73af" />,
-      desc: 'Cloud vendors netural',
+      desc: t("cloud-hero-icon-desc1"),
       href: '',
     },
     {
       icon: <AiOutlineFileProtect color="#2b73af" />,
-      desc: 'Privacy Compliance',
+      desc: t("cloud-hero-icon-desc2"),
       href: '',
     },
     {
       icon: <AiOutlineDashboard color="#2b73af" />,
-      desc: 'Fully managed Control Plane and Observability Plane',
+      desc: t("cloud-hero-icon-desc3"),
       href: '',
     },
     {
       icon: <AiOutlineInbox color="#2b73af" />,
-      desc: 'Effortless integration',
+      desc: t("cloud-hero-icon-desc4"),
       href: '',
     },
     {
       icon: <AiOutlinePayCircle color="#2b73af" />,
-      desc: 'Pay as you go',
+      desc: t("cloud-hero-icon-desc5"),
       href: '',
     },
   ];
@@ -48,53 +52,53 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
   const featuresList = [
     {
       icon: <AiOutlineCloud color="#2b73af" />,
-      title: 'Cloud Vendors netural',
-      desc: 'Deploy on cloud, on-premises Environments, no vendor-lock-in.',
+      title: t("cloud-features-card-title1"),
+      desc: t("cloud-features-card-desc1"),
       href: '',
     },
     {
       icon: <AiOutlineFileProtect color="#2b73af" />,
-      title: 'Privacy Compliance',
-      desc: 'Strict data protect mechanism To prevent data leaks.',
+      title: t("cloud-features-card-title2"),
+      desc: t("cloud-features-card-desc2"),
       href: '',
     },
     {
       icon: <AiOutlinePayCircle color="#2b73af" />,
-      title: 'Pay as you go',
-      desc: 'Choose the appropriate Plan on Demands.',
+      title: t("cloud-features-card-title3"),
+      desc: t("cloud-features-card-desc3"),
       href: '',
     },
     {
       icon: <AiOutlineDashboard color="#2b73af" />,
-      title: 'Visualization',
-      desc: 'Keep abreast of the running status of your Apache APISIX cluster.',
+      title: t("cloud-features-card-title4"),
+      desc: t("cloud-features-card-desc4"),
       href: '',
     },
     {
       icon: <AiOutlineInbox color="#2b73af" />,
-      title: 'Effortless Integration',
-      desc: 'Only a few steps to connect.',
+      title: t("cloud-features-card-title5"),
+      desc: t("cloud-features-card-desc5"),
       href: '',
     },
     {
       icon: <AiOutlineApi color="#2b73af" />,
-      title: 'API Managments',
-      desc: 'Easily to configure the Gateway.',
+      title: t("cloud-features-card-title6"),
+      desc: t("cloud-features-card-desc6"),
       href: '',
     }
   ];
 
   return (
     <SWrapper>
-      <NextSeo title={t(`common:API7-Cloud`)} />
+      <NextSeo title={t(`common:cloud`)} />
       <div className="background"></div>
       <SHero>
         <SContainer>
           <div className="leftBox">
-            <h1>APISEVEN Cloud</h1>
-            <span>Powered by Apache APISIX®</span>
-            <p>Connect your APIs & Microservices in multi-cloud environments</p>
-            <Button as='a' href={'#cloudForm'} width="200px" colorScheme="blue">Request Demo</Button>
+            <h1>{t("cloud-hero-title")}</h1>
+            <span>{t("cloud-hero-desc")}</span>
+            <p>{t("cloud-hero-content")}</p>
+            <Button as='a' href={'#cloudForm'} width="200px" colorScheme="blue">{t("cloud-hero-button")}</Button>
           </div>
           <ul className="iconBox">
             {iconList.map((item) => (
@@ -109,12 +113,11 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
         </SContainer>
       </SHero>
 
-      <SContent>
+      <SFeaturesBox>
         <SContainer>
           <div className="titleBox">
-            <h1>Why APISEVEN Cloud?</h1>
-            <div>Run your microservices anywhere but manage your API Gateway in one place, integrating your Apache APISIX cluster effortlessly without the concern of how does the Control plane run.
-              APISEVEN Cloud provides powerful observabilty supports and a friendly dashboard to operate and manage the cluster easily.</div>
+            <h1>{t("cloud-features-title")}</h1>
+            <div>{t("cloud-features-content")}</div>
           </div>
           <div className="features">
             {featuresList.map((feature) => (
@@ -123,21 +126,21 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
                   <h3>{feature.title}</h3>
                   <div>
                     <p>{feature.desc}</p>
-                    <a href={feature.href}>Learn About</a>
+                    <a href={feature.href}>{t("cloud-features-card-button")}</a>
                   </div>
                 </div>
             ))}
           </div>
         </SContainer>
-      </SContent>
+      </SFeaturesBox>
 
       <SForm>
         <SContainer id="cloudForm">
           <div className="titleBox">
-            <h1>Sign up for early access</h1>
+            <h1>{t("cloud-form-title")}</h1>
           </div>
           <div className="formBox">
-            <CloudForm />
+            <CloudForm t={t}/>
           </div>
         </SContainer>
       </SForm>
@@ -145,11 +148,9 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
   );
 };
 
-Cloud.getInitialProps = async (context) => {
-  const { lng = "zh-CN" } = (context.req as any) || {};
-
+Cloud.getInitialProps = async () => {
   return {
-    namespacesRequired: ["common", "footer"],
+    namespacesRequired: ["common", "cloud"],
   };
 };
 

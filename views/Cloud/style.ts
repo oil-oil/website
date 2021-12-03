@@ -191,7 +191,7 @@ export const SHero = styled.div`
   }
 `;
 
-export const SContent = styled.div`
+export const SFeaturesBox = styled.div`
   padding: 30px 0 60px;
   background-color: #edf2f7;
   margin: 0 auto;
