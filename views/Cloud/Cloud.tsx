@@ -3,7 +3,7 @@ import { NextPage } from "next";
 import { TFunction } from "next-i18next";
 import { NextSeo } from "next-seo";
 import { Button } from '@chakra-ui/react';
-import { 
+import {
   AiOutlineCloud,
   AiOutlineFileProtect,
   AiOutlineDashboard,
@@ -121,14 +121,19 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
           </div>
           <div className="features">
             {featuresList.map((feature) => (
-                <div className="card" key={feature.title}>
-                  {feature.icon}
-                  <h3>{feature.title}</h3>
-                  <div>
-                    <p>{feature.desc}</p>
+              <div className="card" key={feature.title}>
+                {feature.icon}
+                <h3>{feature.title}</h3>
+                <div>
+                  <p>{feature.desc}</p>
+                  <div className="buttonBox">
                     <a href={feature.href}>{t("cloud-features-card-button")}</a>
+                    <div className="arrows">
+                      <span></span>
+                    </div>
                   </div>
                 </div>
+              </div>
             ))}
           </div>
         </SContainer>
@@ -140,7 +145,7 @@ const Cloud: NextPage<Props, any> = ({ t }) => {
             <h1>{t("cloud-form-title")}</h1>
           </div>
           <div className="formBox">
-            <CloudForm t={t}/>
+            <CloudForm t={t} />
           </div>
         </SContainer>
       </SForm>

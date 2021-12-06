@@ -210,6 +210,12 @@ export const SFeaturesBox = styled.div`
     text-align: center;
     padding: 15px 40px;
     margin-bottom: 25px;
+    cursor: pointer;
+    :hover {
+      .arrows {
+        width: 30px;
+      }
+    }
 
     svg {
       width: 40px;
@@ -235,6 +241,41 @@ export const SFeaturesBox = styled.div`
       }
       a {
         color: #126bae;
+      }
+    }
+  }
+
+  .buttonBox {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+
+    .arrows {
+      margin: 0 0 0 15px;
+      padding: 0;
+      height: 100%;
+      min-height: 2px;
+      width: 0px;
+      transition: width 0.5s ease;
+      background-color: #126bae;
+      position: relative;
+
+      span {
+        border: 2px solid #126bae;
+        border-radius: 2px;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        border-top: none;
+        border-left: none;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        right: 0;
+        top: -5px;
       }
     }
   }
