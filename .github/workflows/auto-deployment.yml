@@ -35,7 +35,7 @@ jobs:
         username: ${{ secrets.AUTO_DEPLOYMENT_USERNAME }}
         port: '22'
         key: ${{ secrets.AUTO_DEPLOYMENT_SSH_KEY }}
-        source: "/*"
+        source: "./.next"
         target: "/home/ubuntu/website"
 
     - name: Restart server
