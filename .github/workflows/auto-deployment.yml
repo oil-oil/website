@@ -27,3 +27,12 @@ jobs:
 
     - name: Build
       run: yarn build
+
+    - name: Deploy to Server
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.AUTO_DEPLOYMENT_SSH_KEY }}
+        FOLDER: ./test_auto/*
+        SERVER_IP: ${{ secrets.AUTO_DEPLOYMENT_SSH_HOST }}
+        USERNAME: ${{ secrets.AUTO_DEPLOYMENT_USERNAME }}
+        SERVER_DESTINATION: /home/ubuntu/website
