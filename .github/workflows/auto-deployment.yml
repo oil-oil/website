@@ -37,6 +37,7 @@ jobs:
         key: ${{ secrets.AUTO_DEPLOYMENT_SSH_KEY }}
         source: "./.next/*"
         target: "/home/ubuntu/website"
+        rm: true
 
     - name: Restart server
       uses: appleboy/ssh-action@master
