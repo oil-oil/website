@@ -27,14 +27,13 @@ jobs:
 
     # - name: Build
     #   run: yarn build
-
-    - name: Deploy to Server
-      uses: AEnterprise/rsync-deploy@v1.0
-      env:
-        DEPLOY_KEY: ${{ secrets.AUTO_DEPLOYMENT_SSH_KEY }}
-        ARGS: -avz --delete --exclude='*.pyc'
-        SERVER_PORT: '22'
-        FOLDER: ./test_auto/*
-        SERVER_IP: ${{ secrets.AUTO_DEPLOYMENT_SSH_HOST }}
-        USERNAME: ${{ secrets.AUTO_DEPLOYMENT_USERNAME }}
-        SERVER_DESTINATION: /home/ubuntu/website
+    
+    - name: copy file via ssh key
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.AUTO_DEPLOYMENT_SSH_HOST }}
+        username: ${{ secrets.AUTO_DEPLOYMENT_USERNAME }}
+        port: '22'
+        key: ${{ secrets.AUTO_DEPLOYMENT_SSH_KEY }}
+        source: "./test_auto/*"
+        target: "/home/ubuntu/website"
