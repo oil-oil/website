@@ -35,8 +35,8 @@ jobs:
         username: ${{ secrets.AUTO_DEPLOYMENT_USERNAME }}
         port: '22'
         key: ${{ secrets.AUTO_DEPLOYMENT_SSH_KEY }}
-        source: "./test_auto/*"
-        target: "/home/ubuntu/website"
+        source: "./.next/*"
+        target: "/home/ubuntu/website/test_auto"
 
     - name: Restart server
       uses: appleboy/ssh-action@master
@@ -47,4 +47,5 @@ jobs:
         script: |
           cd /home/ubuntu/website
           sudo pm2 ls
+          sudo pm2 reload api7-website
           
