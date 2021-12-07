@@ -45,7 +45,9 @@ jobs:
         username: ${{ secrets.AUTO_DEPLOYMENT_USERNAME }}
         key: ${{ secrets.AUTO_DEPLOYMENT_SSH_KEY }}
         script: |
+          sudo su
           cd /home/ubuntu/website
           ls
-          pwd
           sudo su
+          pm2 ls
+          
