@@ -48,5 +48,4 @@ jobs:
         script: |
           cd /home/ubuntu/website
           sudo pm2 ls
-          sudo pm2 reload api7-website
           
