@@ -1,0 +1,29 @@
+
+name: Auto Deployment
+on:
+  push: 
+    branches: [ feat-auto-deployment ]
+
+jobs:
+  build-production:
+    name: Build production
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    
+    - name: Install dependencies
+      run: yarn install
+
+    - name: Build
+      run: yarn build
