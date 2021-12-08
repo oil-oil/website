@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "强强联合！APISIX 集成 SkyWalking 打造全方位日志处理",
+      "image": "https://static.apiseven.com/202108/1638781827612-f7d88e0e-0159-44ba-bc1e-b718695bc3b8.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-08",
+      "path": "/zh/blog/apisix-integrate-skywalking-plugin"
+    },
+    {
       "title": "在 KubeSphere 中使用 Apache APISIX Ingress 网关接入自定义监控",
       "image": "https://static.apiseven.com/202108/1638241730747-298fe17e-fb34-4da6-ac9d-8b1efde4521c.png",
       "type": "article",
