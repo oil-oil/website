@@ -14,7 +14,8 @@ type Props = {
 
 const Features: NextPage<Props, any> = ({ t, list = [] }) => {
   const [currentHeight, setCurrentHeight] = useState(0);
-
+  const [menuHeight, setMenuHeight] = useState(26);
+  const [navHeight, setNavHeight] = useState(72);
   let arr = [];
   if (typeof window !== 'undefined') {
     const sectionBoxArr = document.querySelectorAll('.sectionBox');
@@ -24,8 +25,12 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
       setCurrentHeight(document.documentElement.scrollTop);
+    });
+    window.addEventListener("resize", function () {
+      setMenuHeight(document.getElementsByClassName("height")[0].clientHeight);
+      setNavHeight(document.getElementsByClassName("css-o7dev2")[0].clientHeight);
     });
     autoMenuSelected();
   }, [currentHeight]);
@@ -66,7 +71,7 @@ const Features: NextPage<Props, any> = ({ t, list = [] }) => {
           <h1>API7 功能特性</h1>
           <p>API7 为您提供生产可用的七层全流量处理平台</p>
         </div>
-        <SMenu>
+        <SMenu className='height' style={{ 'top': 300 + navHeight - menuHeight }}>
           <ul className={currentHeight > 320 && "newmenu"}>
             {list.map((item, index) => {
               return (
