@@ -1,11 +1,26 @@
 {
   "zh-CN": [
     {
-      "title": "强强联合！APISIX 集成 SkyWalking 打造全方位日志处理",
-      "image": "https://static.apiseven.com/202108/1638781827612-f7d88e0e-0159-44ba-bc1e-b718695bc3b8.png",
+      "title": "如何在 Apache APISIX 中集成 Keycloak 实现身份认证",
+      "image": "https://static.apiseven.com/202108/1639127036578-3cfd0f30-3cdf-4de7-ba5f-28af165238f5.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-10",
+      "path": "/zh/blog/integrate-keycloak-auth-in-apisix"
+    },{
+      "title": "Apache APISIX 携手 RocketMQ 为实时 API 日志监控功能再下一城",
+      "image": "https://static.apiseven.com/202108/1639127020242-78d8733a-36d9-4944-9985-75602e1af76a.png",
       "type": "article",
       "tags": [],
       "date": "2021-12-08",
+      "path": "/zh/blog/integrate-rocketmq-in-apisix"
+    },
+    {
+      "title": "强强联合！APISIX 集成 SkyWalking 打造全方位日志处理",
+      "image": "https://static.apiseven.com/202108/1639127029328-b2a0c88d-84ab-4a4d-8a90-dbef9924cfa4.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-07",
       "path": "/zh/blog/apisix-integrate-skywalking-plugin"
     },
     {
