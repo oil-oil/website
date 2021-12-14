@@ -1,8 +1,103 @@
 {
   "zh-CN": [
     {
+      "title": "如何在 Apache APISIX 中集成 Keycloak 实现身份认证",
+      "image": "https://static.apiseven.com/202108/1639127036578-3cfd0f30-3cdf-4de7-ba5f-28af165238f5.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-10",
+      "path": "/zh/blog/integrate-keycloak-auth-in-apisix"
+    },{
+      "title": "Apache APISIX 携手 RocketMQ 为实时 API 日志监控功能再下一城",
+      "image": "https://static.apiseven.com/202108/1639127020242-78d8733a-36d9-4944-9985-75602e1af76a.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-08",
+      "path": "/zh/blog/integrate-rocketmq-in-apisix"
+    },
+    {
+      "title": "强强联合！APISIX 集成 SkyWalking 打造全方位日志处理",
+      "image": "https://static.apiseven.com/202108/1639127029328-b2a0c88d-84ab-4a4d-8a90-dbef9924cfa4.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-07",
+      "path": "/zh/blog/apisix-integrate-skywalking-plugin"
+    },
+    {
+      "title": "在 KubeSphere 中使用 Apache APISIX Ingress 网关接入自定义监控",
+      "image": "https://static.apiseven.com/202108/1638241730747-298fe17e-fb34-4da6-ac9d-8b1efde4521c.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-01",
+      "path": "/zh/blog/use-apisix-ingress-in-kubesphere"
+    },
+    {
+      "title": "如何在 Kubernetes 集群中使用 Nocalhost 开发 Apache APISIX Ingress Controller",
+      "image": "https://static.apiseven.com/202108/1637573217230-936ee05d-be69-41c1-9032-6b83ea43087d.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-22",
+      "path": "/zh/blog/develop-apisix-ingress-with-nocalhost-in-kubernetes"
+    },
+    {
+      "title": "重磅功能！Apache APISIX 拥抱 WASM 生态",
+      "image": "https://static.apiseven.com/202108/1637289637179-ab74d38f-acd4-4401-908f-e1d310a33583.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-19",
+      "path": "/zh/blog/apisix-support-wasm"
+    },
+    {
+      "title": "如何与 Dapr 集成打造 Apache APISIX 网关控制器",
+      "image": "https://static.apiseven.com/202108/1637119221118-75dab9f1-4092-4684-ad23-34932d8a7eac.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-18",
+      "path": "/zh/blog/dapr-with-apisix"
+    },
+    {
+      "title": "浅谈 Apache APISIX 的可观测性",
+      "image": "https://static.apiseven.com/202108/1636013355698-20623fe2-d8e2-4e9e-b270-65f311d05267.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-11-04",
+      "path": "/zh/blog/the-observability-of-Apache-APISIX"
+    },
+    {
+      "title": "Apache APISIX 扩展指南",
+      "image": "https://static.apiseven.com/202108/1635477377880-495ce2b8-e5cd-4270-b27f-733fac416fd8.jpg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-10-29",
+      "path": "/zh/blog/Extension-guide"
+    },
+    {
+      "title": "从 0 到 1，APISIX Ingress 加入社区后的发展与收获",
+      "image": "https://static.apiseven.com/202108/1635304156040-50b7a2ae-ed0c-42ac-8517-edd0715e0082.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-10-27",
+      "path": "/zh/blog/progress-of-apisix-ingress"
+    },
+    {
+      "title": "教程篇：如何在 Apache APISIX Ingress Controller 中使用 Cert Manager 管理证书",
+      "image": "https://static.apiseven.com/202108/1635317196674-3a938089-082f-498b-aebd-c5fb431ec57b.jpeg",
+      "type": "article",
+      "tags": [],
+      "date": "2021-10-22",
+      "path": "/zh/blog/cert-manager-ingress"
+    },
+    {
+      "title": "保姆级教程，从概念到实践帮你快速上手 Apache APISIX Ingress",
+      "image": "https://static.apiseven.com/202108/1633765366863-8964a75c-0c16-4683-ad9b-c8c83ac64ec6.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-10-09",
+      "path": "/zh/blog/apisix-ingress-details"
+    },
+    {
       "title": "使用 Apache APISIX 进行集中式身份认证及进阶玩法",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229727-c535e3a0-bf8f-4e52-85b8-6fa327afe6c4.png",
       "type": "article",
       "tags": [],
       "date": "2021-09-07",
@@ -10,7 +105,7 @@
     },
     {
       "title": "Python 助你快速上手 Apache APISIX 插件开发",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229718-8b667cb7-db3c-4cca-b2fe-d27a069dc807.png",
       "type": "article",
       "tags": [],
       "date": "2021-09-07",
@@ -18,7 +113,7 @@
     },
     {
       "title": "基于 Apache APISIX 的服务网格方案",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1631065948150-c5dea6fe-469d-4246-b847-d4868407c64f.jpg",
       "type": "article",
       "tags": [],
       "date": "2021-08-20",
@@ -34,7 +129,7 @@
     },
     {
       "title": "使用 Apache APISIX 的 OpenID Connect 插件进行集中身份认证",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229731-cad9d31d-7ccc-4801-8f11-7ba893ae3cec.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-26",
@@ -50,7 +145,7 @@
     },
     {
       "title": "Go 让 Apache APISIX 如虎添翼",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229708-c6c9e61e-bc77-41ee-9ed0-7411854697d0.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-19",
@@ -58,7 +153,7 @@
     },
     {
       "title": "贡献者，是衡量开源项目的金指标",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229730-7f53bfed-9f67-4745-9c39-f12bca65c758.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-14",
@@ -66,7 +161,7 @@
     },
     {
       "title": "Kong-To-APISIX 迁移工具",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634286818105-4b70c176-0977-4c32-a72c-3977825c0fe0.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-05",
@@ -74,7 +169,7 @@
     },
     {
       "title": "如何利用 Apache APISX 提升 Nginx 的可观测性",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1630399942883-e0b5d8f5-ccbc-4bb1-bafd-171e511cc211.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-06",
@@ -82,7 +177,7 @@
     },
     {
       "title": "插件编排在 Apache APISIX 中的应用与实践",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229726-78e8b183-42e2-4f46-be10-034ee84f7258.png",
       "type": "article",
       "tags": [],
       "date": "2021-07-27",
@@ -90,7 +185,7 @@
     },
     {
       "title": "ApacheCon Asia 2021：Apache APISIX 技术议题一览",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229716-bd5a6158-319a-40b6-a3d2-86aaa2ab3bde.png",
       "type": "article",
       "tags": [],
       "date": "2021-07-25",
@@ -98,7 +193,7 @@
     },
     {
       "title": "深度剖析 Apache APISIX Mesh Agent",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229722-ca31b6ef-49a1-416e-8ed5-9257a80f641a.png",
       "type": "article",
       "tags": [],
       "date": "2021-07-16",
@@ -122,7 +217,7 @@
     },
     {
       "title": "差之毫厘：etcd 3 完美支持 HTTP 访问？",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229729-74ce7600-39bd-4d6e-8941-d2bbfb8b3df8.png",
       "type": "article",
       "tags": [],
       "date": "2021-06-30",
@@ -130,7 +225,7 @@
     },
     {
       "title": "有了 NGINX 和 Kong，为什么还需要 Apache APISIX",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634286935304-98a2e19f-a3cb-459e-86de-5c418b750ae0.jpg",
       "type": "article",
       "tags": [],
       "date": "2021-06-25",
@@ -138,7 +233,7 @@
     },
     {
       "title": "Chaos Mesh 助力 Apache APISIX 提升稳定性",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229733-268ac4fb-919f-4d9b-bacc-e5ac2e3ad04b.png",
       "type": "article",
       "tags": [],
       "date": "2021-06-16",
@@ -146,7 +241,7 @@
     },
     {
       "title": "使用 Java 编写 Apache APISIX 插件",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229728-436ac5d9-b980-49e5-a860-a8f1fbcace6e.png",
       "type": "article",
       "tags": [],
       "date": "2021-06-21",
@@ -162,7 +257,7 @@
     },
     {
       "title": "Apache APISIX 和 Envoy 性能大比拼",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229715-031d5a3d-11ec-462f-9d30-510b6dd73877.png",
       "type": "article",
       "tags": [],
       "date": "2021-06-10",
@@ -178,7 +273,7 @@
     },
     {
       "title": "基于 Apache APISIX 实现的服务网格项目正式开源",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229720-dbfa3c3f-db21-4844-a503-49fae8ec638f.png",
       "type": "article",
       "tags": [],
       "date": "2021-05-31",
@@ -202,7 +297,7 @@
     },
     {
       "title": "使用 Helm Charts 安装 Apache APISIX",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509824-c2d361b6-b49f-4be4-9d0c-a795c8eef215.jpg",
       "type": "article",
       "tags": [],
       "date": "2021-02-26",
@@ -210,7 +305,7 @@
     },
     {
       "title": "Amazon EKS 和 APISIX ingress controller 如何配合使用来管理复杂流量",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229721-ff479d74-a1fb-442e-99ca-684f6150cf18.png",
       "type": "article",
       "tags": [],
       "date": "2021-02-07",
@@ -226,7 +321,7 @@
     },
     {
       "title": "Apache APISIX 助力企业数字化转型",
-      "image": "https://static.apiseven.com/202108/apisix.png",
+      "image": "https://static.apiseven.com/logo/20210203/5.png",
       "type": "article",
       "tags": [],
       "date": "2021-02-04",
@@ -258,7 +353,7 @@
     },
     {
       "title": "基于 Apache APISIX 的全流量 API 网关",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509822-8c0fb353-574f-47f9-9ab0-3f43648ecdb8.jpg",
       "type": "video",
       "tags": [],
       "date": "2020-12-14",
@@ -266,7 +361,7 @@
     },
     {
       "title": "如何在 Apache APISIX 中实现插件编排",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509819-f14cbbde-fde0-440c-ad8c-24d2dd8502f0.jpg",
       "type": "video",
       "tags": [],
       "date": "2020-12-14",
@@ -274,7 +369,7 @@
     },
     {
       "title": "Apache APISIX 和 Kong 的对比",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509813-c15d2a55-9809-4d42-a8a8-ed5fd8f7c771.jpg",
       "type": "article",
       "tags": [],
       "date": "2020-01-18",
@@ -282,7 +377,7 @@
     },
     {
       "title": "从 0 到 1：Apache APISIX 的 Apache 之路",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509821-5d54ccc0-8350-4fbd-b4b8-11747f0c5188.jpg",
       "type": "article",
       "tags": [],
       "date": "2019-12-16",
@@ -300,7 +395,7 @@
   "en-US": [
     {
       "title": "Using the Apache APISIX OpenID Connect Plug-in for Centralized Identity Authentication",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229731-cad9d31d-7ccc-4801-8f11-7ba893ae3cec.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-16",
@@ -308,7 +403,7 @@
     },
     {
       "title": "Contributors — The Golden Metric of OpenSource Projects",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229730-7f53bfed-9f67-4745-9c39-f12bca65c758.png",
       "type": "article",
       "tags": [],
       "date": "2021-08-14",
@@ -332,7 +427,7 @@
     },
     {
       "title": "Install Apache APISIX from Helm Charts",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509824-c2d361b6-b49f-4be4-9d0c-a795c8eef215.jpg",
       "type": "article",
       "tags": [],
       "date": "2021-02-26",
@@ -340,7 +435,7 @@
     },
     {
       "title": "How Amazon EKS and APISIX ingress controller work together to manage complex traffic",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634269229721-ff479d74-a1fb-442e-99ca-684f6150cf18.png",
       "type": "article",
       "tags": [],
       "date": "2021-02-07",
@@ -356,7 +451,7 @@
     },
     {
       "title": "Apache APISIX helps enterprises transform digitally",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/logo/20210203/5.png",
       "type": "article",
       "tags": [],
       "date": "2021-02-04",
@@ -388,7 +483,7 @@
     },
     {
       "title": "Full-traffic API gateway based on Apache APISIX",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509822-8c0fb353-574f-47f9-9ab0-3f43648ecdb8.jpg",
       "type": "video",
       "tags": [],
       "date": "2020-12-14",
@@ -396,7 +491,7 @@
     },
     {
       "title": "How to implement plugin orchestration in API Gateway",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509819-f14cbbde-fde0-440c-ad8c-24d2dd8502f0.jpg",
       "type": "article",
       "tags": [],
       "date": "2020-12-14",
@@ -412,7 +507,7 @@
     },
     {
       "title": "Apache APISIX vs. Kong",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509813-c15d2a55-9809-4d42-a8a8-ed5fd8f7c771.jpg",
       "type": "article",
       "tags": [],
       "date": "2020-01-18",
@@ -420,7 +515,7 @@
     },
     {
       "title": "From 0 to 1: The Apache way of Apache APISIX",
-      "image": "https://apache.org/logos/res/apisix/apisix.png",
+      "image": "https://static.apiseven.com/202108/1634278509821-5d54ccc0-8350-4fbd-b4b8-11747f0c5188.jpg",
       "type": "article",
       "tags": [],
       "date": "2019-12-16",

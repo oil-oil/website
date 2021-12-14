@@ -81,32 +81,25 @@ export const SSection = styled.section`
 export const SMenu = styled.div`
   position: absolute;
   width: 100%;
-  top: 340px;
-  white-space: nowrap;
-
-  @media (max-width: 1000px) {
-    top: 325px;
-  }
-
-  @media (max-width: 780px) {
-    top: 327px;
-  }
+  white-space: break-all;
 
   ul {
     width: 50%;
     display: flex;
     margin: 0 auto;
     list-style: none;
-    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   li {
-    padding: 2.5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: 400;
-    width: 22%;
+    white-space: break-all;
+    flex: 1;
 
     a {
       width: 100%;
@@ -148,7 +141,7 @@ export const SMenu = styled.div`
 
   @media (max-width: 1180px) {
     ul {
-      width: 75%;
+      width: 85%;
     }
 
     .newmenu {
@@ -159,11 +152,6 @@ export const SMenu = styled.div`
   @media (max-width: 780px) {
     ul {
       width: 100%;
-      padding: 0 0 10px;
-    }
-    ul,
-    li {
-      font-size: 14px;
     }
 
     .newmenu {
