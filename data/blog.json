@@ -1,13 +1,22 @@
 {
   "zh-CN": [
     {
+      "title": "使用 Prometheus 监控 APISIX Ingress Controller",
+      "image": "https://static.apiseven.com/202108/1639468901515-7f15970b-813a-4fe5-9a7a-d12f6edb6bac.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-14",
+      "path": "/zh/blog/monitor-apisix-ingress-controller-with-prometheus"
+    },
+    {
       "title": "如何在 Apache APISIX 中集成 Keycloak 实现身份认证",
       "image": "https://static.apiseven.com/202108/1639127036578-3cfd0f30-3cdf-4de7-ba5f-28af165238f5.png",
       "type": "article",
       "tags": [],
       "date": "2021-12-10",
       "path": "/zh/blog/integrate-keycloak-auth-in-apisix"
-    },{
+    },
+    {
       "title": "Apache APISIX 携手 RocketMQ 为实时 API 日志监控功能再下一城",
       "image": "https://static.apiseven.com/202108/1639127020242-78d8733a-36d9-4944-9985-75602e1af76a.png",
       "type": "article",
