@@ -39,7 +39,7 @@
     "swiper": "5.4.5"
   },
   "devDependencies": {
-    "@types/node": "16.11.13",
+    "@types/node": "16.11.14",
     "@types/react": "17.0.37",
     "@types/react-syntax-highlighter": "13.5.2",
     "@types/styled-components": "5.1.18",
