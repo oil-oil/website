@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "两种方式教你在 K8s 中轻松部署 Apache APISIX",
+      "image": "https://static.apiseven.com/202108/1639722688448-c6b7135d-1d66-437d-86e3-56ca914d3464.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-15",
+      "path": "/zh/blog/how-to-deploy-apisix-in-kubernetes"
+    },
+    {
       "title": "使用 Prometheus 监控 APISIX Ingress Controller",
       "image": "https://static.apiseven.com/202108/1639468901515-7f15970b-813a-4fe5-9a7a-d12f6edb6bac.png",
       "type": "article",
