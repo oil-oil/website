@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "生态丰富持续进行中，Apache OpenWhisk 集成闪亮登场",
+      "image": "https://static.apiseven.com/202108/1640313816872-b2c018be-5433-4baf-ba6a-8330e160866a.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-24",
+      "path": "/zh/blog/apisix-integrate-openwhisk-plugin"
+    },
+    {
       "title": "两种方式教你在 K8s 中轻松部署 Apache APISIX",
       "image": "https://static.apiseven.com/202108/1639722688448-c6b7135d-1d66-437d-86e3-56ca914d3464.png",
       "type": "article",
