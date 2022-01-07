@@ -37,7 +37,7 @@ export const LinkGroup = (props: LinkGroupProps) => {
             }
             {
               (link.href !== "#") && (
-                <Box as="a" href={link.href} _hover={{ textDecoration: 'underline' }}>
+                <Box as="a" target="_blank" href={link.href} _hover={{ textDecoration: 'underline' }}>
                   <span>{link.label}</span>
                   {link.badge && (
                     <Box as="span" ms="2">

@@ -49,7 +49,7 @@ const App: NextPage<Props, any> = ({ t }) => {
             flex="1"
             w={{ base: 'full' }}
             maxW={{ lg: '3xl' }}
-            columns={{ base: 1, md: 2, lg: 4 }}
+            columns={{ base: 1, md: 2, lg: 5 }}
             spacing={{ base: '12', md: '6' }}
             fontSize="sm"
             marginEnd={{ md: '4', lg: '16' }}
