@@ -38,8 +38,8 @@ export const SWrapper = styled.div`
       top: 0;
       z-index: -1;
       background-image: inherit;
-      background-size: auto 100%;
-      background-position: calc(50% + 17.5vw) 0;
+      background-size: auto 80%;
+      background-position: calc(50% + 17.5vw) 100px;
       background-repeat: no-repeat;
     }
   }
@@ -75,7 +75,7 @@ export const SWrapper = styled.div`
 
   @media (max-width: 1200px) {
     .background::after {
-      background-position: calc(65% + 17.5vw) 0;
+      background-position: calc(65% + 17.5vw) 100px;
     }
   }
 
