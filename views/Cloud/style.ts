@@ -5,7 +5,7 @@ export const SWrapper = styled.div`
 
   .background {
     width: 100%;
-    height: 400px;
+    height: 450px;
     position: absolute;
     z-index: 1;
     background-image: url("/static/images/cloud_bg.png");
@@ -38,8 +38,8 @@ export const SWrapper = styled.div`
       top: 0;
       z-index: -1;
       background-image: inherit;
-      background-size: auto 80%;
-      background-position: calc(50% + 17.5vw) 100px;
+      background-size: auto 90%;
+      background-position: calc(50% + 17.5vw) 70px;
       background-repeat: no-repeat;
     }
   }
@@ -73,13 +73,24 @@ export const SWrapper = styled.div`
     }
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
+    .background {
+      height: 400px;
+    }
     .background::after {
-      background-position: calc(65% + 17.5vw) 100px;
+      background-size: auto 75%;
+      background-position: calc(55% + 19.5vw) 100px;
     }
   }
 
-  @media (max-width: 670px) {
+  @media (max-width: 1000px) {
+    .background::after {
+      background-size: auto 75%;
+      background-position: calc(55% + 19.5vw) 120px;
+    }
+  }
+
+  @media (max-width: 780px) {
     .background {
       background: radial-gradient(
         circle at bottom right,
@@ -343,7 +354,7 @@ export const SContainer = styled.div`
     }
   }
 
-  @media (max-width: 670px) {
+  @media (max-width: 780px) {
     width: 100%;
     padding: 0 20px;
 
