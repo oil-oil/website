@@ -592,39 +592,589 @@
   ],
   "en-US": [
     {
-      "title": "",
+      "title": "API and Service Governance",
       "list": [
       {
-        "title": "",
+        "title": "Protocols",
         "list": [
           {
-            "title": "",
+            "title": "HTTP/1.1 and HTTP 2",
+            "href": ""
+          },{
+            "title": "HTTP/3",
+            "href": ""
+          },{
+            "title": "TLS / HTTPS",
+            "href": ""
+          },{
+            "title": "MQTT",
+            "href": ""
+          },{
+            "title": "TCP",
+            "href": ""
+          },{
+            "title": "UDP",
+            "href": ""
+          },{
+            "title": "HTTP to gRPC / Dubbo conversion",
+            "href": ""
+          },{
+            "title": "Websocket",
+            "href": ""
+          },{
+            "title": "Dubbo",
+            "href": ""
+          },{
+            "title": "Customized Layer 4 and Layer 7 protocols",
             "href": ""
           }
         ]
       },
       {
-        "title": "",
+        "title": "Platforms",
         "list": [
           {
-            "title": "",
+            "title": "Bare Metal",
+            "href": ""
+          },
+          {
+            "title": "Virtual Machines",
+            "href": ""
+          },
+          {
+            "title": "Kubernetes",
+            "href": ""
+          },
+          {
+            "title": "ARM64",
+            "href": ""
+          },
+          {
+            "title": "Kunpeng (certified by Huawei Cloud)",
+            "href": ""
+          },
+          {
+            "title": "AWS, GCP, Alibaba Cloud, Tencent Cloud and other public clouds",
             "href": ""
           }
         ]
-      }]
-    },
-    {
-      "title": "",
-      "list": [
+      },
       {
-        "title": "",
+        "title": "Fine-grained Routing",
         "list": [
           {
-            "title": "",
+            "title": "URI Parameter Matching",
+            "href": ""
+          },
+          {
+            "title": "HTTP Header Matching",
+            "href": ""
+          },
+          {
+            "title": "HTTP Request Method Matching",
+            "href": ""
+          },
+          {
+            "title": "Supports all Nginx variables matching",
+            "href": ""
+          },
+          {
+            "title": "Supports Lua snippets for custom matches implementation",
+            "href": ""
+          },
+          {
+            "title": "Supports conditional expressions",
+            "href": ""
+          },
+          {
+            "title": "Support IPv6",
+            "href": ""
+          },
+          {
+            "title": "GeoIP Geological Location Matching",
+            "href": ""
+          },
+          {
+            "title": "Routing Time To Live (TTL)",
+            "href": ""
+          },
+          {
+            "title": "Priority Matching",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "title": "Load-Balance",
+        "list": [
+          {
+            "title": "Round Robin",
+            "href": ""
+          },
+          {
+            "title": "Weighted Round Robin",
+            "href": ""
+          },
+          {
+            "title": "Consistent Hash (Chash)",
+            "href": ""
+          },
+          {
+            "title": "Sticky Session",
+            "href": ""
+          },
+          {
+            "title": "Least Connections",
+            "href": ""
+          },
+          {
+            "title": "EWMA",
+            "href": ""
+          },
+          {
+            "title": "Support for custom load balancing algorithms",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "title": "Rewrite Request",
+        "list": [
+          {
+            "title": "URI Rewrite",
+            "href": ""
+          },
+          {
+            "title": "Add, modify and delete HTTP request headers",
+            "href": ""
+          },
+          {
+            "title": "Support 301 and 302 Redirection",
+            "href": ""
+          },
+          {
+            "title": "Force a jump to HTTPS",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "title": "Rewrite Response",
+        "list": [
+          {
+            "title": "Add, modify and delete HTTP response headers",
+            "href": ""
+          },
+          {
+            "title": "Modify HTTP response code",
+            "href": ""
+          },
+          {
+            "title": "Modify response body",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "title": "Service Discovery and Registration",
+        "list": [
+          {
+            "title": "Default ETCD and support for ETCD clustering",
+            "href": ""
+          },
+          {
+            "title": "Consul",
+            "href": ""
+          },
+          {
+            "title": "Eureka",
+            "href": ""
+          },
+          {
+            "title": "Nacos",
+            "href": ""
+          },
+          {
+            "title": "Redis",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "title": "Fault Tolerance and Downgrading",
+        "list": [
+          {
+            "title": "Traffic Control / Cluster Traffic Control",
+            "href": ""
+          },
+          {
+            "title": "Rate Limit",
+            "href": ""
+          },
+          {
+            "title": "Concurrency Limit",
+            "href": ""
+          },
+          {
+            "title": "Upstream Active Health Check",
+            "href": ""
+          },
+          {
+            "title": "Upstream Passive Health Check",
+            "href": ""
+          },
+          {
+            "title": "Service Meltdown",
+            "href": ""
+          },
+          {
+            "title": "Service Downgrade",
+            "href": ""
+          },
+          {
+            "title": "API Meltdown",
+            "href": ""
+          },
+          {
+            "title": "Timeout",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "title": "Traffic Control",
+        "list": [
+          {
+            "title": "Grayscale Release",
+            "href": ""
+          },
+          {
+            "title": "Blue-Green Release",
+            "href": ""
+          },
+          {
+            "title": "Traffic Mirroring",
+            "href": ""
+          },
+          {
+            "title": "Fault Injection",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "title": "API Management",
+        "list": [
+          {
+            "title": "Multi API Aggregation",
+            "href": ""
+          },
+          {
+            "title": "Version Management",
+            "href": ""
+          },
+          {
+            "title": "Release and Abolish API",
+            "href": ""
+          },
+          {
+            "title": "Swagger and Open API",
+            "href": ""
+          },
+          {
+            "title": "Generate SDK and documentation",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "title": "Plugins Management",
+        "list": [
+          {
+            "title": "Dynamically add, modify and delete plugins",
+            "href": ""
+          },
+          {
+            "title": "Plugin orchestration (low code)",
+            "href": ""
+          },
+          {
+            "title": "Supports plugins in written in Lua, Java and Go",
             "href": ""
           }
         ]
       }
-    ]}
+    ]
+  },
+    {
+      "title": "Security",
+      "list": [
+        {
+          "title": "User Management",
+          "list": [
+            {
+              "title": "RBAC",
+              "href": ""
+            },{
+              "title": "Multi-tenant",
+              "href": ""
+            },{
+              "title": "Multi-working partition",
+              "href": ""
+            },{
+              "title": "SSL Certificate Management",
+              "href": ""
+            },{
+              "title": "Control access with Admin API Key and IP restrictions",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Communication Encryption",
+          "list": [
+            {
+              "title": "mTLS",
+              "href": ""
+            },{
+              "title": "Automatic rotation of SSL certificates",
+              "href": ""
+            },{
+              "title": "Supports GmSSL",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Attack Prevention",
+          "list": [
+            {
+              "title": "IP Blacklist and Whitelist",
+              "href": ""
+            },{
+              "title": "URI Blacklist and Whitelist",
+              "href": ""
+            },{
+              "title": "Anti-ReDOS attacks",
+              "href": ""
+            },{
+              "title": "Anti-Replay Attack",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Authentication",
+          "list": [
+            {
+              "title": "key-auth",
+              "href": ""
+            },{
+              "title": "basic-auth",
+              "href": ""
+            },{
+              "title": "JWT",
+              "href": ""
+            },{
+              "title": "API Signature Verification (HMAC)",
+              "href": ""
+            },{
+              "title": "OAuth2",
+              "href": ""
+            },{
+              "title": "SSO",
+              "href": ""
+            },{
+              "title": "Auth0, Okta, etc.",
+              "href": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Observability",
+      "list": [
+        {
+          "title": "Metrics",
+          "list": [
+            {
+              "title": "Prometheus",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Tracing",
+          "list": [
+            {
+              "title": "SkyWalking",
+              "href": ""
+            },
+            {
+              "title": "Zipkin",
+              "href": ""
+            },
+            {
+              "title": "OpenTracing",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Logs",
+          "list": [
+            {
+              "title": "Kakfa",
+              "href": ""
+            },
+            {
+              "title": "Http Logger",
+              "href": ""
+            },
+            {
+              "title": "TCP Logger",
+              "href": ""
+            },
+            {
+              "title": "UDP Logger",
+              "href": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Performance and High Availability",
+      "list": [
+        {
+          "title": "Ultimate Performance",
+          "list": [
+            {
+              "title": "18,000 QPS for single-core performance",
+              "href": ""
+            }, {
+              "title": "0.2 millisecond latency per request",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Deployment",
+          "list": [
+            {
+              "title": "Stateless Data plane",
+              "href": ""
+            },
+            {
+              "title": "Supports Cluster as Configuration Center",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Cluster Management",
+          "list": [
+            {
+              "title": "Supports configuration and management of multiple clusters",
+              "href": ""
+            },
+            {
+              "title": "Automatic cluster selection under multi-tier networks",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Dynamic and Hot Updates",
+          "list": [
+            {
+              "title": "All changes are hot updated and take effect in real time",
+              "href": ""
+            },
+            {
+              "title": "Plugin hot updates",
+              "href": ""
+            },
+            {
+              "title": "Program hot updates",
+              "href": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Operations and Maintenance",
+      "list": [
+        {
+          "title": "Efficient Operations and Maintenance",
+          "list": [
+            {
+              "title": "Supports Line Tools",
+              "href": ""
+            }, {
+              "title": "Supports REST API for control and easy integration",
+              "href": ""
+            }, {
+              "title": "Uses yaml file to define all rules",
+              "href": ""
+            }, {
+              "title": "Supports unlimited rollback of operations",
+              "href": ""
+            }, {
+              "title": "Supports Helm chart, provides easier maintenance in Kubernetes environment",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Health Check",
+          "list": [
+            {
+              "title": "Versioning and operational monitoring of data plane nodes",
+              "href": ""
+            },
+            {
+              "title": "Provides configuration center status and version information",
+              "href": ""
+            },
+            {
+              "title": "Node load status monitoring",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "title": "Service Observability",
+          "list": [
+            {
+              "title": "Service Invocation Topology",
+              "href": ""
+            },
+            {
+              "title": "Data Throughput",
+              "href": ""
+            },
+            {
+              "title": "Response time statistics",
+              "href": ""
+            },
+            {
+              "title": "Upstream response time statistics",
+              "href": ""
+            },
+            {
+              "title": "Status Code Statistics",
+              "href": ""
+            },
+            {
+              "title": "API call statistics",
+              "href": ""
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

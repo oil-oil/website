@@ -32,7 +32,9 @@ export const members: Member[] = [
     role: 'Partner / Product VP',
     image: 'https://api7-website-1301662268.file.myqcloud.com/team/members/wangyeliang-3.jpg',
     name: 'Yeliang Wang',
-    description: '',
+    twitter: 'https://twitter.com/WYeliang',
+    github: 'https://github.com/wang-yeliang',
+    description: 'Apache APISIX Committer',
     type: 'team'
   }, {
     role: 'Technical Consultant',

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { IoCalendar, IoGrid, IoHelpBuoy, IoListSharp } from "react-icons/io5";
-import { AiFillGithub, AiOutlineProject, AiOutlineTeam } from "react-icons/ai";
+import { AiOutlineRead, AiFillGithub, AiOutlineProject, AiOutlineTeam } from "react-icons/ai";
 import { MdWeb } from "react-icons/md";
 import { CgReadme } from "react-icons/cg";
 import { SiMeetup } from "react-icons/si";
@@ -28,7 +28,7 @@ export const EN_US_Links: Link[] = [
         label: "Technical Article",
         href: "/blog",
         description: "Read technical articles and cutting-edge technologies",
-        icon: <AiFillGithub />,
+        icon: <AiOutlineRead />,
       },
       {
         label: "Usercases",
@@ -152,7 +152,7 @@ export const ZH_CN_Links: Link[] = [
         label: "技术文章",
         href: "/blog",
         description: "阅读技术文章，了解前沿技术",
-        icon: <AiFillGithub />,
+        icon: <AiOutlineRead />,
       },
       {
         label: "用户案例",

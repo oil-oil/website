@@ -1,6 +1,6 @@
 import { Badge } from '@chakra-ui/react'
 import * as React from 'react'
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 export interface LinkGroupData {
   title: string
@@ -66,6 +66,15 @@ export const EN_US_links: LinkGroupData[] = [
         label: "News",
         href: "/news"
       }
+    ]
+  },
+  {
+    title: "Links",
+    links: [
+      {
+        label: "Authing",
+        href: "https://www.authing.cn/",
+      },
     ]
   },
   {
@@ -143,6 +152,15 @@ export const ZH_CN_links: LinkGroupData[] = [
         label: "新闻报道",
         href: "/news"
       }
+    ]
+  },
+  {
+    title: "友情链接",
+    links: [
+      {
+        label: "Authing",
+        href: "https://www.authing.cn/",
+      },
     ]
   },
   {

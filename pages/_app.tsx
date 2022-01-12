@@ -22,6 +22,7 @@ const MyApp = ({ Component, pageProps, t }: AppProps & { t: TFunction }) => {
       />
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="https://static.apiseven.com/202108/1640919356532-f7bd45a2-5892-4581-a52f-e16ddcbb72c5.png" />
         <meta
           name="360-site-verification"
           content="7a8950b2ab9e03e9668794870f777aa8"

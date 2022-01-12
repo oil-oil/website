@@ -86,7 +86,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
           <a href="https://www.apiseven.com/" target="_blank">
             <img
               style={{ width: 100 }}
-              src="https://static.apiseven.com/202108/api7-logo.png"
+              src="https://static.apiseven.com/202108/1640917868852-37633689-5279-48d6-a13a-189054e4d15b.png"
               alt=""
             />
           </a>
@@ -128,7 +128,7 @@ const Page: NextPage<Props, any> = ({ t, content, data = {}, isSimple }) => {
                       src={
                         data.avatar
                           ? data.avatar
-                          : "https://api7-website-1301662268.file.myqcloud.com/logo/API7-Logo.png"
+                          : "https://static.apiseven.com/202108/1640921587623-8280744b-cc15-4e9b-bb9f-16f898e2425a.jpg"
                       }
                       alt=""
                     />

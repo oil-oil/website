@@ -20,6 +20,8 @@ type Post = {
 type LinkItem = {
   title: string;
   href: string;
+  type: BlogMetaProps['type']
+  description?: string
 }
 type Section = {
   title: string;

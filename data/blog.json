@@ -1,6 +1,78 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX 结合 Authing 实现集中式身份认证管理",
+      "image": "https://static.apiseven.com/202108/1641274764710-e6f9fe4e-01de-4c7d-b465-fab4202a6475.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-04",
+      "path": "/zh/blog/apisix-authing-integration"
+    },
+    {
+      "title": "再接再厉！Apache APISIX 集成 Open Policy Agent",
+      "image": "https://static.apiseven.com/202108/1640333490845-38542a3e-5d3a-4960-b11f-69ce3a61f7fc.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-24",
+      "path": "/zh/blog/apache-apisix-opa-integration"
+    },
+    {
+      "title": "生态丰富持续进行中，Apache OpenWhisk 集成闪亮登场",
+      "image": "https://static.apiseven.com/202108/1640313816872-b2c018be-5433-4baf-ba6a-8330e160866a.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-24",
+      "path": "/zh/blog/apisix-integrate-openwhisk-plugin"
+    },
+    {
+      "title": "两种方式教你在 K8s 中轻松部署 Apache APISIX",
+      "image": "https://static.apiseven.com/202108/1639722688448-c6b7135d-1d66-437d-86e3-56ca914d3464.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-15",
+      "path": "/zh/blog/how-to-deploy-apisix-in-kubernetes"
+    },
+    {
+      "title": "使用 Prometheus 监控 APISIX Ingress Controller",
+      "image": "https://static.apiseven.com/202108/1639468901515-7f15970b-813a-4fe5-9a7a-d12f6edb6bac.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-14",
+      "path": "/zh/blog/monitor-apisix-ingress-controller-with-prometheus"
+    },
+    {
+      "title": "如何在 Apache APISIX 中集成 Keycloak 实现身份认证",
+      "image": "https://static.apiseven.com/202108/1639127036578-3cfd0f30-3cdf-4de7-ba5f-28af165238f5.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-10",
+      "path": "/zh/blog/integrate-keycloak-auth-in-apisix"
+    },
+    {
+      "title": "Apache APISIX 携手 RocketMQ 为实时 API 日志监控功能再下一城",
+      "image": "https://static.apiseven.com/202108/1639127020242-78d8733a-36d9-4944-9985-75602e1af76a.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-08",
+      "path": "/zh/blog/integrate-rocketmq-in-apisix"
+    },
+    {
+      "title": "强强联合！APISIX 集成 SkyWalking 打造全方位日志处理",
+      "image": "https://static.apiseven.com/202108/1639127029328-b2a0c88d-84ab-4a4d-8a90-dbef9924cfa4.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-07",
+      "path": "/zh/blog/apisix-integrate-skywalking-plugin"
+    },
+    {
+      "title": "在 KubeSphere 中使用 Apache APISIX Ingress 网关接入自定义监控",
+      "image": "https://static.apiseven.com/202108/1638241730747-298fe17e-fb34-4da6-ac9d-8b1efde4521c.png",
+      "type": "article",
+      "tags": [],
+      "date": "2021-12-01",
+      "path": "/zh/blog/use-apisix-ingress-in-kubesphere"
+    },
+    {
       "title": "如何在 Kubernetes 集群中使用 Nocalhost 开发 Apache APISIX Ingress Controller",
       "image": "https://static.apiseven.com/202108/1637573217230-936ee05d-be69-41c1-9032-6b83ea43087d.png",
       "type": "article",
