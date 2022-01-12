@@ -8,7 +8,7 @@ export const SWrapper = styled.div`
     height: 450px;
     position: absolute;
     z-index: 1;
-    background-image: url("/static/images/cloud_bg.png");
+    background-image: url("https://static.apiseven.com/202108/1641969292864-780a0000-5511-4112-9ab5-ebcb250a88b8.0");
 
     ::before {
       content: "";
