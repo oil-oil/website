@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "从原理到操作，让你在 Apache APISIX 中代理 Dubbo 服务更便捷",
+      "image": "https://static.apiseven.com/202108/1642143624537-5f2e42a6-3cc4-4eba-b08d-8dc55207593d.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-14",
+      "path": "/zh/blog/how-to-proxy-dubbo-in-apache-apisix"
+    },
+    {
       "title": "Apache APISIX 结合 Authing 实现集中式身份认证管理",
       "image": "https://static.apiseven.com/202108/1641274764710-e6f9fe4e-01de-4c7d-b465-fab4202a6475.png",
       "type": "article",
