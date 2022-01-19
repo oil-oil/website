@@ -14,7 +14,7 @@
       "type": "article",
       "tags": [],
       "date": "2022-01-14",
-      "path": "/zh/blog/howg-to-proxy-dubbo-in-apache-apisix"
+      "path": "/zh/blog/how-to-proxy-dubbo-in-apache-apisix"
     },
     {
       "title": "Apache APISIX 结合 Authing 实现集中式身份认证管理",
