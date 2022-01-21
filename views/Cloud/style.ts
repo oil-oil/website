@@ -248,6 +248,8 @@ export const SFeaturesBox = styled.div`
       padding: 0 20px;
       font-size: 16px;
       p {
+        word-break: break-word;
+        min-height: 50px;
         margin-bottom: 10px;
       }
       a {
