@@ -1,21 +1,22 @@
 ---
 title: Site Reliability Engineer
-date: 2021-9-28 14:03:00
+date: 2022-1-20 10:50:00
 ---
 
 ### Job Responsibilities
 
-- For Apache APISIX, API7 and other API gateway products, provide after-sales technical support work, solve user problems, to ensure the stable operation of the system. Participate in online duty to ensure complex systems can run stably.
-- Troubleshoot problems and faults in user environments, reproduce and locate them. Improve documentation and manuals to help users use the product better.
+- Responsible for the reliability, stability of APISEVEN Cloud, enable the business grows quickly and steadily;​
+- Guide the business architecture design and  technology selection; Write DevOps documentations;​
+- Participate the SRE On Call process, troubleshoot the emergency faults of the key service, and optimize the service to avoid the fault happens again;​
+- Get involved to optimize the architecture of APISEVEN Cloud, reduce the risks and costs;​
 
 ### Job Requirements
 
-- Familiar with the operation of Linux system.
-- Familiar with the principle and operation and maintenance of kubernetes.
-- Familiar with common CI/CD tools.
-- The ability to locate and reproduce problems.
-- Results-oriented, good communication skills.
-- Familiar with API gateway products, interested in open source is preferred.
+- Graduated from Computer Science or other related majors;​
+- Know programming language like Python or Golang, have the ability to develop a component independently;​
+- Enthusiastic for technologies, strong sense of responsibility and good at communication and collaboration;​
+- Familiar with cloud native technologies is a plus;​
+- Familiar with AWS is a plus;​
 
 ## Additional
 

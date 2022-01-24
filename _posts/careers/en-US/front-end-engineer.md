@@ -5,14 +5,15 @@ date: 2021-9-28 14:03:00
 
 ## Job Responsibilities
 
-- Develop and maintain of the company's website to improve the impact and  user experience.
-- Optimize the front-end component design and build process to ensure development efficiency and quality.
+- Participate in API7 Cloud Product Research & Development, responsible for the company's web project development and maintenance, and improve product user experience;
+- Participate in the development of Apache APISIX Web project, and promote the healthy development of the project with community partners;
+- Optimize the design and construction process of Web components to improve development efficiency and engineering quality.
 
 ## Job Requirements
 
-- Proficient in HTML/CSS/JavaScript, familiar with TypeScript and new language specifications and syntax features, such as ES6, etc.
-- Familiar with the usage and implementation principles of front-end frameworks such as React, Gatsby, and Wordpress.
-- Excellent problem-solving and identification skills, good English communication skills and teamwork spirit.
+- In addition to basic HTML/CSS/JavaScript capabilities, I hope you can be familiar with TypeScript and ES6 syntax specifications;
+- Understand and use the mainstream Web framework, it is best to have relevant experience can communicate together;
+- I hope you can take the initiative to pay attention to Web trends. We encourage you to participate in relevant circles and actively share them with the outside world.
 
 ## Additional
 

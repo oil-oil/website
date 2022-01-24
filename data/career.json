@@ -1,155 +1,342 @@
 {
-    "zh-CN": [
-        {
-            "title": "解决方案架构师",
-            "description": "负责客户售前阶段的技术交流及关键客户机会洞察工作。",
-            "href": "/careers/solution-architect",
-            "type": "增长团队"
-        },
-        {
-            "title": "项目经理（PM）",
-            "description": "负责端到端的项目管理，包括立项，启动，执行，交付等工作。协调售前，产品经理，解决方案经理，研发与测试团队等进行需求分析，撰写项目方案，开展可行性研究，制定项目计划、协调资源、监控过程、管理成本，把控风险，保障研发质量与效率。",
-            "href": "/careers/project-manager",
-            "type": "增长团队"
-        },
-        {
-            "title": "销售经理助理",
-            "description": "负责解决方案和服务的销售，协助交付团队完成商务环节，并帮助商业企业获得成功。",
-            "href": "/careers/sales-assistant",
-            "type": "商务团队"
-        },
-        {
-            "title": "项目助理",
-            "description": "负责项目的建设方案，立项、需求调研、需求分析、部署实施等过程的管理。",
-            "href": "/careers/project-assistant",
-            "type": "增长团队"
-        },
-        {
-            "title": "SRE 工程师",
-            "description": "为 Apache APISIX、API7 等 API 网关产品，提供售后技术支持工作，解决用户问题，保证系统稳定运行。参与线上值班，确保复杂系统能够稳定地运行。",
-            "href": "/careers/site-reliability-engineer",
-            "type": "工程师"
-        },
-        {
-            "title": "Kubernetes 工程师",
-            "description": "参与基于 Apache APISIX 的 Kubernetes Ingress controller 的相关设计和开发。",
-            "href": "/careers/kubernetes-software-engineer",
-            "type": "工程师"
-        },
-        {
-            "title": "前端工程师",
-            "description": "负责公司产品的前端开发与设计。",
-            "href": "/careers/front-end-engineer",
-            "type": "工程师"
-        },
-        {
-            "title": "技术文档工程师",
-            "description": "负责公司产品用户手册、操作手册等相关内容的策划编写及维护。",
-            "href": "/careers/technical-writer",
-            "type": "增长团队"
-        },
-        {
-            "title": "开发者关系和生态负责人",
-            "description": "与开源社区成员进行各种联系，无论是面对面、博客、论坛，还是其他社交渠道和活动。",
-            "href": "/careers/head-of-developer-relations-and-ecology",
-            "type": "增长团队"
-        },
-        {
-            "title": "服务端开发工程师（实习）",
-            "description": "完成 Apache APISIX 以及周边开源项目的开发任务。",
-            "href": "/careers/server-development-engineer",
-            "type": "工程师"
-        },
-        {
-            "title": "Go 开发工程师",
-            "description": "负责 Apache APISIX 控制平面的设计和架构。",
-            "href": "/careers/go-engineer",
-            "type": "工程师"
-        },
-        {
-            "title": "网关研发工程师",
-            "description": "研发基于 Apache APISIX 的下一代 API 管理和分析平台。",
-            "href": "/careers/senior-nginx-development-engineer",
-            "type": "工程师"
-        }
-    ],
-    "en-US": [
-        {   "title": "Head of Developer Relations",
-            "description": "Connect with members of the open source community in a variety of ways, whether face-to-face, blogs, forums, or other social channels and events.",
-            "href": "/careers/head-of-devreal",
-            "type": "Growth"
-        },
-        {
-            "title": "Solution Architect",
-            "description": "Responsible for the technical communication and key customer opportunity insight in the pre-sales stage of customers.",
-            "href": "/careers/solution-architect",
-            "type": "Growth"
-        },
-        {
-            "title": "Project Manager",
-            "description": "Responsible for end-to-end project management, including project creation, initiation, execution, and delivery.",
-            "href": "/careers/project-manager",
-            "type": "Growth"
-        },
-        {
-            "title": "Assistant Sales Manager",
-            "description": "Responsible for the sales of solutions and services, assist the delivery team to complete the business link and help commercial enterprises to achieve success.",
-            "href": "/careers/sales-assistant",
-            "type": "Business Team"
-        },
-        {
-            "title": "Project Assistant",
-            "description": "Responsible for project planning, project creation, demand research, demand analysis, project deployment and implementation process management.",
-            "href": "/careers/project-assistant",
-            "type": "Growth"
-        },
-        {
-            "title": "Site Reliability Engineer",
-            "description": "For Apache APISIX, API7 and other API gateway products, provide after-sales technical support work, solve user problems, to ensure the stable operation of the system. Participate in online duty to ensure complex systems can run stably.",
-            "href": "/careers/site-reliability-engineer",
-            "type": "Engineer"
-        },
-        {
-            "title": "Kubernetes Software Engineer",
-            "description": "Participate in the design and development of the Kubernetes Ingress controller based on Apache APISIX.",
-            "href": "/careers/kubernetes-software-engineer",
-            "type": "Engineer"
-        },
-        {
-            "title": "Front-end Engineer",
-            "description": "Responsible for the front-end development and design of the company's products.",
-            "href": "/careers/front-end-engineer",
-            "type": "Engineer"
-        },
-        {
-            "title": "Technical Writer",
-            "description": "Responsible for the planning, writing and maintenance of the company's product user manuals, operation manuals and other related content.",
-            "href": "/careers/technical-writer",
-            "type": "Growth"
-        },
-        {
-            "title": "Head of Developer Relations and Ecology",
-            "description": "Connect with members of the open source community in a variety of ways, whether face-to-face, blogs, forums, or other social channels and events.",
-            "href": "/careers/head-of-developer-relations-and-ecology",
-            "type": "Growth"
-        },
-        {
-            "title": "Server Development Engineer (Internship)",
-            "description": "Complete development tasks for Apache APISIX and surrounding open source projects.",
-            "href": "/careers/server-development-engineer",
-            "type": "Engineer"
-        },
-        {
-            "title": "Go Development Engineer",
-            "description": "Responsible for the design and architecture of the Apache APISIX control plane.",
-            "href": "/careers/go-engineer",
-            "type": "Engineer"
-        },
-        {
-            "title": "Senior R&D Engineer",
-            "description": "Development of the next-generation API management and analysis platform based on Apache APISIX.",
-            "href": "/careers/senior-nginx-development-engineer",
-            "type": "Engineer"
-        }
-    ]
+  "zh-CN": [
+    {
+      "title": "产品运营经理",
+      "description": "学习研究公司的 SaaS 产品 APISEVEN Cloud，参与制定产品运营的策略（定价、发布、广告等）",
+      "href": "/careers/product-marketing-manager",
+      "type": "技术中心"
+    },
+    {
+      "title": "安全工程师",
+      "description": "参与数据库安全设计、渗透测试等，开发安全工具等",
+      "href": "/careers/security-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "SRE 工程师",
+      "description": "为 Apache APISIX、API7 等 API 网关产品，提供售后技术支持工作，解决用户问题，保证系统稳定运行。参与线上值班，确保复杂系统能够稳定地运行。",
+      "href": "/careers/site-reliability-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "质量保证工程师",
+      "description": "参与 APISEVEN Cloud 产品的集成测试，为 APISEVEN Cloud 引入混沌工程工作等",
+      "href": "/careers/quality-assurance-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "服务端开发工程师（可观测性）",
+      "description": "参与公司云产品监控系统的设计和研发，确保系统的高可用性、稳定性和安全性。",
+      "href": "/careers/server-side-development-engineer(observability)",
+      "type": "技术中心"
+    },
+    {
+      "title": "产品经理",
+      "description": "负责公司 SaaS 产品（APISEVEN Cloud）的管理，包括产品的规划和设计；",
+      "href": "/careers/product-manager",
+      "type": "技术中心"
+    },
+    {
+      "title": "服务端开发工程师（GO）",
+      "description": "参与公司云产品监控系统的设计和研发，确保系统的高可用性、稳定性和安全性。",
+      "href": "/careers/server-side-development-engineer(GO)",
+      "type": "技术中心"
+    },
+    {
+      "title": "网关开发工程师",
+      "description": "研发基于 Apache APISIX 的下一代 API 管理和分析平台，在 API 的大数据、行为分析、安全防护、云原生等领域保持技术创新。",
+      "href": "/careers/nginx-lua-development-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "解决方案架构师",
+      "description": "负责客户售前阶段的技术交流及关键客户机会洞察工作。",
+      "href": "/careers/solution-architect",
+      "type": "技术中心"
+    },
+    {
+      "title": "项目经理（PM）",
+      "description": "负责端到端的项目管理，包括立项，启动，执行，交付等工作。协调售前，产品经理，解决方案经理，研发与测试团队等进行需求分析，撰写项目方案，开展可行性研究，制定项目计划、协调资源、监控过程、管理成本，把控风险，保障研发质量与效率。",
+      "href": "/careers/project-manager",
+      "type": "技术中心"
+    },
+    {
+      "title": "项目助理",
+      "description": "负责项目的建设方案，立项、需求调研、需求分析、部署实施等过程的管理。",
+      "href": "/careers/project-assistant",
+      "type": "技术中心"
+    },
+    {
+      "title": "技术支持工程师",
+      "description": "为 Apache APISIX、API7 等 API 网关产品，提供售后技术支持工作，解决用户问题，保证系统稳定运行。参与线上值班，确保复杂系统能够稳定地运行。",
+      "href": "/careers/technical-support-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "服务端开发工程师（实习）",
+      "description": "完成 Apache APISIX 以及周边开源项目的开发任务。",
+      "href": "/careers/server-development-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "前端工程师",
+      "description": "负责公司产品的前端开发与设计。",
+      "href": "/careers/front-end-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "Kubernetes 工程师",
+      "description": "参与基于 Apache APISIX 的 Kubernetes Ingress controller 的相关设计和开发。",
+      "href": "/careers/kubernetes-software-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "运维交付工程师",
+      "description": "负责公司产品的交付、实施、售后服务工作。",
+      "href": "/careers/O&M-delivery-engineer",
+      "type": "技术中心"
+    },
+    {
+      "title": "UI 设计师",
+      "description": "负责公司相关的 UI 设计与资源输出，包括功能界面 UI 设计、市场宣传类等设计。",
+      "href": "/careers/UI-designer",
+      "type": "技术中心"
+    },
+    {
+      "title": "运营开发工程师",
+      "description": "负责公司运营系统WEB前端架构设计和研发",
+      "href": "/careers/operations-development-engineer",
+      "type": "运营部"
+    },
+    {
+      "title": "开发者关系和生态负责人",
+      "description": "与开源社区成员进行各种联系，无论是面对面、博客、论坛，还是其他社交渠道和活动。",
+      "href": "/careers/head-of-developer-relations-and-ecology",
+      "type": "运营部"
+    },
+    {
+      "title": "技术文档工程师",
+      "description": "开发API7公司及APISIX产品系列的技术文档，包括但不限于安装产品简介、用户指南、API 参考、运维指南等。",
+      "href": "/careers/technical-writer",
+      "type": "运营部"
+    },
+    {
+      "title": "市场助理-实习生",
+      "description": "负责宣传文案，与渠道、社区沟通合作事宜。",
+      "href": "/careers/marketing-assistant(Internship)",
+      "type": "运营部"
+    },
+    {
+      "title": "社区运营专员",
+      "description": "负责开源社区氛围及内容建设，对社区用户活跃负责。",
+      "href": "/careers/community-operations-specialist",
+      "type": "运营部"
+    },
+    {
+      "title": "技术文档-实习生",
+      "description": "参与 Apache APISIX 项目的相关技术文档编写、归集工作。",
+      "href": "/careers/technical-writer(Internship)",
+      "type": "运营部"
+    },
+    {
+      "title": "海外招聘",
+      "description": "拓宽以及完善海外招聘渠道，并建立海外核心人才库，做好关键岗位人才储备。",
+      "href": "/careers/overseas-recruitment",
+      "type": "职能部"
+    },
+    {
+      "title": "HRBP",
+      "description": "熟悉业务部门的业务知识和组织，了解业务团队运作状态并提供符合团队需要的相关人力资源工作。",
+      "href": "/careers/HRBP",
+      "type": "职能部"
+    },
+    {
+      "title": "招聘运营",
+      "description": "负责完成招聘需求收集、人才寻访、面试甄选、offer 谈判等工作。",
+      "href": "/careers/recruiting-operations-specialist",
+      "type": "职能部"
+    },
+    {
+      "title": "销售助理",
+      "description": "负责解决方案和服务的销售，协助交付团队完成商务环节，并帮助商业企业获得成功。",
+      "href": "/careers/sales-assistant",
+      "type": "销售部"
+    },
+    {
+      "title": "海外市场推广负责人",
+      "description": "负责 Apache APISIX 在国际市场的推广和发展。",
+      "href": "/careers/overseas-marketing-director",
+      "type": "Global Team"
+    }
+  ],
+  "en-US": [
+    {
+      "title": "Product Marketing Manager",
+      "description": "Learn about our SaaS product APISEVEN Cloud, Get involved to make the product marketing strategies(pricing, launch, advertisement)",
+      "href": "/careers/product-marketing-manager",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Security Engineer",
+      "description": "Participate in the design of database security and the penetration test; Get involved to develop security related tools.",
+      "href": "/careers/security-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Site Reliability Engineer",
+      "description": "For Apache APISIX, API7 and other API gateway products, provide after-sales technical support work, solve user problems, to ensure the stable operation of the system. Participate in online duty to ensure complex systems can run stably.",
+      "href": "/careers/site-reliability-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Quality Assurance Engineer",
+      "description": "Make the integration testing for APISEVEN Cloud; Introducing the Chaos Engineering for APISEVEN Cloud.",
+      "href": "/careers/quality-assurance-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Server-side Development Engineer (Observability)",
+      "description": "Participate in the design and development of the monitoring system for cloud product solutions.Ensure the high availability, stability and security of the system.",
+      "href": "/careers/server-side-development-engineer(observability)",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Product Manager",
+      "description": "Responsible for the management  of Saas product (APISEVEN Cloud), including the planning, design;",
+      "href": "/careers/product-manager",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Server-side Development Engineer (GO)",
+      "description": "Participate in the design and development of the monitoring system for cloud product solutions.Ensure the high availability, stability and security of the system.",
+      "href": "/careers/server-side-development-engineer(GO)",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Nginx/Lua Development Engineer",
+      "description": "Develop the next generation API management and analysis platform based on Apache APISIX.",
+      "href": "/careers/nginx-lua-development-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Solution Architect",
+      "description": "Responsible for the technical communication and key customer opportunity insight in the pre-sales stage of customers.",
+      "href": "/careers/solution-architect",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Project Manager",
+      "description": "Responsible for end-to-end project management, including project creation, initiation, execution, and delivery.",
+      "href": "/careers/project-manager",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Project Assistant",
+      "description": "Responsible for project planning, project creation, demand research, demand analysis, project deployment and implementation process management.",
+      "href": "/careers/project-assistant",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Technical Support Engineer",
+      "description": "For Apache APISIX, API7 and other API gateway products, provide after-sales technical support work, solve user problems, to ensure the stable operation of the system. Participate in online duty to ensure complex systems can run stably.",
+      "href": "/careers/technical-support-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Server Development Engineer (Internship)",
+      "description": "Complete development tasks for Apache APISIX and surrounding open source projects.",
+      "href": "/careers/server-development-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Front-end Engineer",
+      "description": "Responsible for the front-end development and design of the company's products.",
+      "href": "/careers/front-end-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Kubernetes Software Engineer",
+      "description": "Participate in the design and development of the Kubernetes Ingress controller based on Apache APISIX.",
+      "href": "/careers/kubernetes-software-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "O&M Delivery Engineer",
+      "description": "Responsible for the delivery,implementation and after-sales service of the company's products.",
+      "href": "/careers/O&M-delivery-engineer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "UI Designer",
+      "description": "Responsible for the company's related UI design and resource output, including functional interface UI design, marketing and other design.",
+      "href": "/careers/UI-designer",
+      "type": "Technology Center"
+    },
+    {
+      "title": "Operations Development Engineer",
+      "description": "Responsible for the company's operating system WEB front-end architecture design and development.",
+      "href": "/careers/operations-development-engineer",
+      "type": "Operation Department"
+    },
+    {
+      "title": "Head of Developer Relations and Ecology",
+      "description": "Connect with members of the open source community in a variety of ways, whether face-to-face, blogs, forums, or other social channels and events.",
+      "href": "/careers/head-of-developer-relations-and-ecology",
+      "type": "Operation Department"
+    },
+    {
+      "title": "Technical Writer",
+      "description": "Develop technical documents for API7 and Apache APISIX, such as installation guide,  product introduction, user guide, API reference, maintenance guide, etc.",
+      "href": "/careers/technical-writer",
+      "type": "Operation Department"
+    },
+    {
+      "title": "Marketing Assistant (Internship)",
+      "description": "Responsible for publicity copywriting, communication with channels and communities on cooperation matters.",
+      "href": "/careers/marketing-assistant(Internship)",
+      "type": "Operation Department"
+    },
+    {
+      "title": "Community Operations Specialist",
+      "description": "Responsible for the open source community atmosphere and content construction, and responsible for the active community users.",
+      "href": "/careers/community-operations-specialist",
+      "type": "Operation Department"
+    },
+    {
+      "title": "Technical Writer（Internship）",
+      "description": "Participate in the preparation and collection of relevant technical doc of Apache APISIX project.",
+      "href": "/careers/technical-writer(Internship)",
+      "type": "Operation Department"
+    },
+    {
+      "title": "Overseas Recruitment",
+      "description": "Broaden and improve overseas recruitment channels, establish overseas core talent pools, and do a good job in key positions.",
+      "href": "/careers/overseas-recruitment",
+      "type": "Functional Department"
+    },
+    {
+      "title": "HRBP",
+      "description": "Familiar with the business knowledge and organization of the business department, understand the operation status of the business team and provide relevant human resources work that meets the needs of the team;",
+      "href": "/careers/HRBP",
+      "type": "Functional Department"
+    },
+    {
+      "title": "Recruiting Operations Specialist",
+      "description": "Responsible for completing recruitment demand collection, talent search, interview and selection, offer negotiation, etc.",
+      "href": "/careers/recruiting-operations-specialist",
+      "type": "Functional Department"
+    },
+    {
+      "title": "Sales Assistant",
+      "description": "Responsible for the sales of solutions and services, assist the delivery team to complete the business link and help commercial enterprises to achieve success.",
+      "href": "/careers/sales-assistant",
+      "type": "Sales Department"
+    },
+    {
+      "title": "Overseas Marketing Director",
+      "description": "esponsible for the promotion and development of Apache APIs IX in the international market.",
+      "href": "/careers/overseas-marketing-director",
+      "type": "Global Team"
+    }
+  ]
 }
