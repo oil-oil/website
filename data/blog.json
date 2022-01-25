@@ -1,12 +1,20 @@
 {
   "zh-CN": [
     {
-      "title": "Apache APISIX 集成 Kafka 实现高效率实时日志监控",
+      "title": "Apache APISIX 集成 HashiCorp Vault，生态系统再添一员",
       "image": "https://static.apiseven.com/202108/1643019101578-9a04c8d3-af03-4faf-8eaa-d2292dd7fd63.png",
       "type": "article",
       "tags": [],
       "date": "2022-01-24",
       "path": "/zh/blog/apisix-vault-integration"
+    },
+    {
+      "title": "多协议接入框架 xRPC 发布在即，为你解读更多 APISIX 生态细节",
+      "image": "https://static.apiseven.com/202108/1642733068660-f479ffcc-5bda-49de-bbd9-0d04d7259450.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-21",
+      "path": "/zh/blog/apisix-xrpc-details-and-miltilingual"
     },
     {
       "title": "Apache APISIX 集成 Kafka 实现高效率实时日志监控",
@@ -465,6 +473,14 @@
       "tags": [],
       "date": "2022-01-24",
       "path": "/en/blog/apisix-vault-integration"
+    },
+    {
+      "title": "xRPC Will Be Released, Get More Details About APISIX Ecosystem",
+      "image": "https://static.apiseven.com/202108/1642733068660-f479ffcc-5bda-49de-bbd9-0d04d7259450.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-21",
+      "path": "/en/blog/apisix-xrpc-details-and-miltilingual"
     },
     {
       "title": "Using the Apache APISIX OpenID Connect Plug-in for Centralized Identity Authentication",
