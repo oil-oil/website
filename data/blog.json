@@ -2,6 +2,14 @@
   "zh-CN": [
     {
       "title": "Apache APISIX 集成 Kafka 实现高效率实时日志监控",
+      "image": "https://static.apiseven.com/202108/1643019101578-9a04c8d3-af03-4faf-8eaa-d2292dd7fd63.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-24",
+      "path": "/zh/blog/apisix-vault-integration"
+    },
+    {
+      "title": "Apache APISIX 集成 Kafka 实现高效率实时日志监控",
       "image": "https://static.apiseven.com/202108/1642472481379-c1800730-7fc7-45a7-83e6-f8999a47f986.png",
       "type": "article",
       "tags": [],
@@ -450,6 +458,14 @@
     }
   ],
   "en-US": [
+    {
+      "title": "HashiCorp Vault Secure Storage Backend in Apache APISIX Ecosystem",
+      "image": "https://static.apiseven.com/202108/1643019101578-9a04c8d3-af03-4faf-8eaa-d2292dd7fd63.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-24",
+      "path": "/en/blog/apisix-vault-integration"
+    },
     {
       "title": "Using the Apache APISIX OpenID Connect Plug-in for Centralized Identity Authentication",
       "image": "https://static.apiseven.com/202108/1634269229731-cad9d31d-7ccc-4801-8f11-7ba893ae3cec.png",
