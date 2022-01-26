@@ -81,7 +81,7 @@ export const EN_US_links: LinkGroupData[] = [
     title: "Contact",
     links: [
       {
-        label: "Block 5E, Shenzhen Software Industry Base",
+        label: "Block 6, Shenzhen Software Industry Base",
         href: "#"
       }, {
         label: "Building 2, Hangzhou Fortune Financial Center",
@@ -167,7 +167,7 @@ export const ZH_CN_links: LinkGroupData[] = [
     title: "联系我们",
     links: [
       {
-        label: "深圳软件产业基地 5E 座",
+        label: "深圳软件产业基地 6 幢",
         href: "#"
       }, {
         label: "杭州财富金融中心 2 幢",
