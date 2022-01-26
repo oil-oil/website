@@ -1,6 +1,14 @@
 {
   "zh-CN": [
     {
+      "title": "Apache APISIX 新技能，代理 gRPC-Web 请求",
+      "image": "https://static.apiseven.com/202108/1643099754071-1f5c3c68-f2bc-4746-95f5-cc083ace554b.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-25",
+      "path": "/zh/blog/integration-with-grpc-web"
+    },
+    {
       "title": "Apache APISIX 集成 HashiCorp Vault，生态系统再添一员",
       "image": "https://static.apiseven.com/202108/1643019101578-9a04c8d3-af03-4faf-8eaa-d2292dd7fd63.png",
       "type": "article",
@@ -466,6 +474,14 @@
     }
   ],
   "en-US": [
+    {
+      "title": "Integrating Apache APISIX with gRPC-Web",
+      "image": "https://static.apiseven.com/202108/1643099754071-1f5c3c68-f2bc-4746-95f5-cc083ace554b.png",
+      "type": "article",
+      "tags": [],
+      "date": "2022-01-25",
+      "path": "/en/blog/integration-with-grpc-web"
+    },
     {
       "title": "HashiCorp Vault Secure Storage Backend in Apache APISIX Ecosystem",
       "image": "https://static.apiseven.com/202108/1643019101578-9a04c8d3-af03-4faf-8eaa-d2292dd7fd63.png",
