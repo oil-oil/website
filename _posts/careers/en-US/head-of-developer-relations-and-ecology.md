@@ -1,5 +1,6 @@
 ---
 title: Head of Developer Relations and Ecology
+author: "API7.ai"
 date: 2021-9-28 14:03:00
 ---
 

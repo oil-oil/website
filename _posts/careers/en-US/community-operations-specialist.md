@@ -1,5 +1,6 @@
 ---
 title: Community Operations Specialist
+author: "API7.ai"
 date: 2022-1-20 10:51:00
 ---
 

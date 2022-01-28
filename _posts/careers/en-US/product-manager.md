@@ -1,11 +1,12 @@
 ---
 title: Product Manager
+author: "API7.ai"
 date: 2022-1-20 10:51:00
 ---
 
 ### Job Responsibilities
 
-- Responsible for the management  of Saas product (APISEVEN Cloud), including the planning, design;​
+- Responsible for the management  of SaaS product (APISEVEN Cloud), including the planning, design;​
 - Research and analyze the API market, and provide referable suggestions for the product evolution;​
 - Collect product information about competitors and provide effective strategy for the product evolution;​
 - Arrange further improvements according to the demands and feedbacks from existing and potential customers;​
